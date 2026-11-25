@@ -1,0 +1,357 @@
+{
+  "translation-revision-date": "2026-11-21T14:14:21+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-dsgvo-privacy-eraser",
+        "lang": "sk_SK",
+        "plural-forms": "nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;"
+      },
+      "WM DSGVO Art. 17 Cryptographic Privacy Eraser": [
+        "WM GDPR čl. 17 Kryptografické vymazanie osobných údajov"
+      ],
+      "https://arnoldwender.com/wordpress-plugins/wm-dsgvo-privacy-eraser/": [
+        "https://arnoldwender.com/wordpress-plugins/wm-dsgvo-privacy-eraser/"
+      ],
+      "Löschanträge nach Art. 17 DSGVO mit Bestätigungslink an die Adresse; danach werden Kommentare anonymisiert, das Benutzerkonto (außer Administratoren) gelöscht und optional WooCommerce-Rechnungsfelder anonymisiert. Jede Löschung erhält einen HMAC-verketteten Nachweis. Keine rechtliche Prüfung des Antrags.": [
+        "Žiadosti o vymazanie podľa čl. 17 GDPR potvrdzované jednorazovým odkazom zaslaným na e-mail; následne sa anonymizujú komentáre, zmaže používateľský účet (okrem administrátorov) a voliteľne anonymizujú fakturačné polia WooCommerce. Každé vymazanie dostane záznam zreťazený cez HMAC. Bez právneho posúdenia."
+      ],
+      "Arnold Wender": [
+        "Arnold Wender"
+      ],
+      "https://arnoldwender.com": [
+        "https://arnoldwender.com"
+      ],
+      "Kette geprüft: %d versiegelte Nachweise stimmen": [
+        "Reťazec overený: súhlasí %d zapečatených záznamov"
+      ],
+      "Noch keine Löschnachweise": [
+        "Zatiaľ žiadne záznamy o vymazaní"
+      ],
+      "Kette gebrochen": [
+        "Reťazec porušený"
+      ],
+      "WM DSGVO Privacy Eraser": [
+        "WM GDPR Privacy Eraser"
+      ],
+      "Löschnachweise": [
+        "Záznamy o vymazaní"
+      ],
+      "Offene Anträge": [
+        "Otvorené žiadosti"
+      ],
+      "Privacy Eraser öffnen": [
+        "Otvoriť Privacy Eraser"
+      ],
+      "WM Privacy Eraser": [
+        "WM Privacy Eraser"
+      ],
+      "Privacy Eraser": [
+        "Privacy Eraser"
+      ],
+      "Übersicht": [
+        "Prehľad"
+      ],
+      "Antrag stellen": [
+        "Podať žiadosť"
+      ],
+      "Was gelöscht wird": [
+        "Čo sa vymazáva"
+      ],
+      "Einstellungen": [
+        "Nastavenia"
+      ],
+      "Löschanträge mit Bestätigungslink, Löschung bzw. Anonymisierung der Daten, die WordPress selbst zu einer E-Mail-Adresse hält, und ein verketteter Nachweis je Löschung. Es ersetzt keine rechtliche Prüfung des Antrags.": [
+        "Žiadosti o vymazanie s potvrdzovacím odkazom, zmazanie alebo anonymizácia údajov, ktoré WordPress drží k e-mailovej adrese, a zreťazený záznam pre každé vymazanie. Nenahrádza právne posúdenie."
+      ],
+      "Part of the WM Suite plugin family": [
+        "Súčasť rodiny pluginov WM Suite"
+      ],
+      "WM Suite": [
+        "WM Suite"
+      ],
+      "Hub": [
+        "Hub"
+      ],
+      "Standalone": [
+        "Samostatný"
+      ],
+      "Bereiche": [
+        "Oblasti"
+      ],
+      "Stand dieser Website": [
+        "Stav tejto stránky"
+      ],
+      "Beim Aufruf dieser Seite aus der Datenbank gelesen.": [
+        "Načítané z databázy pri otvorení tejto stránky."
+      ],
+      "Gelöschte oder anonymisierte Einträge laut Nachweisen": [
+        "Zmazané alebo anonymizované položky podľa záznamov"
+      ],
+      "Offene Anträge (Adresse noch gespeichert)": [
+        "Otvorené žiadosti (adresa je ešte uložená)"
+      ],
+      "Nachweiskette": [
+        "Reťazec záznamov"
+      ],
+      "%d ältere Nachweise ohne Siegel, nicht prüfbar.": [
+        "%d starších záznamov bez pečate, nemožno overiť."
+      ],
+      "Verschlüsselung offener Adressen (libsodium)": [
+        "Šifrovanie otvorených adries (libsodium)"
+      ],
+      "verfügbar": [
+        "dostupné"
+      ],
+      "nicht verfügbar: Adressen werden im Klartext gespeichert": [
+        "nedostupné: adresy sa ukladajú ako čistý text"
+      ],
+      "WooCommerce-Rechnungsfelder anonymisieren (wm_dsgvo_anonymize_wc_orders)": [
+        "Anonymizovať fakturačné polia WooCommerce (wm_dsgvo_anonymize_wc_orders)"
+      ],
+      "an": [
+        "zapnuté"
+      ],
+      "aus (Standard)": [
+        "vypnuté (predvolené)"
+      ],
+      "Daten bei Deinstallation löschen (wm_dsgvo_eraser_delete_data_on_uninstall)": [
+        "Zmazať údaje pri odinštalovaní (wm_dsgvo_eraser_delete_data_on_uninstall)"
+      ],
+      "aus (Standard: Nachweise bleiben erhalten)": [
+        "vypnuté (predvolené: záznamy zostávajú zachované)"
+      ],
+      "Löschantrag für eine Adresse stellen": [
+        "Podať žiadosť o vymazanie pre adresu"
+      ],
+      "Legt denselben Antrag an wie das Formular auf der Website: An die Adresse geht ein Bestätigungslink, %d Stunden gültig. Gelöscht wird erst, wenn die Löschung auf der verlinkten Seite bestätigt wird. Eine sofortige Löschung ohne Bestätigung gibt es nur über WP-CLI (wp dsgvo erase), nachdem Sie die Identität selbst geprüft haben.": [
+        "Vytvorí rovnakú žiadosť ako verejný formulár: na adresu odíde potvrdzovací odkaz platný %d hodín. Vymazanie prebehne až po potvrdení na odkazovanej stránke. Okamžité vymazanie bez potvrdenia existuje len cez WP-CLI (wp dsgvo erase) po vlastnom overení totožnosti."
+      ],
+      "E-Mail-Adresse der betroffenen Person": [
+        "E-mailová adresa dotknutej osoby"
+      ],
+      "Bestätigungslink senden": [
+        "Odoslať potvrdzovací odkaz"
+      ],
+      "Bitte eine E-Mail-Adresse eingeben.": [
+        "Zadajte prosím e-mailovú adresu."
+      ],
+      "Wird übermittelt …": [
+        "Odosiela sa …"
+      ],
+      "Antrag übermittelt. Ein Bestätigungslink geht nur hinaus, wenn die Adresse gültig ist, keines der Limits greift (%1$d Anträge je Adresse in %2$d Stunden, %3$d je IP pro Stunde, Ihre eigene IP zählt mit) und der Mailversand gelingt; diese Seite erfährt das nicht. Noch ist nichts gelöscht.": [
+        "Žiadosť odoslaná. Potvrdzovací odkaz sa odošle len vtedy, ak je adresa platná, neplatí žiadny limit (%1$d žiadostí na adresu za %2$d hodín, %3$d na IP za hodinu vrátane vašej IP) a odoslanie e-mailu uspeje; táto stránka sa to nedozvie. Zatiaľ nebolo nič vymazané."
+      ],
+      "Der Antrag konnte nicht angelegt werden.": [
+        "Žiadosť sa nepodarilo vytvoriť."
+      ],
+      "Verbindungsfehler.": [
+        "Chyba pripojenia."
+      ],
+      "Letzte zehn Löschnachweise": [
+        "Posledných desať záznamov o vymazaní"
+      ],
+      "Jeder Nachweis speichert statt der Adresse einen geschlüsselten Hash, die Anzahl der Einträge je Bereich und ein Siegel, das den vorherigen Nachweis einschließt. Bearbeitete, eingefügte, umsortierte oder gelöschte Nachweise fallen bei der Prüfung auf, solange die Option mit dem Kettenende unverändert ist; wer die Datenbank schreiben kann, kann auch diese Option ändern, und wer den Schlüssel aus wp-config.php hat, kann die Kette neu versiegeln.": [
+        "Každý záznam ukladá namiesto adresy kľúčovaný odtlačok, počet položiek podľa oblastí a pečať zahŕňajúcu predchádzajúci záznam. Úpravy, vloženia, zmeny poradia či zmazania sa pri kontrole odhalia, kým zostane voľba konca reťazca nezmenená; zápis do databázy umožňuje túto voľbu zmeniť a prístup k wp-config.php znova zapečatiť reťazec."
+      ],
+      "Nachweis": [
+        "Záznam"
+      ],
+      "Hash der Adresse": [
+        "Odtlačok adresy"
+      ],
+      "Einträge": [
+        "Položky"
+      ],
+      "Siegel": [
+        "Pečať"
+      ],
+      "Zeitpunkt": [
+        "Čas"
+      ],
+      "Noch keine Löschnachweise.": [
+        "Zatiaľ žiadne záznamy o vymazaní."
+      ],
+      "ohne Siegelkette": [
+        "bez reťazca pečatí"
+      ],
+      "Beide Schalter sind standardmäßig ausgeschaltet, damit weder steuerrechtlich relevante Rechnungsdaten noch Löschnachweise unbeabsichtigt entfernt werden.": [
+        "Oba prepínače sú predvolene vypnuté, aby nedošlo k nechcenému odstráneniu daňovo relevantných fakturačných údajov ani záznamov o vymazaní."
+      ],
+      "WooCommerce-Rechnungsfelder anonymisieren": [
+        "Anonymizovať fakturačné polia WooCommerce"
+      ],
+      "Überschreibt Vor- und Nachname, erste Adresszeile, Telefon und E-Mail in WooCommerce-Bestellungen der betroffenen Adresse. Erst nach Prüfung gesetzlicher Aufbewahrungsfristen (§ 147 AO, § 257 HGB) einschalten.": [
+        "Prepíše meno, priezvisko, prvý riadok adresy, telefón a e-mail v objednávkach WooCommerce dotknutej adresy. Zapnite až po preverení zákonných lehôt uchovávania (§ 147 AO, § 257 HGB)."
+      ],
+      "Alle Plugin-Daten bei Deinstallation löschen": [
+        "Zmazať všetky údaje pluginu pri odinštalovaní"
+      ],
+      "Wenn aktiviert, entfernt die Deinstallation alle Plugin-Optionen sowie die Tabellen für Anträge und Löschnachweise unwiderruflich. Standardmäßig bleiben Nachweise und Optionen erhalten.": [
+        "Ak je zapnuté, odinštalovanie nenávratne odstráni všetky nastavenia pluginu aj tabuľky žiadostí a záznamov o vymazaní. Predvolene zostávajú zachované."
+      ],
+      "Einstellungen speichern": [
+        "Uložiť nastavenia"
+      ],
+      "Was bei einer Löschung passiert": [
+        "Čo sa stane pri vymazaní"
+      ],
+      "Kommentare mit dieser Adresse: Name, Adresse, URL, IP, Browserkennung und Benutzerzuordnung werden überschrieben, der Text durch „[Inhalt auf Antrag nach Art. 17 DSGVO gelöscht]“ ersetzt. Die Kommentare selbst bleiben stehen.": [
+        "Komentáre s touto adresou: meno, e-mail, URL, IP, prehliadač a priradenie používateľa sa prepíšu a text nahradí „[Obsah vymazaný na žiadosť podľa čl. 17 GDPR]“. Samotné komentáre zostávajú."
+      ],
+      "Benutzerkonto mit dieser Adresse: wird mit wp_delete_user() gelöscht, dabei auch die Beiträge, die dieses Konto verfasst hat. Konten mit der Rolle Administrator werden nicht gelöscht; der Nachweis vermerkt das. In einer Multisite entfernt wp_delete_user() das Konto nur aus dieser Website; der Nachweis vermerkt removed_from_this_site.": [
+        "Používateľský účet s touto adresou: zmaže sa cez wp_delete_user() vrátane jeho príspevkov. Administrátorské účty sa nemažú a záznam to zaznamená. V Multisite sa účet odoberie iba z tohto webu (removed_from_this_site)."
+      ],
+      "WooCommerce-Bestellungen: nur wenn die Option wm_dsgvo_anonymize_wc_orders an ist, und nur Vor- und Nachname, erste Adresszeile, E-Mail und Telefon der Rechnungsadresse, über die Bestellobjekte von WooCommerce (HPOS und Beitragsspeicher). Standard ist aus, weil Rechnungsdaten Aufbewahrungsfristen unterliegen können (§ 147 AO, § 257 HGB); ob eine greift, entscheidet das Plugin nicht.": [
+        "Objednávky WooCommerce: len ak je zapnutá voľba wm_dsgvo_anonymize_wc_orders; prepíšu sa meno, priezvisko, adresa, e-mail a telefón fakturácie cez objekty objednávok WooCommerce (HPOS aj príspevky). Predvolene vypnuté pre povinnosti archivácie účtovných dokladov."
+      ],
+      "Nicht erfasst: Tabellen anderer Plugins (Formulare, Newsletter, Buchungen), Benutzer-Metadaten verbleibender Konten, Kommentar-Metadaten, Lieferadressen, Dateien, Logs, Caches und Backups. Die Datenschutz-Löschwerkzeuge von WordPress ruft das Plugin nicht auf.": [
+        "Nezahrnuté: tabuľky iných pluginov (formuláre, newslettery, rezervácie), metadáta ponechaných účtov, doručovacie adresy, súbory, logy, vyrovnávacie pamäte a zálohy."
+      ],
+      "Ob ein Antrag berechtigt ist, ob Ausnahmen nach Art. 17 Abs. 3 DSGVO greifen und welche Frist gilt, entscheidet das Plugin nicht.": [
+        "Plugin nerozhoduje o opodstatnenosti žiadosti, výnimkách podľa čl. 17 ods. 3 GDPR ani o príslušnej lehote uchovávania."
+      ],
+      "Zu viele Anfragen. Bitte versuchen Sie es in einer Minute erneut.": [
+        "Príliš veľa požiadaviek. Skúste to prosím znova o minútu."
+      ],
+      "Bitte geben Sie eine gültige E-Mail-Adresse an.": [
+        "Zadajte prosím platnú e-mailovú adresu."
+      ],
+      "Der Antrag wurde entgegengenommen. Ist die Adresse gültig, geht an sie ein Bestätigungslink; gelöscht wird erst nach dessen Aufruf.": [
+        "Žiadosť bola prijatá. Ak je adresa platná, odošle sa na ňu potvrdzovací odkaz; vymazanie nastane až po potvrdení."
+      ],
+      "WM Privacy Eraser Status": [
+        "Stav WM Privacy Eraser"
+      ],
+      "Aktueller Status des Art.-17-DSGVO-Löschportals.": [
+        "Aktuálny stav portálu vymazania podľa čl. 17 GDPR."
+      ],
+      "Art. 17 DSGVO Löschportal aktiv (%d versiegelte Nachweise)": [
+        "Portál vymazania čl. 17 GDPR aktívny (%d zapečatených záznamov)"
+      ],
+      "Art. 17 DSGVO Löschportal aktiv": [
+        "Portál vymazania čl. 17 GDPR aktívny"
+      ],
+      "Art. 17 DSGVO Löschportal: Kette prüfen": [
+        "Portál vymazania čl. 17 GDPR: skontrolujte reťazec"
+      ],
+      "Löschung bestätigen": [
+        "Potvrdiť vymazanie"
+      ],
+      "Das Öffnen dieses Links hat noch nichts gelöscht. Mit der Schaltfläche unten werden zu der Adresse, für die der Antrag gestellt wurde, die Kommentare auf dieser Website anonymisiert und ein Benutzerkonto gelöscht (außer Administratorkonten); ist es eingeschaltet, werden auch Rechnungsfelder von WooCommerce-Bestellungen anonymisiert. Die Löschung ist unwiderruflich.": [
+        "Otvorením tohto odkazu sa zatiaľ nič nevymazalo. Tlačidlom nižšie sa k zadanej adrese anonymizujú komentáre na tomto webe a zmaže používateľský účet (okrem administrátorov); ak je to zapnuté, anonymizujú sa aj fakturačné údaje WooCommerce. Vymazanie je nenávratné."
+      ],
+      "Löschung jetzt ausführen": [
+        "Vykonať vymazanie teraz"
+      ],
+      "Löschung ausgeführt": [
+        "Vymazanie vykonané"
+      ],
+      "%1$d Einträge wurden gelöscht oder anonymisiert. Kennung des Löschnachweises: %2$s": [
+        "Bolo zmazaných alebo anonymizovaných %1$d položiek. Identifikátor záznamu o vymazaní: %2$s"
+      ],
+      "Löschung nicht vollständig": [
+        "Vymazanie neúplné"
+      ],
+      "Nicht alle Daten konnten geändert werden, oder der Löschnachweis wurde nicht gespeichert. Der Antrag ist als fehlgeschlagen vermerkt; bitte wenden Sie sich an den Betreiber dieser Website.": [
+        "Nepodarilo sa zmeniť všetky údaje alebo uložiť záznam o vymazaní. Žiadosť je označená ako neúspešná; kontaktujte prevádzkovateľa webu."
+      ],
+      "Kennung des Löschnachweises: %s": [
+        "Identifikátor záznamu o vymazaní: %s"
+      ],
+      "Antrag nicht verarbeitet": [
+        "Žiadosť nespracovaná"
+      ],
+      "Der Antrag konnte nicht verarbeitet werden. Bitte stellen Sie ihn erneut.": [
+        "Žiadosť sa nepodarilo spracovať. Odošlite ju prosím znova."
+      ],
+      "Link nicht gültig": [
+        "Neplatný odkaz"
+      ],
+      "Der Bestätigungslink ist ungültig, abgelaufen oder wurde bereits verwendet.": [
+        "Potvrdzovací odkaz je neplatný, exspiroval alebo už bol použitý."
+      ],
+      "Bitte geben Sie eine gültige E-Mail-Adresse ein.": [
+        "Zadajte prosím platnú e-mailovú adresu."
+      ],
+      "Antrag wird übermittelt …": [
+        "Odosiela sa žiadosť …"
+      ],
+      "Bestätigung erforderlich": [
+        "Vyžaduje sa potvrdenie"
+      ],
+      "Ist die Adresse gültig, geht an sie ein Bestätigungslink. Gelöscht wird erst, wenn die Löschung auf der verlinkten Seite bestätigt wird. Der Link ist %d Stunden gültig und nur einmal verwendbar.": [
+        "Ak je adresa platná, bol na ňu odoslaný potvrdzovací odkaz. Vymazanie prebehne až po potvrdení na odkazovanej stránke. Odkaz platí %d hodín a je jednorazový."
+      ],
+      "Der Antrag konnte nicht übermittelt werden:": [
+        "Žiadosť sa nepodarilo odoslať:"
+      ],
+      "unbekannter Fehler": [
+        "neznáma chyba"
+      ],
+      "Der Antrag konnte nicht übermittelt werden: Verbindungsfehler.": [
+        "Žiadosť sa nepodarilo odoslať: chyba pripojenia."
+      ],
+      "Antrag auf Datenlöschung (Art. 17 DSGVO)": [
+        "Žiadosť o vymazanie osobných údajov (čl. 17 GDPR)"
+      ],
+      "Gemäß Art. 17 DSGVO (\"Recht auf Vergessenwerden\") haben Sie das Recht auf unverzügliche Löschung Ihrer personenbezogenen Daten. Zur Bestätigung Ihrer Identität nach Art. 12 Abs. 6 DSGVO senden wir Ihnen zunächst einen einmaligen Bestätigungslink. Erst nach dessen Aufruf wird gelöscht und ein kryptografisches Löschzertifikat ausgestellt.": [
+        "Podľa čl. 17 GDPR („právo na zabudnutie“) máte právo požiadať o vymazanie osobných údajov. Na potvrdenie totožnosti podľa čl. 12 ods. 6 GDPR vám najprv pošleme jednorazový odkaz. Až po potvrdení sa údaje vymažú a vystaví sa kryptografický záznam."
+      ],
+      "Ihre hinterlegte E-Mail-Adresse:": [
+        "Vaša evidovaná e-mailová adresa:"
+      ],
+      "ihre-email@example.com": [
+        "vas-email@example.com"
+      ],
+      "Löschantrag übermitteln": [
+        "Odoslať žiadosť o vymazanie"
+      ],
+      "[%s] Löschantrag bestätigen (Art. 17 DSGVO)": [
+        "[%s] Potvrďte žiadosť o vymazanie údajov (čl. 17 GDPR)"
+      ],
+      "DSGVO Löschantrag (Art. 17)": [
+        "Žiadosť o vymazanie GDPR (čl. 17)"
+      ],
+      "Öffentliches Formular für Löschanträge nach Art. 17 DSGVO mit Einmal-Bestätigungslink.": [
+        "Verejný formulár pre žiadosti o vymazanie podľa čl. 17 GDPR s jednorazovým potvrdzovacím odkazom."
+      ],
+      "Formulareinstellungen": [
+        "Nastavenia formulára"
+      ],
+      "Hinweistext anzeigen": [
+        "Zobraziť vysvetľujúci text"
+      ],
+      "Blendet den erläuternden Hinweis oberhalb des E-Mail-Feldes ein oder aus.": [
+        "Zobrazí alebo skryje vysvetľujúcu poznámku nad poľom pre e-mail."
+      ],
+      "block title\u0004DSGVO Löschantrag (Art. 17)": [
+        "Žiadosť o vymazanie GDPR (čl. 17)"
+      ],
+      "block description\u0004Öffentliches Formular für Löschanträge nach Art. 17 DSGVO mit Einmal-Bestätigungslink.": [
+        "Verejný formulár pre žiadosti o vymazanie podľa čl. 17 GDPR s jednorazovým potvrdzovacím odkazom."
+      ],
+      "block keyword\u0004dsgvo": [
+        "gdpr"
+      ],
+      "block keyword\u0004gdpr": [
+        "ochrana-udajov"
+      ],
+      "block keyword\u0004löschung": [
+        "vymazanie"
+      ],
+      "block keyword\u0004erasure": [
+        "zmazanie"
+      ],
+      "block keyword\u0004datenschutz": [
+        "sukromie"
+      ],
+      "block keyword\u0004privacy": [
+        "osobne-udaje"
+      ]
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "wm/dsgvo-erasure-portal",
+  "version": "1.3.2",
+  "title": "DSGVO Löschantrag (Art. 17)",
+  "category": "widgets",
+  "icon": "shield",
+  "description": "Öffentliches Formular für Löschanträge nach Art. 17 DSGVO mit Einmal-Bestätigungslink.",
+  "keywords": [
+    "dsgvo",
+    "gdpr",
+    "löschung",
+    "erasure",
+    "datenschutz",
+    "privacy"
+  ],
+  "textdomain": "wm-dsgvo-privacy-eraser",
+  "editorScript": "wm-dsgvo-eraser-blocks-editor",
+  "attributes": {
+    "showDescription": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "supports": {
+    "html": false,
+    "align": [
+      "wide",
+      "full"
+    ]
+  }
+}

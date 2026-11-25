@@ -1,0 +1,697 @@
+# Translation of wm-dsgvo-privacy-eraser in tr_TR
+# Copyright (C) 2026 Arnold Wender
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: wm-dsgvo-privacy-eraser 1.4.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wm-dsgvo-privacy-"
+"eraser\n"
+"POT-Creation-Date: 2026-11-21T13:14:19+00:00\n"
+"PO-Revision-Date: 2026-11-21 14:14+0100\n"
+"Last-Translator: WM Suite <https://github.com/arnoldwender/wm-wp-dsgvo-"
+"privacy-eraser/issues>\n"
+"Language-Team: WM Suite <https://github.com/arnoldwender/wm-wp-dsgvo-privacy-"
+"eraser/issues>\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: WM Suite i18n Compiler 2026\n"
+"X-Domain: wm-dsgvo-privacy-eraser\n"
+
+#. Plugin Name of the plugin
+#: wm-dsgvo-privacy-eraser.php
+msgid "WM DSGVO Art. 17 Cryptographic Privacy Eraser"
+msgstr "WM GDPR Madde 17 Kriptografik Gizlilik Silicisi"
+
+#. Plugin URI of the plugin
+#: wm-dsgvo-privacy-eraser.php
+msgid "https://arnoldwender.com/wordpress-plugins/wm-dsgvo-privacy-eraser/"
+msgstr "https://arnoldwender.com/wordpress-plugins/wm-dsgvo-privacy-eraser/"
+
+#. Description of the plugin
+#: wm-dsgvo-privacy-eraser.php
+msgid ""
+"Löschanträge nach Art. 17 DSGVO mit Bestätigungslink an die Adresse; danach "
+"werden Kommentare anonymisiert, das Benutzerkonto (außer Administratoren) "
+"gelöscht und optional WooCommerce-Rechnungsfelder anonymisiert. Jede "
+"Löschung erhält einen HMAC-verketteten Nachweis. Keine rechtliche Prüfung "
+"des Antrags."
+msgstr ""
+"E-posta adresine gönderilen tek kullanımlık onay bağlantısıyla doğrulanan "
+"GDPR Madde 17 silme talepleri; ardından yorumlar anonimleştirilir, kullanıcı "
+"hesabı (yöneticiler hariç) silinir ve isteğe bağlı olarak WooCommerce fatura "
+"alanları anonimleştirilir. Her silme işlemi HMAC zincirli bir kayıt alır. "
+"Hukuki değerlendirme yapılmaz."
+
+#. Author of the plugin
+#: wm-dsgvo-privacy-eraser.php
+msgid "Arnold Wender"
+msgstr "Arnold Wender"
+
+#. Author URI of the plugin
+#: wm-dsgvo-privacy-eraser.php
+msgid "https://arnoldwender.com"
+msgstr "https://arnoldwender.com"
+
+#. translators: %d: number of verified certificates
+#: includes/Admin/AdminDashboard.php:109
+#, php-format
+msgid "Kette geprüft: %d versiegelte Nachweise stimmen"
+msgstr "Zincir doğrulandı: %d mühürlü kayıt eşleşiyor"
+
+#: includes/Admin/AdminDashboard.php:112
+msgid "Noch keine Löschnachweise"
+msgstr "Henüz silme kaydı yok"
+
+#: includes/Admin/AdminDashboard.php:113
+msgid "Kette gebrochen"
+msgstr "Zincir bozulmuş"
+
+#: includes/Admin/AdminDashboard.php:124 includes/Admin/AdminDashboard.php:225
+msgid "WM DSGVO Privacy Eraser"
+msgstr "WM GDPR Privacy Eraser"
+
+#: includes/Admin/AdminDashboard.php:144 includes/Admin/AdminDashboard.php:214
+#: includes/Admin/AdminDashboard.php:250
+msgid "Löschnachweise"
+msgstr "Silme kayıtları"
+
+#: includes/Admin/AdminDashboard.php:148
+msgid "Offene Anträge"
+msgstr "Açık talepler"
+
+#: includes/Admin/AdminDashboard.php:154
+msgid "Privacy Eraser öffnen"
+msgstr "Privacy Eraser’ı aç"
+
+#: includes/Admin/AdminDashboard.php:173
+msgid "WM Privacy Eraser"
+msgstr "WM Privacy Eraser"
+
+#: includes/Admin/AdminDashboard.php:174
+msgid "Privacy Eraser"
+msgstr "Privacy Eraser"
+
+#: includes/Admin/AdminDashboard.php:212
+msgid "Übersicht"
+msgstr "Genel bakış"
+
+#: includes/Admin/AdminDashboard.php:213
+msgid "Antrag stellen"
+msgstr "Talep oluştur"
+
+#: includes/Admin/AdminDashboard.php:215
+msgid "Was gelöscht wird"
+msgstr "Neler silinir"
+
+#: includes/Admin/AdminDashboard.php:216 includes/Admin/AdminDashboard.php:394
+msgid "Einstellungen"
+msgstr "Ayarlar"
+
+#: includes/Admin/AdminDashboard.php:226
+msgid ""
+"Löschanträge mit Bestätigungslink, Löschung bzw. Anonymisierung der Daten, "
+"die WordPress selbst zu einer E-Mail-Adresse hält, und ein verketteter "
+"Nachweis je Löschung. Es ersetzt keine rechtliche Prüfung des Antrags."
+msgstr ""
+"Onay bağlantılı silme talepleri, WordPress’in bir e-posta adresi için "
+"tuttuğu verilerin silinmesi veya anonimleştirilmesi ve her silme işlemi için "
+"zincirlenmiş kanıt kaydı. Hukuki incelemenin yerini tutmaz."
+
+#: includes/Admin/AdminDashboard.php:229
+msgid "Part of the WM Suite plugin family"
+msgstr "WM Suite eklenti ailesinin parçası"
+
+#: includes/Admin/AdminDashboard.php:231
+msgid "WM Suite"
+msgstr "WM Suite"
+
+#: includes/Admin/AdminDashboard.php:232
+msgid "Hub"
+msgstr "Merkez"
+
+#: includes/Admin/AdminDashboard.php:232
+msgid "Standalone"
+msgstr "Bağımsız"
+
+#: includes/Admin/AdminDashboard.php:237 includes/Admin/AdminDashboard.php:368
+msgid "Bereiche"
+msgstr "Alanlar"
+
+#: includes/Admin/AdminDashboard.php:245
+msgid "Stand dieser Website"
+msgstr "Bu sitenin durumu"
+
+#: includes/Admin/AdminDashboard.php:246
+msgid "Beim Aufruf dieser Seite aus der Datenbank gelesen."
+msgstr "Sayfa açıldığında veritabanından okundu."
+
+#: includes/Admin/AdminDashboard.php:254
+msgid "Gelöschte oder anonymisierte Einträge laut Nachweisen"
+msgstr "Kayıtlara göre silinen veya anonimleştirilen girdiler"
+
+#: includes/Admin/AdminDashboard.php:258
+msgid "Offene Anträge (Adresse noch gespeichert)"
+msgstr "Açık talepler (adres hâlâ saklanıyor)"
+
+#: includes/Admin/AdminDashboard.php:262
+msgid "Nachweiskette"
+msgstr "Kayıt zinciri"
+
+#. translators: %d: number of certificates issued before the chain existed
+#: includes/Admin/AdminDashboard.php:272
+#, php-format
+msgid "%d ältere Nachweise ohne Siegel, nicht prüfbar."
+msgstr "Mühürsüz %d eski kayıt, doğrulanamaz."
+
+#: includes/Admin/AdminDashboard.php:278
+msgid "Verschlüsselung offener Adressen (libsodium)"
+msgstr "Açık adreslerin şifrelenmesi (libsodium)"
+
+#: includes/Admin/AdminDashboard.php:279
+msgid "verfügbar"
+msgstr "kullanılabilir"
+
+#: includes/Admin/AdminDashboard.php:279
+msgid "nicht verfügbar: Adressen werden im Klartext gespeichert"
+msgstr "kullanılamıyor: adresler düz metin olarak saklanıyor"
+
+#: includes/Admin/AdminDashboard.php:282
+msgid ""
+"WooCommerce-Rechnungsfelder anonymisieren (wm_dsgvo_anonymize_wc_orders)"
+msgstr ""
+"WooCommerce fatura alanlarını anonimleştir (wm_dsgvo_anonymize_wc_orders)"
+
+#: includes/Admin/AdminDashboard.php:283 includes/Admin/AdminDashboard.php:287
+msgid "an"
+msgstr "açık"
+
+#: includes/Admin/AdminDashboard.php:283
+msgid "aus (Standard)"
+msgstr "kapalı (varsayılan)"
+
+#: includes/Admin/AdminDashboard.php:286
+msgid ""
+"Daten bei Deinstallation löschen (wm_dsgvo_eraser_delete_data_on_uninstall)"
+msgstr ""
+"Kaldırma sırasında verileri sil (wm_dsgvo_eraser_delete_data_on_uninstall)"
+
+#: includes/Admin/AdminDashboard.php:287
+msgid "aus (Standard: Nachweise bleiben erhalten)"
+msgstr "kapalı (varsayılan: kayıtlar korunur)"
+
+#: includes/Admin/AdminDashboard.php:295
+msgid "Löschantrag für eine Adresse stellen"
+msgstr "Bir adres için silme talebi oluştur"
+
+#. translators: %d: hours the confirmation link stays valid
+#: includes/Admin/AdminDashboard.php:301
+#, php-format
+msgid ""
+"Legt denselben Antrag an wie das Formular auf der Website: An die Adresse "
+"geht ein Bestätigungslink, %d Stunden gültig. Gelöscht wird erst, wenn die "
+"Löschung auf der verlinkten Seite bestätigt wird. Eine sofortige Löschung "
+"ohne Bestätigung gibt es nur über WP-CLI (wp dsgvo erase), nachdem Sie die "
+"Identität selbst geprüft haben."
+msgstr ""
+"Sitedeki formla aynı talebi oluşturur: adrese %d saat geçerli bir onay "
+"bağlantısı gönderilir. Bağlantıdaki sayfada onaylanana kadar hiçbir şey "
+"silinmez. Onaysız anında silme yalnızca kimliği bizzat doğruladıktan sonra "
+"WP-CLI (wp dsgvo erase) ile mümkündür."
+
+#: includes/Admin/AdminDashboard.php:308
+msgid "E-Mail-Adresse der betroffenen Person"
+msgstr "İlgili kişinin e-posta adresi"
+
+#: includes/Admin/AdminDashboard.php:311
+msgid "Bestätigungslink senden"
+msgstr "Onay bağlantısı gönder"
+
+#: includes/Admin/AdminDashboard.php:321
+msgid "Bitte eine E-Mail-Adresse eingeben."
+msgstr "Lütfen bir e-posta adresi girin."
+
+#: includes/Admin/AdminDashboard.php:324
+msgid "Wird übermittelt …"
+msgstr "Gönderiliyor …"
+
+#. translators: 1: requests per address, 2: hours, 3: requests per IP per hour
+#: includes/Admin/AdminDashboard.php:337
+#, php-format
+msgid ""
+"Antrag übermittelt. Ein Bestätigungslink geht nur hinaus, wenn die Adresse "
+"gültig ist, keines der Limits greift (%1$d Anträge je Adresse in %2$d "
+"Stunden, %3$d je IP pro Stunde, Ihre eigene IP zählt mit) und der "
+"Mailversand gelingt; diese Seite erfährt das nicht. Noch ist nichts gelöscht."
+msgstr ""
+"Talep iletildi. Onay bağlantısı yalnızca adres geçerliyse, hiçbir sınır "
+"aşılmadıysa (%2$d saatte adres başına %1$d talep, kendi IP’niz dahil saatte "
+"IP başına %3$d) ve e-posta gönderimi başarılı olursa gönderilir; bu sayfa "
+"bunu göstermez. Henüz hiçbir şey silinmedi."
+
+#: includes/Admin/AdminDashboard.php:344
+msgid "Der Antrag konnte nicht angelegt werden."
+msgstr "Talep oluşturulamadı."
+
+#: includes/Admin/AdminDashboard.php:347
+msgid "Verbindungsfehler."
+msgstr "Bağlantı hatası."
+
+#: includes/Admin/AdminDashboard.php:360
+msgid "Letzte zehn Löschnachweise"
+msgstr "Son on silme kaydı"
+
+#: includes/Admin/AdminDashboard.php:361
+msgid ""
+"Jeder Nachweis speichert statt der Adresse einen geschlüsselten Hash, die "
+"Anzahl der Einträge je Bereich und ein Siegel, das den vorherigen Nachweis "
+"einschließt. Bearbeitete, eingefügte, umsortierte oder gelöschte Nachweise "
+"fallen bei der Prüfung auf, solange die Option mit dem Kettenende "
+"unverändert ist; wer die Datenbank schreiben kann, kann auch diese Option "
+"ändern, und wer den Schlüssel aus wp-config.php hat, kann die Kette neu "
+"versiegeln."
+msgstr ""
+"Her kayıt adres yerine anahtarlı bir özet, alan başına girdi sayısı ve "
+"önceki kaydı içeren bir mühür saklar. Zincir ucu seçeneği değişmediği sürece "
+"düzenleme, ekleme, yeniden sıralama veya silmeler doğrulamada yakalanır; "
+"veritabanı yazma yetkisi olan bu seçeneği değiştirebilir, wp-config.php "
+"anahtarına sahip olan ise zinciri yeniden mühürleyebilir."
+
+#: includes/Admin/AdminDashboard.php:365
+msgid "Nachweis"
+msgstr "Kayıt"
+
+#: includes/Admin/AdminDashboard.php:366
+msgid "Hash der Adresse"
+msgstr "Adres özeti"
+
+#: includes/Admin/AdminDashboard.php:367
+msgid "Einträge"
+msgstr "Girdiler"
+
+#: includes/Admin/AdminDashboard.php:369
+msgid "Siegel"
+msgstr "Mühür"
+
+#: includes/Admin/AdminDashboard.php:370
+msgid "Zeitpunkt"
+msgstr "Zaman"
+
+#: includes/Admin/AdminDashboard.php:375
+msgid "Noch keine Löschnachweise."
+msgstr "Henüz silme kaydı yok."
+
+#: includes/Admin/AdminDashboard.php:383
+msgid "ohne Siegelkette"
+msgstr "mühür zinciri yok"
+
+#: includes/Admin/AdminDashboard.php:395
+msgid ""
+"Beide Schalter sind standardmäßig ausgeschaltet, damit weder steuerrechtlich "
+"relevante Rechnungsdaten noch Löschnachweise unbeabsichtigt entfernt werden."
+msgstr ""
+"Vergi mevzuatı kapsamındaki fatura verilerinin veya silme kayıtlarının "
+"yanlışlıkla kaldırılmaması için her iki anahtar da varsayılan olarak "
+"kapalıdır."
+
+#: includes/Admin/AdminDashboard.php:406
+msgid "WooCommerce-Rechnungsfelder anonymisieren"
+msgstr "WooCommerce fatura alanlarını anonimleştir"
+
+#: includes/Admin/AdminDashboard.php:410
+msgid ""
+"Überschreibt Vor- und Nachname, erste Adresszeile, Telefon und E-Mail in "
+"WooCommerce-Bestellungen der betroffenen Adresse. Erst nach Prüfung "
+"gesetzlicher Aufbewahrungsfristen (§ 147 AO, § 257 HGB) einschalten."
+msgstr ""
+"İlgili adrese ait WooCommerce siparişlerinde ad, soyad, birinci adres "
+"satırı, telefon ve e-postayı üzerine yazar. Yalnızca yasal saklama "
+"sürelerini (§ 147 AO, § 257 HGB) kontrol ettikten sonra etkinleştirin."
+
+#: includes/Admin/AdminDashboard.php:415
+msgid "Alle Plugin-Daten bei Deinstallation löschen"
+msgstr "Kaldırma sırasında tüm eklenti verilerini sil"
+
+#: includes/Admin/AdminDashboard.php:419
+msgid ""
+"Wenn aktiviert, entfernt die Deinstallation alle Plugin-Optionen sowie die "
+"Tabellen für Anträge und Löschnachweise unwiderruflich. Standardmäßig "
+"bleiben Nachweise und Optionen erhalten."
+msgstr ""
+"Etkinleştirildiğinde, eklentinin kaldırılması tüm eklenti seçeneklerini ve "
+"talep ile silme kayıtları tablolarını geri alınamaz biçimde siler. "
+"Varsayılan olarak kayıtlar ve seçenekler korunur."
+
+#: includes/Admin/AdminDashboard.php:424
+msgid "Einstellungen speichern"
+msgstr "Ayarları kaydet"
+
+#: includes/Admin/AdminDashboard.php:430
+msgid "Was bei einer Löschung passiert"
+msgstr "Silme işleminde neler olur"
+
+#: includes/Admin/AdminDashboard.php:432
+msgid ""
+"Kommentare mit dieser Adresse: Name, Adresse, URL, IP, Browserkennung und "
+"Benutzerzuordnung werden überschrieben, der Text durch „[Inhalt auf Antrag "
+"nach Art. 17 DSGVO gelöscht]“ ersetzt. Die Kommentare selbst bleiben stehen."
+msgstr ""
+"Bu adrese ait yorumlar: ad, e-posta, URL, IP, tarayıcı bilgisi ve kullanıcı "
+"bağlantısı üzerine yazılır, metin “[İçerik GDPR Madde 17 kapsamındaki talep "
+"üzerine silindi]” ile değiştirilir. Yorumların kendisi kalır."
+
+#: includes/Admin/AdminDashboard.php:433
+msgid ""
+"Benutzerkonto mit dieser Adresse: wird mit wp_delete_user() gelöscht, dabei "
+"auch die Beiträge, die dieses Konto verfasst hat. Konten mit der Rolle "
+"Administrator werden nicht gelöscht; der Nachweis vermerkt das. In einer "
+"Multisite entfernt wp_delete_user() das Konto nur aus dieser Website; der "
+"Nachweis vermerkt removed_from_this_site."
+msgstr ""
+"Bu adrese sahip kullanıcı hesabı: wp_delete_user() ile hesabın yazdığı "
+"yazılarla birlikte silinir. Yönetici hesapları silinmez ve kayıt bunu "
+"belirtir. Multisite kurulumlarında hesap yalnızca bu siteden kaldırılır "
+"(removed_from_this_site)."
+
+#: includes/Admin/AdminDashboard.php:434
+msgid ""
+"WooCommerce-Bestellungen: nur wenn die Option wm_dsgvo_anonymize_wc_orders "
+"an ist, und nur Vor- und Nachname, erste Adresszeile, E-Mail und Telefon der "
+"Rechnungsadresse, über die Bestellobjekte von WooCommerce (HPOS und "
+"Beitragsspeicher). Standard ist aus, weil Rechnungsdaten "
+"Aufbewahrungsfristen unterliegen können (§ 147 AO, § 257 HGB); ob eine "
+"greift, entscheidet das Plugin nicht."
+msgstr ""
+"WooCommerce siparişleri: yalnızca wm_dsgvo_anonymize_wc_orders açıkken; "
+"fatura adı, adresi, e-postası ve telefonu WooCommerce sipariş nesneleri "
+"(HPOS ve yazı deposu) üzerinden değiştirilir. Saklama yükümlülükleri "
+"nedeniyle varsayılan olarak kapalıdır."
+
+#: includes/Admin/AdminDashboard.php:435
+msgid ""
+"Nicht erfasst: Tabellen anderer Plugins (Formulare, Newsletter, Buchungen), "
+"Benutzer-Metadaten verbleibender Konten, Kommentar-Metadaten, "
+"Lieferadressen, Dateien, Logs, Caches und Backups. Die Datenschutz-"
+"Löschwerkzeuge von WordPress ruft das Plugin nicht auf."
+msgstr ""
+"Kapsam dışı: diğer eklentilerin tabloları (formlar, bültenler, "
+"rezervasyonlar), korunan hesapların üst verileri, teslimat adresleri, "
+"dosyalar, günlükler, önbellekler ve yedekler."
+
+#: includes/Admin/AdminDashboard.php:436
+msgid ""
+"Ob ein Antrag berechtigt ist, ob Ausnahmen nach Art. 17 Abs. 3 DSGVO greifen "
+"und welche Frist gilt, entscheidet das Plugin nicht."
+msgstr ""
+"Eklenti bir talebin haklı olup olmadığına, GDPR Madde 17(3) istisnalarının "
+"geçerli olup olmadığına veya hangi saklama süresinin uygulanacağına karar "
+"vermez."
+
+#: includes/API/RestController.php:100
+msgid "Zu viele Anfragen. Bitte versuchen Sie es in einer Minute erneut."
+msgstr "Çok fazla istek. Lütfen bir dakika sonra tekrar deneyin."
+
+#: includes/API/RestController.php:137
+msgid "Bitte geben Sie eine gültige E-Mail-Adresse an."
+msgstr "Lütfen geçerli bir e-posta adresi belirtin."
+
+#: includes/API/RestController.php:146
+msgid ""
+"Der Antrag wurde entgegengenommen. Ist die Adresse gültig, geht an sie ein "
+"Bestätigungslink; gelöscht wird erst nach dessen Aufruf."
+msgstr ""
+"Talep alındı. Adres geçerliyse onay bağlantısı gönderilir; silme işlemi "
+"yalnızca onaydan sonra gerçekleştirilir."
+
+#: includes/Frontend/EcosystemIntegration.php:33
+#: includes/Frontend/EcosystemIntegration.php:43
+msgid "WM Privacy Eraser Status"
+msgstr "WM Privacy Eraser Durumu"
+
+#: includes/Frontend/EcosystemIntegration.php:47
+msgid "Aktueller Status des Art.-17-DSGVO-Löschportals."
+msgstr "GDPR Madde 17 silme portalının güncel durumu."
+
+#. translators: %d: number of verified certificates
+#: includes/Frontend/EcosystemIntegration.php:112
+#, php-format
+msgid "Art. 17 DSGVO Löschportal aktiv (%d versiegelte Nachweise)"
+msgstr "GDPR Madde 17 silme portalı etkin (%d mühürlü kayıt)"
+
+#: includes/Frontend/EcosystemIntegration.php:115
+msgid "Art. 17 DSGVO Löschportal aktiv"
+msgstr "GDPR Madde 17 silme portalı etkin"
+
+#: includes/Frontend/EcosystemIntegration.php:116
+msgid "Art. 17 DSGVO Löschportal: Kette prüfen"
+msgstr "GDPR Madde 17 silme portalı: zinciri kontrol edin"
+
+#: includes/Frontend/ErasureConfirmationPage.php:72
+msgid "Löschung bestätigen"
+msgstr "Silme işlemini onayla"
+
+#: includes/Frontend/ErasureConfirmationPage.php:73
+msgid ""
+"Das Öffnen dieses Links hat noch nichts gelöscht. Mit der Schaltfläche unten "
+"werden zu der Adresse, für die der Antrag gestellt wurde, die Kommentare auf "
+"dieser Website anonymisiert und ein Benutzerkonto gelöscht (außer "
+"Administratorkonten); ist es eingeschaltet, werden auch Rechnungsfelder von "
+"WooCommerce-Bestellungen anonymisiert. Die Löschung ist unwiderruflich."
+msgstr ""
+"Bu bağlantının açılması henüz hiçbir veriyi silmedi. Aşağıdaki düğmeyle bu "
+"sitede talep edilen adrese ait yorumlar anonimleştirilecek ve kullanıcı "
+"hesabı (yöneticiler hariç) silinecektir; açıksa WooCommerce fatura alanları "
+"da anonimleştirilir. Silme işlemi geri alınamaz."
+
+#: includes/Frontend/ErasureConfirmationPage.php:78
+msgid "Löschung jetzt ausführen"
+msgstr "Silme işlemini şimdi uygula"
+
+#: includes/Frontend/ErasureConfirmationPage.php:83
+msgid "Löschung ausgeführt"
+msgstr "Silme işlemi tamamlandı"
+
+#. translators: 1: number of entries, 2: record id
+#: includes/Frontend/ErasureConfirmationPage.php:87
+#, php-format
+msgid ""
+"%1$d Einträge wurden gelöscht oder anonymisiert. Kennung des "
+"Löschnachweises: %2$s"
+msgstr "%1$d girdi silindi veya anonimleştirildi. Silme kaydı kimliği: %2$s"
+
+#: includes/Frontend/ErasureConfirmationPage.php:95
+msgid "Löschung nicht vollständig"
+msgstr "Silme işlemi tamamlanamadı"
+
+#: includes/Frontend/ErasureConfirmationPage.php:96
+msgid ""
+"Nicht alle Daten konnten geändert werden, oder der Löschnachweis wurde nicht "
+"gespeichert. Der Antrag ist als fehlgeschlagen vermerkt; bitte wenden Sie "
+"sich an den Betreiber dieser Website."
+msgstr ""
+"Tüm veriler değiştirilemedi veya silme kaydı saklanamadı. Talep başarısız "
+"olarak işaretlendi; lütfen site yöneticisiyle iletişime geçin."
+
+#. translators: %s: record id
+#: includes/Frontend/ErasureConfirmationPage.php:99
+#, php-format
+msgid "Kennung des Löschnachweises: %s"
+msgstr "Silme kaydı kimliği: %s"
+
+#: includes/Frontend/ErasureConfirmationPage.php:104
+msgid "Antrag nicht verarbeitet"
+msgstr "Talep işlenemedi"
+
+#: includes/Frontend/ErasureConfirmationPage.php:105
+msgid ""
+"Der Antrag konnte nicht verarbeitet werden. Bitte stellen Sie ihn erneut."
+msgstr "Talep işlenemedi. Lütfen yeniden gönderin."
+
+#: includes/Frontend/ErasureConfirmationPage.php:109
+msgid "Link nicht gültig"
+msgstr "Geçersiz bağlantı"
+
+#: includes/Frontend/ErasureConfirmationPage.php:110
+msgid ""
+"Der Bestätigungslink ist ungültig, abgelaufen oder wurde bereits verwendet."
+msgstr "Onay bağlantısı geçersiz, süresi dolmuş veya daha önce kullanılmış."
+
+#: includes/Frontend/ErasureRequestForm.php:76
+msgid "Bitte geben Sie eine gültige E-Mail-Adresse ein."
+msgstr "Lütfen geçerli bir e-posta adresi girin."
+
+#: includes/Frontend/ErasureRequestForm.php:77
+msgid "Antrag wird übermittelt …"
+msgstr "Talep gönderiliyor …"
+
+#: includes/Frontend/ErasureRequestForm.php:78
+msgid "Bestätigung erforderlich"
+msgstr "Onay gerekli"
+
+#. translators: %d: hours the confirmation link stays valid
+#: includes/Frontend/ErasureRequestForm.php:81
+#, php-format
+msgid ""
+"Ist die Adresse gültig, geht an sie ein Bestätigungslink. Gelöscht wird "
+"erst, wenn die Löschung auf der verlinkten Seite bestätigt wird. Der Link "
+"ist %d Stunden gültig und nur einmal verwendbar."
+msgstr ""
+"Adres geçerliyse bir onay bağlantısı gönderildi. Silme işlemi yalnızca "
+"bağlantılı sayfada onaylandıktan sonra gerçekleşir. Bağlantı %d saat "
+"geçerlidir ve tek kullanımlıktır."
+
+#: includes/Frontend/ErasureRequestForm.php:84
+msgid "Der Antrag konnte nicht übermittelt werden:"
+msgstr "Talep gönderilemedi:"
+
+#: includes/Frontend/ErasureRequestForm.php:85
+msgid "unbekannter Fehler"
+msgstr "bilinmeyen hata"
+
+#: includes/Frontend/ErasureRequestForm.php:86
+msgid "Der Antrag konnte nicht übermittelt werden: Verbindungsfehler."
+msgstr "Talep gönderilemedi: bağlantı hatası."
+
+#: includes/Frontend/ErasureRequestForm.php:144
+msgid "Antrag auf Datenlöschung (Art. 17 DSGVO)"
+msgstr "Veri Silme Talebi (GDPR Madde 17)"
+
+#: includes/Frontend/ErasureRequestForm.php:147
+msgid ""
+"Gemäß Art. 17 DSGVO (\"Recht auf Vergessenwerden\") haben Sie das Recht auf "
+"unverzügliche Löschung Ihrer personenbezogenen Daten. Zur Bestätigung Ihrer "
+"Identität nach Art. 12 Abs. 6 DSGVO senden wir Ihnen zunächst einen "
+"einmaligen Bestätigungslink. Erst nach dessen Aufruf wird gelöscht und ein "
+"kryptografisches Löschzertifikat ausgestellt."
+msgstr ""
+"GDPR Madde 17 (“unutulma hakkı”) uyarınca kişisel verilerinizin silinmesini "
+"talep edebilirsiniz. GDPR Madde 12(6) kapsamında kimliğinizi doğrulamak için "
+"önce tek kullanımlık bir onay bağlantısı gönderiyoruz. Yalnızca onaydan "
+"sonra veriler silinir ve kriptografik silme sertifikası düzenlenir."
+
+#: includes/Frontend/ErasureRequestForm.php:152
+msgid "Ihre hinterlegte E-Mail-Adresse:"
+msgstr "Kayıtlı e-posta adresiniz:"
+
+#: includes/Frontend/ErasureRequestForm.php:153
+msgid "ihre-email@example.com"
+msgstr "epostaniz@example.com"
+
+#: includes/Frontend/ErasureRequestForm.php:157
+msgid "Löschantrag übermitteln"
+msgstr "Silme talebini gönder"
+
+#. translators: %s: Site name
+#: includes/Request/ErasureRequestManager.php:151
+#, php-format
+msgid "[%s] Löschantrag bestätigen (Art. 17 DSGVO)"
+msgstr "[%s] Silme talebini onaylayın (GDPR Madde 17)"
+
+#. translators: 1: Confirmation URL, 2: Validity in hours
+#: includes/Request/ErasureRequestManager.php:157
+#, php-format
+msgid ""
+"Für diese E-Mail-Adresse wurde ein Antrag auf Löschung personenbezogener "
+"Daten nach Art. 17 DSGVO gestellt.\n"
+"\n"
+"Die Löschung wird erst ausgeführt, wenn Sie diesen Link öffnen und sie auf "
+"der Seite bestätigen:\n"
+"\n"
+"%1$s\n"
+"\n"
+"Der Link ist %2$d Stunden gültig und kann nur einmal verwendet werden.\n"
+"\n"
+"Wenn Sie diesen Antrag nicht gestellt haben, ignorieren Sie diese E-Mail. Es "
+"wird nichts gelöscht.\n"
+"\n"
+"Achtung: Die Löschung ist unwiderruflich."
+msgstr ""
+"Bu e-posta adresi için GDPR Madde 17 uyarınca kişisel verilerin silinmesi "
+"talebi oluşturuldu.\n"
+"\n"
+"Silme işlemi yalnızca bu bağlantıyı açıp sayfada onayladığınızda "
+"gerçekleştirilecektir:\n"
+"\n"
+"%1$s\n"
+"\n"
+"Bağlantı %2$d saat geçerlidir ve yalnızca bir kez kullanılabilir.\n"
+"\n"
+"Bu talebi siz oluşturmadıysanız bu e-postayı dikkate almayın. Hiçbir veri "
+"silinmeyecektir.\n"
+"\n"
+"Dikkat: Silme işlemi geri alınamaz."
+
+#: blocks-src/index.js:18
+msgid "DSGVO Löschantrag (Art. 17)"
+msgstr "GDPR Silme Talebi (Madde 17)"
+
+#: blocks-src/index.js:19
+msgid ""
+"Öffentliches Formular für Löschanträge nach Art. 17 DSGVO mit Einmal-"
+"Bestätigungslink."
+msgstr ""
+"Tek kullanımlık onay bağlantılı GDPR Madde 17 veri silme talepleri için "
+"herkese açık form."
+
+#: blocks-src/index.js:45
+msgid "Formulareinstellungen"
+msgstr "Form ayarları"
+
+#: blocks-src/index.js:49
+msgid "Hinweistext anzeigen"
+msgstr "Açıklama metnini göster"
+
+#: blocks-src/index.js:50
+msgid ""
+"Blendet den erläuternden Hinweis oberhalb des E-Mail-Feldes ein oder aus."
+msgstr ""
+"E-posta alanının üzerindeki açıklayıcı bilgi notunu gösterir veya gizler."
+
+#: blocks/dsgvo-erasure-portal/block.json
+msgctxt "block title"
+msgid "DSGVO Löschantrag (Art. 17)"
+msgstr "GDPR Silme Talebi (Madde 17)"
+
+#: blocks/dsgvo-erasure-portal/block.json
+msgctxt "block description"
+msgid ""
+"Öffentliches Formular für Löschanträge nach Art. 17 DSGVO mit Einmal-"
+"Bestätigungslink."
+msgstr ""
+"Tek kullanımlık onay bağlantılı GDPR Madde 17 veri silme talepleri için "
+"herkese açık form."
+
+#: blocks/dsgvo-erasure-portal/block.json
+msgctxt "block keyword"
+msgid "dsgvo"
+msgstr "gdpr"
+
+#: blocks/dsgvo-erasure-portal/block.json
+msgctxt "block keyword"
+msgid "gdpr"
+msgstr "veri-koruma"
+
+#: blocks/dsgvo-erasure-portal/block.json
+msgctxt "block keyword"
+msgid "löschung"
+msgstr "silme"
+
+#: blocks/dsgvo-erasure-portal/block.json
+msgctxt "block keyword"
+msgid "erasure"
+msgstr "anonimlestirme"
+
+#: blocks/dsgvo-erasure-portal/block.json
+msgctxt "block keyword"
+msgid "datenschutz"
+msgstr "gizlilik"
+
+#: blocks/dsgvo-erasure-portal/block.json
+msgctxt "block keyword"
+msgid "privacy"
+msgstr "kisisel-veri"
+
+#~ msgid "https://www.arnoldwender.com"
+#~ msgstr "https://www.arnoldwender.com"

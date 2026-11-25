@@ -1,0 +1,45 @@
+/* humanstxt.org */
+/* The humans responsible & technology colophon */
+
+# TEAM
+
+    Author: Arnold Wender
+
+    Built with: an agentic workflow (AI coding agents)
+# THANKS
+
+    To My Family -- For unconditional love, strength & continuous inspiration
+    WordPress Community & Core Contributors -- For democratizing publishing and powering the open web
+    Open Source Community -- For making software accessible to everyone
+
+# TECHNOLOGY COLOPHON
+
+    ## Architecture & Core
+    WordPress 6.4+, tested up to 7.1
+    PHP 8.2+ with libsodium (strict types, WordPress coding style)
+    MySQL InnoDB (two plugin tables)
+    WP-CLI command and REST routes
+
+    ## Frontend
+    Shortcode and block with an inline Vanilla JS request form
+    Self-Hosted Admin Assets (no CDN)
+
+    ## Quality
+    HMAC-SHA256 chained erasure records
+    Standalone test suite on PHP 8.2 and 8.3, WordPress integration tests
+
+# SITE & PROJECT
+
+    Plugin: wm-dsgvo-privacy-eraser
+    Stack: WordPress Enterprise Extension
+    Standards: no runtime dependency on other plugins
+
+# CONTACT
+
+    Author Website: https://arnoldwender.com
+    Repository: https://github.com/arnoldwender/wm-wp-dsgvo-privacy-eraser
+    Support: Zero support — reproducible bugs on GitHub Issues only (SUPPORT.md)
+
+# DEDICATION
+
+    Dedicated to my family with eternal love and gratitude.

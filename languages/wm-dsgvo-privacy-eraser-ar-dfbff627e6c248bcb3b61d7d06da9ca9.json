@@ -1,0 +1,357 @@
+{
+  "translation-revision-date": "2026-11-21T14:14:21+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-dsgvo-privacy-eraser",
+        "lang": "ar",
+        "plural-forms": "nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);"
+      },
+      "WM DSGVO Art. 17 Cryptographic Privacy Eraser": [
+        "أداة المحو التشفيري للخصوصية وفق المادة 17 من اللائحة العامة لحماية البيانات WM"
+      ],
+      "https://arnoldwender.com/wordpress-plugins/wm-dsgvo-privacy-eraser/": [
+        "https://arnoldwender.com/wordpress-plugins/wm-dsgvo-privacy-eraser/"
+      ],
+      "Löschanträge nach Art. 17 DSGVO mit Bestätigungslink an die Adresse; danach werden Kommentare anonymisiert, das Benutzerkonto (außer Administratoren) gelöscht und optional WooCommerce-Rechnungsfelder anonymisiert. Jede Löschung erhält einen HMAC-verketteten Nachweis. Keine rechtliche Prüfung des Antrags.": [
+        "طلبات محو البيانات وفق المادة 17 من GDPR عبر رابط تأكيد لمرة واحدة يُرسل إلى البريد الإلكتروني؛ بعد التأكيد تُخفى هوية التعليقات ويُحذف حساب المستخدم (باستثناء المديرين) وتُخفى بيانات الفوترة في WooCommerce اختيارياً. يُسجَّل كل محو بسجل متسلسل عبر HMAC دون تقييم قانوني."
+      ],
+      "Arnold Wender": [
+        "Arnold Wender"
+      ],
+      "https://arnoldwender.com": [
+        "https://arnoldwender.com"
+      ],
+      "Kette geprüft: %d versiegelte Nachweise stimmen": [
+        "تم التحقق من السلسلة: %d سجلات مختومة متطابقة"
+      ],
+      "Noch keine Löschnachweise": [
+        "لا توجد سجلات محو حتى الآن"
+      ],
+      "Kette gebrochen": [
+        "السلسلة مكسورة"
+      ],
+      "WM DSGVO Privacy Eraser": [
+        "WM GDPR Privacy Eraser"
+      ],
+      "Löschnachweise": [
+        "سجلات المحو"
+      ],
+      "Offene Anträge": [
+        "الطلبات المفتوحة"
+      ],
+      "Privacy Eraser öffnen": [
+        "فتح Privacy Eraser"
+      ],
+      "WM Privacy Eraser": [
+        "WM Privacy Eraser"
+      ],
+      "Privacy Eraser": [
+        "Privacy Eraser"
+      ],
+      "Übersicht": [
+        "نظرة عامة"
+      ],
+      "Antrag stellen": [
+        "تقديم طلب"
+      ],
+      "Was gelöscht wird": [
+        "ما الذي يُمحى"
+      ],
+      "Einstellungen": [
+        "الإعدادات"
+      ],
+      "Löschanträge mit Bestätigungslink, Löschung bzw. Anonymisierung der Daten, die WordPress selbst zu einer E-Mail-Adresse hält, und ein verketteter Nachweis je Löschung. Es ersetzt keine rechtliche Prüfung des Antrags.": [
+        "طلبات محو البيانات برابط تأكيد، وحذف أو إخفاء هوية البيانات التي يحتفظ بها ووردبريس لعنوان بريد إلكتروني، مع سجل متسلسل لكل عملية محو. لا يغني عن المراجعة القانونية."
+      ],
+      "Part of the WM Suite plugin family": [
+        "جزء من عائلة إضافات WM Suite"
+      ],
+      "WM Suite": [
+        "WM Suite"
+      ],
+      "Hub": [
+        "المركز"
+      ],
+      "Standalone": [
+        "مستقل"
+      ],
+      "Bereiche": [
+        "النطاقات"
+      ],
+      "Stand dieser Website": [
+        "حالة هذا الموقع"
+      ],
+      "Beim Aufruf dieser Seite aus der Datenbank gelesen.": [
+        "قُرئت من قاعدة البيانات عند فتح هذه الصفحة."
+      ],
+      "Gelöschte oder anonymisierte Einträge laut Nachweisen": [
+        "السجلات المحذوفة أو المجهولة الهوية وفق الإثباتات"
+      ],
+      "Offene Anträge (Adresse noch gespeichert)": [
+        "الطلبات المفتوحة (العنوان لا يزال محفوظاً)"
+      ],
+      "Nachweiskette": [
+        "سلسلة الإثباتات"
+      ],
+      "%d ältere Nachweise ohne Siegel, nicht prüfbar.": [
+        "%d إثباتات أقدم بلا ختم، غير قابلة للتحقق."
+      ],
+      "Verschlüsselung offener Adressen (libsodium)": [
+        "تشفير العناوين المفتوحة (libsodium)"
+      ],
+      "verfügbar": [
+        "متاح"
+      ],
+      "nicht verfügbar: Adressen werden im Klartext gespeichert": [
+        "غير متاح: تُحفظ العناوين كنص صريح"
+      ],
+      "WooCommerce-Rechnungsfelder anonymisieren (wm_dsgvo_anonymize_wc_orders)": [
+        "إخفاء هوية حقول الفوترة في WooCommerce (wm_dsgvo_anonymize_wc_orders)"
+      ],
+      "an": [
+        "مفعّل"
+      ],
+      "aus (Standard)": [
+        "معطّل (افتراضي)"
+      ],
+      "Daten bei Deinstallation löschen (wm_dsgvo_eraser_delete_data_on_uninstall)": [
+        "حذف البيانات عند إلغاء التثبيت (wm_dsgvo_eraser_delete_data_on_uninstall)"
+      ],
+      "aus (Standard: Nachweise bleiben erhalten)": [
+        "معطّل (افتراضي: تُحفظ سجلات الإثبات)"
+      ],
+      "Löschantrag für eine Adresse stellen": [
+        "تقديم طلب محو لعنوان بريد إلكتروني"
+      ],
+      "Legt denselben Antrag an wie das Formular auf der Website: An die Adresse geht ein Bestätigungslink, %d Stunden gültig. Gelöscht wird erst, wenn die Löschung auf der verlinkten Seite bestätigt wird. Eine sofortige Löschung ohne Bestätigung gibt es nur über WP-CLI (wp dsgvo erase), nachdem Sie die Identität selbst geprüft haben.": [
+        "ينشئ الطلب نفسه كالنموذج العام: يُرسل رابط تأكيد صالح لمدة %d ساعة إلى العنوان. لا يُحذف أي شيء قبل التأكيد في الصفحة المرتبطة. المحو الفوري دون تأكيد متاح فقط عبر WP-CLI (wp dsgvo erase) بعد التحقق من الهوية."
+      ],
+      "E-Mail-Adresse der betroffenen Person": [
+        "عنوان البريد الإلكتروني لصاحب البيانات"
+      ],
+      "Bestätigungslink senden": [
+        "إرسال رابط التأكيد"
+      ],
+      "Bitte eine E-Mail-Adresse eingeben.": [
+        "يرجى إدخال عنوان بريد إلكتروني."
+      ],
+      "Wird übermittelt …": [
+        "جارٍ الإرسال …"
+      ],
+      "Antrag übermittelt. Ein Bestätigungslink geht nur hinaus, wenn die Adresse gültig ist, keines der Limits greift (%1$d Anträge je Adresse in %2$d Stunden, %3$d je IP pro Stunde, Ihre eigene IP zählt mit) und der Mailversand gelingt; diese Seite erfährt das nicht. Noch ist nichts gelöscht.": [
+        "تم إرسال الطلب. لا يُرسل رابط التأكيد إلا إذا كان العنوان صالحاً ولم يُتجاوز أي حد (%1$d طلبات لكل عنوان خلال %2$d ساعة، و%3$d لكل عنوان IP في الساعة بما في ذلك عنوان IP الخاص بك) ونجح إرسال البريد؛ لا تعرض هذه الصفحة تلك النتيجة. لم يُحذف شيء بعد."
+      ],
+      "Der Antrag konnte nicht angelegt werden.": [
+        "تعذّر إنشاء الطلب."
+      ],
+      "Verbindungsfehler.": [
+        "خطأ في الاتصال."
+      ],
+      "Letzte zehn Löschnachweise": [
+        "آخر عشرة سجلات محو"
+      ],
+      "Jeder Nachweis speichert statt der Adresse einen geschlüsselten Hash, die Anzahl der Einträge je Bereich und ein Siegel, das den vorherigen Nachweis einschließt. Bearbeitete, eingefügte, umsortierte oder gelöschte Nachweise fallen bei der Prüfung auf, solange die Option mit dem Kettenende unverändert ist; wer die Datenbank schreiben kann, kann auch diese Option ändern, und wer den Schlüssel aus wp-config.php hat, kann die Kette neu versiegeln.": [
+        "يحفظ كل سجل تجزئة بمفتاح بدلاً من العنوان، وعدد العناصر لكل نطاق، وختماً يتضمن السجل السابق. تُكتشف أي تعديلات أو إدخالات أو إعادة ترتيب أو حذف طالما بقي خيار طرف السلسلة دون تغيير؛ ومن يملك صلاحية الكتابة في قاعدة البيانات يمكنه تعديل ذلك الخيار، ومن يملك wp-config.php يمكنه إعادة ختم السلسلة."
+      ],
+      "Nachweis": [
+        "السجل"
+      ],
+      "Hash der Adresse": [
+        "تجزئة العنوان"
+      ],
+      "Einträge": [
+        "العناصر"
+      ],
+      "Siegel": [
+        "الختم"
+      ],
+      "Zeitpunkt": [
+        "التوقيت"
+      ],
+      "Noch keine Löschnachweise.": [
+        "لا توجد سجلات محو حتى الآن."
+      ],
+      "ohne Siegelkette": [
+        "بلا سلسلة أختام"
+      ],
+      "Beide Schalter sind standardmäßig ausgeschaltet, damit weder steuerrechtlich relevante Rechnungsdaten noch Löschnachweise unbeabsichtigt entfernt werden.": [
+        "كلا المفتاحين معطّلان افتراضياً حتى لا تُحذف بيانات الفوترة الخاضعة للحفظ الضريبي أو سجلات الإثبات عن طريق الخطأ."
+      ],
+      "WooCommerce-Rechnungsfelder anonymisieren": [
+        "إخفاء هوية حقول الفوترة في WooCommerce"
+      ],
+      "Überschreibt Vor- und Nachname, erste Adresszeile, Telefon und E-Mail in WooCommerce-Bestellungen der betroffenen Adresse. Erst nach Prüfung gesetzlicher Aufbewahrungsfristen (§ 147 AO, § 257 HGB) einschalten.": [
+        "يستبدل الاسم الأول واسم العائلة والسطر الأول من العنوان والهاتف والبريد الإلكتروني في طلبات WooCommerce الخاصة بالعنوان. لا تفعّله إلا بعد مراجعة مدد الحفظ القانونية (§ 147 AO, § 257 HGB)."
+      ],
+      "Alle Plugin-Daten bei Deinstallation löschen": [
+        "حذف جميع بيانات الإضافة عند إلغاء التثبيت"
+      ],
+      "Wenn aktiviert, entfernt die Deinstallation alle Plugin-Optionen sowie die Tabellen für Anträge und Löschnachweise unwiderruflich. Standardmäßig bleiben Nachweise und Optionen erhalten.": [
+        "عند التفعيل، يزيل إلغاء التثبيت نهائياً جميع خيارات الإضافة وجدولي الطلبات وسجلات المحو. افتراضياً تُحفظ السجلات والخيارات."
+      ],
+      "Einstellungen speichern": [
+        "حفظ الإعدادات"
+      ],
+      "Was bei einer Löschung passiert": [
+        "ماذا يحدث عند تنفيذ المحو"
+      ],
+      "Kommentare mit dieser Adresse: Name, Adresse, URL, IP, Browserkennung und Benutzerzuordnung werden überschrieben, der Text durch „[Inhalt auf Antrag nach Art. 17 DSGVO gelöscht]“ ersetzt. Die Kommentare selbst bleiben stehen.": [
+        "التعليقات المرتبطة بهذا العنوان: يُستبدل الاسم والبريد والرابط وعنوان IP ومعرّف المتصفح وربط المستخدم، ويُستبدل النص بعبارة «[حُذف المحتوى بناءً على طلب وفق المادة 17 من GDPR]». وتبقى التعليقات نفسها."
+      ],
+      "Benutzerkonto mit dieser Adresse: wird mit wp_delete_user() gelöscht, dabei auch die Beiträge, die dieses Konto verfasst hat. Konten mit der Rolle Administrator werden nicht gelöscht; der Nachweis vermerkt das. In einer Multisite entfernt wp_delete_user() das Konto nur aus dieser Website; der Nachweis vermerkt removed_from_this_site.": [
+        "حساب المستخدم المرتبط بهذا العنوان: يُحذف عبر wp_delete_user() مع مقالاته. لا تُحذف حسابات المديرين ويوثّق السجل ذلك. في الشبكات المتعددة المواقع يُزال الحساب من هذا الموقع فقط (removed_from_this_site)."
+      ],
+      "WooCommerce-Bestellungen: nur wenn die Option wm_dsgvo_anonymize_wc_orders an ist, und nur Vor- und Nachname, erste Adresszeile, E-Mail und Telefon der Rechnungsadresse, über die Bestellobjekte von WooCommerce (HPOS und Beitragsspeicher). Standard ist aus, weil Rechnungsdaten Aufbewahrungsfristen unterliegen können (§ 147 AO, § 257 HGB); ob eine greift, entscheidet das Plugin nicht.": [
+        "طلبات WooCommerce: فقط عند تفعيل wm_dsgvo_anonymize_wc_orders؛ تُستبدل بيانات اسم وعنوان وبريد وهاتف الفوترة عبر كائنات طلبات WooCommerce (HPOS والمقالات). معطّل افتراضياً لمراعاة التزامات الحفظ المحاسبية."
+      ],
+      "Nicht erfasst: Tabellen anderer Plugins (Formulare, Newsletter, Buchungen), Benutzer-Metadaten verbleibender Konten, Kommentar-Metadaten, Lieferadressen, Dateien, Logs, Caches und Backups. Die Datenschutz-Löschwerkzeuge von WordPress ruft das Plugin nicht auf.": [
+        "غير مشمول: جداول الإضافات الأخرى (النماذج، النشرات البريدية، الحجوزات)، البيانات الوصفية للحسابات المحتفظ بها، عناوين الشحن، الملفات، السجلات، الذاكرة المؤقتة والنسخ الاحتياطية."
+      ],
+      "Ob ein Antrag berechtigt ist, ob Ausnahmen nach Art. 17 Abs. 3 DSGVO greifen und welche Frist gilt, entscheidet das Plugin nicht.": [
+        "لا تفصل الإضافة في وجاهة الطلب أو استثناءات المادة 17(3) من GDPR أو مدة الحفظ الواجبة التطبيق."
+      ],
+      "Zu viele Anfragen. Bitte versuchen Sie es in einer Minute erneut.": [
+        "طلبات كثيرة جداً. يرجى المحاولة مرة أخرى بعد دقيقة."
+      ],
+      "Bitte geben Sie eine gültige E-Mail-Adresse an.": [
+        "يرجى إدخال عنوان بريد إلكتروني صالح."
+      ],
+      "Der Antrag wurde entgegengenommen. Ist die Adresse gültig, geht an sie ein Bestätigungslink; gelöscht wird erst nach dessen Aufruf.": [
+        "تم استلام الطلب. إذا كان العنوان صالحاً فسيُرسل إليه رابط تأكيد؛ ولا يتم المحو إلا بعد التأكيد."
+      ],
+      "WM Privacy Eraser Status": [
+        "حالة WM Privacy Eraser"
+      ],
+      "Aktueller Status des Art.-17-DSGVO-Löschportals.": [
+        "الحالة الحالية لبوابة محو البيانات وفق المادة 17 من GDPR."
+      ],
+      "Art. 17 DSGVO Löschportal aktiv (%d versiegelte Nachweise)": [
+        "بوابة محو البيانات للمادة 17 من GDPR نشطة (%d سجلات مختومة)"
+      ],
+      "Art. 17 DSGVO Löschportal aktiv": [
+        "بوابة محو البيانات للمادة 17 من GDPR نشطة"
+      ],
+      "Art. 17 DSGVO Löschportal: Kette prüfen": [
+        "بوابة محو البيانات للمادة 17 من GDPR: يرجى فحص السلسلة"
+      ],
+      "Löschung bestätigen": [
+        "تأكيد المحو"
+      ],
+      "Das Öffnen dieses Links hat noch nichts gelöscht. Mit der Schaltfläche unten werden zu der Adresse, für die der Antrag gestellt wurde, die Kommentare auf dieser Website anonymisiert und ein Benutzerkonto gelöscht (außer Administratorkonten); ist es eingeschaltet, werden auch Rechnungsfelder von WooCommerce-Bestellungen anonymisiert. Die Löschung ist unwiderruflich.": [
+        "إن فتح هذا الرابط لم يحذف شيئاً بعد. بالضغط على الزر أدناه ستُخفى هوية التعليقات في هذا الموقع للعنوان المطلوب ويُحذف حساب المستخدم (باستثناء المديرين)؛ وإذا كان الخيار مفعّلاً ستُخفى أيضاً حقول الفوترة في WooCommerce. عملية المحو لا رجعة فيها."
+      ],
+      "Löschung jetzt ausführen": [
+        "تنفيذ المحو الآن"
+      ],
+      "Löschung ausgeführt": [
+        "تم تنفيذ المحو"
+      ],
+      "%1$d Einträge wurden gelöscht oder anonymisiert. Kennung des Löschnachweises: %2$s": [
+        "تم حذف أو إخفاء هوية %1$d عنصر. معرّف سجل المحو: %2$s"
+      ],
+      "Löschung nicht vollständig": [
+        "المحو غير مكتمل"
+      ],
+      "Nicht alle Daten konnten geändert werden, oder der Löschnachweis wurde nicht gespeichert. Der Antrag ist als fehlgeschlagen vermerkt; bitte wenden Sie sich an den Betreiber dieser Website.": [
+        "تعذّر تعديل جميع البيانات أو تعذّر حفظ سجل المحو. تم وسم الطلب كفاشل؛ يرجى التواصل مع مشغّل هذا الموقع."
+      ],
+      "Kennung des Löschnachweises: %s": [
+        "معرّف سجل المحو: %s"
+      ],
+      "Antrag nicht verarbeitet": [
+        "لم تتم معالجة الطلب"
+      ],
+      "Der Antrag konnte nicht verarbeitet werden. Bitte stellen Sie ihn erneut.": [
+        "تعذّرت معالجة الطلب. يرجى إعادة تقديمه."
+      ],
+      "Link nicht gültig": [
+        "رابط غير صالح"
+      ],
+      "Der Bestätigungslink ist ungültig, abgelaufen oder wurde bereits verwendet.": [
+        "رابط التأكيد غير صالح أو منتهي الصلاحية أو استُخدم مسبقاً."
+      ],
+      "Bitte geben Sie eine gültige E-Mail-Adresse ein.": [
+        "يرجى إدخال عنوان بريد إلكتروني صالح."
+      ],
+      "Antrag wird übermittelt …": [
+        "جارٍ إرسال الطلب …"
+      ],
+      "Bestätigung erforderlich": [
+        "التأكيد مطلوب"
+      ],
+      "Ist die Adresse gültig, geht an sie ein Bestätigungslink. Gelöscht wird erst, wenn die Löschung auf der verlinkten Seite bestätigt wird. Der Link ist %d Stunden gültig und nur einmal verwendbar.": [
+        "إذا كان العنوان صالحاً فقد أُرسل إليه رابط تأكيد. لن يتم المحو إلا بعد التأكيد في الصفحة المرتبطة. الرابط صالح لمدة %d ساعة ويُستخدم مرة واحدة فقط."
+      ],
+      "Der Antrag konnte nicht übermittelt werden:": [
+        "تعذّر إرسال الطلب:"
+      ],
+      "unbekannter Fehler": [
+        "خطأ غير معروف"
+      ],
+      "Der Antrag konnte nicht übermittelt werden: Verbindungsfehler.": [
+        "تعذّر إرسال الطلب: خطأ في الاتصال."
+      ],
+      "Antrag auf Datenlöschung (Art. 17 DSGVO)": [
+        "طلب محو البيانات (المادة 17 من GDPR)"
+      ],
+      "Gemäß Art. 17 DSGVO (\"Recht auf Vergessenwerden\") haben Sie das Recht auf unverzügliche Löschung Ihrer personenbezogenen Daten. Zur Bestätigung Ihrer Identität nach Art. 12 Abs. 6 DSGVO senden wir Ihnen zunächst einen einmaligen Bestätigungslink. Erst nach dessen Aufruf wird gelöscht und ein kryptografisches Löschzertifikat ausgestellt.": [
+        "وفقاً للمادة 17 من اللائحة العامة لحماية البيانات (\"الحق في المحو\")، يحق لك طلب محو بياناتك الشخصية. لتأكيد هويتك وفق المادة 12(6)، نرسل أولاً رابط تأكيد لمرة واحدة. ولا يتم محو البيانات وإصدار شهادة المحو التشفيرية إلا بعد التأكيد."
+      ],
+      "Ihre hinterlegte E-Mail-Adresse:": [
+        "عنوان بريدك الإلكتروني المسجّل:"
+      ],
+      "ihre-email@example.com": [
+        "your-email@example.com"
+      ],
+      "Löschantrag übermitteln": [
+        "إرسال طلب المحو"
+      ],
+      "[%s] Löschantrag bestätigen (Art. 17 DSGVO)": [
+        "[%s] تأكيد طلب محو البيانات (المادة 17 من GDPR)"
+      ],
+      "DSGVO Löschantrag (Art. 17)": [
+        "طلب محو البيانات GDPR (المادة 17)"
+      ],
+      "Öffentliches Formular für Löschanträge nach Art. 17 DSGVO mit Einmal-Bestätigungslink.": [
+        "نموذج عام لطلبات محو البيانات وفق المادة 17 من GDPR مع رابط تأكيد لمرة واحدة."
+      ],
+      "Formulareinstellungen": [
+        "إعدادات النموذج"
+      ],
+      "Hinweistext anzeigen": [
+        "إظهار النص التوضيحي"
+      ],
+      "Blendet den erläuternden Hinweis oberhalb des E-Mail-Feldes ein oder aus.": [
+        "يُظهر أو يُخفي الملاحظة التوضيحية أعلى حقل البريد الإلكتروني."
+      ],
+      "block title\u0004DSGVO Löschantrag (Art. 17)": [
+        "طلب محو البيانات GDPR (المادة 17)"
+      ],
+      "block description\u0004Öffentliches Formular für Löschanträge nach Art. 17 DSGVO mit Einmal-Bestätigungslink.": [
+        "نموذج عام لطلبات محو البيانات وفق المادة 17 من GDPR مع رابط تأكيد لمرة واحدة."
+      ],
+      "block keyword\u0004dsgvo": [
+        "gdpr"
+      ],
+      "block keyword\u0004gdpr": [
+        "حماية-البيانات"
+      ],
+      "block keyword\u0004löschung": [
+        "محو-البيانات"
+      ],
+      "block keyword\u0004erasure": [
+        "حذف"
+      ],
+      "block keyword\u0004datenschutz": [
+        "خصوصية"
+      ],
+      "block keyword\u0004privacy": [
+        "بيانات-شخصية"
+      ]
+    }
+  }
+}

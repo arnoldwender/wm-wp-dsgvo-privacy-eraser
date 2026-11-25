@@ -1,0 +1,357 @@
+{
+  "translation-revision-date": "2026-11-21T14:14:21+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-dsgvo-privacy-eraser",
+        "lang": "sl_SI",
+        "plural-forms": "nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);"
+      },
+      "WM DSGVO Art. 17 Cryptographic Privacy Eraser": [
+        "WM GDPR čl. 17 Kriptografski izbris zasebnosti"
+      ],
+      "https://arnoldwender.com/wordpress-plugins/wm-dsgvo-privacy-eraser/": [
+        "https://arnoldwender.com/wordpress-plugins/wm-dsgvo-privacy-eraser/"
+      ],
+      "Löschanträge nach Art. 17 DSGVO mit Bestätigungslink an die Adresse; danach werden Kommentare anonymisiert, das Benutzerkonto (außer Administratoren) gelöscht und optional WooCommerce-Rechnungsfelder anonymisiert. Jede Löschung erhält einen HMAC-verketteten Nachweis. Keine rechtliche Prüfung des Antrags.": [
+        "Zahteve za izbris po 17. členu GDPR z enkratno potrditveno povezavo, poslano na e-poštni naslov; nato se komentarji anonimizirajo, uporabniški račun (razen skrbnikov) izbriše, po izbiri pa se anonimizirajo tudi obračunska polja WooCommerce. Vsak izbris prejme z HMAC veriženo potrdilo. Brez pravne presoje."
+      ],
+      "Arnold Wender": [
+        "Arnold Wender"
+      ],
+      "https://arnoldwender.com": [
+        "https://arnoldwender.com"
+      ],
+      "Kette geprüft: %d versiegelte Nachweise stimmen": [
+        "Veriga preverjena: ujema se %d zapečatenih potrdil"
+      ],
+      "Noch keine Löschnachweise": [
+        "Potrdil o izbrisu še ni"
+      ],
+      "Kette gebrochen": [
+        "Veriga prekinjena"
+      ],
+      "WM DSGVO Privacy Eraser": [
+        "WM GDPR Privacy Eraser"
+      ],
+      "Löschnachweise": [
+        "Potrdila o izbrisu"
+      ],
+      "Offene Anträge": [
+        "Odprte zahteve"
+      ],
+      "Privacy Eraser öffnen": [
+        "Odpri Privacy Eraser"
+      ],
+      "WM Privacy Eraser": [
+        "WM Privacy Eraser"
+      ],
+      "Privacy Eraser": [
+        "Privacy Eraser"
+      ],
+      "Übersicht": [
+        "Pregled"
+      ],
+      "Antrag stellen": [
+        "Oddaj zahtevo"
+      ],
+      "Was gelöscht wird": [
+        "Kaj se izbriše"
+      ],
+      "Einstellungen": [
+        "Nastavitve"
+      ],
+      "Löschanträge mit Bestätigungslink, Löschung bzw. Anonymisierung der Daten, die WordPress selbst zu einer E-Mail-Adresse hält, und ein verketteter Nachweis je Löschung. Es ersetzt keine rechtliche Prüfung des Antrags.": [
+        "Zahteve za izbris s potrditveno povezavo, izbris ali anonimizacija podatkov, ki jih WordPress hrani za e-poštni naslov, in veriženo potrdilo ob vsakem izbrisu. Ne nadomešča pravne presoje."
+      ],
+      "Part of the WM Suite plugin family": [
+        "Del družine vtičnikov WM Suite"
+      ],
+      "WM Suite": [
+        "WM Suite"
+      ],
+      "Hub": [
+        "Vozlišče"
+      ],
+      "Standalone": [
+        "Samostojno"
+      ],
+      "Bereiche": [
+        "Področja"
+      ],
+      "Stand dieser Website": [
+        "Stanje tega spletnega mesta"
+      ],
+      "Beim Aufruf dieser Seite aus der Datenbank gelesen.": [
+        "Prebrano iz podatkovne zbirke ob odprtju te strani."
+      ],
+      "Gelöschte oder anonymisierte Einträge laut Nachweisen": [
+        "Izbrisani ali anonimizirani vnosi glede na potrdila"
+      ],
+      "Offene Anträge (Adresse noch gespeichert)": [
+        "Odprte zahteve (naslov je še shranjen)"
+      ],
+      "Nachweiskette": [
+        "Veriga potrdil"
+      ],
+      "%d ältere Nachweise ohne Siegel, nicht prüfbar.": [
+        "%d starejših potrdil brez pečata, ni mogoče preveriti."
+      ],
+      "Verschlüsselung offener Adressen (libsodium)": [
+        "Šifriranje odprtih naslovov (libsodium)"
+      ],
+      "verfügbar": [
+        "na voljo"
+      ],
+      "nicht verfügbar: Adressen werden im Klartext gespeichert": [
+        "ni na voljo: naslovi se hranijo v navadnem besedilu"
+      ],
+      "WooCommerce-Rechnungsfelder anonymisieren (wm_dsgvo_anonymize_wc_orders)": [
+        "Anonimiziraj obračunska polja WooCommerce (wm_dsgvo_anonymize_wc_orders)"
+      ],
+      "an": [
+        "vklopljeno"
+      ],
+      "aus (Standard)": [
+        "izklopljeno (privzeto)"
+      ],
+      "Daten bei Deinstallation löschen (wm_dsgvo_eraser_delete_data_on_uninstall)": [
+        "Izbriši podatke ob odstranitvi (wm_dsgvo_eraser_delete_data_on_uninstall)"
+      ],
+      "aus (Standard: Nachweise bleiben erhalten)": [
+        "izklopljeno (privzeto: potrdila se ohranijo)"
+      ],
+      "Löschantrag für eine Adresse stellen": [
+        "Oddaj zahtevo za izbris za naslov"
+      ],
+      "Legt denselben Antrag an wie das Formular auf der Website: An die Adresse geht ein Bestätigungslink, %d Stunden gültig. Gelöscht wird erst, wenn die Löschung auf der verlinkten Seite bestätigt wird. Eine sofortige Löschung ohne Bestätigung gibt es nur über WP-CLI (wp dsgvo erase), nachdem Sie die Identität selbst geprüft haben.": [
+        "Ustvari enako zahtevo kot javni obrazec: na naslov gre potrditvena povezava, veljavna %d ur. Nič se ne izbriše pred potrditvijo na povezani strani. Takojšen izbris brez potrditve je mogoč le prek WP-CLI (wp dsgvo erase) po preverjanju identitete."
+      ],
+      "E-Mail-Adresse der betroffenen Person": [
+        "E-poštni naslov posameznika"
+      ],
+      "Bestätigungslink senden": [
+        "Pošlji potrditveno povezavo"
+      ],
+      "Bitte eine E-Mail-Adresse eingeben.": [
+        "Vnesite e-poštni naslov."
+      ],
+      "Wird übermittelt …": [
+        "Pošiljanje …"
+      ],
+      "Antrag übermittelt. Ein Bestätigungslink geht nur hinaus, wenn die Adresse gültig ist, keines der Limits greift (%1$d Anträge je Adresse in %2$d Stunden, %3$d je IP pro Stunde, Ihre eigene IP zählt mit) und der Mailversand gelingt; diese Seite erfährt das nicht. Noch ist nichts gelöscht.": [
+        "Zahteva je oddana. Potrditvena povezava se pošlje samo, če je naslov veljaven, ni presežena nobena omejitev (%1$d zahtev na naslov v %2$d urah, %3$d na IP na uro vključno z vašim IP) in pošiljanje uspe; ta stran tega ne prikaže. Nič še ni izbrisano."
+      ],
+      "Der Antrag konnte nicht angelegt werden.": [
+        "Zahteve ni bilo mogoče ustvariti."
+      ],
+      "Verbindungsfehler.": [
+        "Napaka v povezavi."
+      ],
+      "Letzte zehn Löschnachweise": [
+        "Zadnjih deset potrdil o izbrisu"
+      ],
+      "Jeder Nachweis speichert statt der Adresse einen geschlüsselten Hash, die Anzahl der Einträge je Bereich und ein Siegel, das den vorherigen Nachweis einschließt. Bearbeitete, eingefügte, umsortierte oder gelöschte Nachweise fallen bei der Prüfung auf, solange die Option mit dem Kettenende unverändert ist; wer die Datenbank schreiben kann, kann auch diese Option ändern, und wer den Schlüssel aus wp-config.php hat, kann die Kette neu versiegeln.": [
+        "Vsako potrdilo namesto naslova hrani zgoščeno vrednost s ključem, število vnosov po področjih in pečat, ki vključuje prejšnje potrdilo. Spremembe, vrivanja, prerazporeditve ali izbrisi so zaznani pri preverjanju, dokler ostane možnost konca verige nespremenjena; dostop za pisanje v bazo omogoča spremembo te možnosti, wp-config.php pa ponovno zapečatenje verige."
+      ],
+      "Nachweis": [
+        "Potrdilo"
+      ],
+      "Hash der Adresse": [
+        "Zgoščena vrednost naslova"
+      ],
+      "Einträge": [
+        "Vnosi"
+      ],
+      "Siegel": [
+        "Pečat"
+      ],
+      "Zeitpunkt": [
+        "Čas"
+      ],
+      "Noch keine Löschnachweise.": [
+        "Potrdil o izbrisu še ni."
+      ],
+      "ohne Siegelkette": [
+        "brez verige pečatov"
+      ],
+      "Beide Schalter sind standardmäßig ausgeschaltet, damit weder steuerrechtlich relevante Rechnungsdaten noch Löschnachweise unbeabsichtigt entfernt werden.": [
+        "Obe stikali sta privzeto izklopljeni, da se davčno pomembni podatki o računih ali potrdila o izbrisu ne odstranijo po pomoti."
+      ],
+      "WooCommerce-Rechnungsfelder anonymisieren": [
+        "Anonimiziraj obračunska polja WooCommerce"
+      ],
+      "Überschreibt Vor- und Nachname, erste Adresszeile, Telefon und E-Mail in WooCommerce-Bestellungen der betroffenen Adresse. Erst nach Prüfung gesetzlicher Aufbewahrungsfristen (§ 147 AO, § 257 HGB) einschalten.": [
+        "Prepiše ime, priimek, prvo vrstico naslova, telefon in e-pošto v naročilih WooCommerce za ta naslov. Vklopite šele po preverjanju zakonskih rokov hrambe (§ 147 AO, § 257 HGB)."
+      ],
+      "Alle Plugin-Daten bei Deinstallation löschen": [
+        "Ob odstranitvi izbriši vse podatke vtičnika"
+      ],
+      "Wenn aktiviert, entfernt die Deinstallation alle Plugin-Optionen sowie die Tabellen für Anträge und Löschnachweise unwiderruflich. Standardmäßig bleiben Nachweise und Optionen erhalten.": [
+        "Če je vklopljeno, odstranitev nepovratno izbriše vse nastavitve vtičnika ter tabeli zahtev in potrdil o izbrisu. Privzeto se potrdila in nastavitve ohranijo."
+      ],
+      "Einstellungen speichern": [
+        "Shrani nastavitve"
+      ],
+      "Was bei einer Löschung passiert": [
+        "Kaj se zgodi ob izbrisu"
+      ],
+      "Kommentare mit dieser Adresse: Name, Adresse, URL, IP, Browserkennung und Benutzerzuordnung werden überschrieben, der Text durch „[Inhalt auf Antrag nach Art. 17 DSGVO gelöscht]“ ersetzt. Die Kommentare selbst bleiben stehen.": [
+        "Komentarji s tem naslovom: ime, e-pošta, URL, IP, brskalnik in uporabniška povezava se prepišejo, besedilo pa nadomesti »[Vsebina izbrisana na zahtevo po 17. členu GDPR]«. Sami komentarji ostanejo."
+      ],
+      "Benutzerkonto mit dieser Adresse: wird mit wp_delete_user() gelöscht, dabei auch die Beiträge, die dieses Konto verfasst hat. Konten mit der Rolle Administrator werden nicht gelöscht; der Nachweis vermerkt das. In einer Multisite entfernt wp_delete_user() das Konto nur aus dieser Website; der Nachweis vermerkt removed_from_this_site.": [
+        "Uporabniški račun s tem naslovom: izbriše se z wp_delete_user() skupaj z njegovimi prispevki. Skrbniški računi se ne izbrišejo, kar potrdilo zabeleži. V omrežju Multisite se račun odstrani le s tega spletnega mesta (removed_from_this_site)."
+      ],
+      "WooCommerce-Bestellungen: nur wenn die Option wm_dsgvo_anonymize_wc_orders an ist, und nur Vor- und Nachname, erste Adresszeile, E-Mail und Telefon der Rechnungsadresse, über die Bestellobjekte von WooCommerce (HPOS und Beitragsspeicher). Standard ist aus, weil Rechnungsdaten Aufbewahrungsfristen unterliegen können (§ 147 AO, § 257 HGB); ob eine greift, entscheidet das Plugin nicht.": [
+        "Naročila WooCommerce: samo ob vklopljeni možnosti wm_dsgvo_anonymize_wc_orders; prepišejo se ime, naslov, e-pošta in telefon za račun prek objektov naročil WooCommerce (HPOS in objave). Privzeto izklopljeno zaradi računovodskih obveznosti hrambe."
+      ],
+      "Nicht erfasst: Tabellen anderer Plugins (Formulare, Newsletter, Buchungen), Benutzer-Metadaten verbleibender Konten, Kommentar-Metadaten, Lieferadressen, Dateien, Logs, Caches und Backups. Die Datenschutz-Löschwerkzeuge von WordPress ruft das Plugin nicht auf.": [
+        "Ni zajeto: tabele drugih vtičnikov (obrazci, novičniki, rezervacije), metapodatki ohranjenih računov, naslovi za dostavo, datoteke, dnevniki, predpomnilniki in varnostne kopije."
+      ],
+      "Ob ein Antrag berechtigt ist, ob Ausnahmen nach Art. 17 Abs. 3 DSGVO greifen und welche Frist gilt, entscheidet das Plugin nicht.": [
+        "Vtičnik ne presoja utemeljenosti zahteve, izjem po 3. odstavku 17. člena GDPR ali veljavnega roka hrambe."
+      ],
+      "Zu viele Anfragen. Bitte versuchen Sie es in einer Minute erneut.": [
+        "Preveč zahtev. Poskusite znova čez minuto."
+      ],
+      "Bitte geben Sie eine gültige E-Mail-Adresse an.": [
+        "Navedite veljaven e-poštni naslov."
+      ],
+      "Der Antrag wurde entgegengenommen. Ist die Adresse gültig, geht an sie ein Bestätigungslink; gelöscht wird erst nach dessen Aufruf.": [
+        "Zahteva je bila prejeta. Če je naslov veljaven, bo nanj poslana potrditvena povezava; izbris se izvede šele po potrditvi."
+      ],
+      "WM Privacy Eraser Status": [
+        "Stanje WM Privacy Eraser"
+      ],
+      "Aktueller Status des Art.-17-DSGVO-Löschportals.": [
+        "Trenutno stanje portala za izbris po 17. členu GDPR."
+      ],
+      "Art. 17 DSGVO Löschportal aktiv (%d versiegelte Nachweise)": [
+        "Portal za izbris po 17. členu GDPR aktiven (%d zapečatenih potrdil)"
+      ],
+      "Art. 17 DSGVO Löschportal aktiv": [
+        "Portal za izbris po 17. členu GDPR aktiven"
+      ],
+      "Art. 17 DSGVO Löschportal: Kette prüfen": [
+        "Portal za izbris po 17. členu GDPR: preverite verigo"
+      ],
+      "Löschung bestätigen": [
+        "Potrdi izbris"
+      ],
+      "Das Öffnen dieses Links hat noch nichts gelöscht. Mit der Schaltfläche unten werden zu der Adresse, für die der Antrag gestellt wurde, die Kommentare auf dieser Website anonymisiert und ein Benutzerkonto gelöscht (außer Administratorkonten); ist es eingeschaltet, werden auch Rechnungsfelder von WooCommerce-Bestellungen anonymisiert. Die Löschung ist unwiderruflich.": [
+        "Odprtje te povezave še ni ničesar izbrisalo. S spodnjim gumbom bodo na tem spletnem mestu anonimizirani komentarji za zahtevani naslov in izbrisan uporabniški račun (razen skrbnikov); če je vklopljeno, bodo anonimizirana tudi obračunska polja WooCommerce. Izbris je nepovraten."
+      ],
+      "Löschung jetzt ausführen": [
+        "Izvedi izbris zdaj"
+      ],
+      "Löschung ausgeführt": [
+        "Izbris izveden"
+      ],
+      "%1$d Einträge wurden gelöscht oder anonymisiert. Kennung des Löschnachweises: %2$s": [
+        "Izbrisanih ali anonimiziranih je bilo %1$d vnosov. Oznaka potrdila o izbrisu: %2$s"
+      ],
+      "Löschung nicht vollständig": [
+        "Izbris nepopoln"
+      ],
+      "Nicht alle Daten konnten geändert werden, oder der Löschnachweis wurde nicht gespeichert. Der Antrag ist als fehlgeschlagen vermerkt; bitte wenden Sie sich an den Betreiber dieser Website.": [
+        "Vseh podatkov ni bilo mogoče spremeniti ali pa potrdilo o izbrisu ni bilo shranjeno. Zahteva je označena kot neuspešna; obrnite se na upravljavca spletnega mesta."
+      ],
+      "Kennung des Löschnachweises: %s": [
+        "Oznaka potrdila o izbrisu: %s"
+      ],
+      "Antrag nicht verarbeitet": [
+        "Zahteva ni obdelana"
+      ],
+      "Der Antrag konnte nicht verarbeitet werden. Bitte stellen Sie ihn erneut.": [
+        "Zahteve ni bilo mogoče obdelati. Oddajte jo znova."
+      ],
+      "Link nicht gültig": [
+        "Neveljavna povezava"
+      ],
+      "Der Bestätigungslink ist ungültig, abgelaufen oder wurde bereits verwendet.": [
+        "Potrditvena povezava ni veljavna, je potekla ali je bila že uporabljena."
+      ],
+      "Bitte geben Sie eine gültige E-Mail-Adresse ein.": [
+        "Vnesite veljaven e-poštni naslov."
+      ],
+      "Antrag wird übermittelt …": [
+        "Pošiljanje zahteve …"
+      ],
+      "Bestätigung erforderlich": [
+        "Zahtevana je potrditev"
+      ],
+      "Ist die Adresse gültig, geht an sie ein Bestätigungslink. Gelöscht wird erst, wenn die Löschung auf der verlinkten Seite bestätigt wird. Der Link ist %d Stunden gültig und nur einmal verwendbar.": [
+        "Če je naslov veljaven, je bila nanj poslana potrditvena povezava. Izbris bo izveden šele po potrditvi na povezani strani. Povezava velja %d ur in je enkratna."
+      ],
+      "Der Antrag konnte nicht übermittelt werden:": [
+        "Zahteve ni bilo mogoče poslati:"
+      ],
+      "unbekannter Fehler": [
+        "neznana napaka"
+      ],
+      "Der Antrag konnte nicht übermittelt werden: Verbindungsfehler.": [
+        "Zahteve ni bilo mogoče poslati: napaka v povezavi."
+      ],
+      "Antrag auf Datenlöschung (Art. 17 DSGVO)": [
+        "Zahteva za izbris podatkov (17. člen GDPR)"
+      ],
+      "Gemäß Art. 17 DSGVO (\"Recht auf Vergessenwerden\") haben Sie das Recht auf unverzügliche Löschung Ihrer personenbezogenen Daten. Zur Bestätigung Ihrer Identität nach Art. 12 Abs. 6 DSGVO senden wir Ihnen zunächst einen einmaligen Bestätigungslink. Erst nach dessen Aufruf wird gelöscht und ein kryptografisches Löschzertifikat ausgestellt.": [
+        "V skladu s 17. členom GDPR (»pravica do pozabe«) lahko zahtevate izbris svojih osebnih podatkov. Za potrditev identitete po 6. odstavku 12. člena GDPR najprej pošljemo enkratno potrditveno povezavo. Šele po potrditvi se podatki izbrišejo in izda kriptografsko potrdilo."
+      ],
+      "Ihre hinterlegte E-Mail-Adresse:": [
+        "Vaš registrirani e-poštni naslov:"
+      ],
+      "ihre-email@example.com": [
+        "vas-naslov@example.com"
+      ],
+      "Löschantrag übermitteln": [
+        "Oddaj zahtevo za izbris"
+      ],
+      "[%s] Löschantrag bestätigen (Art. 17 DSGVO)": [
+        "[%s] Potrdite zahtevo za izbris (17. člen GDPR)"
+      ],
+      "DSGVO Löschantrag (Art. 17)": [
+        "Zahteva za izbris GDPR (17. člen)"
+      ],
+      "Öffentliches Formular für Löschanträge nach Art. 17 DSGVO mit Einmal-Bestätigungslink.": [
+        "Javni obrazec za zahteve za izbris po 17. členu GDPR z enkratno potrditveno povezavo."
+      ],
+      "Formulareinstellungen": [
+        "Nastavitve obrazca"
+      ],
+      "Hinweistext anzeigen": [
+        "Prikaži pojasnjevalno besedilo"
+      ],
+      "Blendet den erläuternden Hinweis oberhalb des E-Mail-Feldes ein oder aus.": [
+        "Prikaže ali skrije pojasnilo nad poljem za e-poštni naslov."
+      ],
+      "block title\u0004DSGVO Löschantrag (Art. 17)": [
+        "Zahteva za izbris GDPR (17. člen)"
+      ],
+      "block description\u0004Öffentliches Formular für Löschanträge nach Art. 17 DSGVO mit Einmal-Bestätigungslink.": [
+        "Javni obrazec za zahteve za izbris po 17. členu GDPR z enkratno potrditveno povezavo."
+      ],
+      "block keyword\u0004dsgvo": [
+        "gdpr"
+      ],
+      "block keyword\u0004gdpr": [
+        "varstvo-podatkov"
+      ],
+      "block keyword\u0004löschung": [
+        "izbris"
+      ],
+      "block keyword\u0004erasure": [
+        "anonimizacija"
+      ],
+      "block keyword\u0004datenschutz": [
+        "zasebnost"
+      ],
+      "block keyword\u0004privacy": [
+        "osebni-podatki"
+      ]
+    }
+  }
+}

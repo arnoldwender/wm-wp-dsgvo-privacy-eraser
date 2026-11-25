@@ -1,0 +1,357 @@
+{
+  "translation-revision-date": "2026-11-21T14:14:21+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-dsgvo-privacy-eraser",
+        "lang": "bg_BG",
+        "plural-forms": "nplurals=2; plural=(n != 1);"
+      },
+      "WM DSGVO Art. 17 Cryptographic Privacy Eraser": [
+        "WM ОРЗД чл. 17 Криптографско изтриване на лични данни"
+      ],
+      "https://arnoldwender.com/wordpress-plugins/wm-dsgvo-privacy-eraser/": [
+        "https://arnoldwender.com/wordpress-plugins/wm-dsgvo-privacy-eraser/"
+      ],
+      "Löschanträge nach Art. 17 DSGVO mit Bestätigungslink an die Adresse; danach werden Kommentare anonymisiert, das Benutzerkonto (außer Administratoren) gelöscht und optional WooCommerce-Rechnungsfelder anonymisiert. Jede Löschung erhält einen HMAC-verketteten Nachweis. Keine rechtliche Prüfung des Antrags.": [
+        "Заявки за изтриване по чл. 17 от ОРЗД с еднократна връзка за потвърждение до имейл адреса; след това коментарите се анонимизират, потребителският профил (без администраторите) се изтрива и по избор се анонимизират данните за фактуриране в WooCommerce. Всяко изтриване получава HMAC-свързан запис. Без правна преценка."
+      ],
+      "Arnold Wender": [
+        "Arnold Wender"
+      ],
+      "https://arnoldwender.com": [
+        "https://arnoldwender.com"
+      ],
+      "Kette geprüft: %d versiegelte Nachweise stimmen": [
+        "Веригата е проверена: %d запечатани записа съвпадат"
+      ],
+      "Noch keine Löschnachweise": [
+        "Все още няма записи за изтриване"
+      ],
+      "Kette gebrochen": [
+        "Веригата е нарушена"
+      ],
+      "WM DSGVO Privacy Eraser": [
+        "WM ОРЗД Privacy Eraser"
+      ],
+      "Löschnachweise": [
+        "Записи за изтриване"
+      ],
+      "Offene Anträge": [
+        "Отворени заявки"
+      ],
+      "Privacy Eraser öffnen": [
+        "Отвори Privacy Eraser"
+      ],
+      "WM Privacy Eraser": [
+        "WM Privacy Eraser"
+      ],
+      "Privacy Eraser": [
+        "Privacy Eraser"
+      ],
+      "Übersicht": [
+        "Общ преглед"
+      ],
+      "Antrag stellen": [
+        "Подай заявка"
+      ],
+      "Was gelöscht wird": [
+        "Какво се изтрива"
+      ],
+      "Einstellungen": [
+        "Настройки"
+      ],
+      "Löschanträge mit Bestätigungslink, Löschung bzw. Anonymisierung der Daten, die WordPress selbst zu einer E-Mail-Adresse hält, und ein verketteter Nachweis je Löschung. Es ersetzt keine rechtliche Prüfung des Antrags.": [
+        "Заявки за изтриване с връзка за потвърждение, изтриване или анонимизиране на данните, които WordPress съхранява за имейл адрес, и свързан запис за всяко изтриване. Не заменя правен преглед."
+      ],
+      "Part of the WM Suite plugin family": [
+        "Част от семейството разширения на WM Suite"
+      ],
+      "WM Suite": [
+        "WM Suite"
+      ],
+      "Hub": [
+        "Хъб"
+      ],
+      "Standalone": [
+        "Самостоятелен"
+      ],
+      "Bereiche": [
+        "Области"
+      ],
+      "Stand dieser Website": [
+        "Състояние на този уебсайт"
+      ],
+      "Beim Aufruf dieser Seite aus der Datenbank gelesen.": [
+        "Прочетено от базата данни при зареждане на страницата."
+      ],
+      "Gelöschte oder anonymisierte Einträge laut Nachweisen": [
+        "Изтрити или анонимизирани записи според удостоверенията"
+      ],
+      "Offene Anträge (Adresse noch gespeichert)": [
+        "Отворени заявки (адресът още се пази)"
+      ],
+      "Nachweiskette": [
+        "Верига от записи"
+      ],
+      "%d ältere Nachweise ohne Siegel, nicht prüfbar.": [
+        "%d по-стари записа без печат, неподлежащи на проверка."
+      ],
+      "Verschlüsselung offener Adressen (libsodium)": [
+        "Криптиране на отворените адреси (libsodium)"
+      ],
+      "verfügbar": [
+        "налично"
+      ],
+      "nicht verfügbar: Adressen werden im Klartext gespeichert": [
+        "неналично: адресите се записват в открит текст"
+      ],
+      "WooCommerce-Rechnungsfelder anonymisieren (wm_dsgvo_anonymize_wc_orders)": [
+        "Анонимизиране на полетата за фактуриране в WooCommerce (wm_dsgvo_anonymize_wc_orders)"
+      ],
+      "an": [
+        "вкл."
+      ],
+      "aus (Standard)": [
+        "изкл. (по подразбиране)"
+      ],
+      "Daten bei Deinstallation löschen (wm_dsgvo_eraser_delete_data_on_uninstall)": [
+        "Изтриване на данните при деинсталиране (wm_dsgvo_eraser_delete_data_on_uninstall)"
+      ],
+      "aus (Standard: Nachweise bleiben erhalten)": [
+        "изкл. (по подразбиране: записите се запазват)"
+      ],
+      "Löschantrag für eine Adresse stellen": [
+        "Подаване на заявка за изтриване за адрес"
+      ],
+      "Legt denselben Antrag an wie das Formular auf der Website: An die Adresse geht ein Bestätigungslink, %d Stunden gültig. Gelöscht wird erst, wenn die Löschung auf der verlinkten Seite bestätigt wird. Eine sofortige Löschung ohne Bestätigung gibt es nur über WP-CLI (wp dsgvo erase), nachdem Sie die Identität selbst geprüft haben.": [
+        "Създава същата заявка като публичния формуляр: до адреса се изпраща връзка за потвърждение, валидна %d часа. Нищо не се изтрива преди потвърждение на отворената страница. Незабавно изтриване без потвърждение е възможно само чрез WP-CLI (wp dsgvo erase) след проверка на самоличността."
+      ],
+      "E-Mail-Adresse der betroffenen Person": [
+        "Имейл адрес на субекта на данните"
+      ],
+      "Bestätigungslink senden": [
+        "Изпрати връзка за потвърждение"
+      ],
+      "Bitte eine E-Mail-Adresse eingeben.": [
+        "Моля, въведете имейл адрес."
+      ],
+      "Wird übermittelt …": [
+        "Изпращане …"
+      ],
+      "Antrag übermittelt. Ein Bestätigungslink geht nur hinaus, wenn die Adresse gültig ist, keines der Limits greift (%1$d Anträge je Adresse in %2$d Stunden, %3$d je IP pro Stunde, Ihre eigene IP zählt mit) und der Mailversand gelingt; diese Seite erfährt das nicht. Noch ist nichts gelöscht.": [
+        "Заявката е подадена. Връзка за потвърждение се изпраща само ако адресът е валиден, не е достигнат лимит (%1$d заявки на адрес за %2$d часа, %3$d на IP на час, включително вашия IP) и изпращането успее; тази страница не показва това. Все още нищо не е изтрито."
+      ],
+      "Der Antrag konnte nicht angelegt werden.": [
+        "Заявката не можа да бъде създадена."
+      ],
+      "Verbindungsfehler.": [
+        "Грешка при свързване."
+      ],
+      "Letzte zehn Löschnachweise": [
+        "Последните десет записа за изтриване"
+      ],
+      "Jeder Nachweis speichert statt der Adresse einen geschlüsselten Hash, die Anzahl der Einträge je Bereich und ein Siegel, das den vorherigen Nachweis einschließt. Bearbeitete, eingefügte, umsortierte oder gelöschte Nachweise fallen bei der Prüfung auf, solange die Option mit dem Kettenende unverändert ist; wer die Datenbank schreiben kann, kann auch diese Option ändern, und wer den Schlüssel aus wp-config.php hat, kann die Kette neu versiegeln.": [
+        "Всеки запис пази хеш с ключ вместо адреса, броя записи по области и печат, включващ предходния запис. Промени, вмъквания, пренареждания или изтривания се откриват при проверка, докато опцията за края на веригата е непроменена; достъп за запис в базата позволява промяна на тази опция, а ключът от wp-config.php позволява повторно запечатване."
+      ],
+      "Nachweis": [
+        "Запис"
+      ],
+      "Hash der Adresse": [
+        "Хеш на адреса"
+      ],
+      "Einträge": [
+        "Записи"
+      ],
+      "Siegel": [
+        "Печат"
+      ],
+      "Zeitpunkt": [
+        "Време"
+      ],
+      "Noch keine Löschnachweise.": [
+        "Все още няма записи за изтриване."
+      ],
+      "ohne Siegelkette": [
+        "без верига от печати"
+      ],
+      "Beide Schalter sind standardmäßig ausgeschaltet, damit weder steuerrechtlich relevante Rechnungsdaten noch Löschnachweise unbeabsichtigt entfernt werden.": [
+        "И двата превключвателя са изключени по подразбиране, за да не бъдат неволно премахнати данъчно значими фактурни данни или записи за изтриване."
+      ],
+      "WooCommerce-Rechnungsfelder anonymisieren": [
+        "Анонимизиране на полетата за фактуриране в WooCommerce"
+      ],
+      "Überschreibt Vor- und Nachname, erste Adresszeile, Telefon und E-Mail in WooCommerce-Bestellungen der betroffenen Adresse. Erst nach Prüfung gesetzlicher Aufbewahrungsfristen (§ 147 AO, § 257 HGB) einschalten.": [
+        "Презаписва име, фамилия, първи ред на адреса, телефон и имейл в поръчките на WooCommerce за съответния адрес. Включете само след проверка на законовите срокове за съхранение (§ 147 AO, § 257 HGB)."
+      ],
+      "Alle Plugin-Daten bei Deinstallation löschen": [
+        "Изтриване на всички данни на разширението при деинсталиране"
+      ],
+      "Wenn aktiviert, entfernt die Deinstallation alle Plugin-Optionen sowie die Tabellen für Anträge und Löschnachweise unwiderruflich. Standardmäßig bleiben Nachweise und Optionen erhalten.": [
+        "Ако е активирано, деинсталирането необратимо премахва всички настройки на разширението и таблиците със заявки и записи за изтриване. По подразбиране записите и настройките се запазват."
+      ],
+      "Einstellungen speichern": [
+        "Запази настройките"
+      ],
+      "Was bei einer Löschung passiert": [
+        "Какво се случва при изтриване"
+      ],
+      "Kommentare mit dieser Adresse: Name, Adresse, URL, IP, Browserkennung und Benutzerzuordnung werden überschrieben, der Text durch „[Inhalt auf Antrag nach Art. 17 DSGVO gelöscht]“ ersetzt. Die Kommentare selbst bleiben stehen.": [
+        "Коментари с този адрес: име, имейл, URL, IP, браузър и потребител се презаписват, а текстът се заменя с „[Съдържанието е изтрито по заявка съгласно чл. 17 от ОРЗД]“. Самите коментари остават."
+      ],
+      "Benutzerkonto mit dieser Adresse: wird mit wp_delete_user() gelöscht, dabei auch die Beiträge, die dieses Konto verfasst hat. Konten mit der Rolle Administrator werden nicht gelöscht; der Nachweis vermerkt das. In einer Multisite entfernt wp_delete_user() das Konto nur aus dieser Website; der Nachweis vermerkt removed_from_this_site.": [
+        "Потребителски профил с този адрес: изтрива се чрез wp_delete_user() заедно с неговите публикации. Администраторски профили не се изтриват и това се отбелязва в записа. При Multisite профилът се премахва само от текущия сайт (removed_from_this_site)."
+      ],
+      "WooCommerce-Bestellungen: nur wenn die Option wm_dsgvo_anonymize_wc_orders an ist, und nur Vor- und Nachname, erste Adresszeile, E-Mail und Telefon der Rechnungsadresse, über die Bestellobjekte von WooCommerce (HPOS und Beitragsspeicher). Standard ist aus, weil Rechnungsdaten Aufbewahrungsfristen unterliegen können (§ 147 AO, § 257 HGB); ob eine greift, entscheidet das Plugin nicht.": [
+        "Поръчки в WooCommerce: само при включена опция wm_dsgvo_anonymize_wc_orders; презаписват се име, фамилия, адрес, имейл и телефон за фактуриране чрез обектите за поръчки на WooCommerce (HPOS и публикации). Изключено по подразбиране заради счетоводни срокове за съхранение."
+      ],
+      "Nicht erfasst: Tabellen anderer Plugins (Formulare, Newsletter, Buchungen), Benutzer-Metadaten verbleibender Konten, Kommentar-Metadaten, Lieferadressen, Dateien, Logs, Caches und Backups. Die Datenschutz-Löschwerkzeuge von WordPress ruft das Plugin nicht auf.": [
+        "Не са обхванати: таблици на други разширения (формуляри, бюлетини, резервации), метаданни на запазени профили, адреси за доставка, файлове, логове, кеш и резервни копия."
+      ],
+      "Ob ein Antrag berechtigt ist, ob Ausnahmen nach Art. 17 Abs. 3 DSGVO greifen und welche Frist gilt, entscheidet das Plugin nicht.": [
+        "Разширението не преценява дали заявката е основателна, дали важат изключенията по чл. 17, пар. 3 от ОРЗД или кой срок се прилага."
+      ],
+      "Zu viele Anfragen. Bitte versuchen Sie es in einer Minute erneut.": [
+        "Твърде много заявки. Опитайте отново след минута."
+      ],
+      "Bitte geben Sie eine gültige E-Mail-Adresse an.": [
+        "Моля, посочете валиден имейл адрес."
+      ],
+      "Der Antrag wurde entgegengenommen. Ist die Adresse gültig, geht an sie ein Bestätigungslink; gelöscht wird erst nach dessen Aufruf.": [
+        "Заявката е приета. Ако адресът е валиден, до него ще бъде изпратена връзка за потвърждение; изтриването се извършва само след потвърждение."
+      ],
+      "WM Privacy Eraser Status": [
+        "Състояние на WM Privacy Eraser"
+      ],
+      "Aktueller Status des Art.-17-DSGVO-Löschportals.": [
+        "Текущо състояние на портала за изтриване по чл. 17 от ОРЗД."
+      ],
+      "Art. 17 DSGVO Löschportal aktiv (%d versiegelte Nachweise)": [
+        "Порталът за изтриване по чл. 17 от ОРЗД е активен (%d запечатани записа)"
+      ],
+      "Art. 17 DSGVO Löschportal aktiv": [
+        "Порталът за изтриване по чл. 17 от ОРЗД е активен"
+      ],
+      "Art. 17 DSGVO Löschportal: Kette prüfen": [
+        "Портал за изтриване по чл. 17 от ОРЗД: проверете веригата"
+      ],
+      "Löschung bestätigen": [
+        "Потвърждаване на изтриването"
+      ],
+      "Das Öffnen dieses Links hat noch nichts gelöscht. Mit der Schaltfläche unten werden zu der Adresse, für die der Antrag gestellt wurde, die Kommentare auf dieser Website anonymisiert und ein Benutzerkonto gelöscht (außer Administratorkonten); ist es eingeschaltet, werden auch Rechnungsfelder von WooCommerce-Bestellungen anonymisiert. Die Löschung ist unwiderruflich.": [
+        "Отварянето на тази връзка все още не е изтрило нищо. С бутона по-долу ще бъдат анонимизирани коментарите в този сайт за заявения адрес и ще бъде изтрит потребителският профил (без администратори); ако е включено, ще бъдат анонимизирани и данните за фактуриране в WooCommerce. Изтриването е необратимо."
+      ],
+      "Löschung jetzt ausführen": [
+        "Изпълни изтриването сега"
+      ],
+      "Löschung ausgeführt": [
+        "Изтриването е изпълнено"
+      ],
+      "%1$d Einträge wurden gelöscht oder anonymisiert. Kennung des Löschnachweises: %2$s": [
+        "%1$d записа бяха изтрити или анонимизирани. Идентификатор на записа: %2$s"
+      ],
+      "Löschung nicht vollständig": [
+        "Изтриването е непълно"
+      ],
+      "Nicht alle Daten konnten geändert werden, oder der Löschnachweis wurde nicht gespeichert. Der Antrag ist als fehlgeschlagen vermerkt; bitte wenden Sie sich an den Betreiber dieser Website.": [
+        "Не всички данни можаха да бъдат променени или записът за изтриване не беше съхранен. Заявката е отбелязана като неуспешна; свържете се с администратора на сайта."
+      ],
+      "Kennung des Löschnachweises: %s": [
+        "Идентификатор на записа: %s"
+      ],
+      "Antrag nicht verarbeitet": [
+        "Заявката не е обработена"
+      ],
+      "Der Antrag konnte nicht verarbeitet werden. Bitte stellen Sie ihn erneut.": [
+        "Заявката не можа да бъде обработена. Моля, подайте я отново."
+      ],
+      "Link nicht gültig": [
+        "Невалидна връзка"
+      ],
+      "Der Bestätigungslink ist ungültig, abgelaufen oder wurde bereits verwendet.": [
+        "Връзката за потвърждение е невалидна, изтекла или вече използвана."
+      ],
+      "Bitte geben Sie eine gültige E-Mail-Adresse ein.": [
+        "Моля, въведете валиден имейл адрес."
+      ],
+      "Antrag wird übermittelt …": [
+        "Изпращане на заявката …"
+      ],
+      "Bestätigung erforderlich": [
+        "Изисква се потвърждение"
+      ],
+      "Ist die Adresse gültig, geht an sie ein Bestätigungslink. Gelöscht wird erst, wenn die Löschung auf der verlinkten Seite bestätigt wird. Der Link ist %d Stunden gültig und nur einmal verwendbar.": [
+        "Ако адресът е валиден, до него е изпратена връзка за потвърждение. Изтриването се извършва едва след потвърждение на отворената страница. Връзката е валидна %d часа и е за еднократна употреба."
+      ],
+      "Der Antrag konnte nicht übermittelt werden:": [
+        "Заявката не можа да бъде изпратена:"
+      ],
+      "unbekannter Fehler": [
+        "неизвестна грешка"
+      ],
+      "Der Antrag konnte nicht übermittelt werden: Verbindungsfehler.": [
+        "Заявката не можа да бъде изпратена: грешка във връзката."
+      ],
+      "Antrag auf Datenlöschung (Art. 17 DSGVO)": [
+        "Заявка за изтриване на данни (чл. 17 от ОРЗД)"
+      ],
+      "Gemäß Art. 17 DSGVO (\"Recht auf Vergessenwerden\") haben Sie das Recht auf unverzügliche Löschung Ihrer personenbezogenen Daten. Zur Bestätigung Ihrer Identität nach Art. 12 Abs. 6 DSGVO senden wir Ihnen zunächst einen einmaligen Bestätigungslink. Erst nach dessen Aufruf wird gelöscht und ein kryptografisches Löschzertifikat ausgestellt.": [
+        "Съгласно чл. 17 от ОРЗД („право да бъдеш забравен“) имате право да поискате изтриване на личните си данни. За потвърждение на самоличността по чл. 12, пар. 6 от ОРЗД първо изпращаме еднократна връзка за потвърждение. Едва след потвърждение данните се изтриват и се издава криптографско удостоверение."
+      ],
+      "Ihre hinterlegte E-Mail-Adresse:": [
+        "Вашият регистриран имейл адрес:"
+      ],
+      "ihre-email@example.com": [
+        "vashiyat-imeyl@example.com"
+      ],
+      "Löschantrag übermitteln": [
+        "Изпрати заявка за изтриване"
+      ],
+      "[%s] Löschantrag bestätigen (Art. 17 DSGVO)": [
+        "[%s] Потвърдете заявка за изтриване (чл. 17 от ОРЗД)"
+      ],
+      "DSGVO Löschantrag (Art. 17)": [
+        "ОРЗД заявка за изтриване (чл. 17)"
+      ],
+      "Öffentliches Formular für Löschanträge nach Art. 17 DSGVO mit Einmal-Bestätigungslink.": [
+        "Публичен формуляр за заявки за изтриване по чл. 17 от ОРЗД с еднократна връзка за потвърждение."
+      ],
+      "Formulareinstellungen": [
+        "Настройки на формуляра"
+      ],
+      "Hinweistext anzeigen": [
+        "Показване на пояснителния текст"
+      ],
+      "Blendet den erläuternden Hinweis oberhalb des E-Mail-Feldes ein oder aus.": [
+        "Показва или скрива пояснителната бележка над полето за имейл."
+      ],
+      "block title\u0004DSGVO Löschantrag (Art. 17)": [
+        "ОРЗД заявка за изтриване (чл. 17)"
+      ],
+      "block description\u0004Öffentliches Formular für Löschanträge nach Art. 17 DSGVO mit Einmal-Bestätigungslink.": [
+        "Публичен формуляр за заявки за изтриване по чл. 17 от ОРЗД с еднократна връзка за потвърждение."
+      ],
+      "block keyword\u0004dsgvo": [
+        "орзд"
+      ],
+      "block keyword\u0004gdpr": [
+        "защита-на-данните"
+      ],
+      "block keyword\u0004löschung": [
+        "изтриване"
+      ],
+      "block keyword\u0004erasure": [
+        "заличаване"
+      ],
+      "block keyword\u0004datenschutz": [
+        "поверителност"
+      ],
+      "block keyword\u0004privacy": [
+        "лични-данни"
+      ]
+    }
+  }
+}

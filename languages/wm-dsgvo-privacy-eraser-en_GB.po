@@ -1,0 +1,691 @@
+# Translation of wm-dsgvo-privacy-eraser in en_GB
+# Copyright (C) 2026 Arnold Wender
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: wm-dsgvo-privacy-eraser 1.4.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wm-dsgvo-privacy-"
+"eraser\n"
+"POT-Creation-Date: 2026-11-21T13:14:19+00:00\n"
+"PO-Revision-Date: 2026-11-21 14:14+0100\n"
+"Last-Translator: WM Suite <https://github.com/arnoldwender/wm-wp-dsgvo-"
+"privacy-eraser/issues>\n"
+"Language-Team: WM Suite <https://github.com/arnoldwender/wm-wp-dsgvo-privacy-"
+"eraser/issues>\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: WM Suite i18n Compiler 2026\n"
+"X-Domain: wm-dsgvo-privacy-eraser\n"
+
+#. Plugin Name of the plugin
+#: wm-dsgvo-privacy-eraser.php
+msgid "WM DSGVO Art. 17 Cryptographic Privacy Eraser"
+msgstr "WM GDPR Art. 17 Cryptographic Privacy Eraser"
+
+#. Plugin URI of the plugin
+#: wm-dsgvo-privacy-eraser.php
+msgid "https://arnoldwender.com/wordpress-plugins/wm-dsgvo-privacy-eraser/"
+msgstr "https://arnoldwender.com/wordpress-plugins/wm-dsgvo-privacy-eraser/"
+
+#. Description of the plugin
+#: wm-dsgvo-privacy-eraser.php
+msgid ""
+"Löschanträge nach Art. 17 DSGVO mit Bestätigungslink an die Adresse; danach "
+"werden Kommentare anonymisiert, das Benutzerkonto (außer Administratoren) "
+"gelöscht und optional WooCommerce-Rechnungsfelder anonymisiert. Jede "
+"Löschung erhält einen HMAC-verketteten Nachweis. Keine rechtliche Prüfung "
+"des Antrags."
+msgstr ""
+"GDPR Art. 17 erasure requests confirmed via a link sent to the address; "
+"thereafter comments are anonymised, the user account (except administrators) "
+"is deleted and WooCommerce billing fields are optionally anonymised. Each "
+"erasure receives an HMAC-chained record. No legal assessment of the request."
+
+#. Author of the plugin
+#: wm-dsgvo-privacy-eraser.php
+msgid "Arnold Wender"
+msgstr "Arnold Wender"
+
+#. Author URI of the plugin
+#: wm-dsgvo-privacy-eraser.php
+msgid "https://arnoldwender.com"
+msgstr "https://arnoldwender.com"
+
+#. translators: %d: number of verified certificates
+#: includes/Admin/AdminDashboard.php:109
+#, php-format
+msgid "Kette geprüft: %d versiegelte Nachweise stimmen"
+msgstr "Chain verified: %d sealed records match"
+
+#: includes/Admin/AdminDashboard.php:112
+msgid "Noch keine Löschnachweise"
+msgstr "No erasure records yet"
+
+#: includes/Admin/AdminDashboard.php:113
+msgid "Kette gebrochen"
+msgstr "Chain broken"
+
+#: includes/Admin/AdminDashboard.php:124 includes/Admin/AdminDashboard.php:225
+msgid "WM DSGVO Privacy Eraser"
+msgstr "WM GDPR Privacy Eraser"
+
+#: includes/Admin/AdminDashboard.php:144 includes/Admin/AdminDashboard.php:214
+#: includes/Admin/AdminDashboard.php:250
+msgid "Löschnachweise"
+msgstr "Erasure records"
+
+#: includes/Admin/AdminDashboard.php:148
+msgid "Offene Anträge"
+msgstr "Open requests"
+
+#: includes/Admin/AdminDashboard.php:154
+msgid "Privacy Eraser öffnen"
+msgstr "Open Privacy Eraser"
+
+#: includes/Admin/AdminDashboard.php:173
+msgid "WM Privacy Eraser"
+msgstr "WM Privacy Eraser"
+
+#: includes/Admin/AdminDashboard.php:174
+msgid "Privacy Eraser"
+msgstr "Privacy Eraser"
+
+#: includes/Admin/AdminDashboard.php:212
+msgid "Übersicht"
+msgstr "Overview"
+
+#: includes/Admin/AdminDashboard.php:213
+msgid "Antrag stellen"
+msgstr "File request"
+
+#: includes/Admin/AdminDashboard.php:215
+msgid "Was gelöscht wird"
+msgstr "What is erased"
+
+#: includes/Admin/AdminDashboard.php:216 includes/Admin/AdminDashboard.php:394
+msgid "Einstellungen"
+msgstr "Settings"
+
+#: includes/Admin/AdminDashboard.php:226
+msgid ""
+"Löschanträge mit Bestätigungslink, Löschung bzw. Anonymisierung der Daten, "
+"die WordPress selbst zu einer E-Mail-Adresse hält, und ein verketteter "
+"Nachweis je Löschung. Es ersetzt keine rechtliche Prüfung des Antrags."
+msgstr ""
+"Erasure requests with a confirmation link, deletion or anonymisation of the "
+"data WordPress itself holds for an email address, and a chained record per "
+"erasure. Does not replace a legal review of the request."
+
+#: includes/Admin/AdminDashboard.php:229
+msgid "Part of the WM Suite plugin family"
+msgstr "Part of the WM Suite plugin family"
+
+#: includes/Admin/AdminDashboard.php:231
+msgid "WM Suite"
+msgstr "WM Suite"
+
+#: includes/Admin/AdminDashboard.php:232
+msgid "Hub"
+msgstr "Hub"
+
+#: includes/Admin/AdminDashboard.php:232
+msgid "Standalone"
+msgstr "Standalone"
+
+#: includes/Admin/AdminDashboard.php:237 includes/Admin/AdminDashboard.php:368
+msgid "Bereiche"
+msgstr "Areas"
+
+#: includes/Admin/AdminDashboard.php:245
+msgid "Stand dieser Website"
+msgstr "Status of this site"
+
+#: includes/Admin/AdminDashboard.php:246
+msgid "Beim Aufruf dieser Seite aus der Datenbank gelesen."
+msgstr "Read from the database when this page loaded."
+
+#: includes/Admin/AdminDashboard.php:254
+msgid "Gelöschte oder anonymisierte Einträge laut Nachweisen"
+msgstr "Deleted or anonymised entries according to records"
+
+#: includes/Admin/AdminDashboard.php:258
+msgid "Offene Anträge (Adresse noch gespeichert)"
+msgstr "Open requests (address still stored)"
+
+#: includes/Admin/AdminDashboard.php:262
+msgid "Nachweiskette"
+msgstr "Record chain"
+
+#. translators: %d: number of certificates issued before the chain existed
+#: includes/Admin/AdminDashboard.php:272
+#, php-format
+msgid "%d ältere Nachweise ohne Siegel, nicht prüfbar."
+msgstr "%d older records without seal, not verifiable."
+
+#: includes/Admin/AdminDashboard.php:278
+msgid "Verschlüsselung offener Adressen (libsodium)"
+msgstr "Encryption of open addresses (libsodium)"
+
+#: includes/Admin/AdminDashboard.php:279
+msgid "verfügbar"
+msgstr "available"
+
+#: includes/Admin/AdminDashboard.php:279
+msgid "nicht verfügbar: Adressen werden im Klartext gespeichert"
+msgstr "unavailable: addresses are stored in plain text"
+
+#: includes/Admin/AdminDashboard.php:282
+msgid ""
+"WooCommerce-Rechnungsfelder anonymisieren (wm_dsgvo_anonymize_wc_orders)"
+msgstr "Anonymise WooCommerce billing fields (wm_dsgvo_anonymize_wc_orders)"
+
+#: includes/Admin/AdminDashboard.php:283 includes/Admin/AdminDashboard.php:287
+msgid "an"
+msgstr "on"
+
+#: includes/Admin/AdminDashboard.php:283
+msgid "aus (Standard)"
+msgstr "off (default)"
+
+#: includes/Admin/AdminDashboard.php:286
+msgid ""
+"Daten bei Deinstallation löschen (wm_dsgvo_eraser_delete_data_on_uninstall)"
+msgstr "Delete data on uninstall (wm_dsgvo_eraser_delete_data_on_uninstall)"
+
+#: includes/Admin/AdminDashboard.php:287
+msgid "aus (Standard: Nachweise bleiben erhalten)"
+msgstr "off (default: records are preserved)"
+
+#: includes/Admin/AdminDashboard.php:295
+msgid "Löschantrag für eine Adresse stellen"
+msgstr "File an erasure request for an address"
+
+#. translators: %d: hours the confirmation link stays valid
+#: includes/Admin/AdminDashboard.php:301
+#, php-format
+msgid ""
+"Legt denselben Antrag an wie das Formular auf der Website: An die Adresse "
+"geht ein Bestätigungslink, %d Stunden gültig. Gelöscht wird erst, wenn die "
+"Löschung auf der verlinkten Seite bestätigt wird. Eine sofortige Löschung "
+"ohne Bestätigung gibt es nur über WP-CLI (wp dsgvo erase), nachdem Sie die "
+"Identität selbst geprüft haben."
+msgstr ""
+"Creates the same request as the form on the website: a confirmation link "
+"valid for %d hours is sent to the address. Nothing is erased until confirmed "
+"on the linked page. Immediate erasure without confirmation is only available "
+"via WP-CLI (wp dsgvo erase) after you have verified identity yourself."
+
+#: includes/Admin/AdminDashboard.php:308
+msgid "E-Mail-Adresse der betroffenen Person"
+msgstr "Data subject's email address"
+
+#: includes/Admin/AdminDashboard.php:311
+msgid "Bestätigungslink senden"
+msgstr "Send confirmation link"
+
+#: includes/Admin/AdminDashboard.php:321
+msgid "Bitte eine E-Mail-Adresse eingeben."
+msgstr "Please enter an email address."
+
+#: includes/Admin/AdminDashboard.php:324
+msgid "Wird übermittelt …"
+msgstr "Submitting …"
+
+#. translators: 1: requests per address, 2: hours, 3: requests per IP per hour
+#: includes/Admin/AdminDashboard.php:337
+#, php-format
+msgid ""
+"Antrag übermittelt. Ein Bestätigungslink geht nur hinaus, wenn die Adresse "
+"gültig ist, keines der Limits greift (%1$d Anträge je Adresse in %2$d "
+"Stunden, %3$d je IP pro Stunde, Ihre eigene IP zählt mit) und der "
+"Mailversand gelingt; diese Seite erfährt das nicht. Noch ist nichts gelöscht."
+msgstr ""
+"Request submitted. A confirmation link is only sent if the address is valid, "
+"none of the limits apply (%1$d requests per address in %2$d hours, %3$d per "
+"IP per hour, your own IP included) and mail delivery succeeds; this page "
+"does not learn which applied. Nothing has been erased yet."
+
+#: includes/Admin/AdminDashboard.php:344
+msgid "Der Antrag konnte nicht angelegt werden."
+msgstr "The request could not be created."
+
+#: includes/Admin/AdminDashboard.php:347
+msgid "Verbindungsfehler."
+msgstr "Connection error."
+
+#: includes/Admin/AdminDashboard.php:360
+msgid "Letzte zehn Löschnachweise"
+msgstr "Last ten erasure records"
+
+#: includes/Admin/AdminDashboard.php:361
+msgid ""
+"Jeder Nachweis speichert statt der Adresse einen geschlüsselten Hash, die "
+"Anzahl der Einträge je Bereich und ein Siegel, das den vorherigen Nachweis "
+"einschließt. Bearbeitete, eingefügte, umsortierte oder gelöschte Nachweise "
+"fallen bei der Prüfung auf, solange die Option mit dem Kettenende "
+"unverändert ist; wer die Datenbank schreiben kann, kann auch diese Option "
+"ändern, und wer den Schlüssel aus wp-config.php hat, kann die Kette neu "
+"versiegeln."
+msgstr ""
+"Each record stores a keyed hash instead of the address, the count of entries "
+"per area and a seal binding the preceding record. Edited, inserted, "
+"reordered or deleted records fail verification while the chain-tip option "
+"remains unchanged; anyone with database write access can alter that option, "
+"and anyone holding wp-config.php can re-seal the chain."
+
+#: includes/Admin/AdminDashboard.php:365
+msgid "Nachweis"
+msgstr "Record"
+
+#: includes/Admin/AdminDashboard.php:366
+msgid "Hash der Adresse"
+msgstr "Address hash"
+
+#: includes/Admin/AdminDashboard.php:367
+msgid "Einträge"
+msgstr "Entries"
+
+#: includes/Admin/AdminDashboard.php:369
+msgid "Siegel"
+msgstr "Seal"
+
+#: includes/Admin/AdminDashboard.php:370
+msgid "Zeitpunkt"
+msgstr "Timestamp"
+
+#: includes/Admin/AdminDashboard.php:375
+msgid "Noch keine Löschnachweise."
+msgstr "No erasure records yet."
+
+#: includes/Admin/AdminDashboard.php:383
+msgid "ohne Siegelkette"
+msgstr "unchained"
+
+#: includes/Admin/AdminDashboard.php:395
+msgid ""
+"Beide Schalter sind standardmäßig ausgeschaltet, damit weder steuerrechtlich "
+"relevante Rechnungsdaten noch Löschnachweise unbeabsichtigt entfernt werden."
+msgstr ""
+"Both switches are off by default so neither tax-relevant billing data nor "
+"erasure records are removed unintentionally."
+
+#: includes/Admin/AdminDashboard.php:406
+msgid "WooCommerce-Rechnungsfelder anonymisieren"
+msgstr "Anonymise WooCommerce billing fields"
+
+#: includes/Admin/AdminDashboard.php:410
+msgid ""
+"Überschreibt Vor- und Nachname, erste Adresszeile, Telefon und E-Mail in "
+"WooCommerce-Bestellungen der betroffenen Adresse. Erst nach Prüfung "
+"gesetzlicher Aufbewahrungsfristen (§ 147 AO, § 257 HGB) einschalten."
+msgstr ""
+"Overwrites first name, last name, first address line, phone and email on "
+"WooCommerce orders for the address. Enable only after checking statutory "
+"retention periods (§ 147 AO, § 257 HGB)."
+
+#: includes/Admin/AdminDashboard.php:415
+msgid "Alle Plugin-Daten bei Deinstallation löschen"
+msgstr "Delete all plugin data on uninstall"
+
+#: includes/Admin/AdminDashboard.php:419
+msgid ""
+"Wenn aktiviert, entfernt die Deinstallation alle Plugin-Optionen sowie die "
+"Tabellen für Anträge und Löschnachweise unwiderruflich. Standardmäßig "
+"bleiben Nachweise und Optionen erhalten."
+msgstr ""
+"When enabled, uninstalling permanently removes all plugin options and drops "
+"the requests and erasure records tables. By default, records and options are "
+"kept."
+
+#: includes/Admin/AdminDashboard.php:424
+msgid "Einstellungen speichern"
+msgstr "Save settings"
+
+#: includes/Admin/AdminDashboard.php:430
+msgid "Was bei einer Löschung passiert"
+msgstr "What happens during an erasure"
+
+#: includes/Admin/AdminDashboard.php:432
+msgid ""
+"Kommentare mit dieser Adresse: Name, Adresse, URL, IP, Browserkennung und "
+"Benutzerzuordnung werden überschrieben, der Text durch „[Inhalt auf Antrag "
+"nach Art. 17 DSGVO gelöscht]“ ersetzt. Die Kommentare selbst bleiben stehen."
+msgstr ""
+"Comments with this address: name, address, URL, IP, user agent and user "
+"association are overwritten, and the text is replaced with “[Content deleted "
+"on request under Art. 17 GDPR]”. The comments themselves remain."
+
+#: includes/Admin/AdminDashboard.php:433
+msgid ""
+"Benutzerkonto mit dieser Adresse: wird mit wp_delete_user() gelöscht, dabei "
+"auch die Beiträge, die dieses Konto verfasst hat. Konten mit der Rolle "
+"Administrator werden nicht gelöscht; der Nachweis vermerkt das. In einer "
+"Multisite entfernt wp_delete_user() das Konto nur aus dieser Website; der "
+"Nachweis vermerkt removed_from_this_site."
+msgstr ""
+"User account with this address: deleted via wp_delete_user(), including "
+"posts authored by that account. Administrator accounts are never deleted and "
+"the record notes this. On Multisite, wp_delete_user() removes the account "
+"only from this site and records removed_from_this_site."
+
+#: includes/Admin/AdminDashboard.php:434
+msgid ""
+"WooCommerce-Bestellungen: nur wenn die Option wm_dsgvo_anonymize_wc_orders "
+"an ist, und nur Vor- und Nachname, erste Adresszeile, E-Mail und Telefon der "
+"Rechnungsadresse, über die Bestellobjekte von WooCommerce (HPOS und "
+"Beitragsspeicher). Standard ist aus, weil Rechnungsdaten "
+"Aufbewahrungsfristen unterliegen können (§ 147 AO, § 257 HGB); ob eine "
+"greift, entscheidet das Plugin nicht."
+msgstr ""
+"WooCommerce orders: only when wm_dsgvo_anonymize_wc_orders is on, "
+"overwriting billing first and last name, first address line, email and phone "
+"through WooCommerce order objects (HPOS and post storage). Off by default "
+"because billing data may be subject to statutory retention (§ 147 AO, § 257 "
+"HGB); the plugin does not decide which applies."
+
+#: includes/Admin/AdminDashboard.php:435
+msgid ""
+"Nicht erfasst: Tabellen anderer Plugins (Formulare, Newsletter, Buchungen), "
+"Benutzer-Metadaten verbleibender Konten, Kommentar-Metadaten, "
+"Lieferadressen, Dateien, Logs, Caches und Backups. Die Datenschutz-"
+"Löschwerkzeuge von WordPress ruft das Plugin nicht auf."
+msgstr ""
+"Not covered: tables of other plugins (forms, newsletters, bookings), user "
+"meta of retained accounts, comment meta, shipping addresses, files, logs, "
+"caches and backups. WordPress core privacy erasers are not invoked."
+
+#: includes/Admin/AdminDashboard.php:436
+msgid ""
+"Ob ein Antrag berechtigt ist, ob Ausnahmen nach Art. 17 Abs. 3 DSGVO greifen "
+"und welche Frist gilt, entscheidet das Plugin nicht."
+msgstr ""
+"Whether a request is justified, whether Art. 17(3) GDPR exceptions apply and "
+"which retention period governs is not decided by the plugin."
+
+#: includes/API/RestController.php:100
+msgid "Zu viele Anfragen. Bitte versuchen Sie es in einer Minute erneut."
+msgstr "Too many requests. Please try again in a minute."
+
+#: includes/API/RestController.php:137
+msgid "Bitte geben Sie eine gültige E-Mail-Adresse an."
+msgstr "Please provide a valid email address."
+
+#: includes/API/RestController.php:146
+msgid ""
+"Der Antrag wurde entgegengenommen. Ist die Adresse gültig, geht an sie ein "
+"Bestätigungslink; gelöscht wird erst nach dessen Aufruf."
+msgstr ""
+"The request has been received. If the address is valid, a confirmation link "
+"will be sent to it; erasure takes place only after confirmation."
+
+#: includes/Frontend/EcosystemIntegration.php:33
+#: includes/Frontend/EcosystemIntegration.php:43
+msgid "WM Privacy Eraser Status"
+msgstr "WM Privacy Eraser Status"
+
+#: includes/Frontend/EcosystemIntegration.php:47
+msgid "Aktueller Status des Art.-17-DSGVO-Löschportals."
+msgstr "Current status of the Art. 17 GDPR erasure portal."
+
+#. translators: %d: number of verified certificates
+#: includes/Frontend/EcosystemIntegration.php:112
+#, php-format
+msgid "Art. 17 DSGVO Löschportal aktiv (%d versiegelte Nachweise)"
+msgstr "Art. 17 GDPR erasure portal active (%d sealed records)"
+
+#: includes/Frontend/EcosystemIntegration.php:115
+msgid "Art. 17 DSGVO Löschportal aktiv"
+msgstr "Art. 17 GDPR erasure portal active"
+
+#: includes/Frontend/EcosystemIntegration.php:116
+msgid "Art. 17 DSGVO Löschportal: Kette prüfen"
+msgstr "Art. 17 GDPR erasure portal: check chain"
+
+#: includes/Frontend/ErasureConfirmationPage.php:72
+msgid "Löschung bestätigen"
+msgstr "Confirm erasure"
+
+#: includes/Frontend/ErasureConfirmationPage.php:73
+msgid ""
+"Das Öffnen dieses Links hat noch nichts gelöscht. Mit der Schaltfläche unten "
+"werden zu der Adresse, für die der Antrag gestellt wurde, die Kommentare auf "
+"dieser Website anonymisiert und ein Benutzerkonto gelöscht (außer "
+"Administratorkonten); ist es eingeschaltet, werden auch Rechnungsfelder von "
+"WooCommerce-Bestellungen anonymisiert. Die Löschung ist unwiderruflich."
+msgstr ""
+"Opening this link has not erased anything yet. Clicking the button below "
+"will anonymise comments on this website for the requested address and delete "
+"its user account (except administrators); if enabled, WooCommerce order "
+"billing fields will also be anonymised. Erasure is irreversible."
+
+#: includes/Frontend/ErasureConfirmationPage.php:78
+msgid "Löschung jetzt ausführen"
+msgstr "Execute erasure now"
+
+#: includes/Frontend/ErasureConfirmationPage.php:83
+msgid "Löschung ausgeführt"
+msgstr "Erasure executed"
+
+#. translators: 1: number of entries, 2: record id
+#: includes/Frontend/ErasureConfirmationPage.php:87
+#, php-format
+msgid ""
+"%1$d Einträge wurden gelöscht oder anonymisiert. Kennung des "
+"Löschnachweises: %2$s"
+msgstr "%1$d entries were deleted or anonymised. Erasure record ID: %2$s"
+
+#: includes/Frontend/ErasureConfirmationPage.php:95
+msgid "Löschung nicht vollständig"
+msgstr "Erasure incomplete"
+
+#: includes/Frontend/ErasureConfirmationPage.php:96
+msgid ""
+"Nicht alle Daten konnten geändert werden, oder der Löschnachweis wurde nicht "
+"gespeichert. Der Antrag ist als fehlgeschlagen vermerkt; bitte wenden Sie "
+"sich an den Betreiber dieser Website."
+msgstr ""
+"Not all data could be updated, or the erasure record could not be stored. "
+"The request is marked as failed; please contact the operator of this website."
+
+#. translators: %s: record id
+#: includes/Frontend/ErasureConfirmationPage.php:99
+#, php-format
+msgid "Kennung des Löschnachweises: %s"
+msgstr "Erasure record ID: %s"
+
+#: includes/Frontend/ErasureConfirmationPage.php:104
+msgid "Antrag nicht verarbeitet"
+msgstr "Request not processed"
+
+#: includes/Frontend/ErasureConfirmationPage.php:105
+msgid ""
+"Der Antrag konnte nicht verarbeitet werden. Bitte stellen Sie ihn erneut."
+msgstr "The request could not be processed. Please submit it again."
+
+#: includes/Frontend/ErasureConfirmationPage.php:109
+msgid "Link nicht gültig"
+msgstr "Invalid link"
+
+#: includes/Frontend/ErasureConfirmationPage.php:110
+msgid ""
+"Der Bestätigungslink ist ungültig, abgelaufen oder wurde bereits verwendet."
+msgstr "The confirmation link is invalid, expired or has already been used."
+
+#: includes/Frontend/ErasureRequestForm.php:76
+msgid "Bitte geben Sie eine gültige E-Mail-Adresse ein."
+msgstr "Please enter a valid email address."
+
+#: includes/Frontend/ErasureRequestForm.php:77
+msgid "Antrag wird übermittelt …"
+msgstr "Submitting request …"
+
+#: includes/Frontend/ErasureRequestForm.php:78
+msgid "Bestätigung erforderlich"
+msgstr "Confirmation required"
+
+#. translators: %d: hours the confirmation link stays valid
+#: includes/Frontend/ErasureRequestForm.php:81
+#, php-format
+msgid ""
+"Ist die Adresse gültig, geht an sie ein Bestätigungslink. Gelöscht wird "
+"erst, wenn die Löschung auf der verlinkten Seite bestätigt wird. Der Link "
+"ist %d Stunden gültig und nur einmal verwendbar."
+msgstr ""
+"If the address is valid, a confirmation link has been sent to it. Erasure "
+"occurs only after confirmation on the linked page. The link is valid for %d "
+"hours and can be used once."
+
+#: includes/Frontend/ErasureRequestForm.php:84
+msgid "Der Antrag konnte nicht übermittelt werden:"
+msgstr "The request could not be submitted:"
+
+#: includes/Frontend/ErasureRequestForm.php:85
+msgid "unbekannter Fehler"
+msgstr "unknown error"
+
+#: includes/Frontend/ErasureRequestForm.php:86
+msgid "Der Antrag konnte nicht übermittelt werden: Verbindungsfehler."
+msgstr "The request could not be submitted: connection error."
+
+#: includes/Frontend/ErasureRequestForm.php:144
+msgid "Antrag auf Datenlöschung (Art. 17 DSGVO)"
+msgstr "Data Erasure Request (Art. 17 GDPR)"
+
+#: includes/Frontend/ErasureRequestForm.php:147
+msgid ""
+"Gemäß Art. 17 DSGVO (\"Recht auf Vergessenwerden\") haben Sie das Recht auf "
+"unverzügliche Löschung Ihrer personenbezogenen Daten. Zur Bestätigung Ihrer "
+"Identität nach Art. 12 Abs. 6 DSGVO senden wir Ihnen zunächst einen "
+"einmaligen Bestätigungslink. Erst nach dessen Aufruf wird gelöscht und ein "
+"kryptografisches Löschzertifikat ausgestellt."
+msgstr ""
+"Under Art. 17 GDPR (\"Right to erasure\"), you may request the erasure of "
+"your personal data. To confirm access to the mailbox under Art. 12(6) GDPR, "
+"we first send a single-use confirmation link. Data is erased and a "
+"cryptographic erasure record is issued only after confirmation."
+
+#: includes/Frontend/ErasureRequestForm.php:152
+msgid "Ihre hinterlegte E-Mail-Adresse:"
+msgstr "Your registered email address:"
+
+#: includes/Frontend/ErasureRequestForm.php:153
+msgid "ihre-email@example.com"
+msgstr "your-email@example.com"
+
+#: includes/Frontend/ErasureRequestForm.php:157
+msgid "Löschantrag übermitteln"
+msgstr "Submit erasure request"
+
+#. translators: %s: Site name
+#: includes/Request/ErasureRequestManager.php:151
+#, php-format
+msgid "[%s] Löschantrag bestätigen (Art. 17 DSGVO)"
+msgstr "[%s] Confirm erasure request (Art. 17 GDPR)"
+
+#. translators: 1: Confirmation URL, 2: Validity in hours
+#: includes/Request/ErasureRequestManager.php:157
+#, php-format
+msgid ""
+"Für diese E-Mail-Adresse wurde ein Antrag auf Löschung personenbezogener "
+"Daten nach Art. 17 DSGVO gestellt.\n"
+"\n"
+"Die Löschung wird erst ausgeführt, wenn Sie diesen Link öffnen und sie auf "
+"der Seite bestätigen:\n"
+"\n"
+"%1$s\n"
+"\n"
+"Der Link ist %2$d Stunden gültig und kann nur einmal verwendet werden.\n"
+"\n"
+"Wenn Sie diesen Antrag nicht gestellt haben, ignorieren Sie diese E-Mail. Es "
+"wird nichts gelöscht.\n"
+"\n"
+"Achtung: Die Löschung ist unwiderruflich."
+msgstr ""
+"A request to erase personal data under Art. 17 GDPR was submitted for this "
+"email address.\n"
+"\n"
+"Erasure will only take place if you open this link and confirm on the page:\n"
+"\n"
+"%1$s\n"
+"\n"
+"The link is valid for %2$d hours and can only be used once.\n"
+"\n"
+"If you did not submit this request, please ignore this email. Nothing will "
+"be erased.\n"
+"\n"
+"Note: Erasure is irreversible."
+
+#: blocks-src/index.js:18
+msgid "DSGVO Löschantrag (Art. 17)"
+msgstr "GDPR Erasure Request (Art. 17)"
+
+#: blocks-src/index.js:19
+msgid ""
+"Öffentliches Formular für Löschanträge nach Art. 17 DSGVO mit Einmal-"
+"Bestätigungslink."
+msgstr ""
+"Public form for Art. 17 GDPR erasure requests with a single-use confirmation "
+"link."
+
+#: blocks-src/index.js:45
+msgid "Formulareinstellungen"
+msgstr "Form settings"
+
+#: blocks-src/index.js:49
+msgid "Hinweistext anzeigen"
+msgstr "Show explanatory notice"
+
+#: blocks-src/index.js:50
+msgid ""
+"Blendet den erläuternden Hinweis oberhalb des E-Mail-Feldes ein oder aus."
+msgstr "Shows or hides the explanatory paragraph above the email field."
+
+#: blocks/dsgvo-erasure-portal/block.json
+msgctxt "block title"
+msgid "DSGVO Löschantrag (Art. 17)"
+msgstr "GDPR Erasure Request (Art. 17)"
+
+#: blocks/dsgvo-erasure-portal/block.json
+msgctxt "block description"
+msgid ""
+"Öffentliches Formular für Löschanträge nach Art. 17 DSGVO mit Einmal-"
+"Bestätigungslink."
+msgstr ""
+"Public form for Art. 17 GDPR erasure requests with a single-use confirmation "
+"link."
+
+#: blocks/dsgvo-erasure-portal/block.json
+msgctxt "block keyword"
+msgid "dsgvo"
+msgstr "gdpr"
+
+#: blocks/dsgvo-erasure-portal/block.json
+msgctxt "block keyword"
+msgid "gdpr"
+msgstr "uk-gdpr"
+
+#: blocks/dsgvo-erasure-portal/block.json
+msgctxt "block keyword"
+msgid "löschung"
+msgstr "erasure"
+
+#: blocks/dsgvo-erasure-portal/block.json
+msgctxt "block keyword"
+msgid "erasure"
+msgstr "deletion"
+
+#: blocks/dsgvo-erasure-portal/block.json
+msgctxt "block keyword"
+msgid "datenschutz"
+msgstr "data-protection"
+
+#: blocks/dsgvo-erasure-portal/block.json
+msgctxt "block keyword"
+msgid "privacy"
+msgstr "privacy"
+
+#~ msgid "https://www.arnoldwender.com"
+#~ msgstr "https://www.arnoldwender.com"

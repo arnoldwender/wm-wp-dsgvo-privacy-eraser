@@ -1,0 +1,357 @@
+{
+  "translation-revision-date": "2026-11-21T14:14:21+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-dsgvo-privacy-eraser",
+        "lang": "hu_HU",
+        "plural-forms": "nplurals=2; plural=(n != 1);"
+      },
+      "WM DSGVO Art. 17 Cryptographic Privacy Eraser": [
+        "WM GDPR 17. cikk Kriptográfiai Adattörlő"
+      ],
+      "https://arnoldwender.com/wordpress-plugins/wm-dsgvo-privacy-eraser/": [
+        "https://arnoldwender.com/wordpress-plugins/wm-dsgvo-privacy-eraser/"
+      ],
+      "Löschanträge nach Art. 17 DSGVO mit Bestätigungslink an die Adresse; danach werden Kommentare anonymisiert, das Benutzerkonto (außer Administratoren) gelöscht und optional WooCommerce-Rechnungsfelder anonymisiert. Jede Löschung erhält einen HMAC-verketteten Nachweis. Keine rechtliche Prüfung des Antrags.": [
+        "GDPR 17. cikk szerinti törlési kérelmek az e-mail-címre küldött egyszer használatos megerősítő hivatkozással; ezt követően a hozzászólások anonimizálódnak, a felhasználói fiók (az adminisztrátorok kivételével) törlődik, és opcionálisan a WooCommerce számlázási mezők is anonimizálódnak. Minden törlés HMAC-láncolt igazolást kap. Jogalap-vizsgálat nélkül."
+      ],
+      "Arnold Wender": [
+        "Arnold Wender"
+      ],
+      "https://arnoldwender.com": [
+        "https://arnoldwender.com"
+      ],
+      "Kette geprüft: %d versiegelte Nachweise stimmen": [
+        "Lánc ellenőrizve: %d lepecsételt igazolás egyezik"
+      ],
+      "Noch keine Löschnachweise": [
+        "Még nincsenek törlési igazolások"
+      ],
+      "Kette gebrochen": [
+        "Sérült lánc"
+      ],
+      "WM DSGVO Privacy Eraser": [
+        "WM GDPR Privacy Eraser"
+      ],
+      "Löschnachweise": [
+        "Törlési igazolások"
+      ],
+      "Offene Anträge": [
+        "Nyitott kérelmek"
+      ],
+      "Privacy Eraser öffnen": [
+        "Privacy Eraser megnyitása"
+      ],
+      "WM Privacy Eraser": [
+        "WM Privacy Eraser"
+      ],
+      "Privacy Eraser": [
+        "Privacy Eraser"
+      ],
+      "Übersicht": [
+        "Áttekintés"
+      ],
+      "Antrag stellen": [
+        "Kérelem benyújtása"
+      ],
+      "Was gelöscht wird": [
+        "Mi kerül törlésre"
+      ],
+      "Einstellungen": [
+        "Beállítások"
+      ],
+      "Löschanträge mit Bestätigungslink, Löschung bzw. Anonymisierung der Daten, die WordPress selbst zu einer E-Mail-Adresse hält, und ein verketteter Nachweis je Löschung. Es ersetzt keine rechtliche Prüfung des Antrags.": [
+        "Megerősítő hivatkozással ellátott törlési kérelmek, a WordPress által az e-mail-címhez tárolt adatok törlése vagy anonimizálása, valamint láncolt igazolás minden törlésről. Nem helyettesíti a jogi felülvizsgálatot."
+      ],
+      "Part of the WM Suite plugin family": [
+        "A WM Suite bővítménycsalád része"
+      ],
+      "WM Suite": [
+        "WM Suite"
+      ],
+      "Hub": [
+        "Hub"
+      ],
+      "Standalone": [
+        "Önálló"
+      ],
+      "Bereiche": [
+        "Területek"
+      ],
+      "Stand dieser Website": [
+        "A webhely állapota"
+      ],
+      "Beim Aufruf dieser Seite aus der Datenbank gelesen.": [
+        "Az oldal betöltésekor az adatbázisból kiolvasva."
+      ],
+      "Gelöschte oder anonymisierte Einträge laut Nachweisen": [
+        "Törölt vagy anonimizált tételek az igazolások szerint"
+      ],
+      "Offene Anträge (Adresse noch gespeichert)": [
+        "Nyitott kérelmek (a cím még tárolva)"
+      ],
+      "Nachweiskette": [
+        "Igazoláslánc"
+      ],
+      "%d ältere Nachweise ohne Siegel, nicht prüfbar.": [
+        "%d régebbi, pecsét nélküli igazolás, nem ellenőrizhető."
+      ],
+      "Verschlüsselung offener Adressen (libsodium)": [
+        "Nyitott címek titkosítása (libsodium)"
+      ],
+      "verfügbar": [
+        "elérhető"
+      ],
+      "nicht verfügbar: Adressen werden im Klartext gespeichert": [
+        "nem elérhető: a címek nyílt szövegként tárolódnak"
+      ],
+      "WooCommerce-Rechnungsfelder anonymisieren (wm_dsgvo_anonymize_wc_orders)": [
+        "WooCommerce számlázási mezők anonimizálása (wm_dsgvo_anonymize_wc_orders)"
+      ],
+      "an": [
+        "be"
+      ],
+      "aus (Standard)": [
+        "ki (alapértelmezett)"
+      ],
+      "Daten bei Deinstallation löschen (wm_dsgvo_eraser_delete_data_on_uninstall)": [
+        "Adatok törlése eltávolításkor (wm_dsgvo_eraser_delete_data_on_uninstall)"
+      ],
+      "aus (Standard: Nachweise bleiben erhalten)": [
+        "ki (alapértelmezett: az igazolások megmaradnak)"
+      ],
+      "Löschantrag für eine Adresse stellen": [
+        "Törlési kérelem rögzítése egy címhez"
+      ],
+      "Legt denselben Antrag an wie das Formular auf der Website: An die Adresse geht ein Bestätigungslink, %d Stunden gültig. Gelöscht wird erst, wenn die Löschung auf der verlinkten Seite bestätigt wird. Eine sofortige Löschung ohne Bestätigung gibt es nur über WP-CLI (wp dsgvo erase), nachdem Sie die Identität selbst geprüft haben.": [
+        "Ugyanolyan kérelmet hoz létre, mint a nyilvános űrlap: %d óráig érvényes megerősítő hivatkozást küld a címre. Törlés csak a hivatkozott oldalon történő megerősítés után történik. Azonnali, megerősítés nélküli törlés csak WP-CLI-vel (wp dsgvo erase) érhető el a személyazonosság ellenőrzése után."
+      ],
+      "E-Mail-Adresse der betroffenen Person": [
+        "Az érintett személy e-mail-címe"
+      ],
+      "Bestätigungslink senden": [
+        "Megerősítő hivatkozás küldése"
+      ],
+      "Bitte eine E-Mail-Adresse eingeben.": [
+        "Kérjük, adjon meg egy e-mail-címet."
+      ],
+      "Wird übermittelt …": [
+        "Küldés folyamatban …"
+      ],
+      "Antrag übermittelt. Ein Bestätigungslink geht nur hinaus, wenn die Adresse gültig ist, keines der Limits greift (%1$d Anträge je Adresse in %2$d Stunden, %3$d je IP pro Stunde, Ihre eigene IP zählt mit) und der Mailversand gelingt; diese Seite erfährt das nicht. Noch ist nichts gelöscht.": [
+        "Kérelem elküldve. Megerősítő hivatkozás csak akkor megy ki, ha a cím érvényes, egyik korlát sem lép életbe (%1$d kérelem címenként %2$d órán belül, %3$d IP-nként óránként, a saját IP-t is beleértve) és a levélküldés sikeres; ez az oldal erről nem kap visszajelzést. Még semmi sem törlődött."
+      ],
+      "Der Antrag konnte nicht angelegt werden.": [
+        "A kérelmet nem sikerült létrehozni."
+      ],
+      "Verbindungsfehler.": [
+        "Kapcsolódási hiba."
+      ],
+      "Letzte zehn Löschnachweise": [
+        "Utolsó tíz törlési igazolás"
+      ],
+      "Jeder Nachweis speichert statt der Adresse einen geschlüsselten Hash, die Anzahl der Einträge je Bereich und ein Siegel, das den vorherigen Nachweis einschließt. Bearbeitete, eingefügte, umsortierte oder gelöschte Nachweise fallen bei der Prüfung auf, solange die Option mit dem Kettenende unverändert ist; wer die Datenbank schreiben kann, kann auch diese Option ändern, und wer den Schlüssel aus wp-config.php hat, kann die Kette neu versiegeln.": [
+        "Minden igazolás a cím helyett kulcsos lenyomatot, területenkénti darabszámot és az előző igazolást magában foglaló pecsétet tárol. A módosítások, beszúrások, átrendezések vagy törlések ellenőrzéskor kiderülnek, amíg a láncvéget tároló beállítás változatlan; adatbázis-írási joggal ez a beállítás is átírható, a wp-config.php birtokában pedig a lánc újrapecsételhető."
+      ],
+      "Nachweis": [
+        "Igazolás"
+      ],
+      "Hash der Adresse": [
+        "Cím lenyomata"
+      ],
+      "Einträge": [
+        "Tételek"
+      ],
+      "Siegel": [
+        "Pecsét"
+      ],
+      "Zeitpunkt": [
+        "Időpont"
+      ],
+      "Noch keine Löschnachweise.": [
+        "Még nincsenek törlési igazolások."
+      ],
+      "ohne Siegelkette": [
+        "pecsétlánc nélkül"
+      ],
+      "Beide Schalter sind standardmäßig ausgeschaltet, damit weder steuerrechtlich relevante Rechnungsdaten noch Löschnachweise unbeabsichtigt entfernt werden.": [
+        "Mindkét kapcsoló alapértelmezés szerint ki van kapcsolva, hogy se az adózási szempontból megőrzendő számlázási adatok, se a törlési igazolások ne vesszenek el véletlenül."
+      ],
+      "WooCommerce-Rechnungsfelder anonymisieren": [
+        "WooCommerce számlázási mezők anonimizálása"
+      ],
+      "Überschreibt Vor- und Nachname, erste Adresszeile, Telefon und E-Mail in WooCommerce-Bestellungen der betroffenen Adresse. Erst nach Prüfung gesetzlicher Aufbewahrungsfristen (§ 147 AO, § 257 HGB) einschalten.": [
+        "Felülírja az érintett címhez tartozó WooCommerce-rendelések kereszt- és vezetéknevét, első címsorát, telefonszámát és e-mail-címét. Csak a törvényes megőrzési idők (§ 147 AO, § 257 HGB) ellenőrzése után kapcsolja be."
+      ],
+      "Alle Plugin-Daten bei Deinstallation löschen": [
+        "Minden bővítményadat törlése eltávolításkor"
+      ],
+      "Wenn aktiviert, entfernt die Deinstallation alle Plugin-Optionen sowie die Tabellen für Anträge und Löschnachweise unwiderruflich. Standardmäßig bleiben Nachweise und Optionen erhalten.": [
+        "Bekapcsolt állapotban az eltávolítás véglegesen törli az összes bővítménybeállítást, valamint a kérelmek és törlési igazolások tábláit. Alapértelmezetten az igazolások és a beállítások megmaradnak."
+      ],
+      "Einstellungen speichern": [
+        "Beállítások mentése"
+      ],
+      "Was bei einer Löschung passiert": [
+        "Mi történik a törlés során"
+      ],
+      "Kommentare mit dieser Adresse: Name, Adresse, URL, IP, Browserkennung und Benutzerzuordnung werden überschrieben, der Text durch „[Inhalt auf Antrag nach Art. 17 DSGVO gelöscht]“ ersetzt. Die Kommentare selbst bleiben stehen.": [
+        "Ehhez a címhez tartozó hozzászólások: a név, e-mail-cím, URL, IP, böngészőazonosító és felhasználói hozzárendelés felülíródik, a szöveg helyére pedig „[Tartalom a GDPR 17. cikke szerinti kérelemre törölve]” kerül. Maguk a hozzászólások megmaradnak."
+      ],
+      "Benutzerkonto mit dieser Adresse: wird mit wp_delete_user() gelöscht, dabei auch die Beiträge, die dieses Konto verfasst hat. Konten mit der Rolle Administrator werden nicht gelöscht; der Nachweis vermerkt das. In einer Multisite entfernt wp_delete_user() das Konto nur aus dieser Website; der Nachweis vermerkt removed_from_this_site.": [
+        "Ehhez a címhez tartozó felhasználói fiók: a wp_delete_user() törli a fiók által írt bejegyzésekkel együtt. Az adminisztrátori fiókok nem törlődnek, ezt az igazolás rögzíti. Multisite környezetben csak erről a webhelyről távolítja el (removed_from_this_site)."
+      ],
+      "WooCommerce-Bestellungen: nur wenn die Option wm_dsgvo_anonymize_wc_orders an ist, und nur Vor- und Nachname, erste Adresszeile, E-Mail und Telefon der Rechnungsadresse, über die Bestellobjekte von WooCommerce (HPOS und Beitragsspeicher). Standard ist aus, weil Rechnungsdaten Aufbewahrungsfristen unterliegen können (§ 147 AO, § 257 HGB); ob eine greift, entscheidet das Plugin nicht.": [
+        "WooCommerce-rendelések: csak bekapcsolt wm_dsgvo_anonymize_wc_orders esetén, a számlázási név, cím, e-mail és telefon felülírásával a WooCommerce rendelésobjektumain keresztül (HPOS és bejegyzéstároló). Alapértelmezetten kikapcsolva a számviteli megőrzési kötelezettségek miatt."
+      ],
+      "Nicht erfasst: Tabellen anderer Plugins (Formulare, Newsletter, Buchungen), Benutzer-Metadaten verbleibender Konten, Kommentar-Metadaten, Lieferadressen, Dateien, Logs, Caches und Backups. Die Datenschutz-Löschwerkzeuge von WordPress ruft das Plugin nicht auf.": [
+        "Nem érintett: más bővítmények táblái (űrlapok, hírlevelek, foglalások), megtartott fiókok metaadatai, szállítási címek, fájlok, naplók, gyorsítótárak és biztonsági mentések."
+      ],
+      "Ob ein Antrag berechtigt ist, ob Ausnahmen nach Art. 17 Abs. 3 DSGVO greifen und welche Frist gilt, entscheidet das Plugin nicht.": [
+        "A bővítmény nem dönt a kérelem megalapozottságáról, a GDPR 17. cikk (3) bekezdése szerinti kivételekről és az irányadó megőrzési időről."
+      ],
+      "Zu viele Anfragen. Bitte versuchen Sie es in einer Minute erneut.": [
+        "Túl sok kérés. Kérjük, próbálja újra egy perc múlva."
+      ],
+      "Bitte geben Sie eine gültige E-Mail-Adresse an.": [
+        "Kérjük, adjon meg érvényes e-mail-címet."
+      ],
+      "Der Antrag wurde entgegengenommen. Ist die Adresse gültig, geht an sie ein Bestätigungslink; gelöscht wird erst nach dessen Aufruf.": [
+        "A kérelmet fogadtuk. Ha a cím érvényes, megerősítő hivatkozást küldünk rá; a törlés csak megerősítés után történik meg."
+      ],
+      "WM Privacy Eraser Status": [
+        "WM Privacy Eraser állapot"
+      ],
+      "Aktueller Status des Art.-17-DSGVO-Löschportals.": [
+        "A GDPR 17. cikk szerinti törlési portál aktuális állapota."
+      ],
+      "Art. 17 DSGVO Löschportal aktiv (%d versiegelte Nachweise)": [
+        "GDPR 17. cikk törlési portál aktív (%d lepecsételt igazolás)"
+      ],
+      "Art. 17 DSGVO Löschportal aktiv": [
+        "GDPR 17. cikk törlési portál aktív"
+      ],
+      "Art. 17 DSGVO Löschportal: Kette prüfen": [
+        "GDPR 17. cikk törlési portál: ellenőrizze a láncot"
+      ],
+      "Löschung bestätigen": [
+        "Törlés megerősítése"
+      ],
+      "Das Öffnen dieses Links hat noch nichts gelöscht. Mit der Schaltfläche unten werden zu der Adresse, für die der Antrag gestellt wurde, die Kommentare auf dieser Website anonymisiert und ein Benutzerkonto gelöscht (außer Administratorkonten); ist es eingeschaltet, werden auch Rechnungsfelder von WooCommerce-Bestellungen anonymisiert. Die Löschung ist unwiderruflich.": [
+        "A hivatkozás megnyitása még semmit sem törölt. Az alábbi gombbal a kérelmezett címhez tartozó hozzászólások anonimizálódnak ezen a webhelyen, és törlődik a felhasználói fiók (az adminisztrátorok kivételével); bekapcsolt beállítás mellett a WooCommerce számlázási mezők is anonimizálódnak. A törlés visszavonhatatlan."
+      ],
+      "Löschung jetzt ausführen": [
+        "Törlés végrehajtása most"
+      ],
+      "Löschung ausgeführt": [
+        "Törlés végrehajtva"
+      ],
+      "%1$d Einträge wurden gelöscht oder anonymisiert. Kennung des Löschnachweises: %2$s": [
+        "%1$d tétel törölve vagy anonimizálva lett. A törlési igazolás azonosítója: %2$s"
+      ],
+      "Löschung nicht vollständig": [
+        "A törlés nem teljes"
+      ],
+      "Nicht alle Daten konnten geändert werden, oder der Löschnachweis wurde nicht gespeichert. Der Antrag ist als fehlgeschlagen vermerkt; bitte wenden Sie sich an den Betreiber dieser Website.": [
+        "Nem sikerült minden adatot módosítani, vagy a törlési igazolás mentése meghiúsult. A kérelem sikertelenként lett megjelölve; kérjük, forduljon a webhely üzemeltetőjéhez."
+      ],
+      "Kennung des Löschnachweises: %s": [
+        "A törlési igazolás azonosítója: %s"
+      ],
+      "Antrag nicht verarbeitet": [
+        "A kérelem nincs feldolgozva"
+      ],
+      "Der Antrag konnte nicht verarbeitet werden. Bitte stellen Sie ihn erneut.": [
+        "A kérelmet nem sikerült feldolgozni. Kérjük, nyújtsa be újra."
+      ],
+      "Link nicht gültig": [
+        "Érvénytelen hivatkozás"
+      ],
+      "Der Bestätigungslink ist ungültig, abgelaufen oder wurde bereits verwendet.": [
+        "A megerősítő hivatkozás érvénytelen, lejárt vagy már felhasználták."
+      ],
+      "Bitte geben Sie eine gültige E-Mail-Adresse ein.": [
+        "Kérjük, adjon meg érvényes e-mail-címet."
+      ],
+      "Antrag wird übermittelt …": [
+        "Kérelem küldése …"
+      ],
+      "Bestätigung erforderlich": [
+        "Megerősítés szükséges"
+      ],
+      "Ist die Adresse gültig, geht an sie ein Bestätigungslink. Gelöscht wird erst, wenn die Löschung auf der verlinkten Seite bestätigt wird. Der Link ist %d Stunden gültig und nur einmal verwendbar.": [
+        "Ha a cím érvényes, megerősítő hivatkozást küldtünk rá. A törlés csak a hivatkozott oldalon történő megerősítés után megy végbe. A hivatkozás %d óráig érvényes és egyszer használható."
+      ],
+      "Der Antrag konnte nicht übermittelt werden:": [
+        "A kérelmet nem sikerült elküldeni:"
+      ],
+      "unbekannter Fehler": [
+        "ismeretlen hiba"
+      ],
+      "Der Antrag konnte nicht übermittelt werden: Verbindungsfehler.": [
+        "A kérelmet nem sikerült elküldeni: kapcsolódási hiba."
+      ],
+      "Antrag auf Datenlöschung (Art. 17 DSGVO)": [
+        "Adattörlési kérelem (GDPR 17. cikk)"
+      ],
+      "Gemäß Art. 17 DSGVO (\"Recht auf Vergessenwerden\") haben Sie das Recht auf unverzügliche Löschung Ihrer personenbezogenen Daten. Zur Bestätigung Ihrer Identität nach Art. 12 Abs. 6 DSGVO senden wir Ihnen zunächst einen einmaligen Bestätigungslink. Erst nach dessen Aufruf wird gelöscht und ein kryptografisches Löschzertifikat ausgestellt.": [
+        "A GDPR 17. cikke („elfeledtetéshez való jog”) alapján kérheti személyes adatainak törlését. Személyazonossága megerősítéséhez a GDPR 12. cikk (6) bekezdése szerint először egyszer használatos hivatkozást küldünk. Az adatok törlése és a kriptográfiai igazolás kiállítása csak a megerősítés után történik."
+      ],
+      "Ihre hinterlegte E-Mail-Adresse:": [
+        "Regisztrált e-mail-címe:"
+      ],
+      "ihre-email@example.com": [
+        "az-on-cime@example.com"
+      ],
+      "Löschantrag übermitteln": [
+        "Törlési kérelem beküldése"
+      ],
+      "[%s] Löschantrag bestätigen (Art. 17 DSGVO)": [
+        "[%s] Törlési kérelem megerősítése (GDPR 17. cikk)"
+      ],
+      "DSGVO Löschantrag (Art. 17)": [
+        "GDPR törlési kérelem (17. cikk)"
+      ],
+      "Öffentliches Formular für Löschanträge nach Art. 17 DSGVO mit Einmal-Bestätigungslink.": [
+        "Nyilvános űrlap GDPR 17. cikk szerinti törlési kérelmekhez egyszer használatos megerősítő hivatkozással."
+      ],
+      "Formulareinstellungen": [
+        "Űrlapbeállítások"
+      ],
+      "Hinweistext anzeigen": [
+        "Magyarázó szöveg megjelenítése"
+      ],
+      "Blendet den erläuternden Hinweis oberhalb des E-Mail-Feldes ein oder aus.": [
+        "Megjeleníti vagy elrejti az e-mail-mező feletti tájékoztató szöveget."
+      ],
+      "block title\u0004DSGVO Löschantrag (Art. 17)": [
+        "GDPR törlési kérelem (17. cikk)"
+      ],
+      "block description\u0004Öffentliches Formular für Löschanträge nach Art. 17 DSGVO mit Einmal-Bestätigungslink.": [
+        "Nyilvános űrlap GDPR 17. cikk szerinti törlési kérelmekhez egyszer használatos megerősítő hivatkozással."
+      ],
+      "block keyword\u0004dsgvo": [
+        "gdpr"
+      ],
+      "block keyword\u0004gdpr": [
+        "adatvedelem"
+      ],
+      "block keyword\u0004löschung": [
+        "adattorles"
+      ],
+      "block keyword\u0004erasure": [
+        "torles"
+      ],
+      "block keyword\u0004datenschutz": [
+        "elfeledtetes"
+      ],
+      "block keyword\u0004privacy": [
+        "maganszfera"
+      ]
+    }
+  }
+}

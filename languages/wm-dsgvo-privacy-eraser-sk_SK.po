@@ -1,0 +1,692 @@
+# Translation of wm-dsgvo-privacy-eraser in sk_SK
+# Copyright (C) 2026 Arnold Wender
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: wm-dsgvo-privacy-eraser 1.4.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wm-dsgvo-privacy-"
+"eraser\n"
+"POT-Creation-Date: 2026-11-21T13:14:19+00:00\n"
+"PO-Revision-Date: 2026-11-21 14:14+0100\n"
+"Last-Translator: WM Suite <https://github.com/arnoldwender/wm-wp-dsgvo-"
+"privacy-eraser/issues>\n"
+"Language-Team: WM Suite <https://github.com/arnoldwender/wm-wp-dsgvo-privacy-"
+"eraser/issues>\n"
+"Language: sk_SK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: WM Suite i18n Compiler 2026\n"
+"X-Domain: wm-dsgvo-privacy-eraser\n"
+
+#. Plugin Name of the plugin
+#: wm-dsgvo-privacy-eraser.php
+msgid "WM DSGVO Art. 17 Cryptographic Privacy Eraser"
+msgstr "WM GDPR čl. 17 Kryptografické vymazanie osobných údajov"
+
+#. Plugin URI of the plugin
+#: wm-dsgvo-privacy-eraser.php
+msgid "https://arnoldwender.com/wordpress-plugins/wm-dsgvo-privacy-eraser/"
+msgstr "https://arnoldwender.com/wordpress-plugins/wm-dsgvo-privacy-eraser/"
+
+#. Description of the plugin
+#: wm-dsgvo-privacy-eraser.php
+msgid ""
+"Löschanträge nach Art. 17 DSGVO mit Bestätigungslink an die Adresse; danach "
+"werden Kommentare anonymisiert, das Benutzerkonto (außer Administratoren) "
+"gelöscht und optional WooCommerce-Rechnungsfelder anonymisiert. Jede "
+"Löschung erhält einen HMAC-verketteten Nachweis. Keine rechtliche Prüfung "
+"des Antrags."
+msgstr ""
+"Žiadosti o vymazanie podľa čl. 17 GDPR potvrdzované jednorazovým odkazom "
+"zaslaným na e-mail; následne sa anonymizujú komentáre, zmaže používateľský "
+"účet (okrem administrátorov) a voliteľne anonymizujú fakturačné polia "
+"WooCommerce. Každé vymazanie dostane záznam zreťazený cez HMAC. Bez právneho "
+"posúdenia."
+
+#. Author of the plugin
+#: wm-dsgvo-privacy-eraser.php
+msgid "Arnold Wender"
+msgstr "Arnold Wender"
+
+#. Author URI of the plugin
+#: wm-dsgvo-privacy-eraser.php
+msgid "https://arnoldwender.com"
+msgstr "https://arnoldwender.com"
+
+#. translators: %d: number of verified certificates
+#: includes/Admin/AdminDashboard.php:109
+#, php-format
+msgid "Kette geprüft: %d versiegelte Nachweise stimmen"
+msgstr "Reťazec overený: súhlasí %d zapečatených záznamov"
+
+#: includes/Admin/AdminDashboard.php:112
+msgid "Noch keine Löschnachweise"
+msgstr "Zatiaľ žiadne záznamy o vymazaní"
+
+#: includes/Admin/AdminDashboard.php:113
+msgid "Kette gebrochen"
+msgstr "Reťazec porušený"
+
+#: includes/Admin/AdminDashboard.php:124 includes/Admin/AdminDashboard.php:225
+msgid "WM DSGVO Privacy Eraser"
+msgstr "WM GDPR Privacy Eraser"
+
+#: includes/Admin/AdminDashboard.php:144 includes/Admin/AdminDashboard.php:214
+#: includes/Admin/AdminDashboard.php:250
+msgid "Löschnachweise"
+msgstr "Záznamy o vymazaní"
+
+#: includes/Admin/AdminDashboard.php:148
+msgid "Offene Anträge"
+msgstr "Otvorené žiadosti"
+
+#: includes/Admin/AdminDashboard.php:154
+msgid "Privacy Eraser öffnen"
+msgstr "Otvoriť Privacy Eraser"
+
+#: includes/Admin/AdminDashboard.php:173
+msgid "WM Privacy Eraser"
+msgstr "WM Privacy Eraser"
+
+#: includes/Admin/AdminDashboard.php:174
+msgid "Privacy Eraser"
+msgstr "Privacy Eraser"
+
+#: includes/Admin/AdminDashboard.php:212
+msgid "Übersicht"
+msgstr "Prehľad"
+
+#: includes/Admin/AdminDashboard.php:213
+msgid "Antrag stellen"
+msgstr "Podať žiadosť"
+
+#: includes/Admin/AdminDashboard.php:215
+msgid "Was gelöscht wird"
+msgstr "Čo sa vymazáva"
+
+#: includes/Admin/AdminDashboard.php:216 includes/Admin/AdminDashboard.php:394
+msgid "Einstellungen"
+msgstr "Nastavenia"
+
+#: includes/Admin/AdminDashboard.php:226
+msgid ""
+"Löschanträge mit Bestätigungslink, Löschung bzw. Anonymisierung der Daten, "
+"die WordPress selbst zu einer E-Mail-Adresse hält, und ein verketteter "
+"Nachweis je Löschung. Es ersetzt keine rechtliche Prüfung des Antrags."
+msgstr ""
+"Žiadosti o vymazanie s potvrdzovacím odkazom, zmazanie alebo anonymizácia "
+"údajov, ktoré WordPress drží k e-mailovej adrese, a zreťazený záznam pre "
+"každé vymazanie. Nenahrádza právne posúdenie."
+
+#: includes/Admin/AdminDashboard.php:229
+msgid "Part of the WM Suite plugin family"
+msgstr "Súčasť rodiny pluginov WM Suite"
+
+#: includes/Admin/AdminDashboard.php:231
+msgid "WM Suite"
+msgstr "WM Suite"
+
+#: includes/Admin/AdminDashboard.php:232
+msgid "Hub"
+msgstr "Hub"
+
+#: includes/Admin/AdminDashboard.php:232
+msgid "Standalone"
+msgstr "Samostatný"
+
+#: includes/Admin/AdminDashboard.php:237 includes/Admin/AdminDashboard.php:368
+msgid "Bereiche"
+msgstr "Oblasti"
+
+#: includes/Admin/AdminDashboard.php:245
+msgid "Stand dieser Website"
+msgstr "Stav tejto stránky"
+
+#: includes/Admin/AdminDashboard.php:246
+msgid "Beim Aufruf dieser Seite aus der Datenbank gelesen."
+msgstr "Načítané z databázy pri otvorení tejto stránky."
+
+#: includes/Admin/AdminDashboard.php:254
+msgid "Gelöschte oder anonymisierte Einträge laut Nachweisen"
+msgstr "Zmazané alebo anonymizované položky podľa záznamov"
+
+#: includes/Admin/AdminDashboard.php:258
+msgid "Offene Anträge (Adresse noch gespeichert)"
+msgstr "Otvorené žiadosti (adresa je ešte uložená)"
+
+#: includes/Admin/AdminDashboard.php:262
+msgid "Nachweiskette"
+msgstr "Reťazec záznamov"
+
+#. translators: %d: number of certificates issued before the chain existed
+#: includes/Admin/AdminDashboard.php:272
+#, php-format
+msgid "%d ältere Nachweise ohne Siegel, nicht prüfbar."
+msgstr "%d starších záznamov bez pečate, nemožno overiť."
+
+#: includes/Admin/AdminDashboard.php:278
+msgid "Verschlüsselung offener Adressen (libsodium)"
+msgstr "Šifrovanie otvorených adries (libsodium)"
+
+#: includes/Admin/AdminDashboard.php:279
+msgid "verfügbar"
+msgstr "dostupné"
+
+#: includes/Admin/AdminDashboard.php:279
+msgid "nicht verfügbar: Adressen werden im Klartext gespeichert"
+msgstr "nedostupné: adresy sa ukladajú ako čistý text"
+
+#: includes/Admin/AdminDashboard.php:282
+msgid ""
+"WooCommerce-Rechnungsfelder anonymisieren (wm_dsgvo_anonymize_wc_orders)"
+msgstr ""
+"Anonymizovať fakturačné polia WooCommerce (wm_dsgvo_anonymize_wc_orders)"
+
+#: includes/Admin/AdminDashboard.php:283 includes/Admin/AdminDashboard.php:287
+msgid "an"
+msgstr "zapnuté"
+
+#: includes/Admin/AdminDashboard.php:283
+msgid "aus (Standard)"
+msgstr "vypnuté (predvolené)"
+
+#: includes/Admin/AdminDashboard.php:286
+msgid ""
+"Daten bei Deinstallation löschen (wm_dsgvo_eraser_delete_data_on_uninstall)"
+msgstr ""
+"Zmazať údaje pri odinštalovaní (wm_dsgvo_eraser_delete_data_on_uninstall)"
+
+#: includes/Admin/AdminDashboard.php:287
+msgid "aus (Standard: Nachweise bleiben erhalten)"
+msgstr "vypnuté (predvolené: záznamy zostávajú zachované)"
+
+#: includes/Admin/AdminDashboard.php:295
+msgid "Löschantrag für eine Adresse stellen"
+msgstr "Podať žiadosť o vymazanie pre adresu"
+
+#. translators: %d: hours the confirmation link stays valid
+#: includes/Admin/AdminDashboard.php:301
+#, php-format
+msgid ""
+"Legt denselben Antrag an wie das Formular auf der Website: An die Adresse "
+"geht ein Bestätigungslink, %d Stunden gültig. Gelöscht wird erst, wenn die "
+"Löschung auf der verlinkten Seite bestätigt wird. Eine sofortige Löschung "
+"ohne Bestätigung gibt es nur über WP-CLI (wp dsgvo erase), nachdem Sie die "
+"Identität selbst geprüft haben."
+msgstr ""
+"Vytvorí rovnakú žiadosť ako verejný formulár: na adresu odíde potvrdzovací "
+"odkaz platný %d hodín. Vymazanie prebehne až po potvrdení na odkazovanej "
+"stránke. Okamžité vymazanie bez potvrdenia existuje len cez WP-CLI (wp dsgvo "
+"erase) po vlastnom overení totožnosti."
+
+#: includes/Admin/AdminDashboard.php:308
+msgid "E-Mail-Adresse der betroffenen Person"
+msgstr "E-mailová adresa dotknutej osoby"
+
+#: includes/Admin/AdminDashboard.php:311
+msgid "Bestätigungslink senden"
+msgstr "Odoslať potvrdzovací odkaz"
+
+#: includes/Admin/AdminDashboard.php:321
+msgid "Bitte eine E-Mail-Adresse eingeben."
+msgstr "Zadajte prosím e-mailovú adresu."
+
+#: includes/Admin/AdminDashboard.php:324
+msgid "Wird übermittelt …"
+msgstr "Odosiela sa …"
+
+#. translators: 1: requests per address, 2: hours, 3: requests per IP per hour
+#: includes/Admin/AdminDashboard.php:337
+#, php-format
+msgid ""
+"Antrag übermittelt. Ein Bestätigungslink geht nur hinaus, wenn die Adresse "
+"gültig ist, keines der Limits greift (%1$d Anträge je Adresse in %2$d "
+"Stunden, %3$d je IP pro Stunde, Ihre eigene IP zählt mit) und der "
+"Mailversand gelingt; diese Seite erfährt das nicht. Noch ist nichts gelöscht."
+msgstr ""
+"Žiadosť odoslaná. Potvrdzovací odkaz sa odošle len vtedy, ak je adresa "
+"platná, neplatí žiadny limit (%1$d žiadostí na adresu za %2$d hodín, %3$d na "
+"IP za hodinu vrátane vašej IP) a odoslanie e-mailu uspeje; táto stránka sa "
+"to nedozvie. Zatiaľ nebolo nič vymazané."
+
+#: includes/Admin/AdminDashboard.php:344
+msgid "Der Antrag konnte nicht angelegt werden."
+msgstr "Žiadosť sa nepodarilo vytvoriť."
+
+#: includes/Admin/AdminDashboard.php:347
+msgid "Verbindungsfehler."
+msgstr "Chyba pripojenia."
+
+#: includes/Admin/AdminDashboard.php:360
+msgid "Letzte zehn Löschnachweise"
+msgstr "Posledných desať záznamov o vymazaní"
+
+#: includes/Admin/AdminDashboard.php:361
+msgid ""
+"Jeder Nachweis speichert statt der Adresse einen geschlüsselten Hash, die "
+"Anzahl der Einträge je Bereich und ein Siegel, das den vorherigen Nachweis "
+"einschließt. Bearbeitete, eingefügte, umsortierte oder gelöschte Nachweise "
+"fallen bei der Prüfung auf, solange die Option mit dem Kettenende "
+"unverändert ist; wer die Datenbank schreiben kann, kann auch diese Option "
+"ändern, und wer den Schlüssel aus wp-config.php hat, kann die Kette neu "
+"versiegeln."
+msgstr ""
+"Každý záznam ukladá namiesto adresy kľúčovaný odtlačok, počet položiek podľa "
+"oblastí a pečať zahŕňajúcu predchádzajúci záznam. Úpravy, vloženia, zmeny "
+"poradia či zmazania sa pri kontrole odhalia, kým zostane voľba konca reťazca "
+"nezmenená; zápis do databázy umožňuje túto voľbu zmeniť a prístup k wp-"
+"config.php znova zapečatiť reťazec."
+
+#: includes/Admin/AdminDashboard.php:365
+msgid "Nachweis"
+msgstr "Záznam"
+
+#: includes/Admin/AdminDashboard.php:366
+msgid "Hash der Adresse"
+msgstr "Odtlačok adresy"
+
+#: includes/Admin/AdminDashboard.php:367
+msgid "Einträge"
+msgstr "Položky"
+
+#: includes/Admin/AdminDashboard.php:369
+msgid "Siegel"
+msgstr "Pečať"
+
+#: includes/Admin/AdminDashboard.php:370
+msgid "Zeitpunkt"
+msgstr "Čas"
+
+#: includes/Admin/AdminDashboard.php:375
+msgid "Noch keine Löschnachweise."
+msgstr "Zatiaľ žiadne záznamy o vymazaní."
+
+#: includes/Admin/AdminDashboard.php:383
+msgid "ohne Siegelkette"
+msgstr "bez reťazca pečatí"
+
+#: includes/Admin/AdminDashboard.php:395
+msgid ""
+"Beide Schalter sind standardmäßig ausgeschaltet, damit weder steuerrechtlich "
+"relevante Rechnungsdaten noch Löschnachweise unbeabsichtigt entfernt werden."
+msgstr ""
+"Oba prepínače sú predvolene vypnuté, aby nedošlo k nechcenému odstráneniu "
+"daňovo relevantných fakturačných údajov ani záznamov o vymazaní."
+
+#: includes/Admin/AdminDashboard.php:406
+msgid "WooCommerce-Rechnungsfelder anonymisieren"
+msgstr "Anonymizovať fakturačné polia WooCommerce"
+
+#: includes/Admin/AdminDashboard.php:410
+msgid ""
+"Überschreibt Vor- und Nachname, erste Adresszeile, Telefon und E-Mail in "
+"WooCommerce-Bestellungen der betroffenen Adresse. Erst nach Prüfung "
+"gesetzlicher Aufbewahrungsfristen (§ 147 AO, § 257 HGB) einschalten."
+msgstr ""
+"Prepíše meno, priezvisko, prvý riadok adresy, telefón a e-mail v "
+"objednávkach WooCommerce dotknutej adresy. Zapnite až po preverení zákonných "
+"lehôt uchovávania (§ 147 AO, § 257 HGB)."
+
+#: includes/Admin/AdminDashboard.php:415
+msgid "Alle Plugin-Daten bei Deinstallation löschen"
+msgstr "Zmazať všetky údaje pluginu pri odinštalovaní"
+
+#: includes/Admin/AdminDashboard.php:419
+msgid ""
+"Wenn aktiviert, entfernt die Deinstallation alle Plugin-Optionen sowie die "
+"Tabellen für Anträge und Löschnachweise unwiderruflich. Standardmäßig "
+"bleiben Nachweise und Optionen erhalten."
+msgstr ""
+"Ak je zapnuté, odinštalovanie nenávratne odstráni všetky nastavenia pluginu "
+"aj tabuľky žiadostí a záznamov o vymazaní. Predvolene zostávajú zachované."
+
+#: includes/Admin/AdminDashboard.php:424
+msgid "Einstellungen speichern"
+msgstr "Uložiť nastavenia"
+
+#: includes/Admin/AdminDashboard.php:430
+msgid "Was bei einer Löschung passiert"
+msgstr "Čo sa stane pri vymazaní"
+
+#: includes/Admin/AdminDashboard.php:432
+msgid ""
+"Kommentare mit dieser Adresse: Name, Adresse, URL, IP, Browserkennung und "
+"Benutzerzuordnung werden überschrieben, der Text durch „[Inhalt auf Antrag "
+"nach Art. 17 DSGVO gelöscht]“ ersetzt. Die Kommentare selbst bleiben stehen."
+msgstr ""
+"Komentáre s touto adresou: meno, e-mail, URL, IP, prehliadač a priradenie "
+"používateľa sa prepíšu a text nahradí „[Obsah vymazaný na žiadosť podľa čl. "
+"17 GDPR]“. Samotné komentáre zostávajú."
+
+#: includes/Admin/AdminDashboard.php:433
+msgid ""
+"Benutzerkonto mit dieser Adresse: wird mit wp_delete_user() gelöscht, dabei "
+"auch die Beiträge, die dieses Konto verfasst hat. Konten mit der Rolle "
+"Administrator werden nicht gelöscht; der Nachweis vermerkt das. In einer "
+"Multisite entfernt wp_delete_user() das Konto nur aus dieser Website; der "
+"Nachweis vermerkt removed_from_this_site."
+msgstr ""
+"Používateľský účet s touto adresou: zmaže sa cez wp_delete_user() vrátane "
+"jeho príspevkov. Administrátorské účty sa nemažú a záznam to zaznamená. V "
+"Multisite sa účet odoberie iba z tohto webu (removed_from_this_site)."
+
+#: includes/Admin/AdminDashboard.php:434
+msgid ""
+"WooCommerce-Bestellungen: nur wenn die Option wm_dsgvo_anonymize_wc_orders "
+"an ist, und nur Vor- und Nachname, erste Adresszeile, E-Mail und Telefon der "
+"Rechnungsadresse, über die Bestellobjekte von WooCommerce (HPOS und "
+"Beitragsspeicher). Standard ist aus, weil Rechnungsdaten "
+"Aufbewahrungsfristen unterliegen können (§ 147 AO, § 257 HGB); ob eine "
+"greift, entscheidet das Plugin nicht."
+msgstr ""
+"Objednávky WooCommerce: len ak je zapnutá voľba "
+"wm_dsgvo_anonymize_wc_orders; prepíšu sa meno, priezvisko, adresa, e-mail a "
+"telefón fakturácie cez objekty objednávok WooCommerce (HPOS aj príspevky). "
+"Predvolene vypnuté pre povinnosti archivácie účtovných dokladov."
+
+#: includes/Admin/AdminDashboard.php:435
+msgid ""
+"Nicht erfasst: Tabellen anderer Plugins (Formulare, Newsletter, Buchungen), "
+"Benutzer-Metadaten verbleibender Konten, Kommentar-Metadaten, "
+"Lieferadressen, Dateien, Logs, Caches und Backups. Die Datenschutz-"
+"Löschwerkzeuge von WordPress ruft das Plugin nicht auf."
+msgstr ""
+"Nezahrnuté: tabuľky iných pluginov (formuláre, newslettery, rezervácie), "
+"metadáta ponechaných účtov, doručovacie adresy, súbory, logy, vyrovnávacie "
+"pamäte a zálohy."
+
+#: includes/Admin/AdminDashboard.php:436
+msgid ""
+"Ob ein Antrag berechtigt ist, ob Ausnahmen nach Art. 17 Abs. 3 DSGVO greifen "
+"und welche Frist gilt, entscheidet das Plugin nicht."
+msgstr ""
+"Plugin nerozhoduje o opodstatnenosti žiadosti, výnimkách podľa čl. 17 ods. 3 "
+"GDPR ani o príslušnej lehote uchovávania."
+
+#: includes/API/RestController.php:100
+msgid "Zu viele Anfragen. Bitte versuchen Sie es in einer Minute erneut."
+msgstr "Príliš veľa požiadaviek. Skúste to prosím znova o minútu."
+
+#: includes/API/RestController.php:137
+msgid "Bitte geben Sie eine gültige E-Mail-Adresse an."
+msgstr "Zadajte prosím platnú e-mailovú adresu."
+
+#: includes/API/RestController.php:146
+msgid ""
+"Der Antrag wurde entgegengenommen. Ist die Adresse gültig, geht an sie ein "
+"Bestätigungslink; gelöscht wird erst nach dessen Aufruf."
+msgstr ""
+"Žiadosť bola prijatá. Ak je adresa platná, odošle sa na ňu potvrdzovací "
+"odkaz; vymazanie nastane až po potvrdení."
+
+#: includes/Frontend/EcosystemIntegration.php:33
+#: includes/Frontend/EcosystemIntegration.php:43
+msgid "WM Privacy Eraser Status"
+msgstr "Stav WM Privacy Eraser"
+
+#: includes/Frontend/EcosystemIntegration.php:47
+msgid "Aktueller Status des Art.-17-DSGVO-Löschportals."
+msgstr "Aktuálny stav portálu vymazania podľa čl. 17 GDPR."
+
+#. translators: %d: number of verified certificates
+#: includes/Frontend/EcosystemIntegration.php:112
+#, php-format
+msgid "Art. 17 DSGVO Löschportal aktiv (%d versiegelte Nachweise)"
+msgstr "Portál vymazania čl. 17 GDPR aktívny (%d zapečatených záznamov)"
+
+#: includes/Frontend/EcosystemIntegration.php:115
+msgid "Art. 17 DSGVO Löschportal aktiv"
+msgstr "Portál vymazania čl. 17 GDPR aktívny"
+
+#: includes/Frontend/EcosystemIntegration.php:116
+msgid "Art. 17 DSGVO Löschportal: Kette prüfen"
+msgstr "Portál vymazania čl. 17 GDPR: skontrolujte reťazec"
+
+#: includes/Frontend/ErasureConfirmationPage.php:72
+msgid "Löschung bestätigen"
+msgstr "Potvrdiť vymazanie"
+
+#: includes/Frontend/ErasureConfirmationPage.php:73
+msgid ""
+"Das Öffnen dieses Links hat noch nichts gelöscht. Mit der Schaltfläche unten "
+"werden zu der Adresse, für die der Antrag gestellt wurde, die Kommentare auf "
+"dieser Website anonymisiert und ein Benutzerkonto gelöscht (außer "
+"Administratorkonten); ist es eingeschaltet, werden auch Rechnungsfelder von "
+"WooCommerce-Bestellungen anonymisiert. Die Löschung ist unwiderruflich."
+msgstr ""
+"Otvorením tohto odkazu sa zatiaľ nič nevymazalo. Tlačidlom nižšie sa k "
+"zadanej adrese anonymizujú komentáre na tomto webe a zmaže používateľský "
+"účet (okrem administrátorov); ak je to zapnuté, anonymizujú sa aj fakturačné "
+"údaje WooCommerce. Vymazanie je nenávratné."
+
+#: includes/Frontend/ErasureConfirmationPage.php:78
+msgid "Löschung jetzt ausführen"
+msgstr "Vykonať vymazanie teraz"
+
+#: includes/Frontend/ErasureConfirmationPage.php:83
+msgid "Löschung ausgeführt"
+msgstr "Vymazanie vykonané"
+
+#. translators: 1: number of entries, 2: record id
+#: includes/Frontend/ErasureConfirmationPage.php:87
+#, php-format
+msgid ""
+"%1$d Einträge wurden gelöscht oder anonymisiert. Kennung des "
+"Löschnachweises: %2$s"
+msgstr ""
+"Bolo zmazaných alebo anonymizovaných %1$d položiek. Identifikátor záznamu o "
+"vymazaní: %2$s"
+
+#: includes/Frontend/ErasureConfirmationPage.php:95
+msgid "Löschung nicht vollständig"
+msgstr "Vymazanie neúplné"
+
+#: includes/Frontend/ErasureConfirmationPage.php:96
+msgid ""
+"Nicht alle Daten konnten geändert werden, oder der Löschnachweis wurde nicht "
+"gespeichert. Der Antrag ist als fehlgeschlagen vermerkt; bitte wenden Sie "
+"sich an den Betreiber dieser Website."
+msgstr ""
+"Nepodarilo sa zmeniť všetky údaje alebo uložiť záznam o vymazaní. Žiadosť je "
+"označená ako neúspešná; kontaktujte prevádzkovateľa webu."
+
+#. translators: %s: record id
+#: includes/Frontend/ErasureConfirmationPage.php:99
+#, php-format
+msgid "Kennung des Löschnachweises: %s"
+msgstr "Identifikátor záznamu o vymazaní: %s"
+
+#: includes/Frontend/ErasureConfirmationPage.php:104
+msgid "Antrag nicht verarbeitet"
+msgstr "Žiadosť nespracovaná"
+
+#: includes/Frontend/ErasureConfirmationPage.php:105
+msgid ""
+"Der Antrag konnte nicht verarbeitet werden. Bitte stellen Sie ihn erneut."
+msgstr "Žiadosť sa nepodarilo spracovať. Odošlite ju prosím znova."
+
+#: includes/Frontend/ErasureConfirmationPage.php:109
+msgid "Link nicht gültig"
+msgstr "Neplatný odkaz"
+
+#: includes/Frontend/ErasureConfirmationPage.php:110
+msgid ""
+"Der Bestätigungslink ist ungültig, abgelaufen oder wurde bereits verwendet."
+msgstr "Potvrdzovací odkaz je neplatný, exspiroval alebo už bol použitý."
+
+#: includes/Frontend/ErasureRequestForm.php:76
+msgid "Bitte geben Sie eine gültige E-Mail-Adresse ein."
+msgstr "Zadajte prosím platnú e-mailovú adresu."
+
+#: includes/Frontend/ErasureRequestForm.php:77
+msgid "Antrag wird übermittelt …"
+msgstr "Odosiela sa žiadosť …"
+
+#: includes/Frontend/ErasureRequestForm.php:78
+msgid "Bestätigung erforderlich"
+msgstr "Vyžaduje sa potvrdenie"
+
+#. translators: %d: hours the confirmation link stays valid
+#: includes/Frontend/ErasureRequestForm.php:81
+#, php-format
+msgid ""
+"Ist die Adresse gültig, geht an sie ein Bestätigungslink. Gelöscht wird "
+"erst, wenn die Löschung auf der verlinkten Seite bestätigt wird. Der Link "
+"ist %d Stunden gültig und nur einmal verwendbar."
+msgstr ""
+"Ak je adresa platná, bol na ňu odoslaný potvrdzovací odkaz. Vymazanie "
+"prebehne až po potvrdení na odkazovanej stránke. Odkaz platí %d hodín a je "
+"jednorazový."
+
+#: includes/Frontend/ErasureRequestForm.php:84
+msgid "Der Antrag konnte nicht übermittelt werden:"
+msgstr "Žiadosť sa nepodarilo odoslať:"
+
+#: includes/Frontend/ErasureRequestForm.php:85
+msgid "unbekannter Fehler"
+msgstr "neznáma chyba"
+
+#: includes/Frontend/ErasureRequestForm.php:86
+msgid "Der Antrag konnte nicht übermittelt werden: Verbindungsfehler."
+msgstr "Žiadosť sa nepodarilo odoslať: chyba pripojenia."
+
+#: includes/Frontend/ErasureRequestForm.php:144
+msgid "Antrag auf Datenlöschung (Art. 17 DSGVO)"
+msgstr "Žiadosť o vymazanie osobných údajov (čl. 17 GDPR)"
+
+#: includes/Frontend/ErasureRequestForm.php:147
+msgid ""
+"Gemäß Art. 17 DSGVO (\"Recht auf Vergessenwerden\") haben Sie das Recht auf "
+"unverzügliche Löschung Ihrer personenbezogenen Daten. Zur Bestätigung Ihrer "
+"Identität nach Art. 12 Abs. 6 DSGVO senden wir Ihnen zunächst einen "
+"einmaligen Bestätigungslink. Erst nach dessen Aufruf wird gelöscht und ein "
+"kryptografisches Löschzertifikat ausgestellt."
+msgstr ""
+"Podľa čl. 17 GDPR („právo na zabudnutie“) máte právo požiadať o vymazanie "
+"osobných údajov. Na potvrdenie totožnosti podľa čl. 12 ods. 6 GDPR vám "
+"najprv pošleme jednorazový odkaz. Až po potvrdení sa údaje vymažú a vystaví "
+"sa kryptografický záznam."
+
+#: includes/Frontend/ErasureRequestForm.php:152
+msgid "Ihre hinterlegte E-Mail-Adresse:"
+msgstr "Vaša evidovaná e-mailová adresa:"
+
+#: includes/Frontend/ErasureRequestForm.php:153
+msgid "ihre-email@example.com"
+msgstr "vas-email@example.com"
+
+#: includes/Frontend/ErasureRequestForm.php:157
+msgid "Löschantrag übermitteln"
+msgstr "Odoslať žiadosť o vymazanie"
+
+#. translators: %s: Site name
+#: includes/Request/ErasureRequestManager.php:151
+#, php-format
+msgid "[%s] Löschantrag bestätigen (Art. 17 DSGVO)"
+msgstr "[%s] Potvrďte žiadosť o vymazanie údajov (čl. 17 GDPR)"
+
+#. translators: 1: Confirmation URL, 2: Validity in hours
+#: includes/Request/ErasureRequestManager.php:157
+#, php-format
+msgid ""
+"Für diese E-Mail-Adresse wurde ein Antrag auf Löschung personenbezogener "
+"Daten nach Art. 17 DSGVO gestellt.\n"
+"\n"
+"Die Löschung wird erst ausgeführt, wenn Sie diesen Link öffnen und sie auf "
+"der Seite bestätigen:\n"
+"\n"
+"%1$s\n"
+"\n"
+"Der Link ist %2$d Stunden gültig und kann nur einmal verwendet werden.\n"
+"\n"
+"Wenn Sie diesen Antrag nicht gestellt haben, ignorieren Sie diese E-Mail. Es "
+"wird nichts gelöscht.\n"
+"\n"
+"Achtung: Die Löschung ist unwiderruflich."
+msgstr ""
+"Pre túto e-mailovú adresu bola podaná žiadosť o vymazanie osobných údajov "
+"podľa čl. 17 GDPR.\n"
+"\n"
+"Vymazanie sa vykoná až po otvorení tohto odkazu a potvrdení na stránke:\n"
+"\n"
+"%1$s\n"
+"\n"
+"Odkaz je platný %2$d hodín a možno ho použiť iba raz.\n"
+"\n"
+"Ak ste túto žiadosť nepodali, ignorujte tento e-mail. Nič sa nevymaže.\n"
+"\n"
+"Upozornenie: Vymazanie je nenávratné."
+
+#: blocks-src/index.js:18
+msgid "DSGVO Löschantrag (Art. 17)"
+msgstr "Žiadosť o vymazanie GDPR (čl. 17)"
+
+#: blocks-src/index.js:19
+msgid ""
+"Öffentliches Formular für Löschanträge nach Art. 17 DSGVO mit Einmal-"
+"Bestätigungslink."
+msgstr ""
+"Verejný formulár pre žiadosti o vymazanie podľa čl. 17 GDPR s jednorazovým "
+"potvrdzovacím odkazom."
+
+#: blocks-src/index.js:45
+msgid "Formulareinstellungen"
+msgstr "Nastavenia formulára"
+
+#: blocks-src/index.js:49
+msgid "Hinweistext anzeigen"
+msgstr "Zobraziť vysvetľujúci text"
+
+#: blocks-src/index.js:50
+msgid ""
+"Blendet den erläuternden Hinweis oberhalb des E-Mail-Feldes ein oder aus."
+msgstr "Zobrazí alebo skryje vysvetľujúcu poznámku nad poľom pre e-mail."
+
+#: blocks/dsgvo-erasure-portal/block.json
+msgctxt "block title"
+msgid "DSGVO Löschantrag (Art. 17)"
+msgstr "Žiadosť o vymazanie GDPR (čl. 17)"
+
+#: blocks/dsgvo-erasure-portal/block.json
+msgctxt "block description"
+msgid ""
+"Öffentliches Formular für Löschanträge nach Art. 17 DSGVO mit Einmal-"
+"Bestätigungslink."
+msgstr ""
+"Verejný formulár pre žiadosti o vymazanie podľa čl. 17 GDPR s jednorazovým "
+"potvrdzovacím odkazom."
+
+#: blocks/dsgvo-erasure-portal/block.json
+msgctxt "block keyword"
+msgid "dsgvo"
+msgstr "gdpr"
+
+#: blocks/dsgvo-erasure-portal/block.json
+msgctxt "block keyword"
+msgid "gdpr"
+msgstr "ochrana-udajov"
+
+#: blocks/dsgvo-erasure-portal/block.json
+msgctxt "block keyword"
+msgid "löschung"
+msgstr "vymazanie"
+
+#: blocks/dsgvo-erasure-portal/block.json
+msgctxt "block keyword"
+msgid "erasure"
+msgstr "zmazanie"
+
+#: blocks/dsgvo-erasure-portal/block.json
+msgctxt "block keyword"
+msgid "datenschutz"
+msgstr "sukromie"
+
+#: blocks/dsgvo-erasure-portal/block.json
+msgctxt "block keyword"
+msgid "privacy"
+msgstr "osobne-udaje"
+
+#~ msgid "https://www.arnoldwender.com"
+#~ msgstr "https://www.arnoldwender.com"

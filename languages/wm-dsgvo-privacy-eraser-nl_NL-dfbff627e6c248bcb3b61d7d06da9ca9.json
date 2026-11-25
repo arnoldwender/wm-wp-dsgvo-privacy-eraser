@@ -1,0 +1,357 @@
+{
+  "translation-revision-date": "2026-11-21T14:14:21+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-dsgvo-privacy-eraser",
+        "lang": "nl_NL",
+        "plural-forms": "nplurals=2; plural=(n != 1);"
+      },
+      "WM DSGVO Art. 17 Cryptographic Privacy Eraser": [
+        "WM AVG Art. 17 Cryptografische Privacywisser"
+      ],
+      "https://arnoldwender.com/wordpress-plugins/wm-dsgvo-privacy-eraser/": [
+        "https://arnoldwender.com/wordpress-plugins/wm-dsgvo-privacy-eraser/"
+      ],
+      "Löschanträge nach Art. 17 DSGVO mit Bestätigungslink an die Adresse; danach werden Kommentare anonymisiert, das Benutzerkonto (außer Administratoren) gelöscht und optional WooCommerce-Rechnungsfelder anonymisiert. Jede Löschung erhält einen HMAC-verketteten Nachweis. Keine rechtliche Prüfung des Antrags.": [
+        "Verzoeken tot gegevenswissing volgens art. 17 AVG met bevestigingslink naar het e-mailadres; daarna worden reacties geanonimiseerd, het gebruikersaccount (behalve beheerders) verwijderd en optioneel WooCommerce-factuurvelden geanonimiseerd. Elke wissing krijgt een HMAC-geketend bewijs. Geen juridische beoordeling."
+      ],
+      "Arnold Wender": [
+        "Arnold Wender"
+      ],
+      "https://arnoldwender.com": [
+        "https://arnoldwender.com"
+      ],
+      "Kette geprüft: %d versiegelte Nachweise stimmen": [
+        "Keten gecontroleerd: %d verzegelde bewijzen kloppen"
+      ],
+      "Noch keine Löschnachweise": [
+        "Nog geen wisbewijzen"
+      ],
+      "Kette gebrochen": [
+        "Keten verbroken"
+      ],
+      "WM DSGVO Privacy Eraser": [
+        "WM AVG Privacy Eraser"
+      ],
+      "Löschnachweise": [
+        "Wisbewijzen"
+      ],
+      "Offene Anträge": [
+        "Open verzoeken"
+      ],
+      "Privacy Eraser öffnen": [
+        "Privacy Eraser openen"
+      ],
+      "WM Privacy Eraser": [
+        "WM Privacy Eraser"
+      ],
+      "Privacy Eraser": [
+        "Privacy Eraser"
+      ],
+      "Übersicht": [
+        "Overzicht"
+      ],
+      "Antrag stellen": [
+        "Verzoek indienen"
+      ],
+      "Was gelöscht wird": [
+        "Wat wordt gewist"
+      ],
+      "Einstellungen": [
+        "Instellingen"
+      ],
+      "Löschanträge mit Bestätigungslink, Löschung bzw. Anonymisierung der Daten, die WordPress selbst zu einer E-Mail-Adresse hält, und ein verketteter Nachweis je Löschung. Es ersetzt keine rechtliche Prüfung des Antrags.": [
+        "Wisverzoeken met bevestigingslink, verwijdering of anonimisering van gegevens die WordPress zelf bij een e-mailadres bewaart en een geketend bewijs per wissing. Vervangt geen juridische toetsing."
+      ],
+      "Part of the WM Suite plugin family": [
+        "Onderdeel van de WM Suite-pluginfamilie"
+      ],
+      "WM Suite": [
+        "WM Suite"
+      ],
+      "Hub": [
+        "Hub"
+      ],
+      "Standalone": [
+        "Zelfstandig"
+      ],
+      "Bereiche": [
+        "Onderdelen"
+      ],
+      "Stand dieser Website": [
+        "Status van deze website"
+      ],
+      "Beim Aufruf dieser Seite aus der Datenbank gelesen.": [
+        "Uit de database gelezen bij het openen van deze pagina."
+      ],
+      "Gelöschte oder anonymisierte Einträge laut Nachweisen": [
+        "Gewiste of geanonimiseerde items volgens bewijzen"
+      ],
+      "Offene Anträge (Adresse noch gespeichert)": [
+        "Open verzoeken (adres nog opgeslagen)"
+      ],
+      "Nachweiskette": [
+        "Bewijsketen"
+      ],
+      "%d ältere Nachweise ohne Siegel, nicht prüfbar.": [
+        "%d oudere bewijzen zonder zegel, niet controleerbaar."
+      ],
+      "Verschlüsselung offener Adressen (libsodium)": [
+        "Versleuteling van open adressen (libsodium)"
+      ],
+      "verfügbar": [
+        "beschikbaar"
+      ],
+      "nicht verfügbar: Adressen werden im Klartext gespeichert": [
+        "niet beschikbaar: adressen worden als platte tekst opgeslagen"
+      ],
+      "WooCommerce-Rechnungsfelder anonymisieren (wm_dsgvo_anonymize_wc_orders)": [
+        "WooCommerce-factuurvelden anonimiseren (wm_dsgvo_anonymize_wc_orders)"
+      ],
+      "an": [
+        "aan"
+      ],
+      "aus (Standard)": [
+        "uit (standaard)"
+      ],
+      "Daten bei Deinstallation löschen (wm_dsgvo_eraser_delete_data_on_uninstall)": [
+        "Gegevens verwijderen bij de-installatie (wm_dsgvo_eraser_delete_data_on_uninstall)"
+      ],
+      "aus (Standard: Nachweise bleiben erhalten)": [
+        "uit (standaard: bewijzen blijven behouden)"
+      ],
+      "Löschantrag für eine Adresse stellen": [
+        "Wisverzoek voor een adres indienen"
+      ],
+      "Legt denselben Antrag an wie das Formular auf der Website: An die Adresse geht ein Bestätigungslink, %d Stunden gültig. Gelöscht wird erst, wenn die Löschung auf der verlinkten Seite bestätigt wird. Eine sofortige Löschung ohne Bestätigung gibt es nur über WP-CLI (wp dsgvo erase), nachdem Sie die Identität selbst geprüft haben.": [
+        "Maakt hetzelfde verzoek aan als het openbare formulier: er gaat een bevestigingslink naar het adres, %d uur geldig. Er wordt pas gewist nadat op de gekoppelde pagina is bevestigd. Direct wissen zonder bevestiging kan alleen via WP-CLI (wp dsgvo erase) nadat u zelf de identiteit hebt gecontroleerd."
+      ],
+      "E-Mail-Adresse der betroffenen Person": [
+        "E-mailadres van de betrokkene"
+      ],
+      "Bestätigungslink senden": [
+        "Bevestigingslink verzenden"
+      ],
+      "Bitte eine E-Mail-Adresse eingeben.": [
+        "Voer een e-mailadres in."
+      ],
+      "Wird übermittelt …": [
+        "Bezig met verzenden …"
+      ],
+      "Antrag übermittelt. Ein Bestätigungslink geht nur hinaus, wenn die Adresse gültig ist, keines der Limits greift (%1$d Anträge je Adresse in %2$d Stunden, %3$d je IP pro Stunde, Ihre eigene IP zählt mit) und der Mailversand gelingt; diese Seite erfährt das nicht. Noch ist nichts gelöscht.": [
+        "Verzoek verzonden. Een bevestigingslink wordt alleen verstuurd als het adres geldig is, geen limiet wordt overschreden (%1$d verzoeken per adres in %2$d uur, %3$d per IP per uur, inclusief uw eigen IP) en het verzenden slaagt; deze pagina toont dat niet. Er is nog niets gewist."
+      ],
+      "Der Antrag konnte nicht angelegt werden.": [
+        "Het verzoek kon niet worden aangemaakt."
+      ],
+      "Verbindungsfehler.": [
+        "Verbindingsfout."
+      ],
+      "Letzte zehn Löschnachweise": [
+        "Laatste tien wisbewijzen"
+      ],
+      "Jeder Nachweis speichert statt der Adresse einen geschlüsselten Hash, die Anzahl der Einträge je Bereich und ein Siegel, das den vorherigen Nachweis einschließt. Bearbeitete, eingefügte, umsortierte oder gelöschte Nachweise fallen bei der Prüfung auf, solange die Option mit dem Kettenende unverändert ist; wer die Datenbank schreiben kann, kann auch diese Option ändern, und wer den Schlüssel aus wp-config.php hat, kann die Kette neu versiegeln.": [
+        "Elk bewijs bewaart in plaats van het adres een versleutelde hash, het aantal items per onderdeel en een zegel dat het vorige bewijs omvat. Aangepaste, tussengevoegde, verplaatste of verwijderde bewijzen vallen op zolang de ketenkop-optie ongewijzigd blijft; wie schrijftoegang tot de database heeft kan die optie wijzigen en wie wp-config.php bezit kan opnieuw verzegelen."
+      ],
+      "Nachweis": [
+        "Bewijs"
+      ],
+      "Hash der Adresse": [
+        "Hash van adres"
+      ],
+      "Einträge": [
+        "Items"
+      ],
+      "Siegel": [
+        "Zegel"
+      ],
+      "Zeitpunkt": [
+        "Tijdstip"
+      ],
+      "Noch keine Löschnachweise.": [
+        "Nog geen wisbewijzen."
+      ],
+      "ohne Siegelkette": [
+        "zonder zegelketen"
+      ],
+      "Beide Schalter sind standardmäßig ausgeschaltet, damit weder steuerrechtlich relevante Rechnungsdaten noch Löschnachweise unbeabsichtigt entfernt werden.": [
+        "Beide schakelaars staan standaard uit zodat fiscaal relevante factuurgegevens en wisbewijzen niet onbedoeld worden verwijderd."
+      ],
+      "WooCommerce-Rechnungsfelder anonymisieren": [
+        "WooCommerce-factuurvelden anonimiseren"
+      ],
+      "Überschreibt Vor- und Nachname, erste Adresszeile, Telefon und E-Mail in WooCommerce-Bestellungen der betroffenen Adresse. Erst nach Prüfung gesetzlicher Aufbewahrungsfristen (§ 147 AO, § 257 HGB) einschalten.": [
+        "Overschrijft voornaam, achternaam, eerste adresregel, telefoon en e-mail in WooCommerce-bestellingen van dit adres. Alleen inschakelen na controle van wettelijke bewaartermijnen (§ 147 AO, § 257 HGB)."
+      ],
+      "Alle Plugin-Daten bei Deinstallation löschen": [
+        "Alle plugingegevens verwijderen bij de-installatie"
+      ],
+      "Wenn aktiviert, entfernt die Deinstallation alle Plugin-Optionen sowie die Tabellen für Anträge und Löschnachweise unwiderruflich. Standardmäßig bleiben Nachweise und Optionen erhalten.": [
+        "Indien ingeschakeld verwijdert de-installatie onherroepelijk alle pluginopties en de tabellen voor verzoeken en wisbewijzen. Standaard blijven bewijzen en opties bewaard."
+      ],
+      "Einstellungen speichern": [
+        "Instellingen opslaan"
+      ],
+      "Was bei einer Löschung passiert": [
+        "Wat er gebeurt bij een wissing"
+      ],
+      "Kommentare mit dieser Adresse: Name, Adresse, URL, IP, Browserkennung und Benutzerzuordnung werden überschrieben, der Text durch „[Inhalt auf Antrag nach Art. 17 DSGVO gelöscht]“ ersetzt. Die Kommentare selbst bleiben stehen.": [
+        "Reacties met dit adres: naam, e-mail, URL, IP, browserkenmerk en gebruikersid worden overschreven en de tekst wordt vervangen door ‘[Inhoud op verzoek gewist conform art. 17 AVG]’. De reacties zelf blijven staan."
+      ],
+      "Benutzerkonto mit dieser Adresse: wird mit wp_delete_user() gelöscht, dabei auch die Beiträge, die dieses Konto verfasst hat. Konten mit der Rolle Administrator werden nicht gelöscht; der Nachweis vermerkt das. In einer Multisite entfernt wp_delete_user() das Konto nur aus dieser Website; der Nachweis vermerkt removed_from_this_site.": [
+        "Gebruikersaccount met dit adres: wordt verwijderd met wp_delete_user(), inclusief geschreven berichten. Beheerdersaccounts worden niet verwijderd; het bewijs vermeldt dat. Op Multisite verwijdert wp_delete_user() het account alleen van deze site (removed_from_this_site)."
+      ],
+      "WooCommerce-Bestellungen: nur wenn die Option wm_dsgvo_anonymize_wc_orders an ist, und nur Vor- und Nachname, erste Adresszeile, E-Mail und Telefon der Rechnungsadresse, über die Bestellobjekte von WooCommerce (HPOS und Beitragsspeicher). Standard ist aus, weil Rechnungsdaten Aufbewahrungsfristen unterliegen können (§ 147 AO, § 257 HGB); ob eine greift, entscheidet das Plugin nicht.": [
+        "WooCommerce-bestellingen: alleen als wm_dsgvo_anonymize_wc_orders aan staat, voor voor- en achternaam, adresregel, e-mail en telefoon van het factuuradres via WooCommerce-bestelobjecten (HPOS en postopslag). Standaard uit wegens fiscale bewaarplichten."
+      ],
+      "Nicht erfasst: Tabellen anderer Plugins (Formulare, Newsletter, Buchungen), Benutzer-Metadaten verbleibender Konten, Kommentar-Metadaten, Lieferadressen, Dateien, Logs, Caches und Backups. Die Datenschutz-Löschwerkzeuge von WordPress ruft das Plugin nicht auf.": [
+        "Niet meegenomen: tabellen van andere plugins (formulieren, nieuwsbrieven, boekingen), gebruikersmeta van behouden accounts, reactiemeta, verzendadressen, bestanden, logs, caches en back-ups."
+      ],
+      "Ob ein Antrag berechtigt ist, ob Ausnahmen nach Art. 17 Abs. 3 DSGVO greifen und welche Frist gilt, entscheidet das Plugin nicht.": [
+        "Of een verzoek terecht is, of uitzonderingen onder art. 17 lid 3 AVG gelden en welke termijn geldt, bepaalt de plugin niet."
+      ],
+      "Zu viele Anfragen. Bitte versuchen Sie es in einer Minute erneut.": [
+        "Te veel aanvragen. Probeer het over een minuut opnieuw."
+      ],
+      "Bitte geben Sie eine gültige E-Mail-Adresse an.": [
+        "Geef een geldig e-mailadres op."
+      ],
+      "Der Antrag wurde entgegengenommen. Ist die Adresse gültig, geht an sie ein Bestätigungslink; gelöscht wird erst nach dessen Aufruf.": [
+        "Het verzoek is ontvangen. Als het adres geldig is, wordt een bevestigingslink verzonden; wissing vindt pas plaats na bevestiging."
+      ],
+      "WM Privacy Eraser Status": [
+        "WM Privacy Eraser-status"
+      ],
+      "Aktueller Status des Art.-17-DSGVO-Löschportals.": [
+        "Actuele status van het art. 17 AVG-wisportaal."
+      ],
+      "Art. 17 DSGVO Löschportal aktiv (%d versiegelte Nachweise)": [
+        "Art. 17 AVG-wisportaal actief (%d verzegelde bewijzen)"
+      ],
+      "Art. 17 DSGVO Löschportal aktiv": [
+        "Art. 17 AVG-wisportaal actief"
+      ],
+      "Art. 17 DSGVO Löschportal: Kette prüfen": [
+        "Art. 17 AVG-wisportaal: controleer keten"
+      ],
+      "Löschung bestätigen": [
+        "Wissing bevestigen"
+      ],
+      "Das Öffnen dieses Links hat noch nichts gelöscht. Mit der Schaltfläche unten werden zu der Adresse, für die der Antrag gestellt wurde, die Kommentare auf dieser Website anonymisiert und ein Benutzerkonto gelöscht (außer Administratorkonten); ist es eingeschaltet, werden auch Rechnungsfelder von WooCommerce-Bestellungen anonymisiert. Die Löschung ist unwiderruflich.": [
+        "Het openen van deze link heeft nog niets gewist. Met onderstaande knop worden reacties op deze website bij het opgegeven adres geanonimiseerd en wordt een gebruikersaccount verwijderd (behalve beheerders); indien ingeschakeld worden ook WooCommerce-factuurvelden geanonimiseerd. Wissen is onomkeerbaar."
+      ],
+      "Löschung jetzt ausführen": [
+        "Wissing nu uitvoeren"
+      ],
+      "Löschung ausgeführt": [
+        "Wissing uitgevoerd"
+      ],
+      "%1$d Einträge wurden gelöscht oder anonymisiert. Kennung des Löschnachweises: %2$s": [
+        "%1$d items zijn verwijderd of geanonimiseerd. Kenmerk van het wisbewijs: %2$s"
+      ],
+      "Löschung nicht vollständig": [
+        "Wissing onvolledig"
+      ],
+      "Nicht alle Daten konnten geändert werden, oder der Löschnachweis wurde nicht gespeichert. Der Antrag ist als fehlgeschlagen vermerkt; bitte wenden Sie sich an den Betreiber dieser Website.": [
+        "Niet alle gegevens konden worden gewijzigd of het wisbewijs kon niet worden opgeslagen. Het verzoek staat als mislukt genoteerd; neem contact op met de beheerder van deze website."
+      ],
+      "Kennung des Löschnachweises: %s": [
+        "Kenmerk van het wisbewijs: %s"
+      ],
+      "Antrag nicht verarbeitet": [
+        "Verzoek niet verwerkt"
+      ],
+      "Der Antrag konnte nicht verarbeitet werden. Bitte stellen Sie ihn erneut.": [
+        "Het verzoek kon niet worden verwerkt. Dien het opnieuw in."
+      ],
+      "Link nicht gültig": [
+        "Ongeldige link"
+      ],
+      "Der Bestätigungslink ist ungültig, abgelaufen oder wurde bereits verwendet.": [
+        "De bevestigingslink is ongeldig, verlopen of al gebruikt."
+      ],
+      "Bitte geben Sie eine gültige E-Mail-Adresse ein.": [
+        "Voer een geldig e-mailadres in."
+      ],
+      "Antrag wird übermittelt …": [
+        "Verzoek wordt verzonden …"
+      ],
+      "Bestätigung erforderlich": [
+        "Bevestiging vereist"
+      ],
+      "Ist die Adresse gültig, geht an sie ein Bestätigungslink. Gelöscht wird erst, wenn die Löschung auf der verlinkten Seite bestätigt wird. Der Link ist %d Stunden gültig und nur einmal verwendbar.": [
+        "Als het adres geldig is, is een bevestigingslink verzonden. Er wordt pas gewist na bevestiging op de gekoppelde pagina. De link is %d uur geldig en eenmalig bruikbaar."
+      ],
+      "Der Antrag konnte nicht übermittelt werden:": [
+        "Het verzoek kon niet worden verzonden:"
+      ],
+      "unbekannter Fehler": [
+        "onbekende fout"
+      ],
+      "Der Antrag konnte nicht übermittelt werden: Verbindungsfehler.": [
+        "Het verzoek kon niet worden verzonden: verbindingsfout."
+      ],
+      "Antrag auf Datenlöschung (Art. 17 DSGVO)": [
+        "Verzoek tot gegevenswissing (Art. 17 AVG)"
+      ],
+      "Gemäß Art. 17 DSGVO (\"Recht auf Vergessenwerden\") haben Sie das Recht auf unverzügliche Löschung Ihrer personenbezogenen Daten. Zur Bestätigung Ihrer Identität nach Art. 12 Abs. 6 DSGVO senden wir Ihnen zunächst einen einmaligen Bestätigungslink. Erst nach dessen Aufruf wird gelöscht und ein kryptografisches Löschzertifikat ausgestellt.": [
+        "Volgens art. 17 AVG (\"recht op vergetelheid\") hebt u recht op wissing van uw persoonsgegevens. Ter bevestiging van uw identiteit volgens art. 12 lid 6 AVG sturen wij eerst een eenmalige bevestigingslink. Pas na bevestiging worden gegevens gewist en wordt een cryptografisch wisbewijs opgesteld."
+      ],
+      "Ihre hinterlegte E-Mail-Adresse:": [
+        "Uw geregistreerde e-mailadres:"
+      ],
+      "ihre-email@example.com": [
+        "uw-email@example.com"
+      ],
+      "Löschantrag übermitteln": [
+        "Wisverzoek indienen"
+      ],
+      "[%s] Löschantrag bestätigen (Art. 17 DSGVO)": [
+        "[%s] Wisverzoek bevestigen (Art. 17 AVG)"
+      ],
+      "DSGVO Löschantrag (Art. 17)": [
+        "AVG-wisverzoek (Art. 17)"
+      ],
+      "Öffentliches Formular für Löschanträge nach Art. 17 DSGVO mit Einmal-Bestätigungslink.": [
+        "Openbaar formulier voor wisverzoeken volgens art. 17 AVG met eenmalige bevestigingslink."
+      ],
+      "Formulareinstellungen": [
+        "Formulierinstellingen"
+      ],
+      "Hinweistext anzeigen": [
+        "Toelichting tonen"
+      ],
+      "Blendet den erläuternden Hinweis oberhalb des E-Mail-Feldes ein oder aus.": [
+        "Toont of verbergt de toelichtende tekst boven het e-mailveld."
+      ],
+      "block title\u0004DSGVO Löschantrag (Art. 17)": [
+        "AVG-wisverzoek (Art. 17)"
+      ],
+      "block description\u0004Öffentliches Formular für Löschanträge nach Art. 17 DSGVO mit Einmal-Bestätigungslink.": [
+        "Openbaar formulier voor wisverzoeken volgens art. 17 AVG met eenmalige bevestigingslink."
+      ],
+      "block keyword\u0004dsgvo": [
+        "avg"
+      ],
+      "block keyword\u0004gdpr": [
+        "gegevensbescherming"
+      ],
+      "block keyword\u0004löschung": [
+        "wissing"
+      ],
+      "block keyword\u0004erasure": [
+        "verwijdering"
+      ],
+      "block keyword\u0004datenschutz": [
+        "privacybeleid"
+      ],
+      "block keyword\u0004privacy": [
+        "privacy"
+      ]
+    }
+  }
+}

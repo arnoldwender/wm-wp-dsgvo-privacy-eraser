@@ -1,0 +1,35 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-11-18T21:50:15Z",
+    "component": {
+      "type": "application",
+      "name": "wm-dsgvo-privacy-eraser",
+      "version": "1.4.2",
+      "description": "Löschanträge nach Art. 17 DSGVO mit Bestätigungslink an die Adresse, Anonymisierung bzw. Löschung von Kommentaren, Benutzerkonto und optional WooCommerce-Rechnungsfeldern sowie HMAC-verkettete Löschnachweise.",
+      "supplier": {
+        "name": "Arnold Wender",
+        "url": [
+          "https://arnoldwender.com"
+        ]
+      },
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:wordpress/wm-dsgvo-privacy-eraser@1.4.2",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "1da980d0742dd1fee920de5f732cac89fcf5a39261b60f2c2c09609a9d2c50ba"
+        }
+      ]
+    }
+  },
+  "components": []
+}

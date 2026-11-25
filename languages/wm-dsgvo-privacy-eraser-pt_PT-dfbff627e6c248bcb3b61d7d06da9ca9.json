@@ -1,0 +1,357 @@
+{
+  "translation-revision-date": "2026-11-21T14:14:21+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-dsgvo-privacy-eraser",
+        "lang": "pt_PT",
+        "plural-forms": "nplurals=2; plural=(n != 1);"
+      },
+      "WM DSGVO Art. 17 Cryptographic Privacy Eraser": [
+        "WM RGPD Art. 17 Apagador Criptográfico de Privacidade"
+      ],
+      "https://arnoldwender.com/wordpress-plugins/wm-dsgvo-privacy-eraser/": [
+        "https://arnoldwender.com/wordpress-plugins/wm-dsgvo-privacy-eraser/"
+      ],
+      "Löschanträge nach Art. 17 DSGVO mit Bestätigungslink an die Adresse; danach werden Kommentare anonymisiert, das Benutzerkonto (außer Administratoren) gelöscht und optional WooCommerce-Rechnungsfelder anonymisiert. Jede Löschung erhält einen HMAC-verketteten Nachweis. Keine rechtliche Prüfung des Antrags.": [
+        "Pedidos de apagamento nos termos do art. 17.º do RGPD com ligação de confirmação enviada para o endereço; depois os comentários são anonimizados, a conta de utilizador (exceto administradores) é eliminada e os campos de faturação WooCommerce são opcionalmente anonimizados. Cada apagamento gera um comprovativo encadeado por HMAC. Sem avaliação jurídica."
+      ],
+      "Arnold Wender": [
+        "Arnold Wender"
+      ],
+      "https://arnoldwender.com": [
+        "https://arnoldwender.com"
+      ],
+      "Kette geprüft: %d versiegelte Nachweise stimmen": [
+        "Cadeia verificada: %d comprovativos selados coincidem"
+      ],
+      "Noch keine Löschnachweise": [
+        "Ainda sem comprovativos de apagamento"
+      ],
+      "Kette gebrochen": [
+        "Cadeia quebrada"
+      ],
+      "WM DSGVO Privacy Eraser": [
+        "WM RGPD Privacy Eraser"
+      ],
+      "Löschnachweise": [
+        "Comprovativos de apagamento"
+      ],
+      "Offene Anträge": [
+        "Pedidos em aberto"
+      ],
+      "Privacy Eraser öffnen": [
+        "Abrir Privacy Eraser"
+      ],
+      "WM Privacy Eraser": [
+        "WM Privacy Eraser"
+      ],
+      "Privacy Eraser": [
+        "Privacy Eraser"
+      ],
+      "Übersicht": [
+        "Visão geral"
+      ],
+      "Antrag stellen": [
+        "Submeter pedido"
+      ],
+      "Was gelöscht wird": [
+        "O que é apagado"
+      ],
+      "Einstellungen": [
+        "Definições"
+      ],
+      "Löschanträge mit Bestätigungslink, Löschung bzw. Anonymisierung der Daten, die WordPress selbst zu einer E-Mail-Adresse hält, und ein verketteter Nachweis je Löschung. Es ersetzt keine rechtliche Prüfung des Antrags.": [
+        "Pedidos de apagamento com ligação de confirmação, eliminação ou anonimização dos dados que o WordPress guarda para um endereço de e-mail e comprovativo encadeado por apagamento. Não substitui análise jurídica."
+      ],
+      "Part of the WM Suite plugin family": [
+        "Parte da família de plugins WM Suite"
+      ],
+      "WM Suite": [
+        "WM Suite"
+      ],
+      "Hub": [
+        "Hub"
+      ],
+      "Standalone": [
+        "Autónomo"
+      ],
+      "Bereiche": [
+        "Áreas"
+      ],
+      "Stand dieser Website": [
+        "Estado deste site"
+      ],
+      "Beim Aufruf dieser Seite aus der Datenbank gelesen.": [
+        "Lido da base de dados ao carregar esta página."
+      ],
+      "Gelöschte oder anonymisierte Einträge laut Nachweisen": [
+        "Registos eliminados ou anonimizados segundo os comprovativos"
+      ],
+      "Offene Anträge (Adresse noch gespeichert)": [
+        "Pedidos em aberto (endereço ainda guardado)"
+      ],
+      "Nachweiskette": [
+        "Cadeia de comprovativos"
+      ],
+      "%d ältere Nachweise ohne Siegel, nicht prüfbar.": [
+        "%d comprovativos antigos sem selo, não verificáveis."
+      ],
+      "Verschlüsselung offener Adressen (libsodium)": [
+        "Encriptação de endereços em aberto (libsodium)"
+      ],
+      "verfügbar": [
+        "disponível"
+      ],
+      "nicht verfügbar: Adressen werden im Klartext gespeichert": [
+        "indisponível: os endereços são guardados em texto simples"
+      ],
+      "WooCommerce-Rechnungsfelder anonymisieren (wm_dsgvo_anonymize_wc_orders)": [
+        "Anonimizar campos de faturação WooCommerce (wm_dsgvo_anonymize_wc_orders)"
+      ],
+      "an": [
+        "ativo"
+      ],
+      "aus (Standard)": [
+        "inativo (padrão)"
+      ],
+      "Daten bei Deinstallation löschen (wm_dsgvo_eraser_delete_data_on_uninstall)": [
+        "Eliminar dados ao desinstalar (wm_dsgvo_eraser_delete_data_on_uninstall)"
+      ],
+      "aus (Standard: Nachweise bleiben erhalten)": [
+        "inativo (padrão: os comprovativos são preservados)"
+      ],
+      "Löschantrag für eine Adresse stellen": [
+        "Submeter pedido de apagamento para um endereço"
+      ],
+      "Legt denselben Antrag an wie das Formular auf der Website: An die Adresse geht ein Bestätigungslink, %d Stunden gültig. Gelöscht wird erst, wenn die Löschung auf der verlinkten Seite bestätigt wird. Eine sofortige Löschung ohne Bestätigung gibt es nur über WP-CLI (wp dsgvo erase), nachdem Sie die Identität selbst geprüft haben.": [
+        "Cria o mesmo pedido que o formulário público: é enviada uma ligação de confirmação válida por %d horas. Nada é apagado antes da confirmação na página associada. O apagamento imediato sem confirmação só existe via WP-CLI (wp dsgvo erase) após verificação da identidade."
+      ],
+      "E-Mail-Adresse der betroffenen Person": [
+        "Endereço de e-mail do titular dos dados"
+      ],
+      "Bestätigungslink senden": [
+        "Enviar ligação de confirmação"
+      ],
+      "Bitte eine E-Mail-Adresse eingeben.": [
+        "Introduza um endereço de e-mail."
+      ],
+      "Wird übermittelt …": [
+        "A enviar …"
+      ],
+      "Antrag übermittelt. Ein Bestätigungslink geht nur hinaus, wenn die Adresse gültig ist, keines der Limits greift (%1$d Anträge je Adresse in %2$d Stunden, %3$d je IP pro Stunde, Ihre eigene IP zählt mit) und der Mailversand gelingt; diese Seite erfährt das nicht. Noch ist nichts gelöscht.": [
+        "Pedido submetido. A ligação de confirmação só segue se o endereço for válido, nenhum limite for atingido (%1$d pedidos por endereço em %2$d horas, %3$d por IP por hora, incluindo o seu IP) e o envio resultar; esta página não revela esse resultado. Ainda nada foi apagado."
+      ],
+      "Der Antrag konnte nicht angelegt werden.": [
+        "Não foi possível criar o pedido."
+      ],
+      "Verbindungsfehler.": [
+        "Erro de ligação."
+      ],
+      "Letzte zehn Löschnachweise": [
+        "Últimos dez comprovativos de apagamento"
+      ],
+      "Jeder Nachweis speichert statt der Adresse einen geschlüsselten Hash, die Anzahl der Einträge je Bereich und ein Siegel, das den vorherigen Nachweis einschließt. Bearbeitete, eingefügte, umsortierte oder gelöschte Nachweise fallen bei der Prüfung auf, solange die Option mit dem Kettenende unverändert ist; wer die Datenbank schreiben kann, kann auch diese Option ändern, und wer den Schlüssel aus wp-config.php hat, kann die Kette neu versiegeln.": [
+        "Cada comprovativo guarda um hash com chave em vez do endereço, o total por área e um selo que inclui o comprovativo anterior. Edições, inserções, reordenações ou remoções são detetadas enquanto a opção do topo da cadeia permanecer inalterada; quem tiver escrita na base de dados pode alterar essa opção e quem detiver wp-config.php pode voltar a selar a cadeia."
+      ],
+      "Nachweis": [
+        "Comprovativo"
+      ],
+      "Hash der Adresse": [
+        "Hash do endereço"
+      ],
+      "Einträge": [
+        "Registos"
+      ],
+      "Siegel": [
+        "Selo"
+      ],
+      "Zeitpunkt": [
+        "Data e hora"
+      ],
+      "Noch keine Löschnachweise.": [
+        "Ainda sem comprovativos de apagamento."
+      ],
+      "ohne Siegelkette": [
+        "sem cadeia de selos"
+      ],
+      "Beide Schalter sind standardmäßig ausgeschaltet, damit weder steuerrechtlich relevante Rechnungsdaten noch Löschnachweise unbeabsichtigt entfernt werden.": [
+        "Ambos os interruptores estão desativados por padrão para evitar a remoção acidental de dados fiscais de faturação ou de comprovativos de apagamento."
+      ],
+      "WooCommerce-Rechnungsfelder anonymisieren": [
+        "Anonimizar campos de faturação WooCommerce"
+      ],
+      "Überschreibt Vor- und Nachname, erste Adresszeile, Telefon und E-Mail in WooCommerce-Bestellungen der betroffenen Adresse. Erst nach Prüfung gesetzlicher Aufbewahrungsfristen (§ 147 AO, § 257 HGB) einschalten.": [
+        "Substitui nome próprio, apelido, primeira linha da morada, telefone e e-mail nas encomendas WooCommerce do endereço visado. Ative apenas após verificar os prazos legais de conservação (§ 147 AO, § 257 HGB)."
+      ],
+      "Alle Plugin-Daten bei Deinstallation löschen": [
+        "Eliminar todos os dados do plugin na desinstalação"
+      ],
+      "Wenn aktiviert, entfernt die Deinstallation alle Plugin-Optionen sowie die Tabellen für Anträge und Löschnachweise unwiderruflich. Standardmäßig bleiben Nachweise und Optionen erhalten.": [
+        "Quando ativado, a desinstalação remove irreversivelmente todas as opções do plugin e as tabelas de pedidos e comprovativos. Por padrão, comprovativos e opções são mantidos."
+      ],
+      "Einstellungen speichern": [
+        "Guardar definições"
+      ],
+      "Was bei einer Löschung passiert": [
+        "O que acontece durante um apagamento"
+      ],
+      "Kommentare mit dieser Adresse: Name, Adresse, URL, IP, Browserkennung und Benutzerzuordnung werden überschrieben, der Text durch „[Inhalt auf Antrag nach Art. 17 DSGVO gelöscht]“ ersetzt. Die Kommentare selbst bleiben stehen.": [
+        "Comentários com este endereço: nome, e-mail, URL, IP, agente do navegador e utilizador associado são substituídos, e o texto passa a «[Conteúdo apagado a pedido nos termos do art. 17.º do RGPD]». Os comentários permanecem."
+      ],
+      "Benutzerkonto mit dieser Adresse: wird mit wp_delete_user() gelöscht, dabei auch die Beiträge, die dieses Konto verfasst hat. Konten mit der Rolle Administrator werden nicht gelöscht; der Nachweis vermerkt das. In einer Multisite entfernt wp_delete_user() das Konto nur aus dieser Website; der Nachweis vermerkt removed_from_this_site.": [
+        "Conta de utilizador com este endereço: eliminada com wp_delete_user(), incluindo os artigos publicados. Contas de administrador nunca são eliminadas e o comprovativo regista isso. Em Multisite remove apenas deste site (removed_from_this_site)."
+      ],
+      "WooCommerce-Bestellungen: nur wenn die Option wm_dsgvo_anonymize_wc_orders an ist, und nur Vor- und Nachname, erste Adresszeile, E-Mail und Telefon der Rechnungsadresse, über die Bestellobjekte von WooCommerce (HPOS und Beitragsspeicher). Standard ist aus, weil Rechnungsdaten Aufbewahrungsfristen unterliegen können (§ 147 AO, § 257 HGB); ob eine greift, entscheidet das Plugin nicht.": [
+        "Encomendas WooCommerce: apenas quando wm_dsgvo_anonymize_wc_orders está ativo, substituindo nome, apelido, morada, e-mail e telefone de faturação através dos objetos de encomenda WooCommerce (HPOS e posts). Desativado por padrão devido a deveres fiscais de retenção."
+      ],
+      "Nicht erfasst: Tabellen anderer Plugins (Formulare, Newsletter, Buchungen), Benutzer-Metadaten verbleibender Konten, Kommentar-Metadaten, Lieferadressen, Dateien, Logs, Caches und Backups. Die Datenschutz-Löschwerkzeuge von WordPress ruft das Plugin nicht auf.": [
+        "Não abrangido: tabelas de outros plugins (formulários, newsletters, reservas), metadados de contas mantidas, moradas de envio, ficheiros, registos, caches e cópias de segurança."
+      ],
+      "Ob ein Antrag berechtigt ist, ob Ausnahmen nach Art. 17 Abs. 3 DSGVO greifen und welche Frist gilt, entscheidet das Plugin nicht.": [
+        "O plugin não decide se um pedido é fundado, se se aplicam exceções do art. 17.º, n.º 3, do RGPD nem qual o prazo de conservação aplicável."
+      ],
+      "Zu viele Anfragen. Bitte versuchen Sie es in einer Minute erneut.": [
+        "Demasiados pedidos. Tente novamente dentro de um minuto."
+      ],
+      "Bitte geben Sie eine gültige E-Mail-Adresse an.": [
+        "Indique um endereço de e-mail válido."
+      ],
+      "Der Antrag wurde entgegengenommen. Ist die Adresse gültig, geht an sie ein Bestätigungslink; gelöscht wird erst nach dessen Aufruf.": [
+        "O pedido foi recebido. Se o endereço for válido, será enviada uma ligação de confirmação; o apagamento só ocorre após confirmação."
+      ],
+      "WM Privacy Eraser Status": [
+        "Estado do WM Privacy Eraser"
+      ],
+      "Aktueller Status des Art.-17-DSGVO-Löschportals.": [
+        "Estado atual do portal de apagamento Art. 17.º RGPD."
+      ],
+      "Art. 17 DSGVO Löschportal aktiv (%d versiegelte Nachweise)": [
+        "Portal de apagamento Art. 17.º RGPD ativo (%d comprovativos selados)"
+      ],
+      "Art. 17 DSGVO Löschportal aktiv": [
+        "Portal de apagamento Art. 17.º RGPD ativo"
+      ],
+      "Art. 17 DSGVO Löschportal: Kette prüfen": [
+        "Portal de apagamento Art. 17.º RGPD: verificar cadeia"
+      ],
+      "Löschung bestätigen": [
+        "Confirmar apagamento"
+      ],
+      "Das Öffnen dieses Links hat noch nichts gelöscht. Mit der Schaltfläche unten werden zu der Adresse, für die der Antrag gestellt wurde, die Kommentare auf dieser Website anonymisiert und ein Benutzerkonto gelöscht (außer Administratorkonten); ist es eingeschaltet, werden auch Rechnungsfelder von WooCommerce-Bestellungen anonymisiert. Die Löschung ist unwiderruflich.": [
+        "Abrir esta ligação ainda não apagou nada. Com o botão abaixo serão anonimizados os comentários neste site associados ao endereço pedido e eliminada a conta de utilizador (exceto administradores); se ativo, os dados de faturação WooCommerce também serão anonimizados. O apagamento é irreversível."
+      ],
+      "Löschung jetzt ausführen": [
+        "Executar apagamento agora"
+      ],
+      "Löschung ausgeführt": [
+        "Apagamento executado"
+      ],
+      "%1$d Einträge wurden gelöscht oder anonymisiert. Kennung des Löschnachweises: %2$s": [
+        "Foram eliminados ou anonimizados %1$d registos. Identificador do comprovativo: %2$s"
+      ],
+      "Löschung nicht vollständig": [
+        "Apagamento incompleto"
+      ],
+      "Nicht alle Daten konnten geändert werden, oder der Löschnachweis wurde nicht gespeichert. Der Antrag ist als fehlgeschlagen vermerkt; bitte wenden Sie sich an den Betreiber dieser Website.": [
+        "Nem todos os dados puderam ser alterados ou o comprovativo não foi guardado. O pedido ficou marcado como falhado; contacte o responsável deste site."
+      ],
+      "Kennung des Löschnachweises: %s": [
+        "Identificador do comprovativo: %s"
+      ],
+      "Antrag nicht verarbeitet": [
+        "Pedido não processado"
+      ],
+      "Der Antrag konnte nicht verarbeitet werden. Bitte stellen Sie ihn erneut.": [
+        "Não foi possível processar o pedido. Submeta-o novamente."
+      ],
+      "Link nicht gültig": [
+        "Ligação inválida"
+      ],
+      "Der Bestätigungslink ist ungültig, abgelaufen oder wurde bereits verwendet.": [
+        "A ligação de confirmação é inválida, expirou ou já foi utilizada."
+      ],
+      "Bitte geben Sie eine gültige E-Mail-Adresse ein.": [
+        "Introduza um endereço de e-mail válido."
+      ],
+      "Antrag wird übermittelt …": [
+        "A submeter pedido …"
+      ],
+      "Bestätigung erforderlich": [
+        "Confirmação necessária"
+      ],
+      "Ist die Adresse gültig, geht an sie ein Bestätigungslink. Gelöscht wird erst, wenn die Löschung auf der verlinkten Seite bestätigt wird. Der Link ist %d Stunden gültig und nur einmal verwendbar.": [
+        "Se o endereço for válido, foi enviada uma ligação de confirmação. O apagamento só acontece após confirmação na página associada. A ligação é válida por %d horas e apenas para uma utilização."
+      ],
+      "Der Antrag konnte nicht übermittelt werden:": [
+        "Não foi possível submeter o pedido:"
+      ],
+      "unbekannter Fehler": [
+        "erro desconhecido"
+      ],
+      "Der Antrag konnte nicht übermittelt werden: Verbindungsfehler.": [
+        "Não foi possível submeter o pedido: erro de ligação."
+      ],
+      "Antrag auf Datenlöschung (Art. 17 DSGVO)": [
+        "Pedido de apagamento de dados (Art. 17.º RGPD)"
+      ],
+      "Gemäß Art. 17 DSGVO (\"Recht auf Vergessenwerden\") haben Sie das Recht auf unverzügliche Löschung Ihrer personenbezogenen Daten. Zur Bestätigung Ihrer Identität nach Art. 12 Abs. 6 DSGVO senden wir Ihnen zunächst einen einmaligen Bestätigungslink. Erst nach dessen Aufruf wird gelöscht und ein kryptografisches Löschzertifikat ausgestellt.": [
+        "Nos termos do art. 17.º do RGPD («Direito ao apagamento»), pode solicitar a eliminação dos seus dados pessoais. Para confirmar a sua identidade ao abrigo do art. 12.º, n.º 6, do RGPD, enviamos primeiro uma ligação única de confirmação. Só após a confirmação os dados são apagados e é emitido o certificado criptográfico."
+      ],
+      "Ihre hinterlegte E-Mail-Adresse:": [
+        "O seu endereço de e-mail registado:"
+      ],
+      "ihre-email@example.com": [
+        "seu-email@example.com"
+      ],
+      "Löschantrag übermitteln": [
+        "Submeter pedido de apagamento"
+      ],
+      "[%s] Löschantrag bestätigen (Art. 17 DSGVO)": [
+        "[%s] Confirmar pedido de apagamento (Art. 17.º RGPD)"
+      ],
+      "DSGVO Löschantrag (Art. 17)": [
+        "Pedido de apagamento RGPD (Art. 17.º)"
+      ],
+      "Öffentliches Formular für Löschanträge nach Art. 17 DSGVO mit Einmal-Bestätigungslink.": [
+        "Formulário público para pedidos de apagamento nos termos do art. 17.º do RGPD com ligação única de confirmação."
+      ],
+      "Formulareinstellungen": [
+        "Definições do formulário"
+      ],
+      "Hinweistext anzeigen": [
+        "Mostrar texto explicativo"
+      ],
+      "Blendet den erläuternden Hinweis oberhalb des E-Mail-Feldes ein oder aus.": [
+        "Mostra ou oculta a nota explicativa acima do campo de e-mail."
+      ],
+      "block title\u0004DSGVO Löschantrag (Art. 17)": [
+        "Pedido de apagamento RGPD (Art. 17.º)"
+      ],
+      "block description\u0004Öffentliches Formular für Löschanträge nach Art. 17 DSGVO mit Einmal-Bestätigungslink.": [
+        "Formulário público para pedidos de apagamento nos termos do art. 17.º do RGPD com ligação única de confirmação."
+      ],
+      "block keyword\u0004dsgvo": [
+        "rgpd"
+      ],
+      "block keyword\u0004gdpr": [
+        "protecao-dados"
+      ],
+      "block keyword\u0004löschung": [
+        "apagamento"
+      ],
+      "block keyword\u0004erasure": [
+        "eliminacao"
+      ],
+      "block keyword\u0004datenschutz": [
+        "privacidade"
+      ],
+      "block keyword\u0004privacy": [
+        "esquecimento"
+      ]
+    }
+  }
+}

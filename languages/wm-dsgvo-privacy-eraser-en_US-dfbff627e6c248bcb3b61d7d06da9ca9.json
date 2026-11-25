@@ -1,0 +1,357 @@
+{
+  "translation-revision-date": "2026-11-21T14:14:21+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-dsgvo-privacy-eraser",
+        "lang": "en_US",
+        "plural-forms": "nplurals=2; plural=(n != 1);"
+      },
+      "WM DSGVO Art. 17 Cryptographic Privacy Eraser": [
+        "WM GDPR Art. 17 Cryptographic Privacy Eraser"
+      ],
+      "https://arnoldwender.com/wordpress-plugins/wm-dsgvo-privacy-eraser/": [
+        "https://arnoldwender.com/wordpress-plugins/wm-dsgvo-privacy-eraser/"
+      ],
+      "Löschanträge nach Art. 17 DSGVO mit Bestätigungslink an die Adresse; danach werden Kommentare anonymisiert, das Benutzerkonto (außer Administratoren) gelöscht und optional WooCommerce-Rechnungsfelder anonymisiert. Jede Löschung erhält einen HMAC-verketteten Nachweis. Keine rechtliche Prüfung des Antrags.": [
+        "GDPR Art. 17 erasure requests confirmed via a link sent to the address; afterward comments are anonymized, the user account (except administrators) is deleted, and WooCommerce billing fields are optionally anonymized. Each erasure receives an HMAC-chained record. No legal assessment of the request."
+      ],
+      "Arnold Wender": [
+        "Arnold Wender"
+      ],
+      "https://arnoldwender.com": [
+        "https://arnoldwender.com"
+      ],
+      "Kette geprüft: %d versiegelte Nachweise stimmen": [
+        "Chain verified: %d sealed records match"
+      ],
+      "Noch keine Löschnachweise": [
+        "No erasure records yet"
+      ],
+      "Kette gebrochen": [
+        "Chain broken"
+      ],
+      "WM DSGVO Privacy Eraser": [
+        "WM GDPR Privacy Eraser"
+      ],
+      "Löschnachweise": [
+        "Erasure records"
+      ],
+      "Offene Anträge": [
+        "Open requests"
+      ],
+      "Privacy Eraser öffnen": [
+        "Open Privacy Eraser"
+      ],
+      "WM Privacy Eraser": [
+        "WM Privacy Eraser"
+      ],
+      "Privacy Eraser": [
+        "Privacy Eraser"
+      ],
+      "Übersicht": [
+        "Overview"
+      ],
+      "Antrag stellen": [
+        "File request"
+      ],
+      "Was gelöscht wird": [
+        "What is erased"
+      ],
+      "Einstellungen": [
+        "Settings"
+      ],
+      "Löschanträge mit Bestätigungslink, Löschung bzw. Anonymisierung der Daten, die WordPress selbst zu einer E-Mail-Adresse hält, und ein verketteter Nachweis je Löschung. Es ersetzt keine rechtliche Prüfung des Antrags.": [
+        "Erasure requests with a confirmation link, deletion or anonymization of the data WordPress itself holds for an email address, and a chained record per erasure. Does not replace a legal review of the request."
+      ],
+      "Part of the WM Suite plugin family": [
+        "Part of the WM Suite plugin family"
+      ],
+      "WM Suite": [
+        "WM Suite"
+      ],
+      "Hub": [
+        "Hub"
+      ],
+      "Standalone": [
+        "Standalone"
+      ],
+      "Bereiche": [
+        "Areas"
+      ],
+      "Stand dieser Website": [
+        "Status of this site"
+      ],
+      "Beim Aufruf dieser Seite aus der Datenbank gelesen.": [
+        "Read from the database when this page loaded."
+      ],
+      "Gelöschte oder anonymisierte Einträge laut Nachweisen": [
+        "Deleted or anonymized entries according to records"
+      ],
+      "Offene Anträge (Adresse noch gespeichert)": [
+        "Open requests (address still stored)"
+      ],
+      "Nachweiskette": [
+        "Record chain"
+      ],
+      "%d ältere Nachweise ohne Siegel, nicht prüfbar.": [
+        "%d older records without seal, not verifiable."
+      ],
+      "Verschlüsselung offener Adressen (libsodium)": [
+        "Encryption of open addresses (libsodium)"
+      ],
+      "verfügbar": [
+        "available"
+      ],
+      "nicht verfügbar: Adressen werden im Klartext gespeichert": [
+        "unavailable: addresses are stored in plain text"
+      ],
+      "WooCommerce-Rechnungsfelder anonymisieren (wm_dsgvo_anonymize_wc_orders)": [
+        "Anonymize WooCommerce billing fields (wm_dsgvo_anonymize_wc_orders)"
+      ],
+      "an": [
+        "on"
+      ],
+      "aus (Standard)": [
+        "off (default)"
+      ],
+      "Daten bei Deinstallation löschen (wm_dsgvo_eraser_delete_data_on_uninstall)": [
+        "Delete data on uninstall (wm_dsgvo_eraser_delete_data_on_uninstall)"
+      ],
+      "aus (Standard: Nachweise bleiben erhalten)": [
+        "off (default: records are preserved)"
+      ],
+      "Löschantrag für eine Adresse stellen": [
+        "File an erasure request for an address"
+      ],
+      "Legt denselben Antrag an wie das Formular auf der Website: An die Adresse geht ein Bestätigungslink, %d Stunden gültig. Gelöscht wird erst, wenn die Löschung auf der verlinkten Seite bestätigt wird. Eine sofortige Löschung ohne Bestätigung gibt es nur über WP-CLI (wp dsgvo erase), nachdem Sie die Identität selbst geprüft haben.": [
+        "Creates the same request as the form on the website: a confirmation link valid for %d hours is sent to the address. Nothing is erased until confirmed on the linked page. Immediate erasure without confirmation is only available via WP-CLI (wp dsgvo erase) after you have verified identity yourself."
+      ],
+      "E-Mail-Adresse der betroffenen Person": [
+        "Data subject's email address"
+      ],
+      "Bestätigungslink senden": [
+        "Send confirmation link"
+      ],
+      "Bitte eine E-Mail-Adresse eingeben.": [
+        "Please enter an email address."
+      ],
+      "Wird übermittelt …": [
+        "Submitting …"
+      ],
+      "Antrag übermittelt. Ein Bestätigungslink geht nur hinaus, wenn die Adresse gültig ist, keines der Limits greift (%1$d Anträge je Adresse in %2$d Stunden, %3$d je IP pro Stunde, Ihre eigene IP zählt mit) und der Mailversand gelingt; diese Seite erfährt das nicht. Noch ist nichts gelöscht.": [
+        "Request submitted. A confirmation link is only sent if the address is valid, none of the limits apply (%1$d requests per address in %2$d hours, %3$d per IP per hour, your own IP included), and mail delivery succeeds; this page does not learn which applied. Nothing has been erased yet."
+      ],
+      "Der Antrag konnte nicht angelegt werden.": [
+        "The request could not be created."
+      ],
+      "Verbindungsfehler.": [
+        "Connection error."
+      ],
+      "Letzte zehn Löschnachweise": [
+        "Last ten erasure records"
+      ],
+      "Jeder Nachweis speichert statt der Adresse einen geschlüsselten Hash, die Anzahl der Einträge je Bereich und ein Siegel, das den vorherigen Nachweis einschließt. Bearbeitete, eingefügte, umsortierte oder gelöschte Nachweise fallen bei der Prüfung auf, solange die Option mit dem Kettenende unverändert ist; wer die Datenbank schreiben kann, kann auch diese Option ändern, und wer den Schlüssel aus wp-config.php hat, kann die Kette neu versiegeln.": [
+        "Each record stores a keyed hash instead of the address, the count of entries per area, and a seal binding the preceding record. Edited, inserted, reordered, or deleted records fail verification while the chain-tip option remains unchanged; anyone with database write access can alter that option, and anyone holding wp-config.php can re-seal the chain."
+      ],
+      "Nachweis": [
+        "Record"
+      ],
+      "Hash der Adresse": [
+        "Address hash"
+      ],
+      "Einträge": [
+        "Entries"
+      ],
+      "Siegel": [
+        "Seal"
+      ],
+      "Zeitpunkt": [
+        "Timestamp"
+      ],
+      "Noch keine Löschnachweise.": [
+        "No erasure records yet."
+      ],
+      "ohne Siegelkette": [
+        "unchained"
+      ],
+      "Beide Schalter sind standardmäßig ausgeschaltet, damit weder steuerrechtlich relevante Rechnungsdaten noch Löschnachweise unbeabsichtigt entfernt werden.": [
+        "Both switches are off by default so neither tax-relevant billing data nor erasure records are removed unintentionally."
+      ],
+      "WooCommerce-Rechnungsfelder anonymisieren": [
+        "Anonymize WooCommerce billing fields"
+      ],
+      "Überschreibt Vor- und Nachname, erste Adresszeile, Telefon und E-Mail in WooCommerce-Bestellungen der betroffenen Adresse. Erst nach Prüfung gesetzlicher Aufbewahrungsfristen (§ 147 AO, § 257 HGB) einschalten.": [
+        "Overwrites first name, last name, first address line, phone, and email on WooCommerce orders for the address. Enable only after checking statutory retention periods (§ 147 AO, § 257 HGB)."
+      ],
+      "Alle Plugin-Daten bei Deinstallation löschen": [
+        "Delete all plugin data on uninstall"
+      ],
+      "Wenn aktiviert, entfernt die Deinstallation alle Plugin-Optionen sowie die Tabellen für Anträge und Löschnachweise unwiderruflich. Standardmäßig bleiben Nachweise und Optionen erhalten.": [
+        "When enabled, uninstalling permanently removes all plugin options and drops the requests and erasure records tables. By default, records and options are kept."
+      ],
+      "Einstellungen speichern": [
+        "Save settings"
+      ],
+      "Was bei einer Löschung passiert": [
+        "What happens during an erasure"
+      ],
+      "Kommentare mit dieser Adresse: Name, Adresse, URL, IP, Browserkennung und Benutzerzuordnung werden überschrieben, der Text durch „[Inhalt auf Antrag nach Art. 17 DSGVO gelöscht]“ ersetzt. Die Kommentare selbst bleiben stehen.": [
+        "Comments with this address: name, address, URL, IP, user agent, and user association are overwritten, and the text is replaced with “[Content deleted on request under Art. 17 GDPR]”. The comments themselves remain."
+      ],
+      "Benutzerkonto mit dieser Adresse: wird mit wp_delete_user() gelöscht, dabei auch die Beiträge, die dieses Konto verfasst hat. Konten mit der Rolle Administrator werden nicht gelöscht; der Nachweis vermerkt das. In einer Multisite entfernt wp_delete_user() das Konto nur aus dieser Website; der Nachweis vermerkt removed_from_this_site.": [
+        "User account with this address: deleted via wp_delete_user(), including posts authored by that account. Administrator accounts are never deleted and the record notes this. On Multisite, wp_delete_user() removes the account only from this site and records removed_from_this_site."
+      ],
+      "WooCommerce-Bestellungen: nur wenn die Option wm_dsgvo_anonymize_wc_orders an ist, und nur Vor- und Nachname, erste Adresszeile, E-Mail und Telefon der Rechnungsadresse, über die Bestellobjekte von WooCommerce (HPOS und Beitragsspeicher). Standard ist aus, weil Rechnungsdaten Aufbewahrungsfristen unterliegen können (§ 147 AO, § 257 HGB); ob eine greift, entscheidet das Plugin nicht.": [
+        "WooCommerce orders: only when wm_dsgvo_anonymize_wc_orders is on, overwriting billing first and last name, first address line, email, and phone through WooCommerce order objects (HPOS and post storage). Off by default because billing data may be subject to statutory retention (§ 147 AO, § 257 HGB); the plugin does not decide which applies."
+      ],
+      "Nicht erfasst: Tabellen anderer Plugins (Formulare, Newsletter, Buchungen), Benutzer-Metadaten verbleibender Konten, Kommentar-Metadaten, Lieferadressen, Dateien, Logs, Caches und Backups. Die Datenschutz-Löschwerkzeuge von WordPress ruft das Plugin nicht auf.": [
+        "Not covered: tables of other plugins (forms, newsletters, bookings), user meta of retained accounts, comment meta, shipping addresses, files, logs, caches, and backups. WordPress core privacy erasers are not invoked."
+      ],
+      "Ob ein Antrag berechtigt ist, ob Ausnahmen nach Art. 17 Abs. 3 DSGVO greifen und welche Frist gilt, entscheidet das Plugin nicht.": [
+        "Whether a request is justified, whether Art. 17(3) GDPR exceptions apply, and which retention period governs is not decided by the plugin."
+      ],
+      "Zu viele Anfragen. Bitte versuchen Sie es in einer Minute erneut.": [
+        "Too many requests. Please try again in a minute."
+      ],
+      "Bitte geben Sie eine gültige E-Mail-Adresse an.": [
+        "Please provide a valid email address."
+      ],
+      "Der Antrag wurde entgegengenommen. Ist die Adresse gültig, geht an sie ein Bestätigungslink; gelöscht wird erst nach dessen Aufruf.": [
+        "The request has been received. If the address is valid, a confirmation link will be sent to it; erasure takes place only after confirmation."
+      ],
+      "WM Privacy Eraser Status": [
+        "WM Privacy Eraser Status"
+      ],
+      "Aktueller Status des Art.-17-DSGVO-Löschportals.": [
+        "Current status of the Art. 17 GDPR erasure portal."
+      ],
+      "Art. 17 DSGVO Löschportal aktiv (%d versiegelte Nachweise)": [
+        "Art. 17 GDPR erasure portal active (%d sealed records)"
+      ],
+      "Art. 17 DSGVO Löschportal aktiv": [
+        "Art. 17 GDPR erasure portal active"
+      ],
+      "Art. 17 DSGVO Löschportal: Kette prüfen": [
+        "Art. 17 GDPR erasure portal: check chain"
+      ],
+      "Löschung bestätigen": [
+        "Confirm erasure"
+      ],
+      "Das Öffnen dieses Links hat noch nichts gelöscht. Mit der Schaltfläche unten werden zu der Adresse, für die der Antrag gestellt wurde, die Kommentare auf dieser Website anonymisiert und ein Benutzerkonto gelöscht (außer Administratorkonten); ist es eingeschaltet, werden auch Rechnungsfelder von WooCommerce-Bestellungen anonymisiert. Die Löschung ist unwiderruflich.": [
+        "Opening this link has not erased anything yet. Clicking the button below will anonymize comments on this website for the requested address and delete its user account (except administrators); if enabled, WooCommerce order billing fields will also be anonymized. Erasure is irreversible."
+      ],
+      "Löschung jetzt ausführen": [
+        "Execute erasure now"
+      ],
+      "Löschung ausgeführt": [
+        "Erasure executed"
+      ],
+      "%1$d Einträge wurden gelöscht oder anonymisiert. Kennung des Löschnachweises: %2$s": [
+        "%1$d entries were deleted or anonymized. Erasure record ID: %2$s"
+      ],
+      "Löschung nicht vollständig": [
+        "Erasure incomplete"
+      ],
+      "Nicht alle Daten konnten geändert werden, oder der Löschnachweis wurde nicht gespeichert. Der Antrag ist als fehlgeschlagen vermerkt; bitte wenden Sie sich an den Betreiber dieser Website.": [
+        "Not all data could be updated, or the erasure record could not be stored. The request is marked as failed; please contact the operator of this website."
+      ],
+      "Kennung des Löschnachweises: %s": [
+        "Erasure record ID: %s"
+      ],
+      "Antrag nicht verarbeitet": [
+        "Request not processed"
+      ],
+      "Der Antrag konnte nicht verarbeitet werden. Bitte stellen Sie ihn erneut.": [
+        "The request could not be processed. Please submit it again."
+      ],
+      "Link nicht gültig": [
+        "Invalid link"
+      ],
+      "Der Bestätigungslink ist ungültig, abgelaufen oder wurde bereits verwendet.": [
+        "The confirmation link is invalid, expired, or has already been used."
+      ],
+      "Bitte geben Sie eine gültige E-Mail-Adresse ein.": [
+        "Please enter a valid email address."
+      ],
+      "Antrag wird übermittelt …": [
+        "Submitting request …"
+      ],
+      "Bestätigung erforderlich": [
+        "Confirmation required"
+      ],
+      "Ist die Adresse gültig, geht an sie ein Bestätigungslink. Gelöscht wird erst, wenn die Löschung auf der verlinkten Seite bestätigt wird. Der Link ist %d Stunden gültig und nur einmal verwendbar.": [
+        "If the address is valid, a confirmation link has been sent to it. Erasure occurs only after confirmation on the linked page. The link is valid for %d hours and can be used once."
+      ],
+      "Der Antrag konnte nicht übermittelt werden:": [
+        "The request could not be submitted:"
+      ],
+      "unbekannter Fehler": [
+        "unknown error"
+      ],
+      "Der Antrag konnte nicht übermittelt werden: Verbindungsfehler.": [
+        "The request could not be submitted: connection error."
+      ],
+      "Antrag auf Datenlöschung (Art. 17 DSGVO)": [
+        "Data Erasure Request (Art. 17 GDPR)"
+      ],
+      "Gemäß Art. 17 DSGVO (\"Recht auf Vergessenwerden\") haben Sie das Recht auf unverzügliche Löschung Ihrer personenbezogenen Daten. Zur Bestätigung Ihrer Identität nach Art. 12 Abs. 6 DSGVO senden wir Ihnen zunächst einen einmaligen Bestätigungslink. Erst nach dessen Aufruf wird gelöscht und ein kryptografisches Löschzertifikat ausgestellt.": [
+        "Under Art. 17 GDPR (\"Right to erasure\"), you may request the erasure of your personal data. To confirm access to the mailbox under Art. 12(6) GDPR, we first send a single-use confirmation link. Data is erased and a cryptographic erasure record is issued only after confirmation."
+      ],
+      "Ihre hinterlegte E-Mail-Adresse:": [
+        "Your registered email address:"
+      ],
+      "ihre-email@example.com": [
+        "your-email@example.com"
+      ],
+      "Löschantrag übermitteln": [
+        "Submit erasure request"
+      ],
+      "[%s] Löschantrag bestätigen (Art. 17 DSGVO)": [
+        "[%s] Confirm erasure request (Art. 17 GDPR)"
+      ],
+      "DSGVO Löschantrag (Art. 17)": [
+        "GDPR Erasure Request (Art. 17)"
+      ],
+      "Öffentliches Formular für Löschanträge nach Art. 17 DSGVO mit Einmal-Bestätigungslink.": [
+        "Public form for Art. 17 GDPR erasure requests with a single-use confirmation link."
+      ],
+      "Formulareinstellungen": [
+        "Form settings"
+      ],
+      "Hinweistext anzeigen": [
+        "Show explanatory notice"
+      ],
+      "Blendet den erläuternden Hinweis oberhalb des E-Mail-Feldes ein oder aus.": [
+        "Shows or hides the explanatory paragraph above the email field."
+      ],
+      "block title\u0004DSGVO Löschantrag (Art. 17)": [
+        "GDPR Erasure Request (Art. 17)"
+      ],
+      "block description\u0004Öffentliches Formular für Löschanträge nach Art. 17 DSGVO mit Einmal-Bestätigungslink.": [
+        "Public form for Art. 17 GDPR erasure requests with a single-use confirmation link."
+      ],
+      "block keyword\u0004dsgvo": [
+        "gdpr"
+      ],
+      "block keyword\u0004gdpr": [
+        "privacy-regulation"
+      ],
+      "block keyword\u0004löschung": [
+        "erasure"
+      ],
+      "block keyword\u0004erasure": [
+        "deletion"
+      ],
+      "block keyword\u0004datenschutz": [
+        "data-protection"
+      ],
+      "block keyword\u0004privacy": [
+        "privacy"
+      ]
+    }
+  }
+}

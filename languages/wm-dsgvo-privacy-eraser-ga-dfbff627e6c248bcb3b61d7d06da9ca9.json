@@ -1,0 +1,357 @@
+{
+  "translation-revision-date": "2026-11-21T14:14:21+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-dsgvo-privacy-eraser",
+        "lang": "ga",
+        "plural-forms": "nplurals=5; plural=(n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : 4);"
+      },
+      "WM DSGVO Art. 17 Cryptographic Privacy Eraser": [
+        "WM RGCS Airteagal 17 Scriosóir Cripteagrafach Príobháideachais"
+      ],
+      "https://arnoldwender.com/wordpress-plugins/wm-dsgvo-privacy-eraser/": [
+        "https://arnoldwender.com/wordpress-plugins/wm-dsgvo-privacy-eraser/"
+      ],
+      "Löschanträge nach Art. 17 DSGVO mit Bestätigungslink an die Adresse; danach werden Kommentare anonymisiert, das Benutzerkonto (außer Administratoren) gelöscht und optional WooCommerce-Rechnungsfelder anonymisiert. Jede Löschung erhält einen HMAC-verketteten Nachweis. Keine rechtliche Prüfung des Antrags.": [
+        "Iarratais léirscriosta faoi Airteagal 17 RGCS a dheimhnítear le nasc aonuaire chuig an seoladh ríomhphoist; ina dhiaidh sin déantar tráchtanna a anaithnidiú, scriostar an cuntas úsáideora (seachas riarthóirí) agus anaithnidítear réimsí billeála WooCommerce go roghnach. Faigheann gach léirscrios taifead slabhraithe HMAC. Gan mheasúnú dlíthiúil."
+      ],
+      "Arnold Wender": [
+        "Arnold Wender"
+      ],
+      "https://arnoldwender.com": [
+        "https://arnoldwender.com"
+      ],
+      "Kette geprüft: %d versiegelte Nachweise stimmen": [
+        "Slabhra fíoraithe: tagann %d taifead séalaithe le chéile"
+      ],
+      "Noch keine Löschnachweise": [
+        "Níl aon taifid léirscriosta ann fós"
+      ],
+      "Kette gebrochen": [
+        "Slabhra briste"
+      ],
+      "WM DSGVO Privacy Eraser": [
+        "WM RGCS Privacy Eraser"
+      ],
+      "Löschnachweise": [
+        "Taifid léirscriosta"
+      ],
+      "Offene Anträge": [
+        "Iarratais oscailte"
+      ],
+      "Privacy Eraser öffnen": [
+        "Oscail Privacy Eraser"
+      ],
+      "WM Privacy Eraser": [
+        "WM Privacy Eraser"
+      ],
+      "Privacy Eraser": [
+        "Privacy Eraser"
+      ],
+      "Übersicht": [
+        "Forléargas"
+      ],
+      "Antrag stellen": [
+        "Cuir iarratas isteach"
+      ],
+      "Was gelöscht wird": [
+        "Cad a scriostar"
+      ],
+      "Einstellungen": [
+        "Socruithe"
+      ],
+      "Löschanträge mit Bestätigungslink, Löschung bzw. Anonymisierung der Daten, die WordPress selbst zu einer E-Mail-Adresse hält, und ein verketteter Nachweis je Löschung. Es ersetzt keine rechtliche Prüfung des Antrags.": [
+        "Iarratais léirscriosta le nasc deimhnithe, scriosadh nó anaithnidiú ar na sonraí a choinníonn WordPress do sheoladh ríomhphoist, agus taifead slabhraithe in aghaidh an léirscriosta. Ní ghlacann sé áit athbhreithnithe dlí."
+      ],
+      "Part of the WM Suite plugin family": [
+        "Cuid de theaghlach breiseán WM Suite"
+      ],
+      "WM Suite": [
+        "WM Suite"
+      ],
+      "Hub": [
+        "Mol"
+      ],
+      "Standalone": [
+        "Neamhspleách"
+      ],
+      "Bereiche": [
+        "Réimsí"
+      ],
+      "Stand dieser Website": [
+        "Stádas an tsuímh seo"
+      ],
+      "Beim Aufruf dieser Seite aus der Datenbank gelesen.": [
+        "Léite ón mbunachar sonraí nuair a osclaíodh an leathanach seo."
+      ],
+      "Gelöschte oder anonymisierte Einträge laut Nachweisen": [
+        "Iontrálacha scriosta nó anaithnidithe de réir na dtaifead"
+      ],
+      "Offene Anträge (Adresse noch gespeichert)": [
+        "Iarratais oscailte (seoladh stóráilte fós)"
+      ],
+      "Nachweiskette": [
+        "Slabhra taifead"
+      ],
+      "%d ältere Nachweise ohne Siegel, nicht prüfbar.": [
+        "%d taifead níos sine gan séala, do-fhíoraithe."
+      ],
+      "Verschlüsselung offener Adressen (libsodium)": [
+        "Criptiú seoltaí oscailte (libsodium)"
+      ],
+      "verfügbar": [
+        "ar fáil"
+      ],
+      "nicht verfügbar: Adressen werden im Klartext gespeichert": [
+        "gan bheith ar fáil: stóráiltear seoltaí i ngnáth-théacs"
+      ],
+      "WooCommerce-Rechnungsfelder anonymisieren (wm_dsgvo_anonymize_wc_orders)": [
+        "Anaithnidigh réimsí billeála WooCommerce (wm_dsgvo_anonymize_wc_orders)"
+      ],
+      "an": [
+        "air"
+      ],
+      "aus (Standard)": [
+        "as (réamhshocrú)"
+      ],
+      "Daten bei Deinstallation löschen (wm_dsgvo_eraser_delete_data_on_uninstall)": [
+        "Scrios sonraí ar dhíshuiteáil (wm_dsgvo_eraser_delete_data_on_uninstall)"
+      ],
+      "aus (Standard: Nachweise bleiben erhalten)": [
+        "as (réamhshocrú: coimeádtar na taifid)"
+      ],
+      "Löschantrag für eine Adresse stellen": [
+        "Déan iarratas léirscriosta le haghaidh seolta"
+      ],
+      "Legt denselben Antrag an wie das Formular auf der Website: An die Adresse geht ein Bestätigungslink, %d Stunden gültig. Gelöscht wird erst, wenn die Löschung auf der verlinkten Seite bestätigt wird. Eine sofortige Löschung ohne Bestätigung gibt es nur über WP-CLI (wp dsgvo erase), nachdem Sie die Identität selbst geprüft haben.": [
+        "Cruthaíonn sé an t-iarratas céanna leis an bhfoirm phoiblí: seoltar nasc deimhnithe atá bailí ar feadh %d uair an chloig. Ní scriostar dada go dtí go ndeimhnítear é ar an leathanach nasctha. Níl léirscrios láithreach gan deimhniú ar fáil ach trí WP-CLI (wp dsgvo erase) tar éis duit féin an aitheantas a fhíorú."
+      ],
+      "E-Mail-Adresse der betroffenen Person": [
+        "Seoladh ríomhphoist an ábhair sonraí"
+      ],
+      "Bestätigungslink senden": [
+        "Seol nasc deimhnithe"
+      ],
+      "Bitte eine E-Mail-Adresse eingeben.": [
+        "Cuir isteach seoladh ríomhphoist le do thoil."
+      ],
+      "Wird übermittelt …": [
+        "Á sheoladh …"
+      ],
+      "Antrag übermittelt. Ein Bestätigungslink geht nur hinaus, wenn die Adresse gültig ist, keines der Limits greift (%1$d Anträge je Adresse in %2$d Stunden, %3$d je IP pro Stunde, Ihre eigene IP zählt mit) und der Mailversand gelingt; diese Seite erfährt das nicht. Noch ist nichts gelöscht.": [
+        "Iarratas curtha isteach. Ní sheoltar nasc deimhnithe ach má tá an seoladh bailí, mura sáraítear aon teorainn (%1$d iarratas in aghaidh an tseolta i %2$d uair an chloig, %3$d in aghaidh an IP san uair lena n-áirítear do IP féin) agus má éiríonn leis an seoladh; ní thaispeánann an leathanach seo sin. Níor scriosadh dada fós."
+      ],
+      "Der Antrag konnte nicht angelegt werden.": [
+        "Níorbh fhéidir an t-iarratas a chruthú."
+      ],
+      "Verbindungsfehler.": [
+        "Earráid cheangail."
+      ],
+      "Letzte zehn Löschnachweise": [
+        "Deich dtaifead léirscriosta is déanaí"
+      ],
+      "Jeder Nachweis speichert statt der Adresse einen geschlüsselten Hash, die Anzahl der Einträge je Bereich und ein Siegel, das den vorherigen Nachweis einschließt. Bearbeitete, eingefügte, umsortierte oder gelöschte Nachweise fallen bei der Prüfung auf, solange die Option mit dem Kettenende unverändert ist; wer die Datenbank schreiben kann, kann auch diese Option ändern, und wer den Schlüssel aus wp-config.php hat, kann die Kette neu versiegeln.": [
+        "Stórálann gach taifead hais eochraithe in ionad an tseolta, líon na n-iontrálacha in aghaidh an réimse agus séala a chuimsíonn an taifead roimhe sin. Braitear athruithe, cur isteach, athordú nó scriosadh fad a fhanann rogha bharr an tslabhra gan athrú; is féidir leis an té a bhfuil cead scríofa aige sa bhunachar an rogha sin a athrú, agus is féidir athshéalú a dhéanamh le wp-config.php."
+      ],
+      "Nachweis": [
+        "Taifead"
+      ],
+      "Hash der Adresse": [
+        "Hais an tseolta"
+      ],
+      "Einträge": [
+        "Iontrálacha"
+      ],
+      "Siegel": [
+        "Séala"
+      ],
+      "Zeitpunkt": [
+        "Am"
+      ],
+      "Noch keine Löschnachweise.": [
+        "Níl aon taifid léirscriosta ann fós."
+      ],
+      "ohne Siegelkette": [
+        "gan slabhra séalaí"
+      ],
+      "Beide Schalter sind standardmäßig ausgeschaltet, damit weder steuerrechtlich relevante Rechnungsdaten noch Löschnachweise unbeabsichtigt entfernt werden.": [
+        "Tá an dá lasc múchta de réir réamhshocraithe ionas nach mbaintear sonraí billeála cánach ná taifid léirscriosta de thaisme."
+      ],
+      "WooCommerce-Rechnungsfelder anonymisieren": [
+        "Anaithnidigh réimsí billeála WooCommerce"
+      ],
+      "Überschreibt Vor- und Nachname, erste Adresszeile, Telefon und E-Mail in WooCommerce-Bestellungen der betroffenen Adresse. Erst nach Prüfung gesetzlicher Aufbewahrungsfristen (§ 147 AO, § 257 HGB) einschalten.": [
+        "Forscríobhann sé céadainm, sloinne, céad líne an tseolta, guthán agus ríomhphost in orduithe WooCommerce don seoladh. Ná cuir air ach tar éis tréimhsí coinneála reachtúla (§ 147 AO, § 257 HGB) a sheiceáil."
+      ],
+      "Alle Plugin-Daten bei Deinstallation löschen": [
+        "Scrios gach sonra breiseáin ar dhíshuiteáil"
+      ],
+      "Wenn aktiviert, entfernt die Deinstallation alle Plugin-Optionen sowie die Tabellen für Anträge und Löschnachweise unwiderruflich. Standardmäßig bleiben Nachweise und Optionen erhalten.": [
+        "Nuair atá sé cumasaithe, scriosann díshuiteáil gach rogha breiseáin mar aon le táblaí na n-iarratas agus na dtaifead léirscriosta go buan. De réir réamhshocraithe coimeádtar iad."
+      ],
+      "Einstellungen speichern": [
+        "Sábháil socruithe"
+      ],
+      "Was bei einer Löschung passiert": [
+        "Cad a tharlaíonn le linn léirscriosta"
+      ],
+      "Kommentare mit dieser Adresse: Name, Adresse, URL, IP, Browserkennung und Benutzerzuordnung werden überschrieben, der Text durch „[Inhalt auf Antrag nach Art. 17 DSGVO gelöscht]“ ersetzt. Die Kommentare selbst bleiben stehen.": [
+        "Tráchtanna leis an seoladh seo: forscríobhtar ainm, ríomhphost, URL, IP, gníomhaire brabhsálaí agus nasc úsáideora, agus cuirtear “[Ábhar scriosta ar iarratas faoi Airteagal 17 RGCS]” in ionad an téacs. Fanann na tráchtanna féin."
+      ],
+      "Benutzerkonto mit dieser Adresse: wird mit wp_delete_user() gelöscht, dabei auch die Beiträge, die dieses Konto verfasst hat. Konten mit der Rolle Administrator werden nicht gelöscht; der Nachweis vermerkt das. In einer Multisite entfernt wp_delete_user() das Konto nur aus dieser Website; der Nachweis vermerkt removed_from_this_site.": [
+        "Cuntas úsáideora leis an seoladh seo: scriostar é le wp_delete_user() mar aon lena phoist. Ní scriostar cuntais riarthóra riamh agus luann an taifead é sin. Ar Multisite baintear an cuntas ón suíomh seo amháin (removed_from_this_site)."
+      ],
+      "WooCommerce-Bestellungen: nur wenn die Option wm_dsgvo_anonymize_wc_orders an ist, und nur Vor- und Nachname, erste Adresszeile, E-Mail und Telefon der Rechnungsadresse, über die Bestellobjekte von WooCommerce (HPOS und Beitragsspeicher). Standard ist aus, weil Rechnungsdaten Aufbewahrungsfristen unterliegen können (§ 147 AO, § 257 HGB); ob eine greift, entscheidet das Plugin nicht.": [
+        "Orduithe WooCommerce: ach amháin nuair atá wm_dsgvo_anonymize_wc_orders air; forscríobhtar ainm, seoladh, ríomhphost agus guthán billeála trí réada ordaithe WooCommerce (HPOS agus poist). Múchta de réir réamhshocraithe mar gheall ar dhualgais choinneála chuntasaíochta."
+      ],
+      "Nicht erfasst: Tabellen anderer Plugins (Formulare, Newsletter, Buchungen), Benutzer-Metadaten verbleibender Konten, Kommentar-Metadaten, Lieferadressen, Dateien, Logs, Caches und Backups. Die Datenschutz-Löschwerkzeuge von WordPress ruft das Plugin nicht auf.": [
+        "Nach bhfuil clúdaithe: táblaí breiseán eile (foirmeacha, nuachtlitreacha, áirithintí), meiteashonraí cuntas coinnithe, seoltaí seachadta, comhaid, logaí, taiscí agus cúltacaí."
+      ],
+      "Ob ein Antrag berechtigt ist, ob Ausnahmen nach Art. 17 Abs. 3 DSGVO greifen und welche Frist gilt, entscheidet das Plugin nicht.": [
+        "Ní chinneann an breiseán an bhfuil iarratas inchosanta, an mbaineann eisceachtaí Airteagal 17(3) RGCS leis ná cén tréimhse choinneála a bhaineann leis."
+      ],
+      "Zu viele Anfragen. Bitte versuchen Sie es in einer Minute erneut.": [
+        "An iomarca iarratas. Bain triail eile as i gceann nóiméid."
+      ],
+      "Bitte geben Sie eine gültige E-Mail-Adresse an.": [
+        "Cuir seoladh ríomhphoist bailí ar fáil le do thoil."
+      ],
+      "Der Antrag wurde entgegengenommen. Ist die Adresse gültig, geht an sie ein Bestätigungslink; gelöscht wird erst nach dessen Aufruf.": [
+        "Fuarthas an t-iarratas. Má tá an seoladh bailí, seolfar nasc deimhnithe chuige; ní dhéanfar an léirscrios ach tar éis deimhnithe."
+      ],
+      "WM Privacy Eraser Status": [
+        "Stádas WM Privacy Eraser"
+      ],
+      "Aktueller Status des Art.-17-DSGVO-Löschportals.": [
+        "Stádas reatha na tairsí léirscriosta Airteagal 17 RGCS."
+      ],
+      "Art. 17 DSGVO Löschportal aktiv (%d versiegelte Nachweise)": [
+        "Tairseach léirscriosta Airteagal 17 RGCS gníomhach (%d taifead séalaithe)"
+      ],
+      "Art. 17 DSGVO Löschportal aktiv": [
+        "Tairseach léirscriosta Airteagal 17 RGCS gníomhach"
+      ],
+      "Art. 17 DSGVO Löschportal: Kette prüfen": [
+        "Tairseach léirscriosta Airteagal 17 RGCS: seiceáil an slabhra"
+      ],
+      "Löschung bestätigen": [
+        "Deimhnigh an léirscrios"
+      ],
+      "Das Öffnen dieses Links hat noch nichts gelöscht. Mit der Schaltfläche unten werden zu der Adresse, für die der Antrag gestellt wurde, die Kommentare auf dieser Website anonymisiert und ein Benutzerkonto gelöscht (außer Administratorkonten); ist es eingeschaltet, werden auch Rechnungsfelder von WooCommerce-Bestellungen anonymisiert. Die Löschung ist unwiderruflich.": [
+        "Níor scrios oscailt an naisc seo dada fós. Leis an gcnaip thíos anaithnideofar tráchtanna ar an suíomh seo don seoladh iarrtha agus scriosfar a chuntas úsáideora (seachas riarthóirí); má tá sé air, anaithnideofar réimsí billeála WooCommerce freisin. Ní féidir an léirscrios a chur ar ceal."
+      ],
+      "Löschung jetzt ausführen": [
+        "Rith an léirscrios anois"
+      ],
+      "Löschung ausgeführt": [
+        "Léirscrios déanta"
+      ],
+      "%1$d Einträge wurden gelöscht oder anonymisiert. Kennung des Löschnachweises: %2$s": [
+        "Scriosadh nó anaithnidíodh %1$d iontráil. Aitheantas an taifid léirscriosta: %2$s"
+      ],
+      "Löschung nicht vollständig": [
+        "Léirscrios neamhiomlán"
+      ],
+      "Nicht alle Daten konnten geändert werden, oder der Löschnachweis wurde nicht gespeichert. Der Antrag ist als fehlgeschlagen vermerkt; bitte wenden Sie sich an den Betreiber dieser Website.": [
+        "Níorbh fhéidir na sonraí go léir a athrú nó níor sábháladh an taifead léirscriosta. Marcáladh an t-iarratas mar theipthe; déan teagmháil le hoibreoir an tsuímh seo."
+      ],
+      "Kennung des Löschnachweises: %s": [
+        "Aitheantas an taifid léirscriosta: %s"
+      ],
+      "Antrag nicht verarbeitet": [
+        "Iarratas gan phróiseáil"
+      ],
+      "Der Antrag konnte nicht verarbeitet werden. Bitte stellen Sie ihn erneut.": [
+        "Níorbh fhéidir an t-iarratas a phróiseáil. Cuir isteach arís é le do thoil."
+      ],
+      "Link nicht gültig": [
+        "Nasc neamhbhailí"
+      ],
+      "Der Bestätigungslink ist ungültig, abgelaufen oder wurde bereits verwendet.": [
+        "Tá an nasc deimhnithe neamhbhailí, imithe in éag nó úsáidte cheana."
+      ],
+      "Bitte geben Sie eine gültige E-Mail-Adresse ein.": [
+        "Cuir isteach seoladh ríomhphoist bailí le do thoil."
+      ],
+      "Antrag wird übermittelt …": [
+        "Iarratas á sheoladh …"
+      ],
+      "Bestätigung erforderlich": [
+        "Deimhniú ag teastáil"
+      ],
+      "Ist die Adresse gültig, geht an sie ein Bestätigungslink. Gelöscht wird erst, wenn die Löschung auf der verlinkten Seite bestätigt wird. Der Link ist %d Stunden gültig und nur einmal verwendbar.": [
+        "Má tá an seoladh bailí, seoladh nasc deimhnithe chuige. Ní dhéanfar léirscrios ach tar éis deimhnithe ar an leathanach nasctha. Tá an nasc bailí ar feadh %d uair an chloig agus d’aon úsáid amháin."
+      ],
+      "Der Antrag konnte nicht übermittelt werden:": [
+        "Níorbh fhéidir an t-iarratas a sheoladh:"
+      ],
+      "unbekannter Fehler": [
+        "earráid anaithnid"
+      ],
+      "Der Antrag konnte nicht übermittelt werden: Verbindungsfehler.": [
+        "Níorbh fhéidir an t-iarratas a sheoladh: earráid cheangail."
+      ],
+      "Antrag auf Datenlöschung (Art. 17 DSGVO)": [
+        "Iarratas ar Léirscrios Sonraí (Airteagal 17 RGCS)"
+      ],
+      "Gemäß Art. 17 DSGVO (\"Recht auf Vergessenwerden\") haben Sie das Recht auf unverzügliche Löschung Ihrer personenbezogenen Daten. Zur Bestätigung Ihrer Identität nach Art. 12 Abs. 6 DSGVO senden wir Ihnen zunächst einen einmaligen Bestätigungslink. Erst nach dessen Aufruf wird gelöscht und ein kryptografisches Löschzertifikat ausgestellt.": [
+        "Faoi Airteagal 17 RGCS (\"An ceart chun léirscriosta\"), tá sé de cheart agat léirscrios do shonraí pearsanta a iarraidh. Chun d’aitheantas a dheimhniú faoi Airteagal 12(6) RGCS, seolaimid nasc deimhnithe aonuaire ar dtús. Ní scriostar na sonraí ná ní eisítear deimhniú cripteagrafach ach tar éis deimhnithe."
+      ],
+      "Ihre hinterlegte E-Mail-Adresse:": [
+        "Do sheoladh ríomhphoist cláraithe:"
+      ],
+      "ihre-email@example.com": [
+        "do-riomhphost@example.com"
+      ],
+      "Löschantrag übermitteln": [
+        "Seol iarratas léirscriosta"
+      ],
+      "[%s] Löschantrag bestätigen (Art. 17 DSGVO)": [
+        "[%s] Deimhnigh iarratas léirscriosta (Airteagal 17 RGCS)"
+      ],
+      "DSGVO Löschantrag (Art. 17)": [
+        "Iarratas Léirscriosta RGCS (Airteagal 17)"
+      ],
+      "Öffentliches Formular für Löschanträge nach Art. 17 DSGVO mit Einmal-Bestätigungslink.": [
+        "Foirm phoiblí le haghaidh iarratas léirscriosta faoi Airteagal 17 RGCS le nasc deimhnithe aonuaire."
+      ],
+      "Formulareinstellungen": [
+        "Socruithe foirme"
+      ],
+      "Hinweistext anzeigen": [
+        "Taispeáin téacs míniúcháin"
+      ],
+      "Blendet den erläuternden Hinweis oberhalb des E-Mail-Feldes ein oder aus.": [
+        "Taispeánann nó folaíonn sé an nóta míniúcháin os cionn an réimse ríomhphoist."
+      ],
+      "block title\u0004DSGVO Löschantrag (Art. 17)": [
+        "Iarratas Léirscriosta RGCS (Airteagal 17)"
+      ],
+      "block description\u0004Öffentliches Formular für Löschanträge nach Art. 17 DSGVO mit Einmal-Bestätigungslink.": [
+        "Foirm phoiblí le haghaidh iarratas léirscriosta faoi Airteagal 17 RGCS le nasc deimhnithe aonuaire."
+      ],
+      "block keyword\u0004dsgvo": [
+        "rgcs"
+      ],
+      "block keyword\u0004gdpr": [
+        "cosaint-sonrai"
+      ],
+      "block keyword\u0004löschung": [
+        "leirscrios"
+      ],
+      "block keyword\u0004erasure": [
+        "scriosadh"
+      ],
+      "block keyword\u0004datenschutz": [
+        "priobhaideachas"
+      ],
+      "block keyword\u0004privacy": [
+        "sonrai-pearsanta"
+      ]
+    }
+  }
+}

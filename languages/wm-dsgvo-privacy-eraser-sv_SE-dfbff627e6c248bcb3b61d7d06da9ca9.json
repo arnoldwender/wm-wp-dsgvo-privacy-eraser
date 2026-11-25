@@ -1,0 +1,357 @@
+{
+  "translation-revision-date": "2026-11-21T14:14:21+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-dsgvo-privacy-eraser",
+        "lang": "sv_SE",
+        "plural-forms": "nplurals=2; plural=(n != 1);"
+      },
+      "WM DSGVO Art. 17 Cryptographic Privacy Eraser": [
+        "WM GDPR Art. 17 Kryptografisk Integritetsraderare"
+      ],
+      "https://arnoldwender.com/wordpress-plugins/wm-dsgvo-privacy-eraser/": [
+        "https://arnoldwender.com/wordpress-plugins/wm-dsgvo-privacy-eraser/"
+      ],
+      "Löschanträge nach Art. 17 DSGVO mit Bestätigungslink an die Adresse; danach werden Kommentare anonymisiert, das Benutzerkonto (außer Administratoren) gelöscht und optional WooCommerce-Rechnungsfelder anonymisiert. Jede Löschung erhält einen HMAC-verketteten Nachweis. Keine rechtliche Prüfung des Antrags.": [
+        "Begäran om radering enligt art. 17 GDPR som bekräftas via engångslänk till e-postadressen; därefter anonymiseras kommentarer, användarkontot (utom administratörer) raderas och faktureringsfält i WooCommerce anonymiseras valfritt. Varje radering får ett HMAC-kedjat bevis. Ingen juridisk prövning."
+      ],
+      "Arnold Wender": [
+        "Arnold Wender"
+      ],
+      "https://arnoldwender.com": [
+        "https://arnoldwender.com"
+      ],
+      "Kette geprüft: %d versiegelte Nachweise stimmen": [
+        "Kedja kontrollerad: %d förseglade bevis stämmer"
+      ],
+      "Noch keine Löschnachweise": [
+        "Inga raderingsbevis ännu"
+      ],
+      "Kette gebrochen": [
+        "Kedja bruten"
+      ],
+      "WM DSGVO Privacy Eraser": [
+        "WM GDPR Privacy Eraser"
+      ],
+      "Löschnachweise": [
+        "Raderingsbevis"
+      ],
+      "Offene Anträge": [
+        "Öppna begäranden"
+      ],
+      "Privacy Eraser öffnen": [
+        "Öppna Privacy Eraser"
+      ],
+      "WM Privacy Eraser": [
+        "WM Privacy Eraser"
+      ],
+      "Privacy Eraser": [
+        "Privacy Eraser"
+      ],
+      "Übersicht": [
+        "Översikt"
+      ],
+      "Antrag stellen": [
+        "Skapa begäran"
+      ],
+      "Was gelöscht wird": [
+        "Vad som raderas"
+      ],
+      "Einstellungen": [
+        "Inställningar"
+      ],
+      "Löschanträge mit Bestätigungslink, Löschung bzw. Anonymisierung der Daten, die WordPress selbst zu einer E-Mail-Adresse hält, und ein verketteter Nachweis je Löschung. Es ersetzt keine rechtliche Prüfung des Antrags.": [
+        "Raderingsbegäranden med bekräftelselänk, radering eller anonymisering av de uppgifter WordPress lagrar för en e-postadress samt ett kedjat bevis per radering. Ersätter inte juridisk bedömning."
+      ],
+      "Part of the WM Suite plugin family": [
+        "Del av WM Suites tilläggsfamilj"
+      ],
+      "WM Suite": [
+        "WM Suite"
+      ],
+      "Hub": [
+        "Hub"
+      ],
+      "Standalone": [
+        "Fristående"
+      ],
+      "Bereiche": [
+        "Områden"
+      ],
+      "Stand dieser Website": [
+        "Status för denna webbplats"
+      ],
+      "Beim Aufruf dieser Seite aus der Datenbank gelesen.": [
+        "Läses från databasen när sidan öppnas."
+      ],
+      "Gelöschte oder anonymisierte Einträge laut Nachweisen": [
+        "Raderade eller anonymiserade poster enligt bevis"
+      ],
+      "Offene Anträge (Adresse noch gespeichert)": [
+        "Öppna begäranden (adressen lagras fortfarande)"
+      ],
+      "Nachweiskette": [
+        "Beviskedja"
+      ],
+      "%d ältere Nachweise ohne Siegel, nicht prüfbar.": [
+        "%d äldre bevis utan sigill, kan inte verifieras."
+      ],
+      "Verschlüsselung offener Adressen (libsodium)": [
+        "Kryptering av öppna adresser (libsodium)"
+      ],
+      "verfügbar": [
+        "tillgänglig"
+      ],
+      "nicht verfügbar: Adressen werden im Klartext gespeichert": [
+        "inte tillgänglig: adresser lagras i klartext"
+      ],
+      "WooCommerce-Rechnungsfelder anonymisieren (wm_dsgvo_anonymize_wc_orders)": [
+        "Anonymisera faktureringsfält i WooCommerce (wm_dsgvo_anonymize_wc_orders)"
+      ],
+      "an": [
+        "på"
+      ],
+      "aus (Standard)": [
+        "av (standard)"
+      ],
+      "Daten bei Deinstallation löschen (wm_dsgvo_eraser_delete_data_on_uninstall)": [
+        "Radera data vid avinstallation (wm_dsgvo_eraser_delete_data_on_uninstall)"
+      ],
+      "aus (Standard: Nachweise bleiben erhalten)": [
+        "av (standard: bevis bevaras)"
+      ],
+      "Löschantrag für eine Adresse stellen": [
+        "Skicka raderingsbegäran för en adress"
+      ],
+      "Legt denselben Antrag an wie das Formular auf der Website: An die Adresse geht ein Bestätigungslink, %d Stunden gültig. Gelöscht wird erst, wenn die Löschung auf der verlinkten Seite bestätigt wird. Eine sofortige Löschung ohne Bestätigung gibt es nur über WP-CLI (wp dsgvo erase), nachdem Sie die Identität selbst geprüft haben.": [
+        "Skapar samma begäran som formuläret på webbplatsen: en bekräftelselänk giltig i %d timmar skickas till adressen. Inget raderas förrän det bekräftas på den länkade sidan. Omedelbar radering utan bekräftelse finns endast via WP-CLI (wp dsgvo erase) efter egen identitetskontroll."
+      ],
+      "E-Mail-Adresse der betroffenen Person": [
+        "Den registrerades e-postadress"
+      ],
+      "Bestätigungslink senden": [
+        "Skicka bekräftelselänk"
+      ],
+      "Bitte eine E-Mail-Adresse eingeben.": [
+        "Ange en e-postadress."
+      ],
+      "Wird übermittelt …": [
+        "Skickar …"
+      ],
+      "Antrag übermittelt. Ein Bestätigungslink geht nur hinaus, wenn die Adresse gültig ist, keines der Limits greift (%1$d Anträge je Adresse in %2$d Stunden, %3$d je IP pro Stunde, Ihre eigene IP zählt mit) und der Mailversand gelingt; diese Seite erfährt das nicht. Noch ist nichts gelöscht.": [
+        "Begäran skickad. En bekräftelselänk skickas bara om adressen är giltig, ingen gräns överskrids (%1$d begäranden per adress under %2$d timmar, %3$d per IP och timme inklusive din egen IP) och utskicket lyckas; denna sida visar inte det. Inget har raderats ännu."
+      ],
+      "Der Antrag konnte nicht angelegt werden.": [
+        "Begäran kunde inte skapas."
+      ],
+      "Verbindungsfehler.": [
+        "Anslutningsfel."
+      ],
+      "Letzte zehn Löschnachweise": [
+        "Senaste tio raderingsbevisen"
+      ],
+      "Jeder Nachweis speichert statt der Adresse einen geschlüsselten Hash, die Anzahl der Einträge je Bereich und ein Siegel, das den vorherigen Nachweis einschließt. Bearbeitete, eingefügte, umsortierte oder gelöschte Nachweise fallen bei der Prüfung auf, solange die Option mit dem Kettenende unverändert ist; wer die Datenbank schreiben kann, kann auch diese Option ändern, und wer den Schlüssel aus wp-config.php hat, kann die Kette neu versiegeln.": [
+        "Varje bevis lagrar en nyckelbaserad hash i stället för adressen, antal poster per område och ett sigill som inkluderar föregående bevis. Ändringar, tillägg, omflyttningar eller borttagningar upptäcks så länge alternativet för kedjans slut är oförändrat; skrivåtkomst till databasen gör det möjligt att ändra alternativet och wp-config.php gör det möjligt att försegla om kedjan."
+      ],
+      "Nachweis": [
+        "Bevis"
+      ],
+      "Hash der Adresse": [
+        "Adresshash"
+      ],
+      "Einträge": [
+        "Poster"
+      ],
+      "Siegel": [
+        "Sigill"
+      ],
+      "Zeitpunkt": [
+        "Tidpunkt"
+      ],
+      "Noch keine Löschnachweise.": [
+        "Inga raderingsbevis ännu."
+      ],
+      "ohne Siegelkette": [
+        "utan sigillkedja"
+      ],
+      "Beide Schalter sind standardmäßig ausgeschaltet, damit weder steuerrechtlich relevante Rechnungsdaten noch Löschnachweise unbeabsichtigt entfernt werden.": [
+        "Båda reglagen är avstängda som standard så att varken bokföringspliktiga fakturauppgifter eller raderingsbevis tas bort av misstag."
+      ],
+      "WooCommerce-Rechnungsfelder anonymisieren": [
+        "Anonymisera faktureringsfält i WooCommerce"
+      ],
+      "Überschreibt Vor- und Nachname, erste Adresszeile, Telefon und E-Mail in WooCommerce-Bestellungen der betroffenen Adresse. Erst nach Prüfung gesetzlicher Aufbewahrungsfristen (§ 147 AO, § 257 HGB) einschalten.": [
+        "Skriver över förnamn, efternamn, första adressraden, telefon och e-post i WooCommerce-beställningar för adressen. Aktivera först efter kontroll av lagstadgade lagringstider (§ 147 AO, § 257 HGB)."
+      ],
+      "Alle Plugin-Daten bei Deinstallation löschen": [
+        "Radera alla tilläggsdata vid avinstallation"
+      ],
+      "Wenn aktiviert, entfernt die Deinstallation alle Plugin-Optionen sowie die Tabellen für Anträge und Löschnachweise unwiderruflich. Standardmäßig bleiben Nachweise und Optionen erhalten.": [
+        "När detta är aktiverat tar avinstallationen oåterkalleligen bort alla tilläggsinställningar samt tabellerna för begäranden och raderingsbevis. Som standard bevaras bevis och inställningar."
+      ],
+      "Einstellungen speichern": [
+        "Spara inställningar"
+      ],
+      "Was bei einer Löschung passiert": [
+        "Vad som händer vid en radering"
+      ],
+      "Kommentare mit dieser Adresse: Name, Adresse, URL, IP, Browserkennung und Benutzerzuordnung werden überschrieben, der Text durch „[Inhalt auf Antrag nach Art. 17 DSGVO gelöscht]“ ersetzt. Die Kommentare selbst bleiben stehen.": [
+        "Kommentarer med denna adress: namn, e-post, URL, IP, webbläsare och användarkoppling skrivs över och texten ersätts med ”[Innehåll raderat på begäran enligt art. 17 GDPR]”. Själva kommentarerna står kvar."
+      ],
+      "Benutzerkonto mit dieser Adresse: wird mit wp_delete_user() gelöscht, dabei auch die Beiträge, die dieses Konto verfasst hat. Konten mit der Rolle Administrator werden nicht gelöscht; der Nachweis vermerkt das. In einer Multisite entfernt wp_delete_user() das Konto nur aus dieser Website; der Nachweis vermerkt removed_from_this_site.": [
+        "Användarkonto med denna adress: raderas med wp_delete_user() inklusive kontots inlägg. Administratörskonton raderas inte och beviset anger detta. I Multisite tas kontot endast bort från denna webbplats (removed_from_this_site)."
+      ],
+      "WooCommerce-Bestellungen: nur wenn die Option wm_dsgvo_anonymize_wc_orders an ist, und nur Vor- und Nachname, erste Adresszeile, E-Mail und Telefon der Rechnungsadresse, über die Bestellobjekte von WooCommerce (HPOS und Beitragsspeicher). Standard ist aus, weil Rechnungsdaten Aufbewahrungsfristen unterliegen können (§ 147 AO, § 257 HGB); ob eine greift, entscheidet das Plugin nicht.": [
+        "WooCommerce-beställningar: endast när wm_dsgvo_anonymize_wc_orders är på; faktureringsnamn, adress, e-post och telefon skrivs över via WooCommerce-orderobjekt (HPOS och inlägg). Av som standard p.g.a. bokföringsregler."
+      ],
+      "Nicht erfasst: Tabellen anderer Plugins (Formulare, Newsletter, Buchungen), Benutzer-Metadaten verbleibender Konten, Kommentar-Metadaten, Lieferadressen, Dateien, Logs, Caches und Backups. Die Datenschutz-Löschwerkzeuge von WordPress ruft das Plugin nicht auf.": [
+        "Omfattas inte: tabeller från andra tillägg (formulär, nyhetsbrev, bokningar), användarmetadata för kvarvarande konton, leveransadresser, filer, loggar, cacher och säkerhetskopior."
+      ],
+      "Ob ein Antrag berechtigt ist, ob Ausnahmen nach Art. 17 Abs. 3 DSGVO greifen und welche Frist gilt, entscheidet das Plugin nicht.": [
+        "Tillägget avgör inte om en begäran är berättigad, om undantag enligt art. 17.3 GDPR gäller eller vilken lagringstid som styr."
+      ],
+      "Zu viele Anfragen. Bitte versuchen Sie es in einer Minute erneut.": [
+        "För många förfrågningar. Försök igen om en minut."
+      ],
+      "Bitte geben Sie eine gültige E-Mail-Adresse an.": [
+        "Ange en giltig e-postadress."
+      ],
+      "Der Antrag wurde entgegengenommen. Ist die Adresse gültig, geht an sie ein Bestätigungslink; gelöscht wird erst nach dessen Aufruf.": [
+        "Begäran har mottagits. Om adressen är giltig skickas en bekräftelselänk; radering sker först efter bekräftelse."
+      ],
+      "WM Privacy Eraser Status": [
+        "WM Privacy Eraser-status"
+      ],
+      "Aktueller Status des Art.-17-DSGVO-Löschportals.": [
+        "Aktuell status för raderingsportalen enligt art. 17 GDPR."
+      ],
+      "Art. 17 DSGVO Löschportal aktiv (%d versiegelte Nachweise)": [
+        "Art. 17 GDPR-raderingsportal aktiv (%d förseglade bevis)"
+      ],
+      "Art. 17 DSGVO Löschportal aktiv": [
+        "Art. 17 GDPR-raderingsportal aktiv"
+      ],
+      "Art. 17 DSGVO Löschportal: Kette prüfen": [
+        "Art. 17 GDPR-raderingsportal: kontrollera kedja"
+      ],
+      "Löschung bestätigen": [
+        "Bekräfta radering"
+      ],
+      "Das Öffnen dieses Links hat noch nichts gelöscht. Mit der Schaltfläche unten werden zu der Adresse, für die der Antrag gestellt wurde, die Kommentare auf dieser Website anonymisiert und ein Benutzerkonto gelöscht (außer Administratorkonten); ist es eingeschaltet, werden auch Rechnungsfelder von WooCommerce-Bestellungen anonymisiert. Die Löschung ist unwiderruflich.": [
+        "Att öppna denna länk har ännu inte raderat något. Med knappen nedan anonymiseras kommentarer på webbplatsen för den begärda adressen och användarkontot raderas (utom administratörer); om aktiverat anonymiseras även WooCommerce-faktureringsfält. Raderingen kan inte ångras."
+      ],
+      "Löschung jetzt ausführen": [
+        "Utför radering nu"
+      ],
+      "Löschung ausgeführt": [
+        "Radering utförd"
+      ],
+      "%1$d Einträge wurden gelöscht oder anonymisiert. Kennung des Löschnachweises: %2$s": [
+        "%1$d poster raderades eller anonymiserades. ID för raderingsbevis: %2$s"
+      ],
+      "Löschung nicht vollständig": [
+        "Radering ofullständig"
+      ],
+      "Nicht alle Daten konnten geändert werden, oder der Löschnachweis wurde nicht gespeichert. Der Antrag ist als fehlgeschlagen vermerkt; bitte wenden Sie sich an den Betreiber dieser Website.": [
+        "Alla uppgifter kunde inte ändras eller raderingsbeviset kunde inte sparas. Begäran är markerad som misslyckad; kontakta webbplatsens ansvarige."
+      ],
+      "Kennung des Löschnachweises: %s": [
+        "ID för raderingsbevis: %s"
+      ],
+      "Antrag nicht verarbeitet": [
+        "Begäran behandlades inte"
+      ],
+      "Der Antrag konnte nicht verarbeitet werden. Bitte stellen Sie ihn erneut.": [
+        "Begäran kunde inte behandlas. Skicka in den igen."
+      ],
+      "Link nicht gültig": [
+        "Ogiltig länk"
+      ],
+      "Der Bestätigungslink ist ungültig, abgelaufen oder wurde bereits verwendet.": [
+        "Bekräftelselänken är ogiltig, har gått ut eller har redan använts."
+      ],
+      "Bitte geben Sie eine gültige E-Mail-Adresse ein.": [
+        "Ange en giltig e-postadress."
+      ],
+      "Antrag wird übermittelt …": [
+        "Skickar begäran …"
+      ],
+      "Bestätigung erforderlich": [
+        "Bekräftelse krävs"
+      ],
+      "Ist die Adresse gültig, geht an sie ein Bestätigungslink. Gelöscht wird erst, wenn die Löschung auf der verlinkten Seite bestätigt wird. Der Link ist %d Stunden gültig und nur einmal verwendbar.": [
+        "Om adressen är giltig har en bekräftelselänk skickats. Radering sker först efter bekräftelse på den länkade sidan. Länken gäller i %d timmar och kan bara användas en gång."
+      ],
+      "Der Antrag konnte nicht übermittelt werden:": [
+        "Begäran kunde inte skickas:"
+      ],
+      "unbekannter Fehler": [
+        "okänt fel"
+      ],
+      "Der Antrag konnte nicht übermittelt werden: Verbindungsfehler.": [
+        "Begäran kunde inte skickas: anslutningsfel."
+      ],
+      "Antrag auf Datenlöschung (Art. 17 DSGVO)": [
+        "Begäran om radering av uppgifter (Art. 17 GDPR)"
+      ],
+      "Gemäß Art. 17 DSGVO (\"Recht auf Vergessenwerden\") haben Sie das Recht auf unverzügliche Löschung Ihrer personenbezogenen Daten. Zur Bestätigung Ihrer Identität nach Art. 12 Abs. 6 DSGVO senden wir Ihnen zunächst einen einmaligen Bestätigungslink. Erst nach dessen Aufruf wird gelöscht und ein kryptografisches Löschzertifikat ausgestellt.": [
+        "Enligt art. 17 GDPR (”rätten att bli glömd”) har du rätt att begära radering av dina personuppgifter. För att bekräfta din identitet enligt art. 12.6 GDPR skickar vi först en engångslänk. Först efter bekräftelse raderas uppgifterna och ett kryptografiskt raderingsbevis utfärdas."
+      ],
+      "Ihre hinterlegte E-Mail-Adresse:": [
+        "Din registrerade e-postadress:"
+      ],
+      "ihre-email@example.com": [
+        "din-epost@example.com"
+      ],
+      "Löschantrag übermitteln": [
+        "Skicka raderingsbegäran"
+      ],
+      "[%s] Löschantrag bestätigen (Art. 17 DSGVO)": [
+        "[%s] Bekräfta raderingsbegäran (Art. 17 GDPR)"
+      ],
+      "DSGVO Löschantrag (Art. 17)": [
+        "GDPR-raderingsbegäran (Art. 17)"
+      ],
+      "Öffentliches Formular für Löschanträge nach Art. 17 DSGVO mit Einmal-Bestätigungslink.": [
+        "Offentligt formulär för raderingsbegäranden enligt art. 17 GDPR med engångsbekräftelselänk."
+      ],
+      "Formulareinstellungen": [
+        "Formulärinställningar"
+      ],
+      "Hinweistext anzeigen": [
+        "Visa förklarande text"
+      ],
+      "Blendet den erläuternden Hinweis oberhalb des E-Mail-Feldes ein oder aus.": [
+        "Visar eller döljer den förklarande texten ovanför e-postfältet."
+      ],
+      "block title\u0004DSGVO Löschantrag (Art. 17)": [
+        "GDPR-raderingsbegäran (Art. 17)"
+      ],
+      "block description\u0004Öffentliches Formular für Löschanträge nach Art. 17 DSGVO mit Einmal-Bestätigungslink.": [
+        "Offentligt formulär för raderingsbegäranden enligt art. 17 GDPR med engångsbekräftelselänk."
+      ],
+      "block keyword\u0004dsgvo": [
+        "gdpr"
+      ],
+      "block keyword\u0004gdpr": [
+        "dataskydd"
+      ],
+      "block keyword\u0004löschung": [
+        "radering"
+      ],
+      "block keyword\u0004erasure": [
+        "glömska"
+      ],
+      "block keyword\u0004datenschutz": [
+        "integritet"
+      ],
+      "block keyword\u0004privacy": [
+        "personuppgifter"
+      ]
+    }
+  }
+}

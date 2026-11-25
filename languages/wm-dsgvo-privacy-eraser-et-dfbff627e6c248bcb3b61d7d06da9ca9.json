@@ -1,0 +1,357 @@
+{
+  "translation-revision-date": "2026-11-21T14:14:21+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-dsgvo-privacy-eraser",
+        "lang": "et",
+        "plural-forms": "nplurals=2; plural=(n != 1);"
+      },
+      "WM DSGVO Art. 17 Cryptographic Privacy Eraser": [
+        "WM IKÜM art 17 Krüptograafiline Andmekustutaja"
+      ],
+      "https://arnoldwender.com/wordpress-plugins/wm-dsgvo-privacy-eraser/": [
+        "https://arnoldwender.com/wordpress-plugins/wm-dsgvo-privacy-eraser/"
+      ],
+      "Löschanträge nach Art. 17 DSGVO mit Bestätigungslink an die Adresse; danach werden Kommentare anonymisiert, das Benutzerkonto (außer Administratoren) gelöscht und optional WooCommerce-Rechnungsfelder anonymisiert. Jede Löschung erhält einen HMAC-verketteten Nachweis. Keine rechtliche Prüfung des Antrags.": [
+        "IKÜM art 17 kohased kustutamistaotlused e-posti aadressile saadetava ühekordse kinnituslingiga; seejärel muudetakse kommentaarid anonüümseks, kustutatakse kasutajakonto (v.a administraatorid) ja soovi korral muudetakse anonüümseks WooCommerce’i arveldusväljad. Iga kustutamine saab HMAC-aheldatud tõendi. Õiguslikku hinnangut ei anta."
+      ],
+      "Arnold Wender": [
+        "Arnold Wender"
+      ],
+      "https://arnoldwender.com": [
+        "https://arnoldwender.com"
+      ],
+      "Kette geprüft: %d versiegelte Nachweise stimmen": [
+        "Ahel kontrollitud: %d pitseeritud tõendit klapivad"
+      ],
+      "Noch keine Löschnachweise": [
+        "Kustutustõendeid veel pole"
+      ],
+      "Kette gebrochen": [
+        "Ahel on katki"
+      ],
+      "WM DSGVO Privacy Eraser": [
+        "WM IKÜM Privacy Eraser"
+      ],
+      "Löschnachweise": [
+        "Kustutustõendid"
+      ],
+      "Offene Anträge": [
+        "Avatud taotlused"
+      ],
+      "Privacy Eraser öffnen": [
+        "Ava Privacy Eraser"
+      ],
+      "WM Privacy Eraser": [
+        "WM Privacy Eraser"
+      ],
+      "Privacy Eraser": [
+        "Privacy Eraser"
+      ],
+      "Übersicht": [
+        "Ülevaade"
+      ],
+      "Antrag stellen": [
+        "Esita taotlus"
+      ],
+      "Was gelöscht wird": [
+        "Mida kustutatakse"
+      ],
+      "Einstellungen": [
+        "Seaded"
+      ],
+      "Löschanträge mit Bestätigungslink, Löschung bzw. Anonymisierung der Daten, die WordPress selbst zu einer E-Mail-Adresse hält, und ein verketteter Nachweis je Löschung. Es ersetzt keine rechtliche Prüfung des Antrags.": [
+        "Kinnituslingiga kustutamistaotlused, WordPressi poolt e-posti aadressiga seotud andmete kustutamine või anonüümimine ning aheldatud tõend iga kustutamise kohta. Ei asenda õiguslikku analüüsi."
+      ],
+      "Part of the WM Suite plugin family": [
+        "Osa WM Suite pistikprogrammide perekonnast"
+      ],
+      "WM Suite": [
+        "WM Suite"
+      ],
+      "Hub": [
+        "Keskus"
+      ],
+      "Standalone": [
+        "Iseseisev"
+      ],
+      "Bereiche": [
+        "Valdkonnad"
+      ],
+      "Stand dieser Website": [
+        "Selle veebisaidi olek"
+      ],
+      "Beim Aufruf dieser Seite aus der Datenbank gelesen.": [
+        "Loetud andmebaasist selle lehe avamisel."
+      ],
+      "Gelöschte oder anonymisierte Einträge laut Nachweisen": [
+        "Kustutatud või anonüümitud kirjed tõendite järgi"
+      ],
+      "Offene Anträge (Adresse noch gespeichert)": [
+        "Avatud taotlused (aadress on veel alles)"
+      ],
+      "Nachweiskette": [
+        "Tõendite ahel"
+      ],
+      "%d ältere Nachweise ohne Siegel, nicht prüfbar.": [
+        "%d vanemat pitserita tõendit, pole kontrollitavad."
+      ],
+      "Verschlüsselung offener Adressen (libsodium)": [
+        "Avatud aadresside krüpteerimine (libsodium)"
+      ],
+      "verfügbar": [
+        "saadaval"
+      ],
+      "nicht verfügbar: Adressen werden im Klartext gespeichert": [
+        "pole saadaval: aadressid salvestatakse lihttekstina"
+      ],
+      "WooCommerce-Rechnungsfelder anonymisieren (wm_dsgvo_anonymize_wc_orders)": [
+        "Anonüümi WooCommerce’i arveldusväljad (wm_dsgvo_anonymize_wc_orders)"
+      ],
+      "an": [
+        "sees"
+      ],
+      "aus (Standard)": [
+        "väljas (vaikimisi)"
+      ],
+      "Daten bei Deinstallation löschen (wm_dsgvo_eraser_delete_data_on_uninstall)": [
+        "Kustuta andmed eemaldamisel (wm_dsgvo_eraser_delete_data_on_uninstall)"
+      ],
+      "aus (Standard: Nachweise bleiben erhalten)": [
+        "väljas (vaikimisi: tõendid säilitatakse)"
+      ],
+      "Löschantrag für eine Adresse stellen": [
+        "Esita aadressi kustutamistaotlus"
+      ],
+      "Legt denselben Antrag an wie das Formular auf der Website: An die Adresse geht ein Bestätigungslink, %d Stunden gültig. Gelöscht wird erst, wenn die Löschung auf der verlinkten Seite bestätigt wird. Eine sofortige Löschung ohne Bestätigung gibt es nur über WP-CLI (wp dsgvo erase), nachdem Sie die Identität selbst geprüft haben.": [
+        "Loob sama taotluse nagu avalik vorm: aadressile saadetakse %d tundi kehtiv kinnituslink. Midagi ei kustutata enne lingitud lehel kinnitamist. Kohene kustutamine ilma kinnituseta toimub ainult WP-CLI kaudu (wp dsgvo erase) pärast isiku tuvastamist."
+      ],
+      "E-Mail-Adresse der betroffenen Person": [
+        "Andmesubjekti e-posti aadress"
+      ],
+      "Bestätigungslink senden": [
+        "Saada kinnituslink"
+      ],
+      "Bitte eine E-Mail-Adresse eingeben.": [
+        "Palun sisestage e-posti aadress."
+      ],
+      "Wird übermittelt …": [
+        "Edastamine …"
+      ],
+      "Antrag übermittelt. Ein Bestätigungslink geht nur hinaus, wenn die Adresse gültig ist, keines der Limits greift (%1$d Anträge je Adresse in %2$d Stunden, %3$d je IP pro Stunde, Ihre eigene IP zählt mit) und der Mailversand gelingt; diese Seite erfährt das nicht. Noch ist nichts gelöscht.": [
+        "Taotlus edastatud. Kinnituslink saadetakse vaid siis, kui aadress on kehtiv, ükski piirang ei rakendu (%1$d taotlust aadressi kohta %2$d tunni jooksul, %3$d IP kohta tunnis koos teie enda IP-ga) ja saatmine õnnestub; see leht seda ei näita. Midagi pole veel kustutatud."
+      ],
+      "Der Antrag konnte nicht angelegt werden.": [
+        "Taotlust ei õnnestunud luua."
+      ],
+      "Verbindungsfehler.": [
+        "Ühenduse viga."
+      ],
+      "Letzte zehn Löschnachweise": [
+        "Viimased kümme kustutustõendit"
+      ],
+      "Jeder Nachweis speichert statt der Adresse einen geschlüsselten Hash, die Anzahl der Einträge je Bereich und ein Siegel, das den vorherigen Nachweis einschließt. Bearbeitete, eingefügte, umsortierte oder gelöschte Nachweise fallen bei der Prüfung auf, solange die Option mit dem Kettenende unverändert ist; wer die Datenbank schreiben kann, kann auch diese Option ändern, und wer den Schlüssel aus wp-config.php hat, kann die Kette neu versiegeln.": [
+        "Iga tõend salvestab aadressi asemel võtmega räsi, kirjete arvu valdkonniti ja eelmist tõendit siduva pitseri. Muudatused, lisamised, ümberjärjestamised ja kustutamised tuvastatakse seni, kuni ahela tipu valik püsib muutmata; andmebaasi kirjutusõigusega saab seda valikut muuta ja wp-config.php abil ahela uuesti pitseerida."
+      ],
+      "Nachweis": [
+        "Tõend"
+      ],
+      "Hash der Adresse": [
+        "Aadressi räsi"
+      ],
+      "Einträge": [
+        "Kirjed"
+      ],
+      "Siegel": [
+        "Pitser"
+      ],
+      "Zeitpunkt": [
+        "Aeg"
+      ],
+      "Noch keine Löschnachweise.": [
+        "Kustutustõendeid veel pole."
+      ],
+      "ohne Siegelkette": [
+        "ilma pitseriahelata"
+      ],
+      "Beide Schalter sind standardmäßig ausgeschaltet, damit weder steuerrechtlich relevante Rechnungsdaten noch Löschnachweise unbeabsichtigt entfernt werden.": [
+        "Mõlemad lülitid on vaikimisi väljas, et raamatupidamisandmeid ega kustutustõendeid kogemata ei eemaldataks."
+      ],
+      "WooCommerce-Rechnungsfelder anonymisieren": [
+        "Anonüümi WooCommerce’i arveldusväljad"
+      ],
+      "Überschreibt Vor- und Nachname, erste Adresszeile, Telefon und E-Mail in WooCommerce-Bestellungen der betroffenen Adresse. Erst nach Prüfung gesetzlicher Aufbewahrungsfristen (§ 147 AO, § 257 HGB) einschalten.": [
+        "Kirjutab üle ees- ja perekonnanime, aadressirea, telefoni ning e-posti vastava aadressi WooCommerce’i tellimustes. Lülitage sisse alles pärast seadusjärgsete säilitustähtaegade (§ 147 AO, § 257 HGB) kontrollimist."
+      ],
+      "Alle Plugin-Daten bei Deinstallation löschen": [
+        "Kustuta eemaldamisel kõik pistikprogrammi andmed"
+      ],
+      "Wenn aktiviert, entfernt die Deinstallation alle Plugin-Optionen sowie die Tabellen für Anträge und Löschnachweise unwiderruflich. Standardmäßig bleiben Nachweise und Optionen erhalten.": [
+        "Kui see on lubatud, eemaldab desinstallimine pöördumatult kõik valikud ning taotluste ja tõendite tabelid. Vaikimisi jäetakse tõendid ja valikud alles."
+      ],
+      "Einstellungen speichern": [
+        "Salvesta seaded"
+      ],
+      "Was bei einer Löschung passiert": [
+        "Mis juhtub kustutamisel"
+      ],
+      "Kommentare mit dieser Adresse: Name, Adresse, URL, IP, Browserkennung und Benutzerzuordnung werden überschrieben, der Text durch „[Inhalt auf Antrag nach Art. 17 DSGVO gelöscht]“ ersetzt. Die Kommentare selbst bleiben stehen.": [
+        "Selle aadressiga kommentaarid: nimi, e-post, URL, IP, brauseri tunnus ja kasutajaseos kirjutatakse üle ning sisu asendatakse tekstiga „[Sisu kustutatud taotluse alusel vastavalt IKÜM art 17]”. Kommentaarid ise jäävad alles."
+      ],
+      "Benutzerkonto mit dieser Adresse: wird mit wp_delete_user() gelöscht, dabei auch die Beiträge, die dieses Konto verfasst hat. Konten mit der Rolle Administrator werden nicht gelöscht; der Nachweis vermerkt das. In einer Multisite entfernt wp_delete_user() das Konto nur aus dieser Website; der Nachweis vermerkt removed_from_this_site.": [
+        "Selle aadressiga kasutajakonto: kustutatakse funktsiooniga wp_delete_user() koos konto postitustega. Administraatorikontosid ei kustutata ning tõend märgib selle ära. Multisite’is eemaldatakse konto ainult sellelt saidilt (removed_from_this_site)."
+      ],
+      "WooCommerce-Bestellungen: nur wenn die Option wm_dsgvo_anonymize_wc_orders an ist, und nur Vor- und Nachname, erste Adresszeile, E-Mail und Telefon der Rechnungsadresse, über die Bestellobjekte von WooCommerce (HPOS und Beitragsspeicher). Standard ist aus, weil Rechnungsdaten Aufbewahrungsfristen unterliegen können (§ 147 AO, § 257 HGB); ob eine greift, entscheidet das Plugin nicht.": [
+        "WooCommerce’i tellimused: ainult siis, kui wm_dsgvo_anonymize_wc_orders on sees; arvelduse nimi, aadress, e-post ja telefon kirjutatakse üle WooCommerce’i tellimuseobjektide kaudu (HPOS ja postitused). Vaikimisi väljas raamatupidamiskohustuste tõttu."
+      ],
+      "Nicht erfasst: Tabellen anderer Plugins (Formulare, Newsletter, Buchungen), Benutzer-Metadaten verbleibender Konten, Kommentar-Metadaten, Lieferadressen, Dateien, Logs, Caches und Backups. Die Datenschutz-Löschwerkzeuge von WordPress ruft das Plugin nicht auf.": [
+        "Ei hõlma: teiste pistikprogrammide tabeleid (vormid, uudiskirjad, broneeringud), allesjäävate kontode metaandmeid, tarneaadresse, faile, logisid, vahemälusid ega varukoopiaid."
+      ],
+      "Ob ein Antrag berechtigt ist, ob Ausnahmen nach Art. 17 Abs. 3 DSGVO greifen und welche Frist gilt, entscheidet das Plugin nicht.": [
+        "Pistikprogramm ei otsusta taotluse põhjendatuse, IKÜM art 17 lg 3 erandite ega kohaldatava säilitustähtaja üle."
+      ],
+      "Zu viele Anfragen. Bitte versuchen Sie es in einer Minute erneut.": [
+        "Liiga palju päringuid. Proovige minuti pärast uuesti."
+      ],
+      "Bitte geben Sie eine gültige E-Mail-Adresse an.": [
+        "Palun esitage kehtiv e-posti aadress."
+      ],
+      "Der Antrag wurde entgegengenommen. Ist die Adresse gültig, geht an sie ein Bestätigungslink; gelöscht wird erst nach dessen Aufruf.": [
+        "Taotlus on vastu võetud. Kui aadress on kehtiv, saadetakse sellele kinnituslink; kustutamine toimub alles pärast kinnitamist."
+      ],
+      "WM Privacy Eraser Status": [
+        "WM Privacy Eraseri olek"
+      ],
+      "Aktueller Status des Art.-17-DSGVO-Löschportals.": [
+        "IKÜM art 17 kustutusportaali praegune olek."
+      ],
+      "Art. 17 DSGVO Löschportal aktiv (%d versiegelte Nachweise)": [
+        "IKÜM art 17 kustutusportaal aktiivne (%d pitseeritud tõendit)"
+      ],
+      "Art. 17 DSGVO Löschportal aktiv": [
+        "IKÜM art 17 kustutusportaal aktiivne"
+      ],
+      "Art. 17 DSGVO Löschportal: Kette prüfen": [
+        "IKÜM art 17 kustutusportaal: kontrolli ahelat"
+      ],
+      "Löschung bestätigen": [
+        "Kinnita kustutamine"
+      ],
+      "Das Öffnen dieses Links hat noch nichts gelöscht. Mit der Schaltfläche unten werden zu der Adresse, für die der Antrag gestellt wurde, die Kommentare auf dieser Website anonymisiert und ein Benutzerkonto gelöscht (außer Administratorkonten); ist es eingeschaltet, werden auch Rechnungsfelder von WooCommerce-Bestellungen anonymisiert. Die Löschung ist unwiderruflich.": [
+        "Selle lingi avamine ei ole veel midagi kustutanud. Alloleva nupuga muudetakse sellel veebisaidil taotletud aadressi kommentaarid anonüümseks ja kustutatakse kasutajakonto (v.a administraatorid); kui valik on sees, anonüümitakse ka WooCommerce’i arveldusväljad. Kustutamine on pöördumatu."
+      ],
+      "Löschung jetzt ausführen": [
+        "Käivita kustutamine kohe"
+      ],
+      "Löschung ausgeführt": [
+        "Kustutamine tehtud"
+      ],
+      "%1$d Einträge wurden gelöscht oder anonymisiert. Kennung des Löschnachweises: %2$s": [
+        "%1$d kirjet kustutati või muudeti anonüümseks. Kustutustõendi tunnus: %2$s"
+      ],
+      "Löschung nicht vollständig": [
+        "Kustutamine poolik"
+      ],
+      "Nicht alle Daten konnten geändert werden, oder der Löschnachweis wurde nicht gespeichert. Der Antrag ist als fehlgeschlagen vermerkt; bitte wenden Sie sich an den Betreiber dieser Website.": [
+        "Kõiki andmeid ei saanud muuta või kustutustõendit ei õnnestunud salvestada. Taotlus on märgitud ebaõnnestunuks; võtke ühendust veebisaidi haldajaga."
+      ],
+      "Kennung des Löschnachweises: %s": [
+        "Kustutustõendi tunnus: %s"
+      ],
+      "Antrag nicht verarbeitet": [
+        "Taotlust ei töödeldud"
+      ],
+      "Der Antrag konnte nicht verarbeitet werden. Bitte stellen Sie ihn erneut.": [
+        "Taotlust ei saanud töödelda. Palun esitage see uuesti."
+      ],
+      "Link nicht gültig": [
+        "Vigane link"
+      ],
+      "Der Bestätigungslink ist ungültig, abgelaufen oder wurde bereits verwendet.": [
+        "Kinnituslink on vigane, aegunud või juba kasutatud."
+      ],
+      "Bitte geben Sie eine gültige E-Mail-Adresse ein.": [
+        "Palun sisestage kehtiv e-posti aadress."
+      ],
+      "Antrag wird übermittelt …": [
+        "Taotluse edastamine …"
+      ],
+      "Bestätigung erforderlich": [
+        "Vajalik on kinnitus"
+      ],
+      "Ist die Adresse gültig, geht an sie ein Bestätigungslink. Gelöscht wird erst, wenn die Löschung auf der verlinkten Seite bestätigt wird. Der Link ist %d Stunden gültig und nur einmal verwendbar.": [
+        "Kui aadress on kehtiv, saadeti sellele kinnituslink. Andmed kustutatakse alles pärast kinnitamist lingitud lehel. Link kehtib %d tundi ja on ühekordne."
+      ],
+      "Der Antrag konnte nicht übermittelt werden:": [
+        "Taotlust ei saanud edastada:"
+      ],
+      "unbekannter Fehler": [
+        "tundmatu viga"
+      ],
+      "Der Antrag konnte nicht übermittelt werden: Verbindungsfehler.": [
+        "Taotlust ei saanud edastada: ühenduse viga."
+      ],
+      "Antrag auf Datenlöschung (Art. 17 DSGVO)": [
+        "Andmete kustutamise taotlus (IKÜM art 17)"
+      ],
+      "Gemäß Art. 17 DSGVO (\"Recht auf Vergessenwerden\") haben Sie das Recht auf unverzügliche Löschung Ihrer personenbezogenen Daten. Zur Bestätigung Ihrer Identität nach Art. 12 Abs. 6 DSGVO senden wir Ihnen zunächst einen einmaligen Bestätigungslink. Erst nach dessen Aufruf wird gelöscht und ein kryptografisches Löschzertifikat ausgestellt.": [
+        "Vastavalt IKÜM art 17 („õigus olla unustatud”) võite taotleda oma isikuandmete kustutamist. Isikusamasuse kinnitamiseks IKÜM art 12 lg 6 alusel saadame esmalt ühekordse kinnituslingi. Alles pärast kinnitamist andmed kustutatakse ja väljastatakse krüptograafiline tõend."
+      ],
+      "Ihre hinterlegte E-Mail-Adresse:": [
+        "Teie registreeritud e-posti aadress:"
+      ],
+      "ihre-email@example.com": [
+        "teie-epost@example.com"
+      ],
+      "Löschantrag übermitteln": [
+        "Esita kustutamistaotlus"
+      ],
+      "[%s] Löschantrag bestätigen (Art. 17 DSGVO)": [
+        "[%s] Kinnitage kustutamistaotlus (IKÜM art 17)"
+      ],
+      "DSGVO Löschantrag (Art. 17)": [
+        "IKÜM kustutamistaotlus (art 17)"
+      ],
+      "Öffentliches Formular für Löschanträge nach Art. 17 DSGVO mit Einmal-Bestätigungslink.": [
+        "Avalik vorm IKÜM art 17 kohaste kustutamistaotluste esitamiseks ühekordse kinnituslingiga."
+      ],
+      "Formulareinstellungen": [
+        "Vormi seaded"
+      ],
+      "Hinweistext anzeigen": [
+        "Kuva selgitav tekst"
+      ],
+      "Blendet den erläuternden Hinweis oberhalb des E-Mail-Feldes ein oder aus.": [
+        "Kuvab või peidab e-posti välja kohal oleva selgitava märkuse."
+      ],
+      "block title\u0004DSGVO Löschantrag (Art. 17)": [
+        "IKÜM kustutamistaotlus (art 17)"
+      ],
+      "block description\u0004Öffentliches Formular für Löschanträge nach Art. 17 DSGVO mit Einmal-Bestätigungslink.": [
+        "Avalik vorm IKÜM art 17 kohaste kustutamistaotluste esitamiseks ühekordse kinnituslingiga."
+      ],
+      "block keyword\u0004dsgvo": [
+        "iküm"
+      ],
+      "block keyword\u0004gdpr": [
+        "andmekaitse"
+      ],
+      "block keyword\u0004löschung": [
+        "kustutamine"
+      ],
+      "block keyword\u0004erasure": [
+        "anonüümimine"
+      ],
+      "block keyword\u0004datenschutz": [
+        "privaatsus"
+      ],
+      "block keyword\u0004privacy": [
+        "isikuandmed"
+      ]
+    }
+  }
+}

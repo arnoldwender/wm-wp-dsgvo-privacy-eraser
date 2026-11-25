@@ -1,0 +1,357 @@
+{
+  "translation-revision-date": "2026-11-21T14:14:21+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-dsgvo-privacy-eraser",
+        "lang": "lv",
+        "plural-forms": "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);"
+      },
+      "WM DSGVO Art. 17 Cryptographic Privacy Eraser": [
+        "WM VDAR 17. pants Kriptogrāfiskais datu dzēsējs"
+      ],
+      "https://arnoldwender.com/wordpress-plugins/wm-dsgvo-privacy-eraser/": [
+        "https://arnoldwender.com/wordpress-plugins/wm-dsgvo-privacy-eraser/"
+      ],
+      "Löschanträge nach Art. 17 DSGVO mit Bestätigungslink an die Adresse; danach werden Kommentare anonymisiert, das Benutzerkonto (außer Administratoren) gelöscht und optional WooCommerce-Rechnungsfelder anonymisiert. Jede Löschung erhält einen HMAC-verketteten Nachweis. Keine rechtliche Prüfung des Antrags.": [
+        "VDAR 17. panta dzēšanas pieprasījumi ar vienreizēju apstiprinājuma saiti uz e-pasta adresi; pēc tam komentāri tiek anonimizēti, lietotāja konts (izņemot administratorus) tiek dzēsts un pēc izvēles tiek anonimizēti WooCommerce norēķinu lauki. Katra dzēšana saņem HMAC ķēdētu apliecinājumu. Bez juridiska izvērtējuma."
+      ],
+      "Arnold Wender": [
+        "Arnold Wender"
+      ],
+      "https://arnoldwender.com": [
+        "https://arnoldwender.com"
+      ],
+      "Kette geprüft: %d versiegelte Nachweise stimmen": [
+        "Ķēde pārbaudīta: %d apzīmogoti apliecinājumi sakrīt"
+      ],
+      "Noch keine Löschnachweise": [
+        "Vēl nav dzēšanas apliecinājumu"
+      ],
+      "Kette gebrochen": [
+        "Ķēde bojāta"
+      ],
+      "WM DSGVO Privacy Eraser": [
+        "WM VDAR Privacy Eraser"
+      ],
+      "Löschnachweise": [
+        "Dzēšanas apliecinājumi"
+      ],
+      "Offene Anträge": [
+        "Atvērtie pieprasījumi"
+      ],
+      "Privacy Eraser öffnen": [
+        "Atvērt Privacy Eraser"
+      ],
+      "WM Privacy Eraser": [
+        "WM Privacy Eraser"
+      ],
+      "Privacy Eraser": [
+        "Privacy Eraser"
+      ],
+      "Übersicht": [
+        "Pārskats"
+      ],
+      "Antrag stellen": [
+        "Iesniegt pieprasījumu"
+      ],
+      "Was gelöscht wird": [
+        "Kas tiek dzēsts"
+      ],
+      "Einstellungen": [
+        "Iestatījumi"
+      ],
+      "Löschanträge mit Bestätigungslink, Löschung bzw. Anonymisierung der Daten, die WordPress selbst zu einer E-Mail-Adresse hält, und ein verketteter Nachweis je Löschung. Es ersetzt keine rechtliche Prüfung des Antrags.": [
+        "Dzēšanas pieprasījumi ar apstiprinājuma saiti, WordPress glabāto datu dzēšana vai anonimizēšana e-pasta adresei un ķēdēts apliecinājums katrai dzēšanai. Neaizstāj juridisku pārbaudi."
+      ],
+      "Part of the WM Suite plugin family": [
+        "Daļa no WM Suite spraudņu saimes"
+      ],
+      "WM Suite": [
+        "WM Suite"
+      ],
+      "Hub": [
+        "mezgls"
+      ],
+      "Standalone": [
+        "Autonoms"
+      ],
+      "Bereiche": [
+        "Jomas"
+      ],
+      "Stand dieser Website": [
+        "Šīs vietnes statuss"
+      ],
+      "Beim Aufruf dieser Seite aus der Datenbank gelesen.": [
+        "Nolasīts no datubāzes šīs lapas atvēršanas brīdī."
+      ],
+      "Gelöschte oder anonymisierte Einträge laut Nachweisen": [
+        "Dzēstie vai anonimizētie ieraksti pēc apliecinājumiem"
+      ],
+      "Offene Anträge (Adresse noch gespeichert)": [
+        "Atvērtie pieprasījumi (adrese vēl saglabāta)"
+      ],
+      "Nachweiskette": [
+        "Apliecinājumu ķēde"
+      ],
+      "%d ältere Nachweise ohne Siegel, nicht prüfbar.": [
+        "%d vecāki apliecinājumi bez zīmoga, nav pārbaudāmi."
+      ],
+      "Verschlüsselung offener Adressen (libsodium)": [
+        "Atvērto adrešu šifrēšana (libsodium)"
+      ],
+      "verfügbar": [
+        "pieejama"
+      ],
+      "nicht verfügbar: Adressen werden im Klartext gespeichert": [
+        "nav pieejama: adreses tiek glabātas atklātā tekstā"
+      ],
+      "WooCommerce-Rechnungsfelder anonymisieren (wm_dsgvo_anonymize_wc_orders)": [
+        "Anonimizēt WooCommerce norēķinu laukus (wm_dsgvo_anonymize_wc_orders)"
+      ],
+      "an": [
+        "ieslēgts"
+      ],
+      "aus (Standard)": [
+        "izslēgts (noklusējums)"
+      ],
+      "Daten bei Deinstallation löschen (wm_dsgvo_eraser_delete_data_on_uninstall)": [
+        "Dzēst datus atinstalējot (wm_dsgvo_eraser_delete_data_on_uninstall)"
+      ],
+      "aus (Standard: Nachweise bleiben erhalten)": [
+        "izslēgts (noklusējums: apliecinājumi tiek saglabāti)"
+      ],
+      "Löschantrag für eine Adresse stellen": [
+        "Iesniegt dzēšanas pieprasījumu adresei"
+      ],
+      "Legt denselben Antrag an wie das Formular auf der Website: An die Adresse geht ein Bestätigungslink, %d Stunden gültig. Gelöscht wird erst, wenn die Löschung auf der verlinkten Seite bestätigt wird. Eine sofortige Löschung ohne Bestätigung gibt es nur über WP-CLI (wp dsgvo erase), nachdem Sie die Identität selbst geprüft haben.": [
+        "Izveido tādu pašu pieprasījumu kā publiskā veidlapa: uz adresi nosūta %d stundas derīgu apstiprinājuma saiti. Nekas netiek dzēsts līdz apstiprināšanai atvērtajā lapā. Tūlītēja dzēšana bez apstiprinājuma ir pieejama tikai caur WP-CLI (wp dsgvo erase) pēc personas identitātes pārbaudes."
+      ],
+      "E-Mail-Adresse der betroffenen Person": [
+        "Datu subjekta e-pasta adrese"
+      ],
+      "Bestätigungslink senden": [
+        "Nosūtīt apstiprinājuma saiti"
+      ],
+      "Bitte eine E-Mail-Adresse eingeben.": [
+        "Lūdzu, ievadiet e-pasta adresi."
+      ],
+      "Wird übermittelt …": [
+        "Nosūta …"
+      ],
+      "Antrag übermittelt. Ein Bestätigungslink geht nur hinaus, wenn die Adresse gültig ist, keines der Limits greift (%1$d Anträge je Adresse in %2$d Stunden, %3$d je IP pro Stunde, Ihre eigene IP zählt mit) und der Mailversand gelingt; diese Seite erfährt das nicht. Noch ist nichts gelöscht.": [
+        "Pieprasījums iesniegts. Apstiprinājuma saite tiek nosūtīta tikai tad, ja adrese ir derīga, nav sasniegts limits (%1$d pieprasījumi adresei %2$d stundās, %3$d no IP stundā, ieskaitot jūsu IP) un nosūtīšana izdodas; šī lapa to neuzrāda. Vēl nekas nav dzēsts."
+      ],
+      "Der Antrag konnte nicht angelegt werden.": [
+        "Pieprasījumu neizdevās izveidot."
+      ],
+      "Verbindungsfehler.": [
+        "Savienojuma kļūda."
+      ],
+      "Letzte zehn Löschnachweise": [
+        "Pēdējie desmit dzēšanas apliecinājumi"
+      ],
+      "Jeder Nachweis speichert statt der Adresse einen geschlüsselten Hash, die Anzahl der Einträge je Bereich und ein Siegel, das den vorherigen Nachweis einschließt. Bearbeitete, eingefügte, umsortierte oder gelöschte Nachweise fallen bei der Prüfung auf, solange die Option mit dem Kettenende unverändert ist; wer die Datenbank schreiben kann, kann auch diese Option ändern, und wer den Schlüssel aus wp-config.php hat, kann die Kette neu versiegeln.": [
+        "Katrs apliecinājums adreses vietā glabā atslēgotu jaucējkodu, ierakstu skaitu pa jomām un zīmogu, kas iekļauj iepriekšējo apliecinājumu. Labojumi, iespraudumi, pārkārtojumi vai dzēšanas tiek konstatētas pārbaudē, kamēr ķēdes gala opcija paliek nemainīga; datubāzes rakstīšanas piekļuve ļauj mainīt šo opciju, bet wp-config.php ļauj ķēdi apzīmogot no jauna."
+      ],
+      "Nachweis": [
+        "Apliecinājums"
+      ],
+      "Hash der Adresse": [
+        "Adreses jaucējkods"
+      ],
+      "Einträge": [
+        "Ieraksti"
+      ],
+      "Siegel": [
+        "Zīmogs"
+      ],
+      "Zeitpunkt": [
+        "Laiks"
+      ],
+      "Noch keine Löschnachweise.": [
+        "Vēl nav dzēšanas apliecinājumu."
+      ],
+      "ohne Siegelkette": [
+        "bez zīmogu ķēdes"
+      ],
+      "Beide Schalter sind standardmäßig ausgeschaltet, damit weder steuerrechtlich relevante Rechnungsdaten noch Löschnachweise unbeabsichtigt entfernt werden.": [
+        "Abi slēdži pēc noklusējuma ir izslēgti, lai nejauši netiktu izdzēsti nodokļu uzskaitei būtiski rēķinu dati vai dzēšanas apliecinājumi."
+      ],
+      "WooCommerce-Rechnungsfelder anonymisieren": [
+        "Anonimizēt WooCommerce norēķinu laukus"
+      ],
+      "Überschreibt Vor- und Nachname, erste Adresszeile, Telefon und E-Mail in WooCommerce-Bestellungen der betroffenen Adresse. Erst nach Prüfung gesetzlicher Aufbewahrungsfristen (§ 147 AO, § 257 HGB) einschalten.": [
+        "Pārraksta vārdu, uzvārdu, pirmo adreses rindu, tālruni un e-pastu attiecīgās adreses WooCommerce pasūtījumos. Ieslēdziet tikai pēc likumā noteikto glabāšanas termiņu (§ 147 AO, § 257 HGB) pārbaudes."
+      ],
+      "Alle Plugin-Daten bei Deinstallation löschen": [
+        "Atinstalējot dzēst visus spraudņa datus"
+      ],
+      "Wenn aktiviert, entfernt die Deinstallation alle Plugin-Optionen sowie die Tabellen für Anträge und Löschnachweise unwiderruflich. Standardmäßig bleiben Nachweise und Optionen erhalten.": [
+        "Ja ieslēgts, atinstalēšana neatgriezeniski dzēš visas spraudņa opcijas un pieprasījumu un apliecinājumu tabulas. Pēc noklusējuma apliecinājumi un opcijas tiek saglabātas."
+      ],
+      "Einstellungen speichern": [
+        "Saglabāt iestatījumus"
+      ],
+      "Was bei einer Löschung passiert": [
+        "Kas notiek dzēšanas laikā"
+      ],
+      "Kommentare mit dieser Adresse: Name, Adresse, URL, IP, Browserkennung und Benutzerzuordnung werden überschrieben, der Text durch „[Inhalt auf Antrag nach Art. 17 DSGVO gelöscht]“ ersetzt. Die Kommentare selbst bleiben stehen.": [
+        "Komentāri ar šo adresi: vārds, e-pasts, URL, IP, pārlūka aģents un lietotāja piesaiste tiek pārrakstīti, un teksts aizstāts ar “[Saturs dzēsts pēc pieprasījuma saskaņā ar VDAR 17. pantu]”. Paši komentāri paliek."
+      ],
+      "Benutzerkonto mit dieser Adresse: wird mit wp_delete_user() gelöscht, dabei auch die Beiträge, die dieses Konto verfasst hat. Konten mit der Rolle Administrator werden nicht gelöscht; der Nachweis vermerkt das. In einer Multisite entfernt wp_delete_user() das Konto nur aus dieser Website; der Nachweis vermerkt removed_from_this_site.": [
+        "Lietotāja konts ar šo adresi: tiek dzēsts ar wp_delete_user() kopā ar publicētajiem ierakstiem. Administratoru konti netiek dzēsti, un apliecinājums to fiksē. Multisite vidē konts tiek noņemts tikai no šīs vietnes (removed_from_this_site)."
+      ],
+      "WooCommerce-Bestellungen: nur wenn die Option wm_dsgvo_anonymize_wc_orders an ist, und nur Vor- und Nachname, erste Adresszeile, E-Mail und Telefon der Rechnungsadresse, über die Bestellobjekte von WooCommerce (HPOS und Beitragsspeicher). Standard ist aus, weil Rechnungsdaten Aufbewahrungsfristen unterliegen können (§ 147 AO, § 257 HGB); ob eine greift, entscheidet das Plugin nicht.": [
+        "WooCommerce pasūtījumi: tikai ja ieslēgts wm_dsgvo_anonymize_wc_orders; norēķinu vārds, adrese, e-pasts un tālrunis tiek pārrakstīti caur WooCommerce pasūtījumu objektiem (HPOS un ieraksti). Pēc noklusējuma izslēgts grāmatvedības prasību dēļ."
+      ],
+      "Nicht erfasst: Tabellen anderer Plugins (Formulare, Newsletter, Buchungen), Benutzer-Metadaten verbleibender Konten, Kommentar-Metadaten, Lieferadressen, Dateien, Logs, Caches und Backups. Die Datenschutz-Löschwerkzeuge von WordPress ruft das Plugin nicht auf.": [
+        "Netiek skarts: citu spraudņu tabulas (veidlapas, jaunumu vēstules, rezervācijas), saglabāto kontu metadati, piegādes adreses, faili, žurnāli, kešatmiņas un dublējumi."
+      ],
+      "Ob ein Antrag berechtigt ist, ob Ausnahmen nach Art. 17 Abs. 3 DSGVO greifen und welche Frist gilt, entscheidet das Plugin nicht.": [
+        "Spraudnis neizlemj, vai pieprasījums ir pamatots, vai piemērojami VDAR 17. panta 3. punkta izņēmumi un kāds glabāšanas termiņš ir spēkā."
+      ],
+      "Zu viele Anfragen. Bitte versuchen Sie es in einer Minute erneut.": [
+        "Pārāk daudz pieprasījumu. Lūdzu, mēģiniet vēlreiz pēc minūtes."
+      ],
+      "Bitte geben Sie eine gültige E-Mail-Adresse an.": [
+        "Lūdzu, norādiet derīgu e-pasta adresi."
+      ],
+      "Der Antrag wurde entgegengenommen. Ist die Adresse gültig, geht an sie ein Bestätigungslink; gelöscht wird erst nach dessen Aufruf.": [
+        "Pieprasījums ir saņemts. Ja adrese ir derīga, uz to tiks nosūtīta apstiprinājuma saite; dzēšana notiek tikai pēc apstiprināšanas."
+      ],
+      "WM Privacy Eraser Status": [
+        "WM Privacy Eraser statuss"
+      ],
+      "Aktueller Status des Art.-17-DSGVO-Löschportals.": [
+        "VDAR 17. panta dzēšanas portāla pašreizējais statuss."
+      ],
+      "Art. 17 DSGVO Löschportal aktiv (%d versiegelte Nachweise)": [
+        "VDAR 17. panta dzēšanas portāls aktīvs (%d apzīmogoti apliecinājumi)"
+      ],
+      "Art. 17 DSGVO Löschportal aktiv": [
+        "VDAR 17. panta dzēšanas portāls aktīvs"
+      ],
+      "Art. 17 DSGVO Löschportal: Kette prüfen": [
+        "VDAR 17. panta dzēšanas portāls: pārbaudiet ķēdi"
+      ],
+      "Löschung bestätigen": [
+        "Apstiprināt dzēšanu"
+      ],
+      "Das Öffnen dieses Links hat noch nichts gelöscht. Mit der Schaltfläche unten werden zu der Adresse, für die der Antrag gestellt wurde, die Kommentare auf dieser Website anonymisiert und ein Benutzerkonto gelöscht (außer Administratorkonten); ist es eingeschaltet, werden auch Rechnungsfelder von WooCommerce-Bestellungen anonymisiert. Die Löschung ist unwiderruflich.": [
+        "Šīs saites atvēršana vēl neko nav izdzēsusi. Nospiežot zemāk esošo pogu, šajā vietnē tiks anonimizēti komentāri pieprasītajai adresei un dzēsts lietotāja konts (izņemot administratorus); ja ieslēgts, tiks anonimizēti arī WooCommerce norēķinu lauki. Dzēšana ir neatgriezeniska."
+      ],
+      "Löschung jetzt ausführen": [
+        "Izpildīt dzēšanu tagad"
+      ],
+      "Löschung ausgeführt": [
+        "Dzēšana izpildīta"
+      ],
+      "%1$d Einträge wurden gelöscht oder anonymisiert. Kennung des Löschnachweises: %2$s": [
+        "%1$d ieraksti tika dzēsti vai anonimizēti. Dzēšanas apliecinājuma ID: %2$s"
+      ],
+      "Löschung nicht vollständig": [
+        "Dzēšana nepilnīga"
+      ],
+      "Nicht alle Daten konnten geändert werden, oder der Löschnachweis wurde nicht gespeichert. Der Antrag ist als fehlgeschlagen vermerkt; bitte wenden Sie sich an den Betreiber dieser Website.": [
+        "Ne visus datus izdevās mainīt vai neizdevās saglabāt dzēšanas apliecinājumu. Pieprasījums atzīmēts kā neveiksmīgs; lūdzu, sazinieties ar vietnes uzturētāju."
+      ],
+      "Kennung des Löschnachweises: %s": [
+        "Dzēšanas apliecinājuma ID: %s"
+      ],
+      "Antrag nicht verarbeitet": [
+        "Pieprasījums nav apstrādāts"
+      ],
+      "Der Antrag konnte nicht verarbeitet werden. Bitte stellen Sie ihn erneut.": [
+        "Pieprasījumu neizdevās apstrādāt. Lūdzu, iesniedziet to vēlreiz."
+      ],
+      "Link nicht gültig": [
+        "Nederīga saite"
+      ],
+      "Der Bestätigungslink ist ungültig, abgelaufen oder wurde bereits verwendet.": [
+        "Apstiprinājuma saite ir nederīga, tai beidzies termiņš vai tā jau ir izmantota."
+      ],
+      "Bitte geben Sie eine gültige E-Mail-Adresse ein.": [
+        "Lūdzu, ievadiet derīgu e-pasta adresi."
+      ],
+      "Antrag wird übermittelt …": [
+        "Pieprasījums tiek nosūtīts …"
+      ],
+      "Bestätigung erforderlich": [
+        "Nepieciešams apstiprinājums"
+      ],
+      "Ist die Adresse gültig, geht an sie ein Bestätigungslink. Gelöscht wird erst, wenn die Löschung auf der verlinkten Seite bestätigt wird. Der Link ist %d Stunden gültig und nur einmal verwendbar.": [
+        "Ja adrese ir derīga, uz to nosūtīta apstiprinājuma saite. Dzēšana notiks tikai pēc apstiprināšanas atvērtajā lapā. Saite ir derīga %d stundas un izmantojama vienreiz."
+      ],
+      "Der Antrag konnte nicht übermittelt werden:": [
+        "Pieprasījumu neizdevās nosūtīt:"
+      ],
+      "unbekannter Fehler": [
+        "nezināma kļūda"
+      ],
+      "Der Antrag konnte nicht übermittelt werden: Verbindungsfehler.": [
+        "Pieprasījumu neizdevās nosūtīt: savienojuma kļūda."
+      ],
+      "Antrag auf Datenlöschung (Art. 17 DSGVO)": [
+        "Datu dzēšanas pieprasījums (VDAR 17. pants)"
+      ],
+      "Gemäß Art. 17 DSGVO (\"Recht auf Vergessenwerden\") haben Sie das Recht auf unverzügliche Löschung Ihrer personenbezogenen Daten. Zur Bestätigung Ihrer Identität nach Art. 12 Abs. 6 DSGVO senden wir Ihnen zunächst einen einmaligen Bestätigungslink. Erst nach dessen Aufruf wird gelöscht und ein kryptografisches Löschzertifikat ausgestellt.": [
+        "Saskaņā ar VDAR 17. pantu (“tiesības tikt aizmirstam”) jums ir tiesības pieprasīt savu personas datu dzēšanu. Lai apstiprinātu identitāti saskaņā ar VDAR 12. panta 6. punktu, vispirms nosūtām vienreizēju apstiprinājuma saiti. Tikai pēc apstiprināšanas dati tiek dzēsti un izsniegts kriptogrāfisks apliecinājums."
+      ],
+      "Ihre hinterlegte E-Mail-Adresse:": [
+        "Jūsu reģistrētā e-pasta adrese:"
+      ],
+      "ihre-email@example.com": [
+        "jusu-epasts@example.com"
+      ],
+      "Löschantrag übermitteln": [
+        "Iesniegt dzēšanas pieprasījumu"
+      ],
+      "[%s] Löschantrag bestätigen (Art. 17 DSGVO)": [
+        "[%s] Apstipriniet dzēšanas pieprasījumu (VDAR 17. pants)"
+      ],
+      "DSGVO Löschantrag (Art. 17)": [
+        "VDAR dzēšanas pieprasījums (17. pants)"
+      ],
+      "Öffentliches Formular für Löschanträge nach Art. 17 DSGVO mit Einmal-Bestätigungslink.": [
+        "Publiska veidlapa VDAR 17. panta dzēšanas pieprasījumiem ar vienreizēju apstiprinājuma saiti."
+      ],
+      "Formulareinstellungen": [
+        "Veidlapas iestatījumi"
+      ],
+      "Hinweistext anzeigen": [
+        "Rādīt paskaidrojošo tekstu"
+      ],
+      "Blendet den erläuternden Hinweis oberhalb des E-Mail-Feldes ein oder aus.": [
+        "Parāda vai paslēpj paskaidrojošo norādi virs e-pasta lauka."
+      ],
+      "block title\u0004DSGVO Löschantrag (Art. 17)": [
+        "VDAR dzēšanas pieprasījums (17. pants)"
+      ],
+      "block description\u0004Öffentliches Formular für Löschanträge nach Art. 17 DSGVO mit Einmal-Bestätigungslink.": [
+        "Publiska veidlapa VDAR 17. panta dzēšanas pieprasījumiem ar vienreizēju apstiprinājuma saiti."
+      ],
+      "block keyword\u0004dsgvo": [
+        "vdar"
+      ],
+      "block keyword\u0004gdpr": [
+        "datu-aizsardziba"
+      ],
+      "block keyword\u0004löschung": [
+        "dzesana"
+      ],
+      "block keyword\u0004erasure": [
+        "anonimizesana"
+      ],
+      "block keyword\u0004datenschutz": [
+        "privatums"
+      ],
+      "block keyword\u0004privacy": [
+        "personas-dati"
+      ]
+    }
+  }
+}

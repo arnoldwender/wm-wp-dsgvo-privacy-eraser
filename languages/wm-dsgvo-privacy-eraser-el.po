@@ -1,0 +1,705 @@
+# Translation of wm-dsgvo-privacy-eraser in el
+# Copyright (C) 2026 Arnold Wender
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: wm-dsgvo-privacy-eraser 1.4.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wm-dsgvo-privacy-"
+"eraser\n"
+"POT-Creation-Date: 2026-11-21T13:14:19+00:00\n"
+"PO-Revision-Date: 2026-11-21 14:14+0100\n"
+"Last-Translator: WM Suite <https://github.com/arnoldwender/wm-wp-dsgvo-"
+"privacy-eraser/issues>\n"
+"Language-Team: WM Suite <https://github.com/arnoldwender/wm-wp-dsgvo-privacy-"
+"eraser/issues>\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: WM Suite i18n Compiler 2026\n"
+"X-Domain: wm-dsgvo-privacy-eraser\n"
+
+#. Plugin Name of the plugin
+#: wm-dsgvo-privacy-eraser.php
+msgid "WM DSGVO Art. 17 Cryptographic Privacy Eraser"
+msgstr "WM ΓΚΠΔ Άρθ. 17 Κρυπτογραφική Διαγραφή Δεδομένων"
+
+#. Plugin URI of the plugin
+#: wm-dsgvo-privacy-eraser.php
+msgid "https://arnoldwender.com/wordpress-plugins/wm-dsgvo-privacy-eraser/"
+msgstr "https://arnoldwender.com/wordpress-plugins/wm-dsgvo-privacy-eraser/"
+
+#. Description of the plugin
+#: wm-dsgvo-privacy-eraser.php
+msgid ""
+"Löschanträge nach Art. 17 DSGVO mit Bestätigungslink an die Adresse; danach "
+"werden Kommentare anonymisiert, das Benutzerkonto (außer Administratoren) "
+"gelöscht und optional WooCommerce-Rechnungsfelder anonymisiert. Jede "
+"Löschung erhält einen HMAC-verketteten Nachweis. Keine rechtliche Prüfung "
+"des Antrags."
+msgstr ""
+"Αιτήματα διαγραφής κατά το άρθρο 17 ΓΚΠΔ με σύνδεσμο επιβεβαίωσης μίας "
+"χρήσης στη διεύθυνση email· κατόπιν ανωνυμοποιούνται τα σχόλια, διαγράφεται "
+"ο λογαριασμός χρήστη (εκτός διαχειριστών) και προαιρετικά ανωνυμοποιούνται "
+"τα στοιχεία χρέωσης WooCommerce. Κάθε διαγραφή λαμβάνει αποδεικτικό σε "
+"αλυσίδα HMAC. Χωρίς νομική αξιολόγηση."
+
+#. Author of the plugin
+#: wm-dsgvo-privacy-eraser.php
+msgid "Arnold Wender"
+msgstr "Arnold Wender"
+
+#. Author URI of the plugin
+#: wm-dsgvo-privacy-eraser.php
+msgid "https://arnoldwender.com"
+msgstr "https://arnoldwender.com"
+
+#. translators: %d: number of verified certificates
+#: includes/Admin/AdminDashboard.php:109
+#, php-format
+msgid "Kette geprüft: %d versiegelte Nachweise stimmen"
+msgstr "Η αλυσίδα επαληθεύτηκε: %d σφραγισμένα αποδεικτικά συμφωνούν"
+
+#: includes/Admin/AdminDashboard.php:112
+msgid "Noch keine Löschnachweise"
+msgstr "Δεν υπάρχουν ακόμη αποδεικτικά διαγραφής"
+
+#: includes/Admin/AdminDashboard.php:113
+msgid "Kette gebrochen"
+msgstr "Η αλυσίδα έχει διαρραγεί"
+
+#: includes/Admin/AdminDashboard.php:124 includes/Admin/AdminDashboard.php:225
+msgid "WM DSGVO Privacy Eraser"
+msgstr "WM ΓΚΠΔ Privacy Eraser"
+
+#: includes/Admin/AdminDashboard.php:144 includes/Admin/AdminDashboard.php:214
+#: includes/Admin/AdminDashboard.php:250
+msgid "Löschnachweise"
+msgstr "Αποδεικτικά διαγραφής"
+
+#: includes/Admin/AdminDashboard.php:148
+msgid "Offene Anträge"
+msgstr "Ανοικτά αιτήματα"
+
+#: includes/Admin/AdminDashboard.php:154
+msgid "Privacy Eraser öffnen"
+msgstr "Άνοιγμα Privacy Eraser"
+
+#: includes/Admin/AdminDashboard.php:173
+msgid "WM Privacy Eraser"
+msgstr "WM Privacy Eraser"
+
+#: includes/Admin/AdminDashboard.php:174
+msgid "Privacy Eraser"
+msgstr "Privacy Eraser"
+
+#: includes/Admin/AdminDashboard.php:212
+msgid "Übersicht"
+msgstr "Επισκόπηση"
+
+#: includes/Admin/AdminDashboard.php:213
+msgid "Antrag stellen"
+msgstr "Υποβολή αιτήματος"
+
+#: includes/Admin/AdminDashboard.php:215
+msgid "Was gelöscht wird"
+msgstr "Τι διαγράφεται"
+
+#: includes/Admin/AdminDashboard.php:216 includes/Admin/AdminDashboard.php:394
+msgid "Einstellungen"
+msgstr "Ρυθμίσεις"
+
+#: includes/Admin/AdminDashboard.php:226
+msgid ""
+"Löschanträge mit Bestätigungslink, Löschung bzw. Anonymisierung der Daten, "
+"die WordPress selbst zu einer E-Mail-Adresse hält, und ein verketteter "
+"Nachweis je Löschung. Es ersetzt keine rechtliche Prüfung des Antrags."
+msgstr ""
+"Αιτήματα διαγραφής με σύνδεσμο επιβεβαίωσης, διαγραφή ή ανωνυμοποίηση των "
+"δεδομένων που τηρεί το WordPress για μία διεύθυνση email και αλυσιδωτό "
+"αποδεικτικό ανά διαγραφή. Δεν υποκαθιστά νομικό έλεγχο."
+
+#: includes/Admin/AdminDashboard.php:229
+msgid "Part of the WM Suite plugin family"
+msgstr "Μέλος της οικογένειας προσθέτων WM Suite"
+
+#: includes/Admin/AdminDashboard.php:231
+msgid "WM Suite"
+msgstr "WM Suite"
+
+#: includes/Admin/AdminDashboard.php:232
+msgid "Hub"
+msgstr "Κόμβος"
+
+#: includes/Admin/AdminDashboard.php:232
+msgid "Standalone"
+msgstr "Αυτόνομο"
+
+#: includes/Admin/AdminDashboard.php:237 includes/Admin/AdminDashboard.php:368
+msgid "Bereiche"
+msgstr "Πεδία"
+
+#: includes/Admin/AdminDashboard.php:245
+msgid "Stand dieser Website"
+msgstr "Κατάσταση αυτού του ιστοτόπου"
+
+#: includes/Admin/AdminDashboard.php:246
+msgid "Beim Aufruf dieser Seite aus der Datenbank gelesen."
+msgstr "Αναγνώστηκε από τη βάση δεδομένων κατά τη φόρτωση της σελίδας."
+
+#: includes/Admin/AdminDashboard.php:254
+msgid "Gelöschte oder anonymisierte Einträge laut Nachweisen"
+msgstr "Διαγραμμένες ή ανωνυμοποιημένες εγγραφές βάσει αποδεικτικών"
+
+#: includes/Admin/AdminDashboard.php:258
+msgid "Offene Anträge (Adresse noch gespeichert)"
+msgstr "Ανοικτά αιτήματα (η διεύθυνση αποθηκεύεται ακόμη)"
+
+#: includes/Admin/AdminDashboard.php:262
+msgid "Nachweiskette"
+msgstr "Αλυσίδα αποδεικτικών"
+
+#. translators: %d: number of certificates issued before the chain existed
+#: includes/Admin/AdminDashboard.php:272
+#, php-format
+msgid "%d ältere Nachweise ohne Siegel, nicht prüfbar."
+msgstr "%d παλαιότερα αποδεικτικά χωρίς σφραγίδα, μη επαληθεύσιμα."
+
+#: includes/Admin/AdminDashboard.php:278
+msgid "Verschlüsselung offener Adressen (libsodium)"
+msgstr "Κρυπτογράφηση εκκρεμών διευθύνσεων (libsodium)"
+
+#: includes/Admin/AdminDashboard.php:279
+msgid "verfügbar"
+msgstr "διαθέσιμη"
+
+#: includes/Admin/AdminDashboard.php:279
+msgid "nicht verfügbar: Adressen werden im Klartext gespeichert"
+msgstr "μη διαθέσιμη: οι διευθύνσεις αποθηκεύονται σε απλό κείμενο"
+
+#: includes/Admin/AdminDashboard.php:282
+msgid ""
+"WooCommerce-Rechnungsfelder anonymisieren (wm_dsgvo_anonymize_wc_orders)"
+msgstr ""
+"Ανωνυμοποίηση πεδίων χρέωσης WooCommerce (wm_dsgvo_anonymize_wc_orders)"
+
+#: includes/Admin/AdminDashboard.php:283 includes/Admin/AdminDashboard.php:287
+msgid "an"
+msgstr "ενεργό"
+
+#: includes/Admin/AdminDashboard.php:283
+msgid "aus (Standard)"
+msgstr "ανενεργό (προεπιλογή)"
+
+#: includes/Admin/AdminDashboard.php:286
+msgid ""
+"Daten bei Deinstallation löschen (wm_dsgvo_eraser_delete_data_on_uninstall)"
+msgstr ""
+"Διαγραφή δεδομένων κατά την απεγκατάσταση "
+"(wm_dsgvo_eraser_delete_data_on_uninstall)"
+
+#: includes/Admin/AdminDashboard.php:287
+msgid "aus (Standard: Nachweise bleiben erhalten)"
+msgstr "ανενεργό (προεπιλογή: τα αποδεικτικά διατηρούνται)"
+
+#: includes/Admin/AdminDashboard.php:295
+msgid "Löschantrag für eine Adresse stellen"
+msgstr "Υποβολή αιτήματος διαγραφής για διεύθυνση"
+
+#. translators: %d: hours the confirmation link stays valid
+#: includes/Admin/AdminDashboard.php:301
+#, php-format
+msgid ""
+"Legt denselben Antrag an wie das Formular auf der Website: An die Adresse "
+"geht ein Bestätigungslink, %d Stunden gültig. Gelöscht wird erst, wenn die "
+"Löschung auf der verlinkten Seite bestätigt wird. Eine sofortige Löschung "
+"ohne Bestätigung gibt es nur über WP-CLI (wp dsgvo erase), nachdem Sie die "
+"Identität selbst geprüft haben."
+msgstr ""
+"Δημιουργεί το ίδιο αίτημα με τη δημόσια φόρμα: αποστέλλεται σύνδεσμος "
+"επιβεβαίωσης ισχύος %d ωρών. Τίποτα δεν διαγράφεται πριν την επιβεβαίωση στη "
+"συνδεδεμένη σελίδα. Άμεση διαγραφή χωρίς επιβεβαίωση παρέχεται μόνο μέσω WP-"
+"CLI (wp dsgvo erase) μετά από έλεγχο ταυτότητας."
+
+#: includes/Admin/AdminDashboard.php:308
+msgid "E-Mail-Adresse der betroffenen Person"
+msgstr "Διεύθυνση email του υποκειμένου των δεδομένων"
+
+#: includes/Admin/AdminDashboard.php:311
+msgid "Bestätigungslink senden"
+msgstr "Αποστολή συνδέσμου επιβεβαίωσης"
+
+#: includes/Admin/AdminDashboard.php:321
+msgid "Bitte eine E-Mail-Adresse eingeben."
+msgstr "Παρακαλούμε εισαγάγετε διεύθυνση email."
+
+#: includes/Admin/AdminDashboard.php:324
+msgid "Wird übermittelt …"
+msgstr "Αποστολή …"
+
+#. translators: 1: requests per address, 2: hours, 3: requests per IP per hour
+#: includes/Admin/AdminDashboard.php:337
+#, php-format
+msgid ""
+"Antrag übermittelt. Ein Bestätigungslink geht nur hinaus, wenn die Adresse "
+"gültig ist, keines der Limits greift (%1$d Anträge je Adresse in %2$d "
+"Stunden, %3$d je IP pro Stunde, Ihre eigene IP zählt mit) und der "
+"Mailversand gelingt; diese Seite erfährt das nicht. Noch ist nichts gelöscht."
+msgstr ""
+"Το αίτημα υποβλήθηκε. Σύνδεσμος επιβεβαίωσης αποστέλλεται μόνο εάν η "
+"διεύθυνση είναι έγκυρη, δεν ισχύει κανένα όριο (%1$d αιτήματα ανά διεύθυνση "
+"σε %2$d ώρες, %3$d ανά IP την ώρα μαζί με τη δική σας IP) και πετύχει η "
+"αποστολή· η σελίδα αυτή δεν το γνωρίζει. Δεν έχει διαγραφεί τίποτα ακόμη."
+
+#: includes/Admin/AdminDashboard.php:344
+msgid "Der Antrag konnte nicht angelegt werden."
+msgstr "Δεν ήταν δυνατή η δημιουργία του αιτήματος."
+
+#: includes/Admin/AdminDashboard.php:347
+msgid "Verbindungsfehler."
+msgstr "Σφάλμα σύνδεσης."
+
+#: includes/Admin/AdminDashboard.php:360
+msgid "Letzte zehn Löschnachweise"
+msgstr "Τελευταία δέκα αποδεικτικά διαγραφής"
+
+#: includes/Admin/AdminDashboard.php:361
+msgid ""
+"Jeder Nachweis speichert statt der Adresse einen geschlüsselten Hash, die "
+"Anzahl der Einträge je Bereich und ein Siegel, das den vorherigen Nachweis "
+"einschließt. Bearbeitete, eingefügte, umsortierte oder gelöschte Nachweise "
+"fallen bei der Prüfung auf, solange die Option mit dem Kettenende "
+"unverändert ist; wer die Datenbank schreiben kann, kann auch diese Option "
+"ändern, und wer den Schlüssel aus wp-config.php hat, kann die Kette neu "
+"versiegeln."
+msgstr ""
+"Κάθε αποδεικτικό αποθηκεύει κλειδωμένο κατακερματισμό αντί της διεύθυνσης, "
+"πλήθος εγγραφών ανά πεδίο και σφραγίδα που ενσωματώνει το προηγούμενο "
+"αποδεικτικό. Τροποποιήσεις, προσθήκες, αναδιατάξεις ή διαγραφές εντοπίζονται "
+"όσο η επιλογή κορυφής αλυσίδας παραμένει αμετάβλητη· δικαίωμα εγγραφής στη "
+"βάση επιτρέπει αλλαγή της επιλογής και το wp-config.php επιτρέπει "
+"επανασφράγιση."
+
+#: includes/Admin/AdminDashboard.php:365
+msgid "Nachweis"
+msgstr "Αποδεικτικό"
+
+#: includes/Admin/AdminDashboard.php:366
+msgid "Hash der Adresse"
+msgstr "Κατακερματισμός διεύθυνσης"
+
+#: includes/Admin/AdminDashboard.php:367
+msgid "Einträge"
+msgstr "Εγγραφές"
+
+#: includes/Admin/AdminDashboard.php:369
+msgid "Siegel"
+msgstr "Σφραγίδα"
+
+#: includes/Admin/AdminDashboard.php:370
+msgid "Zeitpunkt"
+msgstr "Χρονική σήμανση"
+
+#: includes/Admin/AdminDashboard.php:375
+msgid "Noch keine Löschnachweise."
+msgstr "Δεν υπάρχουν ακόμη αποδεικτικά διαγραφής."
+
+#: includes/Admin/AdminDashboard.php:383
+msgid "ohne Siegelkette"
+msgstr "χωρίς αλυσίδα σφραγίδων"
+
+#: includes/Admin/AdminDashboard.php:395
+msgid ""
+"Beide Schalter sind standardmäßig ausgeschaltet, damit weder steuerrechtlich "
+"relevante Rechnungsdaten noch Löschnachweise unbeabsichtigt entfernt werden."
+msgstr ""
+"Και οι δύο διακόπτες είναι προεπιλεγμένα ανενεργοί ώστε να μην αφαιρεθούν "
+"ακούσια φορολογικά στοιχεία χρέωσης ή αποδεικτικά διαγραφής."
+
+#: includes/Admin/AdminDashboard.php:406
+msgid "WooCommerce-Rechnungsfelder anonymisieren"
+msgstr "Ανωνυμοποίηση πεδίων χρέωσης WooCommerce"
+
+#: includes/Admin/AdminDashboard.php:410
+msgid ""
+"Überschreibt Vor- und Nachname, erste Adresszeile, Telefon und E-Mail in "
+"WooCommerce-Bestellungen der betroffenen Adresse. Erst nach Prüfung "
+"gesetzlicher Aufbewahrungsfristen (§ 147 AO, § 257 HGB) einschalten."
+msgstr ""
+"Αντικαθιστά όνομα, επώνυμο, πρώτη γραμμή διεύθυνσης, τηλέφωνο και email στις "
+"παραγγελίες WooCommerce της διεύθυνσης. Ενεργοποιήστε μόνο μετά από έλεγχο "
+"των νόμιμων περιόδων τήρησης (§ 147 AO, § 257 HGB)."
+
+#: includes/Admin/AdminDashboard.php:415
+msgid "Alle Plugin-Daten bei Deinstallation löschen"
+msgstr "Διαγραφή όλων των δεδομένων του προσθέτου κατά την απεγκατάσταση"
+
+#: includes/Admin/AdminDashboard.php:419
+msgid ""
+"Wenn aktiviert, entfernt die Deinstallation alle Plugin-Optionen sowie die "
+"Tabellen für Anträge und Löschnachweise unwiderruflich. Standardmäßig "
+"bleiben Nachweise und Optionen erhalten."
+msgstr ""
+"Εάν ενεργοποιηθεί, η απεγκατάσταση αφαιρεί οριστικά όλες τις ρυθμίσεις του "
+"προσθέτου και τους πίνακες αιτημάτων και αποδεικτικών διαγραφής. Από "
+"προεπιλογή διατηρούνται."
+
+#: includes/Admin/AdminDashboard.php:424
+msgid "Einstellungen speichern"
+msgstr "Αποθήκευση ρυθμίσεων"
+
+#: includes/Admin/AdminDashboard.php:430
+msgid "Was bei einer Löschung passiert"
+msgstr "Τι συμβαίνει κατά τη διαγραφή"
+
+#: includes/Admin/AdminDashboard.php:432
+msgid ""
+"Kommentare mit dieser Adresse: Name, Adresse, URL, IP, Browserkennung und "
+"Benutzerzuordnung werden überschrieben, der Text durch „[Inhalt auf Antrag "
+"nach Art. 17 DSGVO gelöscht]“ ersetzt. Die Kommentare selbst bleiben stehen."
+msgstr ""
+"Σχόλια με αυτή τη διεύθυνση: όνομα, email, URL, IP, πρόγραμμα περιήγησης και "
+"σύνδεση χρήστη αντικαθίστανται και το κείμενο γίνεται «[Το περιεχόμενο "
+"διαγράφηκε κατόπιν αιτήματος βάσει του άρθ. 17 ΓΚΠΔ]». Τα σχόλια παραμένουν."
+
+#: includes/Admin/AdminDashboard.php:433
+msgid ""
+"Benutzerkonto mit dieser Adresse: wird mit wp_delete_user() gelöscht, dabei "
+"auch die Beiträge, die dieses Konto verfasst hat. Konten mit der Rolle "
+"Administrator werden nicht gelöscht; der Nachweis vermerkt das. In einer "
+"Multisite entfernt wp_delete_user() das Konto nur aus dieser Website; der "
+"Nachweis vermerkt removed_from_this_site."
+msgstr ""
+"Λογαριασμός χρήστη με αυτή τη διεύθυνση: διαγράφεται μέσω wp_delete_user() "
+"μαζί με τα άρθρα του. Λογαριασμοί διαχειριστή δεν διαγράφονται και αυτό "
+"καταγράφεται. Σε Multisite αφαιρείται μόνο από τον τρέχοντα ιστότοπο "
+"(removed_from_this_site)."
+
+#: includes/Admin/AdminDashboard.php:434
+msgid ""
+"WooCommerce-Bestellungen: nur wenn die Option wm_dsgvo_anonymize_wc_orders "
+"an ist, und nur Vor- und Nachname, erste Adresszeile, E-Mail und Telefon der "
+"Rechnungsadresse, über die Bestellobjekte von WooCommerce (HPOS und "
+"Beitragsspeicher). Standard ist aus, weil Rechnungsdaten "
+"Aufbewahrungsfristen unterliegen können (§ 147 AO, § 257 HGB); ob eine "
+"greift, entscheidet das Plugin nicht."
+msgstr ""
+"Παραγγελίες WooCommerce: μόνο όταν το wm_dsgvo_anonymize_wc_orders είναι "
+"ενεργό, αντικαθιστώντας όνομα, διεύθυνση, email και τηλέφωνο χρέωσης μέσω "
+"αντικειμένων παραγγελίας WooCommerce (HPOS και αναρτήσεις). Προεπιλεγμένα "
+"ανενεργό λόγω φορολογικών υποχρεώσεων."
+
+#: includes/Admin/AdminDashboard.php:435
+msgid ""
+"Nicht erfasst: Tabellen anderer Plugins (Formulare, Newsletter, Buchungen), "
+"Benutzer-Metadaten verbleibender Konten, Kommentar-Metadaten, "
+"Lieferadressen, Dateien, Logs, Caches und Backups. Die Datenschutz-"
+"Löschwerkzeuge von WordPress ruft das Plugin nicht auf."
+msgstr ""
+"Δεν καλύπτονται: πίνακες άλλων προσθέτων (φόρμες, ενημερωτικά δελτία, "
+"κρατήσεις), μεταδεδομένα διατηρούμενων λογαριασμών, διευθύνσεις αποστολής, "
+"αρχεία, αρχεία καταγραφής, κρυφές μνήμες και αντίγραφα ασφαλείας."
+
+#: includes/Admin/AdminDashboard.php:436
+msgid ""
+"Ob ein Antrag berechtigt ist, ob Ausnahmen nach Art. 17 Abs. 3 DSGVO greifen "
+"und welche Frist gilt, entscheidet das Plugin nicht."
+msgstr ""
+"Το πρόσθετο δεν κρίνει τη βασιμότητα αιτήματος, τις εξαιρέσεις του άρθ. 17 "
+"παρ. 3 ΓΚΠΔ ούτε την εφαρμοστέα περίοδο διατήρησης."
+
+#: includes/API/RestController.php:100
+msgid "Zu viele Anfragen. Bitte versuchen Sie es in einer Minute erneut."
+msgstr "Πάρα πολλά αιτήματα. Δοκιμάστε ξανά σε ένα λεπτό."
+
+#: includes/API/RestController.php:137
+msgid "Bitte geben Sie eine gültige E-Mail-Adresse an."
+msgstr "Παρακαλούμε δηλώστε έγκυρη διεύθυνση email."
+
+#: includes/API/RestController.php:146
+msgid ""
+"Der Antrag wurde entgegengenommen. Ist die Adresse gültig, geht an sie ein "
+"Bestätigungslink; gelöscht wird erst nach dessen Aufruf."
+msgstr ""
+"Το αίτημα παρελήφθη. Εάν η διεύθυνση είναι έγκυρη, αποστέλλεται σύνδεσμος "
+"επιβεβαίωσης· η διαγραφή εκτελείται μόνο μετά την επιβεβαίωση."
+
+#: includes/Frontend/EcosystemIntegration.php:33
+#: includes/Frontend/EcosystemIntegration.php:43
+msgid "WM Privacy Eraser Status"
+msgstr "Κατάσταση WM Privacy Eraser"
+
+#: includes/Frontend/EcosystemIntegration.php:47
+msgid "Aktueller Status des Art.-17-DSGVO-Löschportals."
+msgstr "Τρέχουσα κατάσταση της πύλης διαγραφής Άρθ. 17 ΓΚΠΔ."
+
+#. translators: %d: number of verified certificates
+#: includes/Frontend/EcosystemIntegration.php:112
+#, php-format
+msgid "Art. 17 DSGVO Löschportal aktiv (%d versiegelte Nachweise)"
+msgstr "Πύλη διαγραφής Άρθ. 17 ΓΚΠΔ ενεργή (%d σφραγισμένα αποδεικτικά)"
+
+#: includes/Frontend/EcosystemIntegration.php:115
+msgid "Art. 17 DSGVO Löschportal aktiv"
+msgstr "Πύλη διαγραφής Άρθ. 17 ΓΚΠΔ ενεργή"
+
+#: includes/Frontend/EcosystemIntegration.php:116
+msgid "Art. 17 DSGVO Löschportal: Kette prüfen"
+msgstr "Πύλη διαγραφής Άρθ. 17 ΓΚΠΔ: ελέγξτε την αλυσίδα"
+
+#: includes/Frontend/ErasureConfirmationPage.php:72
+msgid "Löschung bestätigen"
+msgstr "Επιβεβαίωση διαγραφής"
+
+#: includes/Frontend/ErasureConfirmationPage.php:73
+msgid ""
+"Das Öffnen dieses Links hat noch nichts gelöscht. Mit der Schaltfläche unten "
+"werden zu der Adresse, für die der Antrag gestellt wurde, die Kommentare auf "
+"dieser Website anonymisiert und ein Benutzerkonto gelöscht (außer "
+"Administratorkonten); ist es eingeschaltet, werden auch Rechnungsfelder von "
+"WooCommerce-Bestellungen anonymisiert. Die Löschung ist unwiderruflich."
+msgstr ""
+"Το άνοιγμα αυτού του συνδέσμου δεν έχει διαγράψει ακόμη τίποτα. Με το "
+"παρακάτω κουμπί ανωνυμοποιούνται τα σχόλια σε αυτόν τον ιστότοπο για τη "
+"ζητούμενη διεύθυνση και διαγράφεται ο λογαριασμός χρήστη (εκτός "
+"διαχειριστών)· εάν είναι ενεργό, ανωνυμοποιούνται και τα στοιχεία χρέωσης "
+"WooCommerce. Η διαγραφή είναι μη αναστρέψιμη."
+
+#: includes/Frontend/ErasureConfirmationPage.php:78
+msgid "Löschung jetzt ausführen"
+msgstr "Εκτέλεση διαγραφής τώρα"
+
+#: includes/Frontend/ErasureConfirmationPage.php:83
+msgid "Löschung ausgeführt"
+msgstr "Η διαγραφή εκτελέστηκε"
+
+#. translators: 1: number of entries, 2: record id
+#: includes/Frontend/ErasureConfirmationPage.php:87
+#, php-format
+msgid ""
+"%1$d Einträge wurden gelöscht oder anonymisiert. Kennung des "
+"Löschnachweises: %2$s"
+msgstr ""
+"%1$d εγγραφές διαγράφηκαν ή ανωνυμοποιήθηκαν. Αναγνωριστικό αποδεικτικού: "
+"%2$s"
+
+#: includes/Frontend/ErasureConfirmationPage.php:95
+msgid "Löschung nicht vollständig"
+msgstr "Μη ολοκληρωμένη διαγραφή"
+
+#: includes/Frontend/ErasureConfirmationPage.php:96
+msgid ""
+"Nicht alle Daten konnten geändert werden, oder der Löschnachweis wurde nicht "
+"gespeichert. Der Antrag ist als fehlgeschlagen vermerkt; bitte wenden Sie "
+"sich an den Betreiber dieser Website."
+msgstr ""
+"Δεν κατέστη δυνατή η τροποποίηση όλων των δεδομένων ή η αποθήκευση του "
+"αποδεικτικού διαγραφής. Το αίτημα σημειώθηκε ως αποτυχημένο· επικοινωνήστε "
+"με τον διαχειριστή του ιστοτόπου."
+
+#. translators: %s: record id
+#: includes/Frontend/ErasureConfirmationPage.php:99
+#, php-format
+msgid "Kennung des Löschnachweises: %s"
+msgstr "Αναγνωριστικό αποδεικτικού: %s"
+
+#: includes/Frontend/ErasureConfirmationPage.php:104
+msgid "Antrag nicht verarbeitet"
+msgstr "Το αίτημα δεν διεκπεραιώθηκε"
+
+#: includes/Frontend/ErasureConfirmationPage.php:105
+msgid ""
+"Der Antrag konnte nicht verarbeitet werden. Bitte stellen Sie ihn erneut."
+msgstr "Δεν ήταν δυνατή η επεξεργασία του αιτήματος. Υποβάλετέ το ξανά."
+
+#: includes/Frontend/ErasureConfirmationPage.php:109
+msgid "Link nicht gültig"
+msgstr "Μη έγκυρος σύνδεσμος"
+
+#: includes/Frontend/ErasureConfirmationPage.php:110
+msgid ""
+"Der Bestätigungslink ist ungültig, abgelaufen oder wurde bereits verwendet."
+msgstr ""
+"Ο σύνδεσμος επιβεβαίωσης είναι μη έγκυρος, έχει λήξει ή έχει ήδη "
+"χρησιμοποιηθεί."
+
+#: includes/Frontend/ErasureRequestForm.php:76
+msgid "Bitte geben Sie eine gültige E-Mail-Adresse ein."
+msgstr "Παρακαλούμε εισαγάγετε έγκυρη διεύθυνση email."
+
+#: includes/Frontend/ErasureRequestForm.php:77
+msgid "Antrag wird übermittelt …"
+msgstr "Υποβολή αιτήματος …"
+
+#: includes/Frontend/ErasureRequestForm.php:78
+msgid "Bestätigung erforderlich"
+msgstr "Απαιτείται επιβεβαίωση"
+
+#. translators: %d: hours the confirmation link stays valid
+#: includes/Frontend/ErasureRequestForm.php:81
+#, php-format
+msgid ""
+"Ist die Adresse gültig, geht an sie ein Bestätigungslink. Gelöscht wird "
+"erst, wenn die Löschung auf der verlinkten Seite bestätigt wird. Der Link "
+"ist %d Stunden gültig und nur einmal verwendbar."
+msgstr ""
+"Εάν η διεύθυνση είναι έγκυρη, έχει σταλεί σύνδεσμος επιβεβαίωσης. Η διαγραφή "
+"γίνεται μόνο μετά την επιβεβαίωση στη συνδεδεμένη σελίδα. Ο σύνδεσμος ισχύει "
+"για %d ώρες και χρησιμοποιείται μία φορά."
+
+#: includes/Frontend/ErasureRequestForm.php:84
+msgid "Der Antrag konnte nicht übermittelt werden:"
+msgstr "Δεν ήταν δυνατή η υποβολή του αιτήματος:"
+
+#: includes/Frontend/ErasureRequestForm.php:85
+msgid "unbekannter Fehler"
+msgstr "άγνωστο σφάλμα"
+
+#: includes/Frontend/ErasureRequestForm.php:86
+msgid "Der Antrag konnte nicht übermittelt werden: Verbindungsfehler."
+msgstr "Δεν ήταν δυνατή η υποβολή του αιτήματος: σφάλμα σύνδεσης."
+
+#: includes/Frontend/ErasureRequestForm.php:144
+msgid "Antrag auf Datenlöschung (Art. 17 DSGVO)"
+msgstr "Αίτημα διαγραφής δεδομένων (Άρθ. 17 ΓΚΠΔ)"
+
+#: includes/Frontend/ErasureRequestForm.php:147
+msgid ""
+"Gemäß Art. 17 DSGVO (\"Recht auf Vergessenwerden\") haben Sie das Recht auf "
+"unverzügliche Löschung Ihrer personenbezogenen Daten. Zur Bestätigung Ihrer "
+"Identität nach Art. 12 Abs. 6 DSGVO senden wir Ihnen zunächst einen "
+"einmaligen Bestätigungslink. Erst nach dessen Aufruf wird gelöscht und ein "
+"kryptografisches Löschzertifikat ausgestellt."
+msgstr ""
+"Σύμφωνα με το άρθρο 17 ΓΚΠΔ («δικαίωμα στη λήθη»), μπορείτε να ζητήσετε τη "
+"διαγραφή των προσωπικών σας δεδομένων. Για την επιβεβαίωση ταυτότητας κατά "
+"το άρθρο 12 παρ. 6 ΓΚΠΔ, αποστέλλουμε πρώτα σύνδεσμο επιβεβαίωσης μίας "
+"χρήσης. Μόνο μετά την επιβεβαίωση διαγράφονται τα δεδομένα και εκδίδεται "
+"κρυπτογραφικό αποδεικτικό."
+
+#: includes/Frontend/ErasureRequestForm.php:152
+msgid "Ihre hinterlegte E-Mail-Adresse:"
+msgstr "Η καταχωρισμένη διεύθυνση email σας:"
+
+#: includes/Frontend/ErasureRequestForm.php:153
+msgid "ihre-email@example.com"
+msgstr "to-email-sas@example.com"
+
+#: includes/Frontend/ErasureRequestForm.php:157
+msgid "Löschantrag übermitteln"
+msgstr "Υποβολή αιτήματος διαγραφής"
+
+#. translators: %s: Site name
+#: includes/Request/ErasureRequestManager.php:151
+#, php-format
+msgid "[%s] Löschantrag bestätigen (Art. 17 DSGVO)"
+msgstr "[%s] Επιβεβαίωση αιτήματος διαγραφής (Άρθ. 17 ΓΚΠΔ)"
+
+#. translators: 1: Confirmation URL, 2: Validity in hours
+#: includes/Request/ErasureRequestManager.php:157
+#, php-format
+msgid ""
+"Für diese E-Mail-Adresse wurde ein Antrag auf Löschung personenbezogener "
+"Daten nach Art. 17 DSGVO gestellt.\n"
+"\n"
+"Die Löschung wird erst ausgeführt, wenn Sie diesen Link öffnen und sie auf "
+"der Seite bestätigen:\n"
+"\n"
+"%1$s\n"
+"\n"
+"Der Link ist %2$d Stunden gültig und kann nur einmal verwendet werden.\n"
+"\n"
+"Wenn Sie diesen Antrag nicht gestellt haben, ignorieren Sie diese E-Mail. Es "
+"wird nichts gelöscht.\n"
+"\n"
+"Achtung: Die Löschung ist unwiderruflich."
+msgstr ""
+"Υποβλήθηκε αίτημα διαγραφής προσωπικών δεδομένων κατά το άρθρο 17 ΓΚΠΔ για "
+"αυτή τη διεύθυνση email.\n"
+"\n"
+"Η διαγραφή θα εκτελεστεί μόνο εάν ανοίξετε αυτόν τον σύνδεσμο και "
+"επιβεβαιώσετε στη σελίδα:\n"
+"\n"
+"%1$s\n"
+"\n"
+"Ο σύνδεσμος ισχύει για %2$d ώρες και μπορεί να χρησιμοποιηθεί μόνο μία "
+"φορά.\n"
+"\n"
+"Εάν δεν υποβάλατε εσείς το αίτημα, αγνοήστε αυτό το μήνυμα. Δεν θα διαγραφεί "
+"τίποτα.\n"
+"\n"
+"Προσοχή: η διαγραφή είναι μη αναστρέψιμη."
+
+#: blocks-src/index.js:18
+msgid "DSGVO Löschantrag (Art. 17)"
+msgstr "Αίτημα διαγραφής ΓΚΠΔ (Άρθ. 17)"
+
+#: blocks-src/index.js:19
+msgid ""
+"Öffentliches Formular für Löschanträge nach Art. 17 DSGVO mit Einmal-"
+"Bestätigungslink."
+msgstr ""
+"Δημόσια φόρμα αιτημάτων διαγραφής κατά το άρθρο 17 ΓΚΠΔ με σύνδεσμο "
+"επιβεβαίωσης μίας χρήσης."
+
+#: blocks-src/index.js:45
+msgid "Formulareinstellungen"
+msgstr "Ρυθμίσεις φόρμας"
+
+#: blocks-src/index.js:49
+msgid "Hinweistext anzeigen"
+msgstr "Εμφάνιση επεξηγηματικού κειμένου"
+
+#: blocks-src/index.js:50
+msgid ""
+"Blendet den erläuternden Hinweis oberhalb des E-Mail-Feldes ein oder aus."
+msgstr ""
+"Εμφανίζει ή αποκρύπτει την επεξηγηματική σημείωση πάνω από το πεδίο email."
+
+#: blocks/dsgvo-erasure-portal/block.json
+msgctxt "block title"
+msgid "DSGVO Löschantrag (Art. 17)"
+msgstr "Αίτημα διαγραφής ΓΚΠΔ (Άρθ. 17)"
+
+#: blocks/dsgvo-erasure-portal/block.json
+msgctxt "block description"
+msgid ""
+"Öffentliches Formular für Löschanträge nach Art. 17 DSGVO mit Einmal-"
+"Bestätigungslink."
+msgstr ""
+"Δημόσια φόρμα αιτημάτων διαγραφής κατά το άρθρο 17 ΓΚΠΔ με σύνδεσμο "
+"επιβεβαίωσης μίας χρήσης."
+
+#: blocks/dsgvo-erasure-portal/block.json
+msgctxt "block keyword"
+msgid "dsgvo"
+msgstr "γκπδ"
+
+#: blocks/dsgvo-erasure-portal/block.json
+msgctxt "block keyword"
+msgid "gdpr"
+msgstr "προστασία-δεδομένων"
+
+#: blocks/dsgvo-erasure-portal/block.json
+msgctxt "block keyword"
+msgid "löschung"
+msgstr "διαγραφή"
+
+#: blocks/dsgvo-erasure-portal/block.json
+msgctxt "block keyword"
+msgid "erasure"
+msgstr "ανωνυμοποίηση"
+
+#: blocks/dsgvo-erasure-portal/block.json
+msgctxt "block keyword"
+msgid "datenschutz"
+msgstr "απόρρητο"
+
+#: blocks/dsgvo-erasure-portal/block.json
+msgctxt "block keyword"
+msgid "privacy"
+msgstr "ιδιωτικότητα"
+
+#~ msgid "https://www.arnoldwender.com"
+#~ msgstr "https://www.arnoldwender.com"

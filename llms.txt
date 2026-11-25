@@ -1,0 +1,27 @@
+# WM DSGVO Privacy Eraser
+
+> WordPress plugin for Art. 17 DSGVO erasure requests: a public form records a request and mails a single-use link to a page whose button confirms it; after confirmation it anonymises that address's comments, deletes its non-administrator account, optionally anonymises WooCommerce billing fields, and adds an HMAC-chained erasure record. It does not export data, does not reach other plugins' tables and makes no legal assessment of a request.
+
+## Overview
+
+
+- Shortcode: `[wm_dsgvo_erasure_portal]` and compiled Gutenberg block `wm/dsgvo-erasure-portal`
+- Ecosystem bridges: WP 6.5+ Block Bindings `wm-dsgvo-eraser/status`, GenerateBlocks 2.x Dynamic Tag `{{wm_eraser_status}}`, actions `wm_eraser_ready` and `wm_eraser_completed`, filters `wm_eraser_anonymize_personal_data`, `wm_eraser_rest_rate_limit`, `wm_eraser_status_text`
+- REST: `wm-dsgvo-eraser/v1` — `POST /request` (blinded-IP rate-limited), `GET /confirm` (302 redirect to confirmation page), `GET /verify` (`manage_options`)
+- Confirmation page: `/?wm_dsgvo_erasure=confirm&wm_erasure_request=…&wm_erasure_token=…` (GET shows the button, POST erases)
+- WP-CLI: `wp dsgvo erase <email>`, `wp dsgvo verify`
+- Storage: `wp_wm_dsgvo_requests`, `wp_wm_dsgvo_erasure_certificates`, options `wm_dsgvo_cert_chain_tip`, `wm_dsgvo_schema_version`, `wm_dsgvo_anonymize_wc_orders`, `wm_dsgvo_eraser_delete_data_on_uninstall` (opt-in uninstall)
+- Documentation measured against the code: README.md, DEVELOPERS.md
+- Version 1.4.2.
+
+## Standards
+
+- PHP 8.2+ with libsodium, strict types, WordPress coding style (tabs); no phpcs run in CI
+- Self-hosted assets in `/assets/`
+- Prepared SQL, constant-time token comparison, keyed hashes for addresses and IPs
+
+## Official Links
+
+- Plugin Page: https://arnoldwender.com/wordpress-plugins/wm-dsgvo-privacy-eraser/
+- GitHub Repository: https://github.com/arnoldwender/wm-wp-dsgvo-privacy-eraser
+- Support & Liability: Zero support — reproducible bugs on https://github.com/arnoldwender/wm-wp-dsgvo-privacy-eraser/issues only · no private support · AS IS / no liability (SUPPORT.md)

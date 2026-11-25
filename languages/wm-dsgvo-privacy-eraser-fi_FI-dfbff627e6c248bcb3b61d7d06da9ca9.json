@@ -1,0 +1,357 @@
+{
+  "translation-revision-date": "2026-11-21T14:14:21+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-dsgvo-privacy-eraser",
+        "lang": "fi_FI",
+        "plural-forms": "nplurals=2; plural=(n != 1);"
+      },
+      "WM DSGVO Art. 17 Cryptographic Privacy Eraser": [
+        "WM GDPR 17 artikla Kryptografinen tietojen poistaja"
+      ],
+      "https://arnoldwender.com/wordpress-plugins/wm-dsgvo-privacy-eraser/": [
+        "https://arnoldwender.com/wordpress-plugins/wm-dsgvo-privacy-eraser/"
+      ],
+      "Löschanträge nach Art. 17 DSGVO mit Bestätigungslink an die Adresse; danach werden Kommentare anonymisiert, das Benutzerkonto (außer Administratoren) gelöscht und optional WooCommerce-Rechnungsfelder anonymisiert. Jede Löschung erhält einen HMAC-verketteten Nachweis. Keine rechtliche Prüfung des Antrags.": [
+        "GDPR 17 artiklan mukaiset poistopyynnöt sähköpostiin lähetettävällä kertakäyttöisellä vahvistuslinkillä; tämän jälkeen kommentit anonymisoidaan, käyttäjätili (paitsi ylläpitäjät) poistetaan ja valinnaisesti WooCommerce-laskutustiedot anonymisoidaan. Jokaisesta poistosta tallennetaan HMAC-ketjutettu tosite. Ei oikeudellista arviointia."
+      ],
+      "Arnold Wender": [
+        "Arnold Wender"
+      ],
+      "https://arnoldwender.com": [
+        "https://arnoldwender.com"
+      ],
+      "Kette geprüft: %d versiegelte Nachweise stimmen": [
+        "Ketju tarkistettu: %d sinetöityä tositetta täsmää"
+      ],
+      "Noch keine Löschnachweise": [
+        "Ei vielä poistotositteita"
+      ],
+      "Kette gebrochen": [
+        "Ketju rikkoutunut"
+      ],
+      "WM DSGVO Privacy Eraser": [
+        "WM GDPR Privacy Eraser"
+      ],
+      "Löschnachweise": [
+        "Poistotositteet"
+      ],
+      "Offene Anträge": [
+        "Avoimet pyynnöt"
+      ],
+      "Privacy Eraser öffnen": [
+        "Avaa Privacy Eraser"
+      ],
+      "WM Privacy Eraser": [
+        "WM Privacy Eraser"
+      ],
+      "Privacy Eraser": [
+        "Privacy Eraser"
+      ],
+      "Übersicht": [
+        "Yleiskatsaus"
+      ],
+      "Antrag stellen": [
+        "Lähetä pyyntö"
+      ],
+      "Was gelöscht wird": [
+        "Mitä poistetaan"
+      ],
+      "Einstellungen": [
+        "Asetukset"
+      ],
+      "Löschanträge mit Bestätigungslink, Löschung bzw. Anonymisierung der Daten, die WordPress selbst zu einer E-Mail-Adresse hält, und ein verketteter Nachweis je Löschung. Es ersetzt keine rechtliche Prüfung des Antrags.": [
+        "Vahvistuslinkillä varustetut poistopyynnöt, WordPressin sähköpostiosoitteelle tallentamien tietojen poisto tai anonymisointi sekä ketjutettu tosite jokaisesta poistosta. Ei korvaa pyynnön oikeudellista arviointia."
+      ],
+      "Part of the WM Suite plugin family": [
+        "Osa WM Suiten lisäosaperhettä"
+      ],
+      "WM Suite": [
+        "WM Suite"
+      ],
+      "Hub": [
+        "Hub"
+      ],
+      "Standalone": [
+        "Itsenäinen"
+      ],
+      "Bereiche": [
+        "Alueet"
+      ],
+      "Stand dieser Website": [
+        "Sivuston tila"
+      ],
+      "Beim Aufruf dieser Seite aus der Datenbank gelesen.": [
+        "Luettu tietokannasta sivua avattaessa."
+      ],
+      "Gelöschte oder anonymisierte Einträge laut Nachweisen": [
+        "Poistetut tai anonymisoidut merkinnät tositteiden mukaan"
+      ],
+      "Offene Anträge (Adresse noch gespeichert)": [
+        "Avoimet pyynnöt (osoite vielä tallessa)"
+      ],
+      "Nachweiskette": [
+        "Tositeketju"
+      ],
+      "%d ältere Nachweise ohne Siegel, nicht prüfbar.": [
+        "%d vanhempaa sinetöimätöntä tositetta, ei todennettavissa."
+      ],
+      "Verschlüsselung offener Adressen (libsodium)": [
+        "Avointen osoitteiden salaus (libsodium)"
+      ],
+      "verfügbar": [
+        "käytettävissä"
+      ],
+      "nicht verfügbar: Adressen werden im Klartext gespeichert": [
+        "ei käytettävissä: osoitteet tallennetaan selkokielisinä"
+      ],
+      "WooCommerce-Rechnungsfelder anonymisieren (wm_dsgvo_anonymize_wc_orders)": [
+        "Anonymisoi WooCommerce-laskutuskentät (wm_dsgvo_anonymize_wc_orders)"
+      ],
+      "an": [
+        "päällä"
+      ],
+      "aus (Standard)": [
+        "pois (oletus)"
+      ],
+      "Daten bei Deinstallation löschen (wm_dsgvo_eraser_delete_data_on_uninstall)": [
+        "Poista tiedot asennuksen poiston yhteydessä (wm_dsgvo_eraser_delete_data_on_uninstall)"
+      ],
+      "aus (Standard: Nachweise bleiben erhalten)": [
+        "pois (oletus: tositteet säilytetään)"
+      ],
+      "Löschantrag für eine Adresse stellen": [
+        "Luo poistopyyntö osoitteelle"
+      ],
+      "Legt denselben Antrag an wie das Formular auf der Website: An die Adresse geht ein Bestätigungslink, %d Stunden gültig. Gelöscht wird erst, wenn die Löschung auf der verlinkten Seite bestätigt wird. Eine sofortige Löschung ohne Bestätigung gibt es nur über WP-CLI (wp dsgvo erase), nachdem Sie die Identität selbst geprüft haben.": [
+        "Luo saman pyynnön kuin julkinen lomake: osoitteeseen lähetetään vahvistuslinkki, joka on voimassa %d tuntia. Mitään ei poisteta ennen vahvistusta linkitetyllä sivulla. Välitön poisto ilman vahvistusta on mahdollista vain WP-CLI:n kautta (wp dsgvo erase) henkilöllisyyden tarkistamisen jälkeen."
+      ],
+      "E-Mail-Adresse der betroffenen Person": [
+        "Rekisteröidyn sähköpostiosoite"
+      ],
+      "Bestätigungslink senden": [
+        "Lähetä vahvistuslinkki"
+      ],
+      "Bitte eine E-Mail-Adresse eingeben.": [
+        "Anna sähköpostiosoite."
+      ],
+      "Wird übermittelt …": [
+        "Lähetetään …"
+      ],
+      "Antrag übermittelt. Ein Bestätigungslink geht nur hinaus, wenn die Adresse gültig ist, keines der Limits greift (%1$d Anträge je Adresse in %2$d Stunden, %3$d je IP pro Stunde, Ihre eigene IP zählt mit) und der Mailversand gelingt; diese Seite erfährt das nicht. Noch ist nichts gelöscht.": [
+        "Pyyntö lähetetty. Vahvistuslinkki lähtee vain, jos osoite on kelvollinen, mikään raja ei ylity (%1$d pyyntöä osoitetta kohti %2$d tunnissa, %3$d IP-osoitetta kohti tunnissa oma IP mukaan lukien) ja postitus onnistuu; tämä sivu ei näytä tulosta. Mitään ei ole vielä poistettu."
+      ],
+      "Der Antrag konnte nicht angelegt werden.": [
+        "Pyyntöä ei voitu luoda."
+      ],
+      "Verbindungsfehler.": [
+        "Yhteysvirhe."
+      ],
+      "Letzte zehn Löschnachweise": [
+        "Kymmenen viimeisintä poistotositetta"
+      ],
+      "Jeder Nachweis speichert statt der Adresse einen geschlüsselten Hash, die Anzahl der Einträge je Bereich und ein Siegel, das den vorherigen Nachweis einschließt. Bearbeitete, eingefügte, umsortierte oder gelöschte Nachweise fallen bei der Prüfung auf, solange die Option mit dem Kettenende unverändert ist; wer die Datenbank schreiben kann, kann auch diese Option ändern, und wer den Schlüssel aus wp-config.php hat, kann die Kette neu versiegeln.": [
+        "Jokainen tosite tallentaa osoitteen sijaan avaimellisen tiivisteen, merkintöjen määrän alueittain ja edellisen tositteen sisältävän sinetin. Muutokset, lisäykset, uudelleenjärjestelyt tai poistot havaitaan tarkistuksessa niin kauan kuin ketjun päätä koskeva asetus on ennallaan; tietokannan kirjoitusoikeudella asetusta voi muuttaa ja wp-config.php-avaimella ketjun voi sinetöidä uudelleen."
+      ],
+      "Nachweis": [
+        "Tosite"
+      ],
+      "Hash der Adresse": [
+        "Osoitteen tiiviste"
+      ],
+      "Einträge": [
+        "Merkinnät"
+      ],
+      "Siegel": [
+        "Sinetti"
+      ],
+      "Zeitpunkt": [
+        "Ajankohta"
+      ],
+      "Noch keine Löschnachweise.": [
+        "Ei vielä poistotositteita."
+      ],
+      "ohne Siegelkette": [
+        "ilman sinettiketjua"
+      ],
+      "Beide Schalter sind standardmäßig ausgeschaltet, damit weder steuerrechtlich relevante Rechnungsdaten noch Löschnachweise unbeabsichtigt entfernt werden.": [
+        "Molemmat valinnat ovat oletuksena pois päältä, jotta kirjanpitoon liittyviä laskutustietoja tai poistotositteita ei poisteta vahingossa."
+      ],
+      "WooCommerce-Rechnungsfelder anonymisieren": [
+        "Anonymisoi WooCommerce-laskutuskentät"
+      ],
+      "Überschreibt Vor- und Nachname, erste Adresszeile, Telefon und E-Mail in WooCommerce-Bestellungen der betroffenen Adresse. Erst nach Prüfung gesetzlicher Aufbewahrungsfristen (§ 147 AO, § 257 HGB) einschalten.": [
+        "Korvaa etu- ja sukunimen, lähiosoitteen, puhelimen ja sähköpostin kyseisen osoitteen WooCommerce-tilauksissa. Ota käyttöön vasta lakisääteisten säilytysaikojen (§ 147 AO, § 257 HGB) tarkistamisen jälkeen."
+      ],
+      "Alle Plugin-Daten bei Deinstallation löschen": [
+        "Poista kaikki lisäosan tiedot asennuksen poiston yhteydessä"
+      ],
+      "Wenn aktiviert, entfernt die Deinstallation alle Plugin-Optionen sowie die Tabellen für Anträge und Löschnachweise unwiderruflich. Standardmäßig bleiben Nachweise und Optionen erhalten.": [
+        "Kun valinta on päällä, poisto hävittää pysyvästi kaikki lisäosan asetukset sekä pyyntö- ja poistotositetaulut. Oletuksena tositteet ja asetukset säilyvät."
+      ],
+      "Einstellungen speichern": [
+        "Tallenna asetukset"
+      ],
+      "Was bei einer Löschung passiert": [
+        "Mitä poistossa tapahtuu"
+      ],
+      "Kommentare mit dieser Adresse: Name, Adresse, URL, IP, Browserkennung und Benutzerzuordnung werden überschrieben, der Text durch „[Inhalt auf Antrag nach Art. 17 DSGVO gelöscht]“ ersetzt. Die Kommentare selbst bleiben stehen.": [
+        "Tämän osoitteen kommentit: nimi, sähköposti, URL, IP, selain ja käyttäjäliitos korvataan, ja tekstiksi asetetaan ”[Sisältö poistettu pyynnöstä GDPR 17 artiklan nojalla]”. Itse kommentit jäävät näkyviin."
+      ],
+      "Benutzerkonto mit dieser Adresse: wird mit wp_delete_user() gelöscht, dabei auch die Beiträge, die dieses Konto verfasst hat. Konten mit der Rolle Administrator werden nicht gelöscht; der Nachweis vermerkt das. In einer Multisite entfernt wp_delete_user() das Konto nur aus dieser Website; der Nachweis vermerkt removed_from_this_site.": [
+        "Tämän osoitteen käyttäjätili: poistetaan wp_delete_user()-funktiolla julkaistuine artikkeleineen. Ylläpitäjätilejä ei poisteta, ja tosite merkitsee tämän. Multisite-ympäristössä tili poistetaan vain tältä sivustolta (removed_from_this_site)."
+      ],
+      "WooCommerce-Bestellungen: nur wenn die Option wm_dsgvo_anonymize_wc_orders an ist, und nur Vor- und Nachname, erste Adresszeile, E-Mail und Telefon der Rechnungsadresse, über die Bestellobjekte von WooCommerce (HPOS und Beitragsspeicher). Standard ist aus, weil Rechnungsdaten Aufbewahrungsfristen unterliegen können (§ 147 AO, § 257 HGB); ob eine greift, entscheidet das Plugin nicht.": [
+        "WooCommerce-tilaukset: vain kun wm_dsgvo_anonymize_wc_orders on päällä; korvaa laskutuksen nimen, osoitteen, sähköpostin ja puhelimen WooCommercen tilausolioiden kautta (HPOS ja artikkelitallennus). Oletuksena pois kirjanpitovelvoitteiden vuoksi."
+      ],
+      "Nicht erfasst: Tabellen anderer Plugins (Formulare, Newsletter, Buchungen), Benutzer-Metadaten verbleibender Konten, Kommentar-Metadaten, Lieferadressen, Dateien, Logs, Caches und Backups. Die Datenschutz-Löschwerkzeuge von WordPress ruft das Plugin nicht auf.": [
+        "Ei kata: muiden lisäosien tauluja (lomakkeet, uutiskirjeet, varaukset), säilytettyjen tilien metatietoja, toimitusosoitteita, tiedostoja, lokeja, välimuisteja tai varmuuskopioita."
+      ],
+      "Ob ein Antrag berechtigt ist, ob Ausnahmen nach Art. 17 Abs. 3 DSGVO greifen und welche Frist gilt, entscheidet das Plugin nicht.": [
+        "Lisäosa ei ratkaise pyynnön aiheellisuutta, GDPR 17 artiklan 3 kohdan poikkeuksia eikä sovellettavaa säilytysaikaa."
+      ],
+      "Zu viele Anfragen. Bitte versuchen Sie es in einer Minute erneut.": [
+        "Liian monta pyyntöä. Yritä uudelleen minuutin kuluttua."
+      ],
+      "Bitte geben Sie eine gültige E-Mail-Adresse an.": [
+        "Anna kelvollinen sähköpostiosoite."
+      ],
+      "Der Antrag wurde entgegengenommen. Ist die Adresse gültig, geht an sie ein Bestätigungslink; gelöscht wird erst nach dessen Aufruf.": [
+        "Pyyntö on vastaanotettu. Jos osoite on kelvollinen, sille lähetetään vahvistuslinkki; tiedot poistetaan vasta vahvistuksen jälkeen."
+      ],
+      "WM Privacy Eraser Status": [
+        "WM Privacy Eraser -tila"
+      ],
+      "Aktueller Status des Art.-17-DSGVO-Löschportals.": [
+        "GDPR 17 artiklan poistoportaalin nykyinen tila."
+      ],
+      "Art. 17 DSGVO Löschportal aktiv (%d versiegelte Nachweise)": [
+        "GDPR 17 artiklan poistoportaali käytössä (%d sinetöityä tositetta)"
+      ],
+      "Art. 17 DSGVO Löschportal aktiv": [
+        "GDPR 17 artiklan poistoportaali käytössä"
+      ],
+      "Art. 17 DSGVO Löschportal: Kette prüfen": [
+        "GDPR 17 artiklan poistoportaali: tarkista ketju"
+      ],
+      "Löschung bestätigen": [
+        "Vahvista poisto"
+      ],
+      "Das Öffnen dieses Links hat noch nichts gelöscht. Mit der Schaltfläche unten werden zu der Adresse, für die der Antrag gestellt wurde, die Kommentare auf dieser Website anonymisiert und ein Benutzerkonto gelöscht (außer Administratorkonten); ist es eingeschaltet, werden auch Rechnungsfelder von WooCommerce-Bestellungen anonymisiert. Die Löschung ist unwiderruflich.": [
+        "Tämän linkin avaaminen ei ole vielä poistanut mitään. Alla olevalla painikkeella tämän sivuston kommentit anonymisoidaan ja käyttäjätili poistetaan (paitsi ylläpitäjät) pyydetyn osoitteen osalta; jos asetus on päällä, myös WooCommercen laskutuskentät anonymisoidaan. Poisto on peruuttamaton."
+      ],
+      "Löschung jetzt ausführen": [
+        "Suorita poisto nyt"
+      ],
+      "Löschung ausgeführt": [
+        "Poisto suoritettu"
+      ],
+      "%1$d Einträge wurden gelöscht oder anonymisiert. Kennung des Löschnachweises: %2$s": [
+        "%1$d merkintää poistettiin tai anonymisoitiin. Poistotositteen tunnus: %2$s"
+      ],
+      "Löschung nicht vollständig": [
+        "Poisto keskeneräinen"
+      ],
+      "Nicht alle Daten konnten geändert werden, oder der Löschnachweis wurde nicht gespeichert. Der Antrag ist als fehlgeschlagen vermerkt; bitte wenden Sie sich an den Betreiber dieser Website.": [
+        "Kaikkia tietoja ei voitu muuttaa tai poistotositetta ei saatu tallennettua. Pyyntö on merkitty epäonnistuneeksi; ota yhteyttä sivuston ylläpitäjään."
+      ],
+      "Kennung des Löschnachweises: %s": [
+        "Poistotositteen tunnus: %s"
+      ],
+      "Antrag nicht verarbeitet": [
+        "Pyyntöä ei käsitelty"
+      ],
+      "Der Antrag konnte nicht verarbeitet werden. Bitte stellen Sie ihn erneut.": [
+        "Pyyntöä ei voitu käsitellä. Lähetä pyyntö uudelleen."
+      ],
+      "Link nicht gültig": [
+        "Virheellinen linkki"
+      ],
+      "Der Bestätigungslink ist ungültig, abgelaufen oder wurde bereits verwendet.": [
+        "Vahvistuslinkki on virheellinen, vanhentunut tai jo käytetty."
+      ],
+      "Bitte geben Sie eine gültige E-Mail-Adresse ein.": [
+        "Anna kelvollinen sähköpostiosoite."
+      ],
+      "Antrag wird übermittelt …": [
+        "Lähetetään pyyntöä …"
+      ],
+      "Bestätigung erforderlich": [
+        "Vahvistus vaaditaan"
+      ],
+      "Ist die Adresse gültig, geht an sie ein Bestätigungslink. Gelöscht wird erst, wenn die Löschung auf der verlinkten Seite bestätigt wird. Der Link ist %d Stunden gültig und nur einmal verwendbar.": [
+        "Jos osoite on kelvollinen, siihen on lähetetty vahvistuslinkki. Tiedot poistetaan vasta, kun poisto vahvistetaan linkitetyllä sivulla. Linkki on voimassa %d tuntia ja kertakäyttöinen."
+      ],
+      "Der Antrag konnte nicht übermittelt werden:": [
+        "Pyyntöä ei voitu lähettää:"
+      ],
+      "unbekannter Fehler": [
+        "tuntematon virhe"
+      ],
+      "Der Antrag konnte nicht übermittelt werden: Verbindungsfehler.": [
+        "Pyyntöä ei voitu lähettää: yhteysvirhe."
+      ],
+      "Antrag auf Datenlöschung (Art. 17 DSGVO)": [
+        "Tietojen poistopyyntö (GDPR 17 artikla)"
+      ],
+      "Gemäß Art. 17 DSGVO (\"Recht auf Vergessenwerden\") haben Sie das Recht auf unverzügliche Löschung Ihrer personenbezogenen Daten. Zur Bestätigung Ihrer Identität nach Art. 12 Abs. 6 DSGVO senden wir Ihnen zunächst einen einmaligen Bestätigungslink. Erst nach dessen Aufruf wird gelöscht und ein kryptografisches Löschzertifikat ausgestellt.": [
+        "GDPR 17 artiklan (”oikeus tulla unohdetuksi”) nojalla voit pyytää henkilötietojesi poistamista. Henkilöllisyyden vahvistamiseksi GDPR 12 artiklan 6 kohdan mukaisesti lähetämme ensin kertakäyttöisen vahvistuslinkin. Tiedot poistetaan ja kryptografinen tosite laaditaan vasta vahvistuksen jälkeen."
+      ],
+      "Ihre hinterlegte E-Mail-Adresse:": [
+        "Rekisteröity sähköpostiosoitteesi:"
+      ],
+      "ihre-email@example.com": [
+        "sinun-osoite@example.com"
+      ],
+      "Löschantrag übermitteln": [
+        "Lähetä poistopyyntö"
+      ],
+      "[%s] Löschantrag bestätigen (Art. 17 DSGVO)": [
+        "[%s] Vahvista poistopyyntö (GDPR 17 artikla)"
+      ],
+      "DSGVO Löschantrag (Art. 17)": [
+        "GDPR-poistopyyntö (17 artikla)"
+      ],
+      "Öffentliches Formular für Löschanträge nach Art. 17 DSGVO mit Einmal-Bestätigungslink.": [
+        "Julkinen lomake GDPR 17 artiklan mukaisille poistopyynnöille kertakäyttöisellä vahvistuslinkillä."
+      ],
+      "Formulareinstellungen": [
+        "Lomakkeen asetukset"
+      ],
+      "Hinweistext anzeigen": [
+        "Näytä ohjeteksti"
+      ],
+      "Blendet den erläuternden Hinweis oberhalb des E-Mail-Feldes ein oder aus.": [
+        "Näyttää tai piilottaa sähköpostikentän yläpuolella olevan ohjetekstin."
+      ],
+      "block title\u0004DSGVO Löschantrag (Art. 17)": [
+        "GDPR-poistopyyntö (17 artikla)"
+      ],
+      "block description\u0004Öffentliches Formular für Löschanträge nach Art. 17 DSGVO mit Einmal-Bestätigungslink.": [
+        "Julkinen lomake GDPR 17 artiklan mukaisille poistopyynnöille kertakäyttöisellä vahvistuslinkillä."
+      ],
+      "block keyword\u0004dsgvo": [
+        "gdpr"
+      ],
+      "block keyword\u0004gdpr": [
+        "tietosuoja"
+      ],
+      "block keyword\u0004löschung": [
+        "poisto"
+      ],
+      "block keyword\u0004erasure": [
+        "tietojen-poisto"
+      ],
+      "block keyword\u0004datenschutz": [
+        "yksityisyys"
+      ],
+      "block keyword\u0004privacy": [
+        "rekisteroity"
+      ]
+    }
+  }
+}

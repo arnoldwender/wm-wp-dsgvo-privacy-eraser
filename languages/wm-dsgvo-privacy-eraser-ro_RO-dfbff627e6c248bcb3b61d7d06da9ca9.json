@@ -1,0 +1,357 @@
+{
+  "translation-revision-date": "2026-11-21T14:14:21+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-dsgvo-privacy-eraser",
+        "lang": "ro_RO",
+        "plural-forms": "nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100>0 && n%100<20)) ? 1 : 2);"
+      },
+      "WM DSGVO Art. 17 Cryptographic Privacy Eraser": [
+        "WM GDPR Art. 17 Ștergere Criptografică a Datelor"
+      ],
+      "https://arnoldwender.com/wordpress-plugins/wm-dsgvo-privacy-eraser/": [
+        "https://arnoldwender.com/wordpress-plugins/wm-dsgvo-privacy-eraser/"
+      ],
+      "Löschanträge nach Art. 17 DSGVO mit Bestätigungslink an die Adresse; danach werden Kommentare anonymisiert, das Benutzerkonto (außer Administratoren) gelöscht und optional WooCommerce-Rechnungsfelder anonymisiert. Jede Löschung erhält einen HMAC-verketteten Nachweis. Keine rechtliche Prüfung des Antrags.": [
+        "Cereri de ștergere conform art. 17 GDPR confirmate printr-un link unic trimis la adresă; apoi comentariile sunt anonimizate, contul de utilizator (cu excepția administratorilor) este șters și câmpurile de facturare WooCommerce sunt anonimizate opțional. Fiecare ștergere primește o dovadă înlănțuită prin HMAC. Fără evaluare juridică."
+      ],
+      "Arnold Wender": [
+        "Arnold Wender"
+      ],
+      "https://arnoldwender.com": [
+        "https://arnoldwender.com"
+      ],
+      "Kette geprüft: %d versiegelte Nachweise stimmen": [
+        "Lanț verificat: %d dovezi sigilate corespund"
+      ],
+      "Noch keine Löschnachweise": [
+        "Încă nu există dovezi de ștergere"
+      ],
+      "Kette gebrochen": [
+        "Lanț întrerupt"
+      ],
+      "WM DSGVO Privacy Eraser": [
+        "WM GDPR Privacy Eraser"
+      ],
+      "Löschnachweise": [
+        "Dovezi de ștergere"
+      ],
+      "Offene Anträge": [
+        "Cereri deschise"
+      ],
+      "Privacy Eraser öffnen": [
+        "Deschide Privacy Eraser"
+      ],
+      "WM Privacy Eraser": [
+        "WM Privacy Eraser"
+      ],
+      "Privacy Eraser": [
+        "Privacy Eraser"
+      ],
+      "Übersicht": [
+        "Prezentare generală"
+      ],
+      "Antrag stellen": [
+        "Trimite cerere"
+      ],
+      "Was gelöscht wird": [
+        "Ce se șterge"
+      ],
+      "Einstellungen": [
+        "Setări"
+      ],
+      "Löschanträge mit Bestätigungslink, Löschung bzw. Anonymisierung der Daten, die WordPress selbst zu einer E-Mail-Adresse hält, und ein verketteter Nachweis je Löschung. Es ersetzt keine rechtliche Prüfung des Antrags.": [
+        "Cereri de ștergere cu link de confirmare, ștergerea sau anonimizarea datelor păstrate de WordPress pentru o adresă de e-mail și o dovadă înlănțuită pentru fiecare ștergere. Nu înlocuiește analiza juridică."
+      ],
+      "Part of the WM Suite plugin family": [
+        "Parte din familia de module WM Suite"
+      ],
+      "WM Suite": [
+        "WM Suite"
+      ],
+      "Hub": [
+        "Hub"
+      ],
+      "Standalone": [
+        "Independent"
+      ],
+      "Bereiche": [
+        "Domenii"
+      ],
+      "Stand dieser Website": [
+        "Starea acestui site"
+      ],
+      "Beim Aufruf dieser Seite aus der Datenbank gelesen.": [
+        "Citit din baza de date la încărcarea acestei pagini."
+      ],
+      "Gelöschte oder anonymisierte Einträge laut Nachweisen": [
+        "Înregistrări șterse sau anonimizate conform dovezilor"
+      ],
+      "Offene Anträge (Adresse noch gespeichert)": [
+        "Cereri deschise (adresa este încă stocată)"
+      ],
+      "Nachweiskette": [
+        "Lanțul dovezilor"
+      ],
+      "%d ältere Nachweise ohne Siegel, nicht prüfbar.": [
+        "%d dovezi mai vechi fără sigiliu, imposibil de verificat."
+      ],
+      "Verschlüsselung offener Adressen (libsodium)": [
+        "Criptarea adreselor deschise (libsodium)"
+      ],
+      "verfügbar": [
+        "disponibilă"
+      ],
+      "nicht verfügbar: Adressen werden im Klartext gespeichert": [
+        "indisponibilă: adresele sunt salvate în text clar"
+      ],
+      "WooCommerce-Rechnungsfelder anonymisieren (wm_dsgvo_anonymize_wc_orders)": [
+        "Anonimizează câmpurile de facturare WooCommerce (wm_dsgvo_anonymize_wc_orders)"
+      ],
+      "an": [
+        "activat"
+      ],
+      "aus (Standard)": [
+        "dezactivat (implicit)"
+      ],
+      "Daten bei Deinstallation löschen (wm_dsgvo_eraser_delete_data_on_uninstall)": [
+        "Șterge datele la dezinstalare (wm_dsgvo_eraser_delete_data_on_uninstall)"
+      ],
+      "aus (Standard: Nachweise bleiben erhalten)": [
+        "dezactivat (implicit: dovezile sunt păstrate)"
+      ],
+      "Löschantrag für eine Adresse stellen": [
+        "Depune o cerere de ștergere pentru o adresă"
+      ],
+      "Legt denselben Antrag an wie das Formular auf der Website: An die Adresse geht ein Bestätigungslink, %d Stunden gültig. Gelöscht wird erst, wenn die Löschung auf der verlinkten Seite bestätigt wird. Eine sofortige Löschung ohne Bestätigung gibt es nur über WP-CLI (wp dsgvo erase), nachdem Sie die Identität selbst geprüft haben.": [
+        "Creează aceeași cerere ca formularul public: trimite la adresă un link de confirmare valabil %d ore. Nimic nu se șterge înainte de confirmarea pe pagina deschisă. Ștergerea imediată fără confirmare există doar prin WP-CLI (wp dsgvo erase) după verificarea identității."
+      ],
+      "E-Mail-Adresse der betroffenen Person": [
+        "Adresa de e-mail a persoanei vizate"
+      ],
+      "Bestätigungslink senden": [
+        "Trimite link de confirmare"
+      ],
+      "Bitte eine E-Mail-Adresse eingeben.": [
+        "Vă rugăm să introduceți o adresă de e-mail."
+      ],
+      "Wird übermittelt …": [
+        "Se trimite …"
+      ],
+      "Antrag übermittelt. Ein Bestätigungslink geht nur hinaus, wenn die Adresse gültig ist, keines der Limits greift (%1$d Anträge je Adresse in %2$d Stunden, %3$d je IP pro Stunde, Ihre eigene IP zählt mit) und der Mailversand gelingt; diese Seite erfährt das nicht. Noch ist nichts gelöscht.": [
+        "Cerere trimisă. Linkul de confirmare pleacă doar dacă adresa este validă, nu se aplică nicio limită (%1$d cereri per adresă în %2$d ore, %3$d per IP pe oră, inclusiv IP-ul propriu) și expedierea reușește; această pagină nu afișează acest detaliu. Încă nu a fost șters nimic."
+      ],
+      "Der Antrag konnte nicht angelegt werden.": [
+        "Cererea nu a putut fi creată."
+      ],
+      "Verbindungsfehler.": [
+        "Eroare de conexiune."
+      ],
+      "Letzte zehn Löschnachweise": [
+        "Ultimele zece dovezi de ștergere"
+      ],
+      "Jeder Nachweis speichert statt der Adresse einen geschlüsselten Hash, die Anzahl der Einträge je Bereich und ein Siegel, das den vorherigen Nachweis einschließt. Bearbeitete, eingefügte, umsortierte oder gelöschte Nachweise fallen bei der Prüfung auf, solange die Option mit dem Kettenende unverändert ist; wer die Datenbank schreiben kann, kann auch diese Option ändern, und wer den Schlüssel aus wp-config.php hat, kann die Kette neu versiegeln.": [
+        "Fiecare dovadă stochează în locul adresei un hash cu cheie, numărul de înregistrări pe domeniu și un sigiliu care include dovada anterioară. Modificările, inserările, reordonările sau ștergerile sunt depistate la verificare cât timp opțiunea cu capătul lanțului rămâne neschimbată; accesul de scriere în baza de date poate modifica acea opțiune, iar wp-config.php permite resigilarea lanțului."
+      ],
+      "Nachweis": [
+        "Dovadă"
+      ],
+      "Hash der Adresse": [
+        "Hash-ul adresei"
+      ],
+      "Einträge": [
+        "Înregistrări"
+      ],
+      "Siegel": [
+        "Sigiliu"
+      ],
+      "Zeitpunkt": [
+        "Moment"
+      ],
+      "Noch keine Löschnachweise.": [
+        "Încă nu există dovezi de ștergere."
+      ],
+      "ohne Siegelkette": [
+        "fără lanț de sigilii"
+      ],
+      "Beide Schalter sind standardmäßig ausgeschaltet, damit weder steuerrechtlich relevante Rechnungsdaten noch Löschnachweise unbeabsichtigt entfernt werden.": [
+        "Ambele comutatoare sunt dezactivate implicit pentru a preveni ștergerea accidentală a datelor fiscale de facturare sau a dovezilor de ștergere."
+      ],
+      "WooCommerce-Rechnungsfelder anonymisieren": [
+        "Anonimizează câmpurile de facturare WooCommerce"
+      ],
+      "Überschreibt Vor- und Nachname, erste Adresszeile, Telefon und E-Mail in WooCommerce-Bestellungen der betroffenen Adresse. Erst nach Prüfung gesetzlicher Aufbewahrungsfristen (§ 147 AO, § 257 HGB) einschalten.": [
+        "Suprascrie prenumele, numele, prima linie de adresă, telefonul și e-mailul din comenzile WooCommerce aferente adresei. Activați numai după verificarea termenelor legale de păstrare (§ 147 AO, § 257 HGB)."
+      ],
+      "Alle Plugin-Daten bei Deinstallation löschen": [
+        "Șterge toate datele modulului la dezinstalare"
+      ],
+      "Wenn aktiviert, entfernt die Deinstallation alle Plugin-Optionen sowie die Tabellen für Anträge und Löschnachweise unwiderruflich. Standardmäßig bleiben Nachweise und Optionen erhalten.": [
+        "Dacă este activat, dezinstalarea elimină ireversibil toate opțiunile modulului și tabelele cu cereri și dovezi de ștergere. Implicit, dovezile și opțiunile sunt păstrate."
+      ],
+      "Einstellungen speichern": [
+        "Salvează setările"
+      ],
+      "Was bei einer Löschung passiert": [
+        "Ce se întâmplă la o ștergere"
+      ],
+      "Kommentare mit dieser Adresse: Name, Adresse, URL, IP, Browserkennung und Benutzerzuordnung werden überschrieben, der Text durch „[Inhalt auf Antrag nach Art. 17 DSGVO gelöscht]“ ersetzt. Die Kommentare selbst bleiben stehen.": [
+        "Comentarii cu această adresă: numele, e-mailul, URL-ul, IP-ul, agentul browserului și utilizatorul asociat sunt suprascrise, iar textul este înlocuit cu „[Conținut șters la cerere conform art. 17 GDPR]”. Comentariile rămân afișate."
+      ],
+      "Benutzerkonto mit dieser Adresse: wird mit wp_delete_user() gelöscht, dabei auch die Beiträge, die dieses Konto verfasst hat. Konten mit der Rolle Administrator werden nicht gelöscht; der Nachweis vermerkt das. In einer Multisite entfernt wp_delete_user() das Konto nur aus dieser Website; der Nachweis vermerkt removed_from_this_site.": [
+        "Contul de utilizator cu această adresă: este șters prin wp_delete_user(), împreună cu articolele scrise. Conturile de administrator nu se șterg, iar dovada consemnează acest lucru. În Multisite contul este eliminat doar din acest site (removed_from_this_site)."
+      ],
+      "WooCommerce-Bestellungen: nur wenn die Option wm_dsgvo_anonymize_wc_orders an ist, und nur Vor- und Nachname, erste Adresszeile, E-Mail und Telefon der Rechnungsadresse, über die Bestellobjekte von WooCommerce (HPOS und Beitragsspeicher). Standard ist aus, weil Rechnungsdaten Aufbewahrungsfristen unterliegen können (§ 147 AO, § 257 HGB); ob eine greift, entscheidet das Plugin nicht.": [
+        "Comenzi WooCommerce: doar când wm_dsgvo_anonymize_wc_orders este activ, suprascriind prenumele, numele, adresa, e-mailul și telefonul de facturare prin obiectele de comandă WooCommerce (HPOS și postări). Dezactivat implicit din cauza obligațiilor fiscale de arhivare."
+      ],
+      "Nicht erfasst: Tabellen anderer Plugins (Formulare, Newsletter, Buchungen), Benutzer-Metadaten verbleibender Konten, Kommentar-Metadaten, Lieferadressen, Dateien, Logs, Caches und Backups. Die Datenschutz-Löschwerkzeuge von WordPress ruft das Plugin nicht auf.": [
+        "Neacoperit: tabelele altor module (formulare, newslettere, rezervări), metadatele conturilor păstrate, adresele de livrare, fișierele, jurnalele, cache-ul și copiile de rezervă."
+      ],
+      "Ob ein Antrag berechtigt ist, ob Ausnahmen nach Art. 17 Abs. 3 DSGVO greifen und welche Frist gilt, entscheidet das Plugin nicht.": [
+        "Modulul nu decide dacă o cerere este întemeiată, dacă se aplică excepțiile art. 17 alin. (3) GDPR sau ce termen de păstrare guvernează."
+      ],
+      "Zu viele Anfragen. Bitte versuchen Sie es in einer Minute erneut.": [
+        "Prea multe cereri. Încercați din nou peste un minut."
+      ],
+      "Bitte geben Sie eine gültige E-Mail-Adresse an.": [
+        "Vă rugăm să indicați o adresă de e-mail validă."
+      ],
+      "Der Antrag wurde entgegengenommen. Ist die Adresse gültig, geht an sie ein Bestätigungslink; gelöscht wird erst nach dessen Aufruf.": [
+        "Cererea a fost primită. Dacă adresa este validă, i se va trimite un link de confirmare; ștergerea are loc doar după confirmare."
+      ],
+      "WM Privacy Eraser Status": [
+        "Stare WM Privacy Eraser"
+      ],
+      "Aktueller Status des Art.-17-DSGVO-Löschportals.": [
+        "Starea actuală a portalului de ștergere Art. 17 GDPR."
+      ],
+      "Art. 17 DSGVO Löschportal aktiv (%d versiegelte Nachweise)": [
+        "Portal de ștergere Art. 17 GDPR activ (%d dovezi sigilate)"
+      ],
+      "Art. 17 DSGVO Löschportal aktiv": [
+        "Portal de ștergere Art. 17 GDPR activ"
+      ],
+      "Art. 17 DSGVO Löschportal: Kette prüfen": [
+        "Portal de ștergere Art. 17 GDPR: verificați lanțul"
+      ],
+      "Löschung bestätigen": [
+        "Confirmă ștergerea"
+      ],
+      "Das Öffnen dieses Links hat noch nichts gelöscht. Mit der Schaltfläche unten werden zu der Adresse, für die der Antrag gestellt wurde, die Kommentare auf dieser Website anonymisiert und ein Benutzerkonto gelöscht (außer Administratorkonten); ist es eingeschaltet, werden auch Rechnungsfelder von WooCommerce-Bestellungen anonymisiert. Die Löschung ist unwiderruflich.": [
+        "Deschiderea acestui link nu a șters încă nimic. Apăsând butonul de mai jos vor fi anonimizate comentariile de pe acest site asociate adresei solicitate și va fi șters contul de utilizator (cu excepția administratorilor); dacă opțiunea este activă, vor fi anonimizate și câmpurile de facturare WooCommerce. Ștergerea este ireversibilă."
+      ],
+      "Löschung jetzt ausführen": [
+        "Execută ștergerea acum"
+      ],
+      "Löschung ausgeführt": [
+        "Ștergere executată"
+      ],
+      "%1$d Einträge wurden gelöscht oder anonymisiert. Kennung des Löschnachweises: %2$s": [
+        "%1$d înregistrări au fost șterse sau anonimizate. ID dovadă de ștergere: %2$s"
+      ],
+      "Löschung nicht vollständig": [
+        "Ștergere incompletă"
+      ],
+      "Nicht alle Daten konnten geändert werden, oder der Löschnachweis wurde nicht gespeichert. Der Antrag ist als fehlgeschlagen vermerkt; bitte wenden Sie sich an den Betreiber dieser Website.": [
+        "Nu toate datele au putut fi modificate sau dovada de ștergere nu a fost salvată. Cererea este marcată ca eșuată; contactați operatorul acestui site."
+      ],
+      "Kennung des Löschnachweises: %s": [
+        "ID dovadă de ștergere: %s"
+      ],
+      "Antrag nicht verarbeitet": [
+        "Cerere neprocesată"
+      ],
+      "Der Antrag konnte nicht verarbeitet werden. Bitte stellen Sie ihn erneut.": [
+        "Cererea nu a putut fi procesată. Trimiteți-o din nou."
+      ],
+      "Link nicht gültig": [
+        "Link invalid"
+      ],
+      "Der Bestätigungslink ist ungültig, abgelaufen oder wurde bereits verwendet.": [
+        "Linkul de confirmare este invalid, expirat sau a fost deja utilizat."
+      ],
+      "Bitte geben Sie eine gültige E-Mail-Adresse ein.": [
+        "Vă rugăm să introduceți o adresă de e-mail validă."
+      ],
+      "Antrag wird übermittelt …": [
+        "Se trimite cererea …"
+      ],
+      "Bestätigung erforderlich": [
+        "Confirmare necesară"
+      ],
+      "Ist die Adresse gültig, geht an sie ein Bestätigungslink. Gelöscht wird erst, wenn die Löschung auf der verlinkten Seite bestätigt wird. Der Link ist %d Stunden gültig und nur einmal verwendbar.": [
+        "Dacă adresa este validă, a fost trimis un link de confirmare. Ștergerea are loc abia după confirmarea pe pagina asociată. Linkul este valabil %d ore și poate fi folosit o singură dată."
+      ],
+      "Der Antrag konnte nicht übermittelt werden:": [
+        "Cererea nu a putut fi trimisă:"
+      ],
+      "unbekannter Fehler": [
+        "eroare necunoscută"
+      ],
+      "Der Antrag konnte nicht übermittelt werden: Verbindungsfehler.": [
+        "Cererea nu a putut fi trimisă: eroare de conexiune."
+      ],
+      "Antrag auf Datenlöschung (Art. 17 DSGVO)": [
+        "Cerere de ștergere a datelor (Art. 17 GDPR)"
+      ],
+      "Gemäß Art. 17 DSGVO (\"Recht auf Vergessenwerden\") haben Sie das Recht auf unverzügliche Löschung Ihrer personenbezogenen Daten. Zur Bestätigung Ihrer Identität nach Art. 12 Abs. 6 DSGVO senden wir Ihnen zunächst einen einmaligen Bestätigungslink. Erst nach dessen Aufruf wird gelöscht und ein kryptografisches Löschzertifikat ausgestellt.": [
+        "Conform art. 17 GDPR („dreptul de a fi uitat”), puteți solicita ștergerea datelor cu caracter personal. Pentru confirmarea identității conform art. 12 alin. (6) GDPR, trimitem mai întâi un link unic de confirmare. Doar după confirmare datele sunt șterse și se emite certificatul criptografic."
+      ],
+      "Ihre hinterlegte E-Mail-Adresse:": [
+        "Adresa dvs. de e-mail înregistrată:"
+      ],
+      "ihre-email@example.com": [
+        "emailul-dvs@example.com"
+      ],
+      "Löschantrag übermitteln": [
+        "Trimite cererea de ștergere"
+      ],
+      "[%s] Löschantrag bestätigen (Art. 17 DSGVO)": [
+        "[%s] Confirmare cerere de ștergere (Art. 17 GDPR)"
+      ],
+      "DSGVO Löschantrag (Art. 17)": [
+        "Cerere de ștergere GDPR (Art. 17)"
+      ],
+      "Öffentliches Formular für Löschanträge nach Art. 17 DSGVO mit Einmal-Bestätigungslink.": [
+        "Formular public pentru cereri de ștergere conform art. 17 GDPR cu link unic de confirmare."
+      ],
+      "Formulareinstellungen": [
+        "Setări formular"
+      ],
+      "Hinweistext anzeigen": [
+        "Afișează textul explicativ"
+      ],
+      "Blendet den erläuternden Hinweis oberhalb des E-Mail-Feldes ein oder aus.": [
+        "Afișează sau ascunde nota explicativă deasupra câmpului de e-mail."
+      ],
+      "block title\u0004DSGVO Löschantrag (Art. 17)": [
+        "Cerere de ștergere GDPR (Art. 17)"
+      ],
+      "block description\u0004Öffentliches Formular für Löschanträge nach Art. 17 DSGVO mit Einmal-Bestätigungslink.": [
+        "Formular public pentru cereri de ștergere conform art. 17 GDPR cu link unic de confirmare."
+      ],
+      "block keyword\u0004dsgvo": [
+        "gdpr"
+      ],
+      "block keyword\u0004gdpr": [
+        "protectia-datelor"
+      ],
+      "block keyword\u0004löschung": [
+        "stergere"
+      ],
+      "block keyword\u0004erasure": [
+        "eliminare"
+      ],
+      "block keyword\u0004datenschutz": [
+        "confidentialitate"
+      ],
+      "block keyword\u0004privacy": [
+        "date-personale"
+      ]
+    }
+  }
+}

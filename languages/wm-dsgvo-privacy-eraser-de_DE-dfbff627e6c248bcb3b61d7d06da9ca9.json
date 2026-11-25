@@ -1,0 +1,357 @@
+{
+  "translation-revision-date": "2026-11-21T14:14:21+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-dsgvo-privacy-eraser",
+        "lang": "de_DE",
+        "plural-forms": "nplurals=2; plural=(n != 1);"
+      },
+      "WM DSGVO Art. 17 Cryptographic Privacy Eraser": [
+        "WM DSGVO Art. 17 Cryptographic Privacy Eraser"
+      ],
+      "https://arnoldwender.com/wordpress-plugins/wm-dsgvo-privacy-eraser/": [
+        "https://arnoldwender.com/wordpress-plugins/wm-dsgvo-privacy-eraser/"
+      ],
+      "Löschanträge nach Art. 17 DSGVO mit Bestätigungslink an die Adresse; danach werden Kommentare anonymisiert, das Benutzerkonto (außer Administratoren) gelöscht und optional WooCommerce-Rechnungsfelder anonymisiert. Jede Löschung erhält einen HMAC-verketteten Nachweis. Keine rechtliche Prüfung des Antrags.": [
+        "Löschanträge nach Art. 17 DSGVO mit Bestätigungslink an die Adresse; danach werden Kommentare anonymisiert, das Benutzerkonto (außer Administratoren) gelöscht und optional WooCommerce-Rechnungsfelder anonymisiert. Jede Löschung erhält einen HMAC-verketteten Nachweis. Keine rechtliche Prüfung des Antrags."
+      ],
+      "Arnold Wender": [
+        "Arnold Wender"
+      ],
+      "https://arnoldwender.com": [
+        "https://arnoldwender.com"
+      ],
+      "Kette geprüft: %d versiegelte Nachweise stimmen": [
+        "Kette geprüft: %d versiegelte Nachweise stimmen"
+      ],
+      "Noch keine Löschnachweise": [
+        "Noch keine Löschnachweise"
+      ],
+      "Kette gebrochen": [
+        "Kette gebrochen"
+      ],
+      "WM DSGVO Privacy Eraser": [
+        "WM DSGVO Privacy Eraser"
+      ],
+      "Löschnachweise": [
+        "Löschnachweise"
+      ],
+      "Offene Anträge": [
+        "Offene Anträge"
+      ],
+      "Privacy Eraser öffnen": [
+        "Privacy Eraser öffnen"
+      ],
+      "WM Privacy Eraser": [
+        "WM Privacy Eraser"
+      ],
+      "Privacy Eraser": [
+        "Privacy Eraser"
+      ],
+      "Übersicht": [
+        "Übersicht"
+      ],
+      "Antrag stellen": [
+        "Antrag stellen"
+      ],
+      "Was gelöscht wird": [
+        "Was gelöscht wird"
+      ],
+      "Einstellungen": [
+        "Einstellungen"
+      ],
+      "Löschanträge mit Bestätigungslink, Löschung bzw. Anonymisierung der Daten, die WordPress selbst zu einer E-Mail-Adresse hält, und ein verketteter Nachweis je Löschung. Es ersetzt keine rechtliche Prüfung des Antrags.": [
+        "Löschanträge mit Bestätigungslink, Löschung bzw. Anonymisierung der Daten, die WordPress selbst zu einer E-Mail-Adresse hält, und ein verketteter Nachweis je Löschung. Es ersetzt keine rechtliche Prüfung des Antrags."
+      ],
+      "Part of the WM Suite plugin family": [
+        "Teil der WM-Suite-Plugin-Familie"
+      ],
+      "WM Suite": [
+        "WM Suite"
+      ],
+      "Hub": [
+        "Hub"
+      ],
+      "Standalone": [
+        "Eigenständig"
+      ],
+      "Bereiche": [
+        "Bereiche"
+      ],
+      "Stand dieser Website": [
+        "Stand dieser Website"
+      ],
+      "Beim Aufruf dieser Seite aus der Datenbank gelesen.": [
+        "Beim Aufruf dieser Seite aus der Datenbank gelesen."
+      ],
+      "Gelöschte oder anonymisierte Einträge laut Nachweisen": [
+        "Gelöschte oder anonymisierte Einträge laut Nachweisen"
+      ],
+      "Offene Anträge (Adresse noch gespeichert)": [
+        "Offene Anträge (Adresse noch gespeichert)"
+      ],
+      "Nachweiskette": [
+        "Nachweiskette"
+      ],
+      "%d ältere Nachweise ohne Siegel, nicht prüfbar.": [
+        "%d ältere Nachweise ohne Siegel, nicht prüfbar."
+      ],
+      "Verschlüsselung offener Adressen (libsodium)": [
+        "Verschlüsselung offener Adressen (libsodium)"
+      ],
+      "verfügbar": [
+        "verfügbar"
+      ],
+      "nicht verfügbar: Adressen werden im Klartext gespeichert": [
+        "nicht verfügbar: Adressen werden im Klartext gespeichert"
+      ],
+      "WooCommerce-Rechnungsfelder anonymisieren (wm_dsgvo_anonymize_wc_orders)": [
+        "WooCommerce-Rechnungsfelder anonymisieren (wm_dsgvo_anonymize_wc_orders)"
+      ],
+      "an": [
+        "an"
+      ],
+      "aus (Standard)": [
+        "aus (Standard)"
+      ],
+      "Daten bei Deinstallation löschen (wm_dsgvo_eraser_delete_data_on_uninstall)": [
+        "Daten bei Deinstallation löschen (wm_dsgvo_eraser_delete_data_on_uninstall)"
+      ],
+      "aus (Standard: Nachweise bleiben erhalten)": [
+        "aus (Standard: Nachweise bleiben erhalten)"
+      ],
+      "Löschantrag für eine Adresse stellen": [
+        "Löschantrag für eine Adresse stellen"
+      ],
+      "Legt denselben Antrag an wie das Formular auf der Website: An die Adresse geht ein Bestätigungslink, %d Stunden gültig. Gelöscht wird erst, wenn die Löschung auf der verlinkten Seite bestätigt wird. Eine sofortige Löschung ohne Bestätigung gibt es nur über WP-CLI (wp dsgvo erase), nachdem Sie die Identität selbst geprüft haben.": [
+        "Legt denselben Antrag an wie das Formular auf der Website: An die Adresse geht ein Bestätigungslink, %d Stunden gültig. Gelöscht wird erst, wenn die Löschung auf der verlinkten Seite bestätigt wird. Eine sofortige Löschung ohne Bestätigung gibt es nur über WP-CLI (wp dsgvo erase), nachdem Sie die Identität selbst geprüft haben."
+      ],
+      "E-Mail-Adresse der betroffenen Person": [
+        "E-Mail-Adresse der betroffenen Person"
+      ],
+      "Bestätigungslink senden": [
+        "Bestätigungslink senden"
+      ],
+      "Bitte eine E-Mail-Adresse eingeben.": [
+        "Bitte eine E-Mail-Adresse eingeben."
+      ],
+      "Wird übermittelt …": [
+        "Wird übermittelt …"
+      ],
+      "Antrag übermittelt. Ein Bestätigungslink geht nur hinaus, wenn die Adresse gültig ist, keines der Limits greift (%1$d Anträge je Adresse in %2$d Stunden, %3$d je IP pro Stunde, Ihre eigene IP zählt mit) und der Mailversand gelingt; diese Seite erfährt das nicht. Noch ist nichts gelöscht.": [
+        "Antrag übermittelt. Ein Bestätigungslink geht nur hinaus, wenn die Adresse gültig ist, keines der Limits greift (%1$d Anträge je Adresse in %2$d Stunden, %3$d je IP pro Stunde, Ihre eigene IP zählt mit) und der Mailversand gelingt; diese Seite erfährt das nicht. Noch ist nichts gelöscht."
+      ],
+      "Der Antrag konnte nicht angelegt werden.": [
+        "Der Antrag konnte nicht angelegt werden."
+      ],
+      "Verbindungsfehler.": [
+        "Verbindungsfehler."
+      ],
+      "Letzte zehn Löschnachweise": [
+        "Letzte zehn Löschnachweise"
+      ],
+      "Jeder Nachweis speichert statt der Adresse einen geschlüsselten Hash, die Anzahl der Einträge je Bereich und ein Siegel, das den vorherigen Nachweis einschließt. Bearbeitete, eingefügte, umsortierte oder gelöschte Nachweise fallen bei der Prüfung auf, solange die Option mit dem Kettenende unverändert ist; wer die Datenbank schreiben kann, kann auch diese Option ändern, und wer den Schlüssel aus wp-config.php hat, kann die Kette neu versiegeln.": [
+        "Jeder Nachweis speichert statt der Adresse einen geschlüsselten Hash, die Anzahl der Einträge je Bereich und ein Siegel, das den vorherigen Nachweis einschließt. Bearbeitete, eingefügte, umsortierte oder gelöschte Nachweise fallen bei der Prüfung auf, solange die Option mit dem Kettenende unverändert ist; wer die Datenbank schreiben kann, kann auch diese Option ändern, und wer den Schlüssel aus wp-config.php hat, kann die Kette neu versiegeln."
+      ],
+      "Nachweis": [
+        "Nachweis"
+      ],
+      "Hash der Adresse": [
+        "Hash der Adresse"
+      ],
+      "Einträge": [
+        "Einträge"
+      ],
+      "Siegel": [
+        "Siegel"
+      ],
+      "Zeitpunkt": [
+        "Zeitpunkt"
+      ],
+      "Noch keine Löschnachweise.": [
+        "Noch keine Löschnachweise."
+      ],
+      "ohne Siegelkette": [
+        "ohne Siegelkette"
+      ],
+      "Beide Schalter sind standardmäßig ausgeschaltet, damit weder steuerrechtlich relevante Rechnungsdaten noch Löschnachweise unbeabsichtigt entfernt werden.": [
+        "Beide Schalter sind standardmäßig ausgeschaltet, damit weder steuerrechtlich relevante Rechnungsdaten noch Löschnachweise unbeabsichtigt entfernt werden."
+      ],
+      "WooCommerce-Rechnungsfelder anonymisieren": [
+        "WooCommerce-Rechnungsfelder anonymisieren"
+      ],
+      "Überschreibt Vor- und Nachname, erste Adresszeile, Telefon und E-Mail in WooCommerce-Bestellungen der betroffenen Adresse. Erst nach Prüfung gesetzlicher Aufbewahrungsfristen (§ 147 AO, § 257 HGB) einschalten.": [
+        "Überschreibt Vor- und Nachname, erste Adresszeile, Telefon und E-Mail in WooCommerce-Bestellungen der betroffenen Adresse. Erst nach Prüfung gesetzlicher Aufbewahrungsfristen (§ 147 AO, § 257 HGB) einschalten."
+      ],
+      "Alle Plugin-Daten bei Deinstallation löschen": [
+        "Alle Plugin-Daten bei Deinstallation löschen"
+      ],
+      "Wenn aktiviert, entfernt die Deinstallation alle Plugin-Optionen sowie die Tabellen für Anträge und Löschnachweise unwiderruflich. Standardmäßig bleiben Nachweise und Optionen erhalten.": [
+        "Wenn aktiviert, entfernt die Deinstallation alle Plugin-Optionen sowie die Tabellen für Anträge und Löschnachweise unwiderruflich. Standardmäßig bleiben Nachweise und Optionen erhalten."
+      ],
+      "Einstellungen speichern": [
+        "Einstellungen speichern"
+      ],
+      "Was bei einer Löschung passiert": [
+        "Was bei einer Löschung passiert"
+      ],
+      "Kommentare mit dieser Adresse: Name, Adresse, URL, IP, Browserkennung und Benutzerzuordnung werden überschrieben, der Text durch „[Inhalt auf Antrag nach Art. 17 DSGVO gelöscht]“ ersetzt. Die Kommentare selbst bleiben stehen.": [
+        "Kommentare mit dieser Adresse: Name, Adresse, URL, IP, Browserkennung und Benutzerzuordnung werden überschrieben, der Text durch „[Inhalt auf Antrag nach Art. 17 DSGVO gelöscht]“ ersetzt. Die Kommentare selbst bleiben stehen."
+      ],
+      "Benutzerkonto mit dieser Adresse: wird mit wp_delete_user() gelöscht, dabei auch die Beiträge, die dieses Konto verfasst hat. Konten mit der Rolle Administrator werden nicht gelöscht; der Nachweis vermerkt das. In einer Multisite entfernt wp_delete_user() das Konto nur aus dieser Website; der Nachweis vermerkt removed_from_this_site.": [
+        "Benutzerkonto mit dieser Adresse: wird mit wp_delete_user() gelöscht, dabei auch die Beiträge, die dieses Konto verfasst hat. Konten mit der Rolle Administrator werden nicht gelöscht; der Nachweis vermerkt das. In einer Multisite entfernt wp_delete_user() das Konto nur aus dieser Website; der Nachweis vermerkt removed_from_this_site."
+      ],
+      "WooCommerce-Bestellungen: nur wenn die Option wm_dsgvo_anonymize_wc_orders an ist, und nur Vor- und Nachname, erste Adresszeile, E-Mail und Telefon der Rechnungsadresse, über die Bestellobjekte von WooCommerce (HPOS und Beitragsspeicher). Standard ist aus, weil Rechnungsdaten Aufbewahrungsfristen unterliegen können (§ 147 AO, § 257 HGB); ob eine greift, entscheidet das Plugin nicht.": [
+        "WooCommerce-Bestellungen: nur wenn die Option wm_dsgvo_anonymize_wc_orders an ist, und nur Vor- und Nachname, erste Adresszeile, E-Mail und Telefon der Rechnungsadresse, über die Bestellobjekte von WooCommerce (HPOS und Beitragsspeicher). Standard ist aus, weil Rechnungsdaten Aufbewahrungsfristen unterliegen können (§ 147 AO, § 257 HGB); ob eine greift, entscheidet das Plugin nicht."
+      ],
+      "Nicht erfasst: Tabellen anderer Plugins (Formulare, Newsletter, Buchungen), Benutzer-Metadaten verbleibender Konten, Kommentar-Metadaten, Lieferadressen, Dateien, Logs, Caches und Backups. Die Datenschutz-Löschwerkzeuge von WordPress ruft das Plugin nicht auf.": [
+        "Nicht erfasst: Tabellen anderer Plugins (Formulare, Newsletter, Buchungen), Benutzer-Metadaten verbleibender Konten, Kommentar-Metadaten, Lieferadressen, Dateien, Logs, Caches und Backups. Die Datenschutz-Löschwerkzeuge von WordPress ruft das Plugin nicht auf."
+      ],
+      "Ob ein Antrag berechtigt ist, ob Ausnahmen nach Art. 17 Abs. 3 DSGVO greifen und welche Frist gilt, entscheidet das Plugin nicht.": [
+        "Ob ein Antrag berechtigt ist, ob Ausnahmen nach Art. 17 Abs. 3 DSGVO greifen und welche Frist gilt, entscheidet das Plugin nicht."
+      ],
+      "Zu viele Anfragen. Bitte versuchen Sie es in einer Minute erneut.": [
+        "Zu viele Anfragen. Bitte versuchen Sie es in einer Minute erneut."
+      ],
+      "Bitte geben Sie eine gültige E-Mail-Adresse an.": [
+        "Bitte geben Sie eine gültige E-Mail-Adresse an."
+      ],
+      "Der Antrag wurde entgegengenommen. Ist die Adresse gültig, geht an sie ein Bestätigungslink; gelöscht wird erst nach dessen Aufruf.": [
+        "Der Antrag wurde entgegengenommen. Ist die Adresse gültig, geht an sie ein Bestätigungslink; gelöscht wird erst nach dessen Aufruf."
+      ],
+      "WM Privacy Eraser Status": [
+        "WM Privacy Eraser Status"
+      ],
+      "Aktueller Status des Art.-17-DSGVO-Löschportals.": [
+        "Aktueller Status des Art.-17-DSGVO-Löschportals."
+      ],
+      "Art. 17 DSGVO Löschportal aktiv (%d versiegelte Nachweise)": [
+        "Art. 17 DSGVO Löschportal aktiv (%d versiegelte Nachweise)"
+      ],
+      "Art. 17 DSGVO Löschportal aktiv": [
+        "Art. 17 DSGVO Löschportal aktiv"
+      ],
+      "Art. 17 DSGVO Löschportal: Kette prüfen": [
+        "Art. 17 DSGVO Löschportal: Kette prüfen"
+      ],
+      "Löschung bestätigen": [
+        "Löschung bestätigen"
+      ],
+      "Das Öffnen dieses Links hat noch nichts gelöscht. Mit der Schaltfläche unten werden zu der Adresse, für die der Antrag gestellt wurde, die Kommentare auf dieser Website anonymisiert und ein Benutzerkonto gelöscht (außer Administratorkonten); ist es eingeschaltet, werden auch Rechnungsfelder von WooCommerce-Bestellungen anonymisiert. Die Löschung ist unwiderruflich.": [
+        "Das Öffnen dieses Links hat noch nichts gelöscht. Mit der Schaltfläche unten werden zu der Adresse, für die der Antrag gestellt wurde, die Kommentare auf dieser Website anonymisiert und ein Benutzerkonto gelöscht (außer Administratorkonten); ist es eingeschaltet, werden auch Rechnungsfelder von WooCommerce-Bestellungen anonymisiert. Die Löschung ist unwiderruflich."
+      ],
+      "Löschung jetzt ausführen": [
+        "Löschung jetzt ausführen"
+      ],
+      "Löschung ausgeführt": [
+        "Löschung ausgeführt"
+      ],
+      "%1$d Einträge wurden gelöscht oder anonymisiert. Kennung des Löschnachweises: %2$s": [
+        "%1$d Einträge wurden gelöscht oder anonymisiert. Kennung des Löschnachweises: %2$s"
+      ],
+      "Löschung nicht vollständig": [
+        "Löschung nicht vollständig"
+      ],
+      "Nicht alle Daten konnten geändert werden, oder der Löschnachweis wurde nicht gespeichert. Der Antrag ist als fehlgeschlagen vermerkt; bitte wenden Sie sich an den Betreiber dieser Website.": [
+        "Nicht alle Daten konnten geändert werden, oder der Löschnachweis wurde nicht gespeichert. Der Antrag ist als fehlgeschlagen vermerkt; bitte wenden Sie sich an den Betreiber dieser Website."
+      ],
+      "Kennung des Löschnachweises: %s": [
+        "Kennung des Löschnachweises: %s"
+      ],
+      "Antrag nicht verarbeitet": [
+        "Antrag nicht verarbeitet"
+      ],
+      "Der Antrag konnte nicht verarbeitet werden. Bitte stellen Sie ihn erneut.": [
+        "Der Antrag konnte nicht verarbeitet werden. Bitte stellen Sie ihn erneut."
+      ],
+      "Link nicht gültig": [
+        "Link nicht gültig"
+      ],
+      "Der Bestätigungslink ist ungültig, abgelaufen oder wurde bereits verwendet.": [
+        "Der Bestätigungslink ist ungültig, abgelaufen oder wurde bereits verwendet."
+      ],
+      "Bitte geben Sie eine gültige E-Mail-Adresse ein.": [
+        "Bitte geben Sie eine gültige E-Mail-Adresse ein."
+      ],
+      "Antrag wird übermittelt …": [
+        "Antrag wird übermittelt …"
+      ],
+      "Bestätigung erforderlich": [
+        "Bestätigung erforderlich"
+      ],
+      "Ist die Adresse gültig, geht an sie ein Bestätigungslink. Gelöscht wird erst, wenn die Löschung auf der verlinkten Seite bestätigt wird. Der Link ist %d Stunden gültig und nur einmal verwendbar.": [
+        "Ist die Adresse gültig, geht an sie ein Bestätigungslink. Gelöscht wird erst, wenn die Löschung auf der verlinkten Seite bestätigt wird. Der Link ist %d Stunden gültig und nur einmal verwendbar."
+      ],
+      "Der Antrag konnte nicht übermittelt werden:": [
+        "Der Antrag konnte nicht übermittelt werden:"
+      ],
+      "unbekannter Fehler": [
+        "unbekannter Fehler"
+      ],
+      "Der Antrag konnte nicht übermittelt werden: Verbindungsfehler.": [
+        "Der Antrag konnte nicht übermittelt werden: Verbindungsfehler."
+      ],
+      "Antrag auf Datenlöschung (Art. 17 DSGVO)": [
+        "Antrag auf Datenlöschung (Art. 17 DSGVO)"
+      ],
+      "Gemäß Art. 17 DSGVO (\"Recht auf Vergessenwerden\") haben Sie das Recht auf unverzügliche Löschung Ihrer personenbezogenen Daten. Zur Bestätigung Ihrer Identität nach Art. 12 Abs. 6 DSGVO senden wir Ihnen zunächst einen einmaligen Bestätigungslink. Erst nach dessen Aufruf wird gelöscht und ein kryptografisches Löschzertifikat ausgestellt.": [
+        "Gemäß Art. 17 DSGVO (\"Recht auf Vergessenwerden\") haben Sie das Recht auf unverzügliche Löschung Ihrer personenbezogenen Daten. Zur Bestätigung Ihrer Identität nach Art. 12 Abs. 6 DSGVO senden wir Ihnen zunächst einen einmaligen Bestätigungslink. Erst nach dessen Aufruf wird gelöscht und ein kryptografisches Löschzertifikat ausgestellt."
+      ],
+      "Ihre hinterlegte E-Mail-Adresse:": [
+        "Ihre hinterlegte E-Mail-Adresse:"
+      ],
+      "ihre-email@example.com": [
+        "ihre-email@example.com"
+      ],
+      "Löschantrag übermitteln": [
+        "Löschantrag übermitteln"
+      ],
+      "[%s] Löschantrag bestätigen (Art. 17 DSGVO)": [
+        "[%s] Löschantrag bestätigen (Art. 17 DSGVO)"
+      ],
+      "DSGVO Löschantrag (Art. 17)": [
+        "DSGVO Löschantrag (Art. 17)"
+      ],
+      "Öffentliches Formular für Löschanträge nach Art. 17 DSGVO mit Einmal-Bestätigungslink.": [
+        "Öffentliches Formular für Löschanträge nach Art. 17 DSGVO mit Einmal-Bestätigungslink."
+      ],
+      "Formulareinstellungen": [
+        "Formulareinstellungen"
+      ],
+      "Hinweistext anzeigen": [
+        "Hinweistext anzeigen"
+      ],
+      "Blendet den erläuternden Hinweis oberhalb des E-Mail-Feldes ein oder aus.": [
+        "Blendet den erläuternden Hinweis oberhalb des E-Mail-Feldes ein oder aus."
+      ],
+      "block title\u0004DSGVO Löschantrag (Art. 17)": [
+        "DSGVO Löschantrag (Art. 17)"
+      ],
+      "block description\u0004Öffentliches Formular für Löschanträge nach Art. 17 DSGVO mit Einmal-Bestätigungslink.": [
+        "Öffentliches Formular für Löschanträge nach Art. 17 DSGVO mit Einmal-Bestätigungslink."
+      ],
+      "block keyword\u0004dsgvo": [
+        "dsgvo"
+      ],
+      "block keyword\u0004gdpr": [
+        "datenschutz-grundverordnung"
+      ],
+      "block keyword\u0004löschung": [
+        "löschung"
+      ],
+      "block keyword\u0004erasure": [
+        "datenlöschung"
+      ],
+      "block keyword\u0004datenschutz": [
+        "datenschutz"
+      ],
+      "block keyword\u0004privacy": [
+        "privatsphäre"
+      ]
+    }
+  }
+}

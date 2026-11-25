@@ -1,0 +1,357 @@
+{
+  "translation-revision-date": "2026-11-21T14:14:21+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-dsgvo-privacy-eraser",
+        "lang": "fr_FR",
+        "plural-forms": "nplurals=2; plural=(n > 1);"
+      },
+      "WM DSGVO Art. 17 Cryptographic Privacy Eraser": [
+        "WM RGPD Art. 17 Effaceur Cryptographique de Confidentialité"
+      ],
+      "https://arnoldwender.com/wordpress-plugins/wm-dsgvo-privacy-eraser/": [
+        "https://arnoldwender.com/wordpress-plugins/wm-dsgvo-privacy-eraser/"
+      ],
+      "Löschanträge nach Art. 17 DSGVO mit Bestätigungslink an die Adresse; danach werden Kommentare anonymisiert, das Benutzerkonto (außer Administratoren) gelöscht und optional WooCommerce-Rechnungsfelder anonymisiert. Jede Löschung erhält einen HMAC-verketteten Nachweis. Keine rechtliche Prüfung des Antrags.": [
+        "Demandes d’effacement au titre de l’art. 17 du RGPD avec lien de confirmation envoyé à l’adresse ; ensuite les commentaires sont anonymisés, le compte utilisateur (hors administrateurs) est supprimé et les champs de facturation WooCommerce sont anonymisés en option. Chaque effacement génère une preuve chaînée par HMAC. Aucune qualification juridique."
+      ],
+      "Arnold Wender": [
+        "Arnold Wender"
+      ],
+      "https://arnoldwender.com": [
+        "https://arnoldwender.com"
+      ],
+      "Kette geprüft: %d versiegelte Nachweise stimmen": [
+        "Chaîne vérifiée : %d preuves scellées concordent"
+      ],
+      "Noch keine Löschnachweise": [
+        "Aucune preuve d’effacement pour le moment"
+      ],
+      "Kette gebrochen": [
+        "Chaîne rompue"
+      ],
+      "WM DSGVO Privacy Eraser": [
+        "WM RGPD Privacy Eraser"
+      ],
+      "Löschnachweise": [
+        "Preuves d’effacement"
+      ],
+      "Offene Anträge": [
+        "Demandes ouvertes"
+      ],
+      "Privacy Eraser öffnen": [
+        "Ouvrir Privacy Eraser"
+      ],
+      "WM Privacy Eraser": [
+        "WM Privacy Eraser"
+      ],
+      "Privacy Eraser": [
+        "Privacy Eraser"
+      ],
+      "Übersicht": [
+        "Vue d’ensemble"
+      ],
+      "Antrag stellen": [
+        "Déposer une demande"
+      ],
+      "Was gelöscht wird": [
+        "Données effacées"
+      ],
+      "Einstellungen": [
+        "Réglages"
+      ],
+      "Löschanträge mit Bestätigungslink, Löschung bzw. Anonymisierung der Daten, die WordPress selbst zu einer E-Mail-Adresse hält, und ein verketteter Nachweis je Löschung. Es ersetzt keine rechtliche Prüfung des Antrags.": [
+        "Demandes d’effacement avec lien de confirmation, suppression ou anonymisation des données détenues par WordPress pour une adresse e-mail et preuve chaînée à chaque effacement. Ne remplace pas un examen juridique."
+      ],
+      "Part of the WM Suite plugin family": [
+        "Membre de la famille d’extensions WM Suite"
+      ],
+      "WM Suite": [
+        "WM Suite"
+      ],
+      "Hub": [
+        "Hub"
+      ],
+      "Standalone": [
+        "Autonome"
+      ],
+      "Bereiche": [
+        "Périmètres"
+      ],
+      "Stand dieser Website": [
+        "État de ce site"
+      ],
+      "Beim Aufruf dieser Seite aus der Datenbank gelesen.": [
+        "Lu depuis la base de données à l’ouverture de cette page."
+      ],
+      "Gelöschte oder anonymisierte Einträge laut Nachweisen": [
+        "Entrées supprimées ou anonymisées selon les preuves"
+      ],
+      "Offene Anträge (Adresse noch gespeichert)": [
+        "Demandes ouvertes (adresse encore conservée)"
+      ],
+      "Nachweiskette": [
+        "Chaîne de preuves"
+      ],
+      "%d ältere Nachweise ohne Siegel, nicht prüfbar.": [
+        "%d preuves anciennes sans sceau, non vérifiables."
+      ],
+      "Verschlüsselung offener Adressen (libsodium)": [
+        "Chiffrement des adresses en attente (libsodium)"
+      ],
+      "verfügbar": [
+        "disponible"
+      ],
+      "nicht verfügbar: Adressen werden im Klartext gespeichert": [
+        "indisponible : les adresses sont stockées en clair"
+      ],
+      "WooCommerce-Rechnungsfelder anonymisieren (wm_dsgvo_anonymize_wc_orders)": [
+        "Anonymiser la facturation WooCommerce (wm_dsgvo_anonymize_wc_orders)"
+      ],
+      "an": [
+        "activé"
+      ],
+      "aus (Standard)": [
+        "désactivé (par défaut)"
+      ],
+      "Daten bei Deinstallation löschen (wm_dsgvo_eraser_delete_data_on_uninstall)": [
+        "Supprimer les données à la désinstallation (wm_dsgvo_eraser_delete_data_on_uninstall)"
+      ],
+      "aus (Standard: Nachweise bleiben erhalten)": [
+        "désactivé (par défaut : les preuves sont conservées)"
+      ],
+      "Löschantrag für eine Adresse stellen": [
+        "Soumettre une demande d’effacement pour une adresse"
+      ],
+      "Legt denselben Antrag an wie das Formular auf der Website: An die Adresse geht ein Bestätigungslink, %d Stunden gültig. Gelöscht wird erst, wenn die Löschung auf der verlinkten Seite bestätigt wird. Eine sofortige Löschung ohne Bestätigung gibt es nur über WP-CLI (wp dsgvo erase), nachdem Sie die Identität selbst geprüft haben.": [
+        "Crée la même demande que le formulaire public : un lien de confirmation valable %d heures est envoyé à l’adresse. Rien n’est effacé avant confirmation sur la page liée. L’effacement immédiat sans confirmation n’existe que via WP-CLI (wp dsgvo erase) après vérification d’identité par vos soins."
+      ],
+      "E-Mail-Adresse der betroffenen Person": [
+        "Adresse e-mail de la personne concernée"
+      ],
+      "Bestätigungslink senden": [
+        "Envoyer le lien de confirmation"
+      ],
+      "Bitte eine E-Mail-Adresse eingeben.": [
+        "Veuillez saisir une adresse e-mail."
+      ],
+      "Wird übermittelt …": [
+        "Envoi en cours …"
+      ],
+      "Antrag übermittelt. Ein Bestätigungslink geht nur hinaus, wenn die Adresse gültig ist, keines der Limits greift (%1$d Anträge je Adresse in %2$d Stunden, %3$d je IP pro Stunde, Ihre eigene IP zählt mit) und der Mailversand gelingt; diese Seite erfährt das nicht. Noch ist nichts gelöscht.": [
+        "Demande enregistrée. Un lien de confirmation n’est envoyé que si l’adresse est valide, qu’aucun plafond n’est atteint (%1$d demandes par adresse en %2$d heures, %3$d par IP et par heure, votre IP comprise) et que l’envoi aboutit ; cette page ne l’indique pas. Rien n’a encore été effacé."
+      ],
+      "Der Antrag konnte nicht angelegt werden.": [
+        "La demande n’a pas pu être créée."
+      ],
+      "Verbindungsfehler.": [
+        "Erreur de connexion."
+      ],
+      "Letzte zehn Löschnachweise": [
+        "Dix dernières preuves d’effacement"
+      ],
+      "Jeder Nachweis speichert statt der Adresse einen geschlüsselten Hash, die Anzahl der Einträge je Bereich und ein Siegel, das den vorherigen Nachweis einschließt. Bearbeitete, eingefügte, umsortierte oder gelöschte Nachweise fallen bei der Prüfung auf, solange die Option mit dem Kettenende unverändert ist; wer die Datenbank schreiben kann, kann auch diese Option ändern, und wer den Schlüssel aus wp-config.php hat, kann die Kette neu versiegeln.": [
+        "Chaque preuve enregistre un hachage à clé au lieu de l’adresse, le nombre d’entrées par périmètre et un sceau incluant la preuve précédente. Toute modification, insertion, réorganisation ou suppression est détectée tant que l’option de tête de chaîne reste intacte ; un accès en écriture à la base permet aussi de modifier cette option et wp-config.php permet de resceller la chaîne."
+      ],
+      "Nachweis": [
+        "Preuve"
+      ],
+      "Hash der Adresse": [
+        "Hachage de l’adresse"
+      ],
+      "Einträge": [
+        "Entrées"
+      ],
+      "Siegel": [
+        "Sceau"
+      ],
+      "Zeitpunkt": [
+        "Horodatage"
+      ],
+      "Noch keine Löschnachweise.": [
+        "Aucune preuve d’effacement pour le moment."
+      ],
+      "ohne Siegelkette": [
+        "sans chaîne de sceaux"
+      ],
+      "Beide Schalter sind standardmäßig ausgeschaltet, damit weder steuerrechtlich relevante Rechnungsdaten noch Löschnachweise unbeabsichtigt entfernt werden.": [
+        "Les deux options sont désactivées par défaut afin d’éviter toute suppression involontaire de données comptables ou de preuves d’effacement."
+      ],
+      "WooCommerce-Rechnungsfelder anonymisieren": [
+        "Anonymiser les champs de facturation WooCommerce"
+      ],
+      "Überschreibt Vor- und Nachname, erste Adresszeile, Telefon und E-Mail in WooCommerce-Bestellungen der betroffenen Adresse. Erst nach Prüfung gesetzlicher Aufbewahrungsfristen (§ 147 AO, § 257 HGB) einschalten.": [
+        "Écrase prénom, nom, première ligne d’adresse, téléphone et e-mail dans les commandes WooCommerce associées. N’activez qu’après vérification des durées légales de conservation (§ 147 AO, § 257 HGB)."
+      ],
+      "Alle Plugin-Daten bei Deinstallation löschen": [
+        "Supprimer toutes les données de l’extension à la désinstallation"
+      ],
+      "Wenn aktiviert, entfernt die Deinstallation alle Plugin-Optionen sowie die Tabellen für Anträge und Löschnachweise unwiderruflich. Standardmäßig bleiben Nachweise und Optionen erhalten.": [
+        "Si activé, la désinstallation supprime définitivement toutes les options de l’extension ainsi que les tables des demandes et des preuves d’effacement. Par défaut, les preuves et options sont conservées."
+      ],
+      "Einstellungen speichern": [
+        "Enregistrer les réglages"
+      ],
+      "Was bei einer Löschung passiert": [
+        "Ce qui se passe lors d’un effacement"
+      ],
+      "Kommentare mit dieser Adresse: Name, Adresse, URL, IP, Browserkennung und Benutzerzuordnung werden überschrieben, der Text durch „[Inhalt auf Antrag nach Art. 17 DSGVO gelöscht]“ ersetzt. Die Kommentare selbst bleiben stehen.": [
+        "Commentaires liés à cette adresse : nom, e-mail, URL, IP, agent utilisateur et identifiant utilisateur sont écrasés, et le texte est remplacé par « [Contenu supprimé sur demande au titre de l’art. 17 du RGPD] ». Les commentaires eux-mêmes subsistent."
+      ],
+      "Benutzerkonto mit dieser Adresse: wird mit wp_delete_user() gelöscht, dabei auch die Beiträge, die dieses Konto verfasst hat. Konten mit der Rolle Administrator werden nicht gelöscht; der Nachweis vermerkt das. In einer Multisite entfernt wp_delete_user() das Konto nur aus dieser Website; der Nachweis vermerkt removed_from_this_site.": [
+        "Compte utilisateur lié à cette adresse : supprimé via wp_delete_user(), avec ses publications. Les comptes administrateur ne sont jamais supprimés et la preuve le mentionne. En multisite, wp_delete_user() retire le compte uniquement de ce site (removed_from_this_site)."
+      ],
+      "WooCommerce-Bestellungen: nur wenn die Option wm_dsgvo_anonymize_wc_orders an ist, und nur Vor- und Nachname, erste Adresszeile, E-Mail und Telefon der Rechnungsadresse, über die Bestellobjekte von WooCommerce (HPOS und Beitragsspeicher). Standard ist aus, weil Rechnungsdaten Aufbewahrungsfristen unterliegen können (§ 147 AO, § 257 HGB); ob eine greift, entscheidet das Plugin nicht.": [
+        "Commandes WooCommerce : uniquement si wm_dsgvo_anonymize_wc_orders est activé, en écrasant prénom, nom, adresse, e-mail et téléphone de facturation via les objets de commande WooCommerce (HPOS et stockage classique). Désactivé par défaut en raison des obligations fiscales de conservation."
+      ],
+      "Nicht erfasst: Tabellen anderer Plugins (Formulare, Newsletter, Buchungen), Benutzer-Metadaten verbleibender Konten, Kommentar-Metadaten, Lieferadressen, Dateien, Logs, Caches und Backups. Die Datenschutz-Löschwerkzeuge von WordPress ruft das Plugin nicht auf.": [
+        "Non couvert : tables d’autres extensions (formulaires, newsletters, réservations), métadonnées des comptes conservés, adresses de livraison, fichiers, journaux, caches et sauvegardes."
+      ],
+      "Ob ein Antrag berechtigt ist, ob Ausnahmen nach Art. 17 Abs. 3 DSGVO greifen und welche Frist gilt, entscheidet das Plugin nicht.": [
+        "L’extension ne tranche pas la recevabilité d’une demande, les exceptions de l’art. 17(3) du RGPD ni le délai de conservation applicable."
+      ],
+      "Zu viele Anfragen. Bitte versuchen Sie es in einer Minute erneut.": [
+        "Trop de requêtes. Veuillez réessayer dans une minute."
+      ],
+      "Bitte geben Sie eine gültige E-Mail-Adresse an.": [
+        "Veuillez indiquer une adresse e-mail valide."
+      ],
+      "Der Antrag wurde entgegengenommen. Ist die Adresse gültig, geht an sie ein Bestätigungslink; gelöscht wird erst nach dessen Aufruf.": [
+        "La demande a été enregistrée. Si l’adresse est valide, un lien de confirmation lui est envoyé ; l’effacement n’a lieu qu’après confirmation."
+      ],
+      "WM Privacy Eraser Status": [
+        "Statut WM Privacy Eraser"
+      ],
+      "Aktueller Status des Art.-17-DSGVO-Löschportals.": [
+        "Statut actuel du portail d’effacement Art. 17 RGPD."
+      ],
+      "Art. 17 DSGVO Löschportal aktiv (%d versiegelte Nachweise)": [
+        "Portail d’effacement Art. 17 RGPD actif (%d preuves scellées)"
+      ],
+      "Art. 17 DSGVO Löschportal aktiv": [
+        "Portail d’effacement Art. 17 RGPD actif"
+      ],
+      "Art. 17 DSGVO Löschportal: Kette prüfen": [
+        "Portail d’effacement Art. 17 RGPD : vérifier la chaîne"
+      ],
+      "Löschung bestätigen": [
+        "Confirmer l’effacement"
+      ],
+      "Das Öffnen dieses Links hat noch nichts gelöscht. Mit der Schaltfläche unten werden zu der Adresse, für die der Antrag gestellt wurde, die Kommentare auf dieser Website anonymisiert und ein Benutzerkonto gelöscht (außer Administratorkonten); ist es eingeschaltet, werden auch Rechnungsfelder von WooCommerce-Bestellungen anonymisiert. Die Löschung ist unwiderruflich.": [
+        "L’ouverture de ce lien n’a encore rien effacé. Le bouton ci-dessous anonymisera les commentaires liés à cette adresse sur ce site et supprimera le compte utilisateur correspondant (hors administrateurs) ; si l’option est active, la facturation WooCommerce sera aussi anonymisée. L’effacement est irréversible."
+      ],
+      "Löschung jetzt ausführen": [
+        "Exécuter l’effacement maintenant"
+      ],
+      "Löschung ausgeführt": [
+        "Effacement exécuté"
+      ],
+      "%1$d Einträge wurden gelöscht oder anonymisiert. Kennung des Löschnachweises: %2$s": [
+        "%1$d entrées ont été supprimées ou anonymisées. Identifiant de la preuve : %2$s"
+      ],
+      "Löschung nicht vollständig": [
+        "Effacement incomplet"
+      ],
+      "Nicht alle Daten konnten geändert werden, oder der Löschnachweis wurde nicht gespeichert. Der Antrag ist als fehlgeschlagen vermerkt; bitte wenden Sie sich an den Betreiber dieser Website.": [
+        "Toutes les données n’ont pas pu être modifiées ou la preuve d’effacement n’a pas été enregistrée. La demande est marquée en échec ; veuillez contacter l’exploitant du site."
+      ],
+      "Kennung des Löschnachweises: %s": [
+        "Identifiant de la preuve : %s"
+      ],
+      "Antrag nicht verarbeitet": [
+        "Demande non traitée"
+      ],
+      "Der Antrag konnte nicht verarbeitet werden. Bitte stellen Sie ihn erneut.": [
+        "La demande n’a pas pu être traitée. Veuillez la soumettre à nouveau."
+      ],
+      "Link nicht gültig": [
+        "Lien non valide"
+      ],
+      "Der Bestätigungslink ist ungültig, abgelaufen oder wurde bereits verwendet.": [
+        "Le lien de confirmation est invalide, expiré ou déjà utilisé."
+      ],
+      "Bitte geben Sie eine gültige E-Mail-Adresse ein.": [
+        "Veuillez saisir une adresse e-mail valide."
+      ],
+      "Antrag wird übermittelt …": [
+        "Transmission de la demande …"
+      ],
+      "Bestätigung erforderlich": [
+        "Confirmation requise"
+      ],
+      "Ist die Adresse gültig, geht an sie ein Bestätigungslink. Gelöscht wird erst, wenn die Löschung auf der verlinkten Seite bestätigt wird. Der Link ist %d Stunden gültig und nur einmal verwendbar.": [
+        "Si l’adresse est valide, un lien de confirmation vient d’y être envoyé. L’effacement n’interviendra qu’après confirmation sur la page liée. Ce lien est valable %d heures et à usage unique."
+      ],
+      "Der Antrag konnte nicht übermittelt werden:": [
+        "La demande n’a pas pu être transmise :"
+      ],
+      "unbekannter Fehler": [
+        "erreur inconnue"
+      ],
+      "Der Antrag konnte nicht übermittelt werden: Verbindungsfehler.": [
+        "La demande n’a pas pu être transmise : erreur de connexion."
+      ],
+      "Antrag auf Datenlöschung (Art. 17 DSGVO)": [
+        "Demande d’effacement des données (Art. 17 RGPD)"
+      ],
+      "Gemäß Art. 17 DSGVO (\"Recht auf Vergessenwerden\") haben Sie das Recht auf unverzügliche Löschung Ihrer personenbezogenen Daten. Zur Bestätigung Ihrer Identität nach Art. 12 Abs. 6 DSGVO senden wir Ihnen zunächst einen einmaligen Bestätigungslink. Erst nach dessen Aufruf wird gelöscht und ein kryptografisches Löschzertifikat ausgestellt.": [
+        "Conformément à l’art. 17 du RGPD (« droit à l’effacement »), vous pouvez demander la suppression de vos données personnelles. Pour confirmer votre identité selon l’art. 12(6) du RGPD, nous envoyons d’abord un lien de confirmation à usage unique. L’effacement et le certificat cryptographique n’interviennent qu’après confirmation."
+      ],
+      "Ihre hinterlegte E-Mail-Adresse:": [
+        "Votre adresse e-mail enregistrée :"
+      ],
+      "ihre-email@example.com": [
+        "votre-email@example.com"
+      ],
+      "Löschantrag übermitteln": [
+        "Envoyer la demande d’effacement"
+      ],
+      "[%s] Löschantrag bestätigen (Art. 17 DSGVO)": [
+        "[%s] Confirmer la demande d’effacement (Art. 17 RGPD)"
+      ],
+      "DSGVO Löschantrag (Art. 17)": [
+        "Demande d’effacement RGPD (Art. 17)"
+      ],
+      "Öffentliches Formular für Löschanträge nach Art. 17 DSGVO mit Einmal-Bestätigungslink.": [
+        "Formulaire public de demande d’effacement Art. 17 RGPD avec lien de confirmation à usage unique."
+      ],
+      "Formulareinstellungen": [
+        "Réglages du formulaire"
+      ],
+      "Hinweistext anzeigen": [
+        "Afficher le texte explicatif"
+      ],
+      "Blendet den erläuternden Hinweis oberhalb des E-Mail-Feldes ein oder aus.": [
+        "Affiche ou masque la note explicative au-dessus du champ d’adresse e-mail."
+      ],
+      "block title\u0004DSGVO Löschantrag (Art. 17)": [
+        "Demande d’effacement RGPD (Art. 17)"
+      ],
+      "block description\u0004Öffentliches Formular für Löschanträge nach Art. 17 DSGVO mit Einmal-Bestätigungslink.": [
+        "Formulaire public de demande d’effacement Art. 17 RGPD avec lien de confirmation à usage unique."
+      ],
+      "block keyword\u0004dsgvo": [
+        "rgpd"
+      ],
+      "block keyword\u0004gdpr": [
+        "protection-donnees"
+      ],
+      "block keyword\u0004löschung": [
+        "effacement"
+      ],
+      "block keyword\u0004erasure": [
+        "suppression"
+      ],
+      "block keyword\u0004datenschutz": [
+        "confidentialite"
+      ],
+      "block keyword\u0004privacy": [
+        "vie-privee"
+      ]
+    }
+  }
+}

@@ -1,0 +1,357 @@
+{
+  "translation-revision-date": "2026-11-21T14:14:21+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-dsgvo-privacy-eraser",
+        "lang": "pl_PL",
+        "plural-forms": "nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);"
+      },
+      "WM DSGVO Art. 17 Cryptographic Privacy Eraser": [
+        "WM RODO Art. 17 Kryptograficzny Kasownik Prywatności"
+      ],
+      "https://arnoldwender.com/wordpress-plugins/wm-dsgvo-privacy-eraser/": [
+        "https://arnoldwender.com/wordpress-plugins/wm-dsgvo-privacy-eraser/"
+      ],
+      "Löschanträge nach Art. 17 DSGVO mit Bestätigungslink an die Adresse; danach werden Kommentare anonymisiert, das Benutzerkonto (außer Administratoren) gelöscht und optional WooCommerce-Rechnungsfelder anonymisiert. Jede Löschung erhält einen HMAC-verketteten Nachweis. Keine rechtliche Prüfung des Antrags.": [
+        "Żądania usunięcia danych z art. 17 RODO potwierdzane jednorazowym linkiem e-mail; następnie komentarze są anonimizowane, konto użytkownika (poza administratorami) usuwane, a dane rozliczeniowe WooCommerce opcjonalnie anonimizowane. Każde usunięcie otrzymuje poświadczenie w łańcuchu HMAC. Bez oceny prawnej."
+      ],
+      "Arnold Wender": [
+        "Arnold Wender"
+      ],
+      "https://arnoldwender.com": [
+        "https://arnoldwender.com"
+      ],
+      "Kette geprüft: %d versiegelte Nachweise stimmen": [
+        "Łańcuch zweryfikowany: zgadza się %d zapieczętowanych poświadczeń"
+      ],
+      "Noch keine Löschnachweise": [
+        "Brak poświadczeń usunięcia"
+      ],
+      "Kette gebrochen": [
+        "Łańcuch przerwany"
+      ],
+      "WM DSGVO Privacy Eraser": [
+        "WM RODO Privacy Eraser"
+      ],
+      "Löschnachweise": [
+        "Poświadczenia usunięcia"
+      ],
+      "Offene Anträge": [
+        "Otwarte wnioski"
+      ],
+      "Privacy Eraser öffnen": [
+        "Otwórz Privacy Eraser"
+      ],
+      "WM Privacy Eraser": [
+        "WM Privacy Eraser"
+      ],
+      "Privacy Eraser": [
+        "Privacy Eraser"
+      ],
+      "Übersicht": [
+        "Przegląd"
+      ],
+      "Antrag stellen": [
+        "Złóż wniosek"
+      ],
+      "Was gelöscht wird": [
+        "Zakres usuwania"
+      ],
+      "Einstellungen": [
+        "Ustawienia"
+      ],
+      "Löschanträge mit Bestätigungslink, Löschung bzw. Anonymisierung der Daten, die WordPress selbst zu einer E-Mail-Adresse hält, und ein verketteter Nachweis je Löschung. Es ersetzt keine rechtliche Prüfung des Antrags.": [
+        "Wnioski o usunięcie danych z linkiem potwierdzającym, usunięcie lub anonimizacja danych przechowywanych przez WordPress dla adresu e-mail oraz poświadczenie w łańcuchu dla każdego usunięcia. Nie zastępuje oceny prawnej."
+      ],
+      "Part of the WM Suite plugin family": [
+        "Część rodziny wtyczek WM Suite"
+      ],
+      "WM Suite": [
+        "WM Suite"
+      ],
+      "Hub": [
+        "Hub"
+      ],
+      "Standalone": [
+        "Samodzielna"
+      ],
+      "Bereiche": [
+        "Obszary"
+      ],
+      "Stand dieser Website": [
+        "Stan tej witryny"
+      ],
+      "Beim Aufruf dieser Seite aus der Datenbank gelesen.": [
+        "Odczytano z bazy danych podczas otwierania strony."
+      ],
+      "Gelöschte oder anonymisierte Einträge laut Nachweisen": [
+        "Usunięte lub zanonimizowane wpisy według poświadczeń"
+      ],
+      "Offene Anträge (Adresse noch gespeichert)": [
+        "Otwarte wnioski (adres nadal zapisany)"
+      ],
+      "Nachweiskette": [
+        "Łańcuch poświadczeń"
+      ],
+      "%d ältere Nachweise ohne Siegel, nicht prüfbar.": [
+        "%d starszych poświadczeń bez pieczęci, brak możliwości weryfikacji."
+      ],
+      "Verschlüsselung offener Adressen (libsodium)": [
+        "Szyfrowanie oczekujących adresów (libsodium)"
+      ],
+      "verfügbar": [
+        "dostępne"
+      ],
+      "nicht verfügbar: Adressen werden im Klartext gespeichert": [
+        "niedostępne: adresy są zapisywane otwartym tekstem"
+      ],
+      "WooCommerce-Rechnungsfelder anonymisieren (wm_dsgvo_anonymize_wc_orders)": [
+        "Anonimizuj pola rozliczeniowe WooCommerce (wm_dsgvo_anonymize_wc_orders)"
+      ],
+      "an": [
+        "wł."
+      ],
+      "aus (Standard)": [
+        "wył. (domyślnie)"
+      ],
+      "Daten bei Deinstallation löschen (wm_dsgvo_eraser_delete_data_on_uninstall)": [
+        "Usuń dane przy odinstalowaniu (wm_dsgvo_eraser_delete_data_on_uninstall)"
+      ],
+      "aus (Standard: Nachweise bleiben erhalten)": [
+        "wył. (domyślnie: poświadczenia zostają zachowane)"
+      ],
+      "Löschantrag für eine Adresse stellen": [
+        "Złóż wniosek o usunięcie danych dla adresu"
+      ],
+      "Legt denselben Antrag an wie das Formular auf der Website: An die Adresse geht ein Bestätigungslink, %d Stunden gültig. Gelöscht wird erst, wenn die Löschung auf der verlinkten Seite bestätigt wird. Eine sofortige Löschung ohne Bestätigung gibt es nur über WP-CLI (wp dsgvo erase), nachdem Sie die Identität selbst geprüft haben.": [
+        "Tworzy taki sam wniosek jak formularz na stronie: na adres trafia link potwierdzający ważny przez %d godz. Dane są usuwane dopiero po potwierdzeniu na otwartej stronie. Natychmiastowe usunięcie bez potwierdzenia jest dostępne wyłącznie przez WP-CLI (wp dsgvo erase) po samodzielnej weryfikacji tożsamości."
+      ],
+      "E-Mail-Adresse der betroffenen Person": [
+        "Adres e-mail osoby, której dane dotyczą"
+      ],
+      "Bestätigungslink senden": [
+        "Wyślij link potwierdzający"
+      ],
+      "Bitte eine E-Mail-Adresse eingeben.": [
+        "Wprowadź adres e-mail."
+      ],
+      "Wird übermittelt …": [
+        "Wysyłanie …"
+      ],
+      "Antrag übermittelt. Ein Bestätigungslink geht nur hinaus, wenn die Adresse gültig ist, keines der Limits greift (%1$d Anträge je Adresse in %2$d Stunden, %3$d je IP pro Stunde, Ihre eigene IP zählt mit) und der Mailversand gelingt; diese Seite erfährt das nicht. Noch ist nichts gelöscht.": [
+        "Wniosek wysłany. Link potwierdzający zostanie wysłany tylko wtedy, gdy adres jest poprawny, nie przekroczono limitów (%1$d wniosków na adres w %2$d godz., %3$d na IP na godzinę, wliczając Twój adres IP) i wysyłka się powiedzie; ta strona tego nie ujawnia. Nic nie zostało jeszcze usunięte."
+      ],
+      "Der Antrag konnte nicht angelegt werden.": [
+        "Nie udało się utworzyć wniosku."
+      ],
+      "Verbindungsfehler.": [
+        "Błąd połączenia."
+      ],
+      "Letzte zehn Löschnachweise": [
+        "Ostatnie dziesięć poświadczeń usunięcia"
+      ],
+      "Jeder Nachweis speichert statt der Adresse einen geschlüsselten Hash, die Anzahl der Einträge je Bereich und ein Siegel, das den vorherigen Nachweis einschließt. Bearbeitete, eingefügte, umsortierte oder gelöschte Nachweise fallen bei der Prüfung auf, solange die Option mit dem Kettenende unverändert ist; wer die Datenbank schreiben kann, kann auch diese Option ändern, und wer den Schlüssel aus wp-config.php hat, kann die Kette neu versiegeln.": [
+        "Każde poświadczenie zapisuje skrót z kluczem zamiast adresu, liczbę wpisów w każdym obszarze oraz pieczęć obejmującą poprzednie poświadczenie. Zmiany, dopisania, zmiany kolejności lub usunięcia są wykrywane, dopóki opcja końca łańcucha pozostaje niezmieniona; zapis w bazie pozwala zmienić tę opcję, a dostęp do wp-config.php pozwala ponownie zapieczętować łańcuch."
+      ],
+      "Nachweis": [
+        "Poświadczenie"
+      ],
+      "Hash der Adresse": [
+        "Skrót adresu"
+      ],
+      "Einträge": [
+        "Wpisy"
+      ],
+      "Siegel": [
+        "Pieczęć"
+      ],
+      "Zeitpunkt": [
+        "Czas"
+      ],
+      "Noch keine Löschnachweise.": [
+        "Brak poświadczeń usunięcia."
+      ],
+      "ohne Siegelkette": [
+        "bez łańcucha pieczęci"
+      ],
+      "Beide Schalter sind standardmäßig ausgeschaltet, damit weder steuerrechtlich relevante Rechnungsdaten noch Löschnachweise unbeabsichtigt entfernt werden.": [
+        "Oba przełączniki są domyślnie wyłączone, aby przypadkowo nie usunąć danych rozliczeniowych istotnych podatkowo ani poświadczeń usunięcia."
+      ],
+      "WooCommerce-Rechnungsfelder anonymisieren": [
+        "Anonimizuj pola rozliczeniowe WooCommerce"
+      ],
+      "Überschreibt Vor- und Nachname, erste Adresszeile, Telefon und E-Mail in WooCommerce-Bestellungen der betroffenen Adresse. Erst nach Prüfung gesetzlicher Aufbewahrungsfristen (§ 147 AO, § 257 HGB) einschalten.": [
+        "Nadpisuje imię, nazwisko, pierwszy wiersz adresu, telefon i e-mail w zamówieniach WooCommerce dla danego adresu. Włączaj wyłącznie po sprawdzeniu ustawowych okresów przechowywania (§ 147 AO, § 257 HGB)."
+      ],
+      "Alle Plugin-Daten bei Deinstallation löschen": [
+        "Usuń wszystkie dane wtyczki przy odinstalowaniu"
+      ],
+      "Wenn aktiviert, entfernt die Deinstallation alle Plugin-Optionen sowie die Tabellen für Anträge und Löschnachweise unwiderruflich. Standardmäßig bleiben Nachweise und Optionen erhalten.": [
+        "Po włączeniu odinstalowanie nieodwracalnie usuwa wszystkie opcje wtyczki oraz tabele wniosków i poświadczeń usunięcia. Domyślnie poświadczenia i opcje są zachowywane."
+      ],
+      "Einstellungen speichern": [
+        "Zapisz ustawienia"
+      ],
+      "Was bei einer Löschung passiert": [
+        "Co dzieje się podczas usuwania"
+      ],
+      "Kommentare mit dieser Adresse: Name, Adresse, URL, IP, Browserkennung und Benutzerzuordnung werden überschrieben, der Text durch „[Inhalt auf Antrag nach Art. 17 DSGVO gelöscht]“ ersetzt. Die Kommentare selbst bleiben stehen.": [
+        "Komentarze z tym adresem: autor, e-mail, URL, IP, klient przeglądarki i przypisany użytkownik zostają nadpisane, a treść zastąpiona napisem „[Treść usunięta na wniosek z art. 17 RODO]”. Same komentarze pozostają."
+      ],
+      "Benutzerkonto mit dieser Adresse: wird mit wp_delete_user() gelöscht, dabei auch die Beiträge, die dieses Konto verfasst hat. Konten mit der Rolle Administrator werden nicht gelöscht; der Nachweis vermerkt das. In einer Multisite entfernt wp_delete_user() das Konto nur aus dieser Website; der Nachweis vermerkt removed_from_this_site.": [
+        "Konto użytkownika z tym adresem: usuwane przez wp_delete_user() wraz z opublikowanymi wpisami. Konta administratorów nie są usuwane, co odnotowuje poświadczenie. W Multisite konto jest usuwane tylko z bieżącej witryny (removed_from_this_site)."
+      ],
+      "WooCommerce-Bestellungen: nur wenn die Option wm_dsgvo_anonymize_wc_orders an ist, und nur Vor- und Nachname, erste Adresszeile, E-Mail und Telefon der Rechnungsadresse, über die Bestellobjekte von WooCommerce (HPOS und Beitragsspeicher). Standard ist aus, weil Rechnungsdaten Aufbewahrungsfristen unterliegen können (§ 147 AO, § 257 HGB); ob eine greift, entscheidet das Plugin nicht.": [
+        "Zamówienia WooCommerce: tylko przy włączonej opcji wm_dsgvo_anonymize_wc_orders; nadpisywane są imię, nazwisko, adres, e-mail i telefon rozliczeniowy przez obiekty zamówień WooCommerce (HPOS i posty). Domyślnie wyłączone ze względu na przepisy o archiwizacji dokumentów księgowych."
+      ],
+      "Nicht erfasst: Tabellen anderer Plugins (Formulare, Newsletter, Buchungen), Benutzer-Metadaten verbleibender Konten, Kommentar-Metadaten, Lieferadressen, Dateien, Logs, Caches und Backups. Die Datenschutz-Löschwerkzeuge von WordPress ruft das Plugin nicht auf.": [
+        "Nieobjęte: tabele innych wtyczek (formularze, newslettery, rezerwacje), metadane pozostawionych kont, adresy dostawy, pliki, logi, pamięć podręczna i kopie zapasowe."
+      ],
+      "Ob ein Antrag berechtigt ist, ob Ausnahmen nach Art. 17 Abs. 3 DSGVO greifen und welche Frist gilt, entscheidet das Plugin nicht.": [
+        "Wtyczka nie rozstrzyga zasadności wniosku, wyjątków z art. 17 ust. 3 RODO ani właściwego okresu przechowywania."
+      ],
+      "Zu viele Anfragen. Bitte versuchen Sie es in einer Minute erneut.": [
+        "Zbyt wiele żądań. Spróbuj ponownie za minutę."
+      ],
+      "Bitte geben Sie eine gültige E-Mail-Adresse an.": [
+        "Podaj prawidłowy adres e-mail."
+      ],
+      "Der Antrag wurde entgegengenommen. Ist die Adresse gültig, geht an sie ein Bestätigungslink; gelöscht wird erst nach dessen Aufruf.": [
+        "Wniosek został przyjęty. Jeśli adres jest prawidłowy, zostanie na niego wysłany link potwierdzający; usunięcie nastąpi dopiero po potwierdzeniu."
+      ],
+      "WM Privacy Eraser Status": [
+        "Status WM Privacy Eraser"
+      ],
+      "Aktueller Status des Art.-17-DSGVO-Löschportals.": [
+        "Bieżący status portalu usuwania danych z art. 17 RODO."
+      ],
+      "Art. 17 DSGVO Löschportal aktiv (%d versiegelte Nachweise)": [
+        "Portal usuwania danych art. 17 RODO aktywny (%d zapieczętowanych poświadczeń)"
+      ],
+      "Art. 17 DSGVO Löschportal aktiv": [
+        "Portal usuwania danych art. 17 RODO aktywny"
+      ],
+      "Art. 17 DSGVO Löschportal: Kette prüfen": [
+        "Portal usuwania danych art. 17 RODO: sprawdź łańcuch"
+      ],
+      "Löschung bestätigen": [
+        "Potwierdź usunięcie"
+      ],
+      "Das Öffnen dieses Links hat noch nichts gelöscht. Mit der Schaltfläche unten werden zu der Adresse, für die der Antrag gestellt wurde, die Kommentare auf dieser Website anonymisiert und ein Benutzerkonto gelöscht (außer Administratorkonten); ist es eingeschaltet, werden auch Rechnungsfelder von WooCommerce-Bestellungen anonymisiert. Die Löschung ist unwiderruflich.": [
+        "Otwarcie tego linku niczego jeszcze nie usunęło. Kliknięcie poniższego przycisku zanonimizuje komentarze powiązane z tym adresem w witrynie i usunie konto użytkownika (poza administratorami); jeśli opcja jest włączona, zanonimizuje także dane rozliczeniowe zamówień WooCommerce. Operacja jest nieodwracalna."
+      ],
+      "Löschung jetzt ausführen": [
+        "Wykonaj usunięcie teraz"
+      ],
+      "Löschung ausgeführt": [
+        "Usunięcie wykonane"
+      ],
+      "%1$d Einträge wurden gelöscht oder anonymisiert. Kennung des Löschnachweises: %2$s": [
+        "Usunięto lub zanonimizowano %1$d wpisów. Identyfikator poświadczenia: %2$s"
+      ],
+      "Löschung nicht vollständig": [
+        "Usunięcie niepełne"
+      ],
+      "Nicht alle Daten konnten geändert werden, oder der Löschnachweis wurde nicht gespeichert. Der Antrag ist als fehlgeschlagen vermerkt; bitte wenden Sie sich an den Betreiber dieser Website.": [
+        "Nie udało się zmienić wszystkich danych lub zapisać poświadczenia usunięcia. Wniosek oznaczono jako nieudany; skontaktuj się z administratorem witryny."
+      ],
+      "Kennung des Löschnachweises: %s": [
+        "Identyfikator poświadczenia: %s"
+      ],
+      "Antrag nicht verarbeitet": [
+        "Wniosek nieprzetworzony"
+      ],
+      "Der Antrag konnte nicht verarbeitet werden. Bitte stellen Sie ihn erneut.": [
+        "Nie udało się przetworzyć wniosku. Złóż go ponownie."
+      ],
+      "Link nicht gültig": [
+        "Nieprawidłowy link"
+      ],
+      "Der Bestätigungslink ist ungültig, abgelaufen oder wurde bereits verwendet.": [
+        "Link potwierdzający jest nieprawidłowy, wygasł lub został już użyty."
+      ],
+      "Bitte geben Sie eine gültige E-Mail-Adresse ein.": [
+        "Wprowadź prawidłowy adres e-mail."
+      ],
+      "Antrag wird übermittelt …": [
+        "Wysyłanie wniosku …"
+      ],
+      "Bestätigung erforderlich": [
+        "Wymagane potwierdzenie"
+      ],
+      "Ist die Adresse gültig, geht an sie ein Bestätigungslink. Gelöscht wird erst, wenn die Löschung auf der verlinkten Seite bestätigt wird. Der Link ist %d Stunden gültig und nur einmal verwendbar.": [
+        "Jeśli adres jest prawidłowy, wysłano na niego link potwierdzający. Usunięcie nastąpi dopiero po potwierdzeniu na powiązanej stronie. Link jest ważny przez %d godz. i jednorazowy."
+      ],
+      "Der Antrag konnte nicht übermittelt werden:": [
+        "Nie udało się wysłać wniosku:"
+      ],
+      "unbekannter Fehler": [
+        "nieznany błąd"
+      ],
+      "Der Antrag konnte nicht übermittelt werden: Verbindungsfehler.": [
+        "Nie udało się wysłać wniosku: błąd połączenia."
+      ],
+      "Antrag auf Datenlöschung (Art. 17 DSGVO)": [
+        "Wniosek o usunięcie danych (Art. 17 RODO)"
+      ],
+      "Gemäß Art. 17 DSGVO (\"Recht auf Vergessenwerden\") haben Sie das Recht auf unverzügliche Löschung Ihrer personenbezogenen Daten. Zur Bestätigung Ihrer Identität nach Art. 12 Abs. 6 DSGVO senden wir Ihnen zunächst einen einmaligen Bestätigungslink. Erst nach dessen Aufruf wird gelöscht und ein kryptografisches Löschzertifikat ausgestellt.": [
+        "Zgodnie z art. 17 RODO („prawo do bycia zapomnianym”) masz prawo żądać usunięcia swoich danych osobowych. Aby potwierdzić tożsamość zgodnie z art. 12 ust. 6 RODO, najpierw wysyłamy jednorazowy link potwierdzający. Dopiero po jego potwierdzeniu dane są usuwane i wystawiane jest kryptograficzne poświadczenie."
+      ],
+      "Ihre hinterlegte E-Mail-Adresse:": [
+        "Twój zarejestrowany adres e-mail:"
+      ],
+      "ihre-email@example.com": [
+        "twoj-email@example.com"
+      ],
+      "Löschantrag übermitteln": [
+        "Wyślij wniosek o usunięcie"
+      ],
+      "[%s] Löschantrag bestätigen (Art. 17 DSGVO)": [
+        "[%s] Potwierdź wniosek o usunięcie danych (Art. 17 RODO)"
+      ],
+      "DSGVO Löschantrag (Art. 17)": [
+        "Wniosek o usunięcie RODO (Art. 17)"
+      ],
+      "Öffentliches Formular für Löschanträge nach Art. 17 DSGVO mit Einmal-Bestätigungslink.": [
+        "Publiczny formularz wniosków o usunięcie danych z art. 17 RODO z jednorazowym linkiem potwierdzającym."
+      ],
+      "Formulareinstellungen": [
+        "Ustawienia formularza"
+      ],
+      "Hinweistext anzeigen": [
+        "Pokaż tekst objaśniający"
+      ],
+      "Blendet den erläuternden Hinweis oberhalb des E-Mail-Feldes ein oder aus.": [
+        "Pokazuje lub ukrywa informację objaśniającą nad polem adresu e-mail."
+      ],
+      "block title\u0004DSGVO Löschantrag (Art. 17)": [
+        "Wniosek o usunięcie RODO (Art. 17)"
+      ],
+      "block description\u0004Öffentliches Formular für Löschanträge nach Art. 17 DSGVO mit Einmal-Bestätigungslink.": [
+        "Publiczny formularz wniosków o usunięcie danych z art. 17 RODO z jednorazowym linkiem potwierdzającym."
+      ],
+      "block keyword\u0004dsgvo": [
+        "rodo"
+      ],
+      "block keyword\u0004gdpr": [
+        "ochrona-danych"
+      ],
+      "block keyword\u0004löschung": [
+        "usuwanie"
+      ],
+      "block keyword\u0004erasure": [
+        "kasowanie"
+      ],
+      "block keyword\u0004datenschutz": [
+        "prywatnosc"
+      ],
+      "block keyword\u0004privacy": [
+        "dane-osobowe"
+      ]
+    }
+  }
+}

@@ -1,0 +1,357 @@
+{
+  "translation-revision-date": "2026-11-21T14:14:21+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-dsgvo-privacy-eraser",
+        "lang": "el",
+        "plural-forms": "nplurals=2; plural=(n != 1);"
+      },
+      "WM DSGVO Art. 17 Cryptographic Privacy Eraser": [
+        "WM ΓΚΠΔ Άρθ. 17 Κρυπτογραφική Διαγραφή Δεδομένων"
+      ],
+      "https://arnoldwender.com/wordpress-plugins/wm-dsgvo-privacy-eraser/": [
+        "https://arnoldwender.com/wordpress-plugins/wm-dsgvo-privacy-eraser/"
+      ],
+      "Löschanträge nach Art. 17 DSGVO mit Bestätigungslink an die Adresse; danach werden Kommentare anonymisiert, das Benutzerkonto (außer Administratoren) gelöscht und optional WooCommerce-Rechnungsfelder anonymisiert. Jede Löschung erhält einen HMAC-verketteten Nachweis. Keine rechtliche Prüfung des Antrags.": [
+        "Αιτήματα διαγραφής κατά το άρθρο 17 ΓΚΠΔ με σύνδεσμο επιβεβαίωσης μίας χρήσης στη διεύθυνση email· κατόπιν ανωνυμοποιούνται τα σχόλια, διαγράφεται ο λογαριασμός χρήστη (εκτός διαχειριστών) και προαιρετικά ανωνυμοποιούνται τα στοιχεία χρέωσης WooCommerce. Κάθε διαγραφή λαμβάνει αποδεικτικό σε αλυσίδα HMAC. Χωρίς νομική αξιολόγηση."
+      ],
+      "Arnold Wender": [
+        "Arnold Wender"
+      ],
+      "https://arnoldwender.com": [
+        "https://arnoldwender.com"
+      ],
+      "Kette geprüft: %d versiegelte Nachweise stimmen": [
+        "Η αλυσίδα επαληθεύτηκε: %d σφραγισμένα αποδεικτικά συμφωνούν"
+      ],
+      "Noch keine Löschnachweise": [
+        "Δεν υπάρχουν ακόμη αποδεικτικά διαγραφής"
+      ],
+      "Kette gebrochen": [
+        "Η αλυσίδα έχει διαρραγεί"
+      ],
+      "WM DSGVO Privacy Eraser": [
+        "WM ΓΚΠΔ Privacy Eraser"
+      ],
+      "Löschnachweise": [
+        "Αποδεικτικά διαγραφής"
+      ],
+      "Offene Anträge": [
+        "Ανοικτά αιτήματα"
+      ],
+      "Privacy Eraser öffnen": [
+        "Άνοιγμα Privacy Eraser"
+      ],
+      "WM Privacy Eraser": [
+        "WM Privacy Eraser"
+      ],
+      "Privacy Eraser": [
+        "Privacy Eraser"
+      ],
+      "Übersicht": [
+        "Επισκόπηση"
+      ],
+      "Antrag stellen": [
+        "Υποβολή αιτήματος"
+      ],
+      "Was gelöscht wird": [
+        "Τι διαγράφεται"
+      ],
+      "Einstellungen": [
+        "Ρυθμίσεις"
+      ],
+      "Löschanträge mit Bestätigungslink, Löschung bzw. Anonymisierung der Daten, die WordPress selbst zu einer E-Mail-Adresse hält, und ein verketteter Nachweis je Löschung. Es ersetzt keine rechtliche Prüfung des Antrags.": [
+        "Αιτήματα διαγραφής με σύνδεσμο επιβεβαίωσης, διαγραφή ή ανωνυμοποίηση των δεδομένων που τηρεί το WordPress για μία διεύθυνση email και αλυσιδωτό αποδεικτικό ανά διαγραφή. Δεν υποκαθιστά νομικό έλεγχο."
+      ],
+      "Part of the WM Suite plugin family": [
+        "Μέλος της οικογένειας προσθέτων WM Suite"
+      ],
+      "WM Suite": [
+        "WM Suite"
+      ],
+      "Hub": [
+        "Κόμβος"
+      ],
+      "Standalone": [
+        "Αυτόνομο"
+      ],
+      "Bereiche": [
+        "Πεδία"
+      ],
+      "Stand dieser Website": [
+        "Κατάσταση αυτού του ιστοτόπου"
+      ],
+      "Beim Aufruf dieser Seite aus der Datenbank gelesen.": [
+        "Αναγνώστηκε από τη βάση δεδομένων κατά τη φόρτωση της σελίδας."
+      ],
+      "Gelöschte oder anonymisierte Einträge laut Nachweisen": [
+        "Διαγραμμένες ή ανωνυμοποιημένες εγγραφές βάσει αποδεικτικών"
+      ],
+      "Offene Anträge (Adresse noch gespeichert)": [
+        "Ανοικτά αιτήματα (η διεύθυνση αποθηκεύεται ακόμη)"
+      ],
+      "Nachweiskette": [
+        "Αλυσίδα αποδεικτικών"
+      ],
+      "%d ältere Nachweise ohne Siegel, nicht prüfbar.": [
+        "%d παλαιότερα αποδεικτικά χωρίς σφραγίδα, μη επαληθεύσιμα."
+      ],
+      "Verschlüsselung offener Adressen (libsodium)": [
+        "Κρυπτογράφηση εκκρεμών διευθύνσεων (libsodium)"
+      ],
+      "verfügbar": [
+        "διαθέσιμη"
+      ],
+      "nicht verfügbar: Adressen werden im Klartext gespeichert": [
+        "μη διαθέσιμη: οι διευθύνσεις αποθηκεύονται σε απλό κείμενο"
+      ],
+      "WooCommerce-Rechnungsfelder anonymisieren (wm_dsgvo_anonymize_wc_orders)": [
+        "Ανωνυμοποίηση πεδίων χρέωσης WooCommerce (wm_dsgvo_anonymize_wc_orders)"
+      ],
+      "an": [
+        "ενεργό"
+      ],
+      "aus (Standard)": [
+        "ανενεργό (προεπιλογή)"
+      ],
+      "Daten bei Deinstallation löschen (wm_dsgvo_eraser_delete_data_on_uninstall)": [
+        "Διαγραφή δεδομένων κατά την απεγκατάσταση (wm_dsgvo_eraser_delete_data_on_uninstall)"
+      ],
+      "aus (Standard: Nachweise bleiben erhalten)": [
+        "ανενεργό (προεπιλογή: τα αποδεικτικά διατηρούνται)"
+      ],
+      "Löschantrag für eine Adresse stellen": [
+        "Υποβολή αιτήματος διαγραφής για διεύθυνση"
+      ],
+      "Legt denselben Antrag an wie das Formular auf der Website: An die Adresse geht ein Bestätigungslink, %d Stunden gültig. Gelöscht wird erst, wenn die Löschung auf der verlinkten Seite bestätigt wird. Eine sofortige Löschung ohne Bestätigung gibt es nur über WP-CLI (wp dsgvo erase), nachdem Sie die Identität selbst geprüft haben.": [
+        "Δημιουργεί το ίδιο αίτημα με τη δημόσια φόρμα: αποστέλλεται σύνδεσμος επιβεβαίωσης ισχύος %d ωρών. Τίποτα δεν διαγράφεται πριν την επιβεβαίωση στη συνδεδεμένη σελίδα. Άμεση διαγραφή χωρίς επιβεβαίωση παρέχεται μόνο μέσω WP-CLI (wp dsgvo erase) μετά από έλεγχο ταυτότητας."
+      ],
+      "E-Mail-Adresse der betroffenen Person": [
+        "Διεύθυνση email του υποκειμένου των δεδομένων"
+      ],
+      "Bestätigungslink senden": [
+        "Αποστολή συνδέσμου επιβεβαίωσης"
+      ],
+      "Bitte eine E-Mail-Adresse eingeben.": [
+        "Παρακαλούμε εισαγάγετε διεύθυνση email."
+      ],
+      "Wird übermittelt …": [
+        "Αποστολή …"
+      ],
+      "Antrag übermittelt. Ein Bestätigungslink geht nur hinaus, wenn die Adresse gültig ist, keines der Limits greift (%1$d Anträge je Adresse in %2$d Stunden, %3$d je IP pro Stunde, Ihre eigene IP zählt mit) und der Mailversand gelingt; diese Seite erfährt das nicht. Noch ist nichts gelöscht.": [
+        "Το αίτημα υποβλήθηκε. Σύνδεσμος επιβεβαίωσης αποστέλλεται μόνο εάν η διεύθυνση είναι έγκυρη, δεν ισχύει κανένα όριο (%1$d αιτήματα ανά διεύθυνση σε %2$d ώρες, %3$d ανά IP την ώρα μαζί με τη δική σας IP) και πετύχει η αποστολή· η σελίδα αυτή δεν το γνωρίζει. Δεν έχει διαγραφεί τίποτα ακόμη."
+      ],
+      "Der Antrag konnte nicht angelegt werden.": [
+        "Δεν ήταν δυνατή η δημιουργία του αιτήματος."
+      ],
+      "Verbindungsfehler.": [
+        "Σφάλμα σύνδεσης."
+      ],
+      "Letzte zehn Löschnachweise": [
+        "Τελευταία δέκα αποδεικτικά διαγραφής"
+      ],
+      "Jeder Nachweis speichert statt der Adresse einen geschlüsselten Hash, die Anzahl der Einträge je Bereich und ein Siegel, das den vorherigen Nachweis einschließt. Bearbeitete, eingefügte, umsortierte oder gelöschte Nachweise fallen bei der Prüfung auf, solange die Option mit dem Kettenende unverändert ist; wer die Datenbank schreiben kann, kann auch diese Option ändern, und wer den Schlüssel aus wp-config.php hat, kann die Kette neu versiegeln.": [
+        "Κάθε αποδεικτικό αποθηκεύει κλειδωμένο κατακερματισμό αντί της διεύθυνσης, πλήθος εγγραφών ανά πεδίο και σφραγίδα που ενσωματώνει το προηγούμενο αποδεικτικό. Τροποποιήσεις, προσθήκες, αναδιατάξεις ή διαγραφές εντοπίζονται όσο η επιλογή κορυφής αλυσίδας παραμένει αμετάβλητη· δικαίωμα εγγραφής στη βάση επιτρέπει αλλαγή της επιλογής και το wp-config.php επιτρέπει επανασφράγιση."
+      ],
+      "Nachweis": [
+        "Αποδεικτικό"
+      ],
+      "Hash der Adresse": [
+        "Κατακερματισμός διεύθυνσης"
+      ],
+      "Einträge": [
+        "Εγγραφές"
+      ],
+      "Siegel": [
+        "Σφραγίδα"
+      ],
+      "Zeitpunkt": [
+        "Χρονική σήμανση"
+      ],
+      "Noch keine Löschnachweise.": [
+        "Δεν υπάρχουν ακόμη αποδεικτικά διαγραφής."
+      ],
+      "ohne Siegelkette": [
+        "χωρίς αλυσίδα σφραγίδων"
+      ],
+      "Beide Schalter sind standardmäßig ausgeschaltet, damit weder steuerrechtlich relevante Rechnungsdaten noch Löschnachweise unbeabsichtigt entfernt werden.": [
+        "Και οι δύο διακόπτες είναι προεπιλεγμένα ανενεργοί ώστε να μην αφαιρεθούν ακούσια φορολογικά στοιχεία χρέωσης ή αποδεικτικά διαγραφής."
+      ],
+      "WooCommerce-Rechnungsfelder anonymisieren": [
+        "Ανωνυμοποίηση πεδίων χρέωσης WooCommerce"
+      ],
+      "Überschreibt Vor- und Nachname, erste Adresszeile, Telefon und E-Mail in WooCommerce-Bestellungen der betroffenen Adresse. Erst nach Prüfung gesetzlicher Aufbewahrungsfristen (§ 147 AO, § 257 HGB) einschalten.": [
+        "Αντικαθιστά όνομα, επώνυμο, πρώτη γραμμή διεύθυνσης, τηλέφωνο και email στις παραγγελίες WooCommerce της διεύθυνσης. Ενεργοποιήστε μόνο μετά από έλεγχο των νόμιμων περιόδων τήρησης (§ 147 AO, § 257 HGB)."
+      ],
+      "Alle Plugin-Daten bei Deinstallation löschen": [
+        "Διαγραφή όλων των δεδομένων του προσθέτου κατά την απεγκατάσταση"
+      ],
+      "Wenn aktiviert, entfernt die Deinstallation alle Plugin-Optionen sowie die Tabellen für Anträge und Löschnachweise unwiderruflich. Standardmäßig bleiben Nachweise und Optionen erhalten.": [
+        "Εάν ενεργοποιηθεί, η απεγκατάσταση αφαιρεί οριστικά όλες τις ρυθμίσεις του προσθέτου και τους πίνακες αιτημάτων και αποδεικτικών διαγραφής. Από προεπιλογή διατηρούνται."
+      ],
+      "Einstellungen speichern": [
+        "Αποθήκευση ρυθμίσεων"
+      ],
+      "Was bei einer Löschung passiert": [
+        "Τι συμβαίνει κατά τη διαγραφή"
+      ],
+      "Kommentare mit dieser Adresse: Name, Adresse, URL, IP, Browserkennung und Benutzerzuordnung werden überschrieben, der Text durch „[Inhalt auf Antrag nach Art. 17 DSGVO gelöscht]“ ersetzt. Die Kommentare selbst bleiben stehen.": [
+        "Σχόλια με αυτή τη διεύθυνση: όνομα, email, URL, IP, πρόγραμμα περιήγησης και σύνδεση χρήστη αντικαθίστανται και το κείμενο γίνεται «[Το περιεχόμενο διαγράφηκε κατόπιν αιτήματος βάσει του άρθ. 17 ΓΚΠΔ]». Τα σχόλια παραμένουν."
+      ],
+      "Benutzerkonto mit dieser Adresse: wird mit wp_delete_user() gelöscht, dabei auch die Beiträge, die dieses Konto verfasst hat. Konten mit der Rolle Administrator werden nicht gelöscht; der Nachweis vermerkt das. In einer Multisite entfernt wp_delete_user() das Konto nur aus dieser Website; der Nachweis vermerkt removed_from_this_site.": [
+        "Λογαριασμός χρήστη με αυτή τη διεύθυνση: διαγράφεται μέσω wp_delete_user() μαζί με τα άρθρα του. Λογαριασμοί διαχειριστή δεν διαγράφονται και αυτό καταγράφεται. Σε Multisite αφαιρείται μόνο από τον τρέχοντα ιστότοπο (removed_from_this_site)."
+      ],
+      "WooCommerce-Bestellungen: nur wenn die Option wm_dsgvo_anonymize_wc_orders an ist, und nur Vor- und Nachname, erste Adresszeile, E-Mail und Telefon der Rechnungsadresse, über die Bestellobjekte von WooCommerce (HPOS und Beitragsspeicher). Standard ist aus, weil Rechnungsdaten Aufbewahrungsfristen unterliegen können (§ 147 AO, § 257 HGB); ob eine greift, entscheidet das Plugin nicht.": [
+        "Παραγγελίες WooCommerce: μόνο όταν το wm_dsgvo_anonymize_wc_orders είναι ενεργό, αντικαθιστώντας όνομα, διεύθυνση, email και τηλέφωνο χρέωσης μέσω αντικειμένων παραγγελίας WooCommerce (HPOS και αναρτήσεις). Προεπιλεγμένα ανενεργό λόγω φορολογικών υποχρεώσεων."
+      ],
+      "Nicht erfasst: Tabellen anderer Plugins (Formulare, Newsletter, Buchungen), Benutzer-Metadaten verbleibender Konten, Kommentar-Metadaten, Lieferadressen, Dateien, Logs, Caches und Backups. Die Datenschutz-Löschwerkzeuge von WordPress ruft das Plugin nicht auf.": [
+        "Δεν καλύπτονται: πίνακες άλλων προσθέτων (φόρμες, ενημερωτικά δελτία, κρατήσεις), μεταδεδομένα διατηρούμενων λογαριασμών, διευθύνσεις αποστολής, αρχεία, αρχεία καταγραφής, κρυφές μνήμες και αντίγραφα ασφαλείας."
+      ],
+      "Ob ein Antrag berechtigt ist, ob Ausnahmen nach Art. 17 Abs. 3 DSGVO greifen und welche Frist gilt, entscheidet das Plugin nicht.": [
+        "Το πρόσθετο δεν κρίνει τη βασιμότητα αιτήματος, τις εξαιρέσεις του άρθ. 17 παρ. 3 ΓΚΠΔ ούτε την εφαρμοστέα περίοδο διατήρησης."
+      ],
+      "Zu viele Anfragen. Bitte versuchen Sie es in einer Minute erneut.": [
+        "Πάρα πολλά αιτήματα. Δοκιμάστε ξανά σε ένα λεπτό."
+      ],
+      "Bitte geben Sie eine gültige E-Mail-Adresse an.": [
+        "Παρακαλούμε δηλώστε έγκυρη διεύθυνση email."
+      ],
+      "Der Antrag wurde entgegengenommen. Ist die Adresse gültig, geht an sie ein Bestätigungslink; gelöscht wird erst nach dessen Aufruf.": [
+        "Το αίτημα παρελήφθη. Εάν η διεύθυνση είναι έγκυρη, αποστέλλεται σύνδεσμος επιβεβαίωσης· η διαγραφή εκτελείται μόνο μετά την επιβεβαίωση."
+      ],
+      "WM Privacy Eraser Status": [
+        "Κατάσταση WM Privacy Eraser"
+      ],
+      "Aktueller Status des Art.-17-DSGVO-Löschportals.": [
+        "Τρέχουσα κατάσταση της πύλης διαγραφής Άρθ. 17 ΓΚΠΔ."
+      ],
+      "Art. 17 DSGVO Löschportal aktiv (%d versiegelte Nachweise)": [
+        "Πύλη διαγραφής Άρθ. 17 ΓΚΠΔ ενεργή (%d σφραγισμένα αποδεικτικά)"
+      ],
+      "Art. 17 DSGVO Löschportal aktiv": [
+        "Πύλη διαγραφής Άρθ. 17 ΓΚΠΔ ενεργή"
+      ],
+      "Art. 17 DSGVO Löschportal: Kette prüfen": [
+        "Πύλη διαγραφής Άρθ. 17 ΓΚΠΔ: ελέγξτε την αλυσίδα"
+      ],
+      "Löschung bestätigen": [
+        "Επιβεβαίωση διαγραφής"
+      ],
+      "Das Öffnen dieses Links hat noch nichts gelöscht. Mit der Schaltfläche unten werden zu der Adresse, für die der Antrag gestellt wurde, die Kommentare auf dieser Website anonymisiert und ein Benutzerkonto gelöscht (außer Administratorkonten); ist es eingeschaltet, werden auch Rechnungsfelder von WooCommerce-Bestellungen anonymisiert. Die Löschung ist unwiderruflich.": [
+        "Το άνοιγμα αυτού του συνδέσμου δεν έχει διαγράψει ακόμη τίποτα. Με το παρακάτω κουμπί ανωνυμοποιούνται τα σχόλια σε αυτόν τον ιστότοπο για τη ζητούμενη διεύθυνση και διαγράφεται ο λογαριασμός χρήστη (εκτός διαχειριστών)· εάν είναι ενεργό, ανωνυμοποιούνται και τα στοιχεία χρέωσης WooCommerce. Η διαγραφή είναι μη αναστρέψιμη."
+      ],
+      "Löschung jetzt ausführen": [
+        "Εκτέλεση διαγραφής τώρα"
+      ],
+      "Löschung ausgeführt": [
+        "Η διαγραφή εκτελέστηκε"
+      ],
+      "%1$d Einträge wurden gelöscht oder anonymisiert. Kennung des Löschnachweises: %2$s": [
+        "%1$d εγγραφές διαγράφηκαν ή ανωνυμοποιήθηκαν. Αναγνωριστικό αποδεικτικού: %2$s"
+      ],
+      "Löschung nicht vollständig": [
+        "Μη ολοκληρωμένη διαγραφή"
+      ],
+      "Nicht alle Daten konnten geändert werden, oder der Löschnachweis wurde nicht gespeichert. Der Antrag ist als fehlgeschlagen vermerkt; bitte wenden Sie sich an den Betreiber dieser Website.": [
+        "Δεν κατέστη δυνατή η τροποποίηση όλων των δεδομένων ή η αποθήκευση του αποδεικτικού διαγραφής. Το αίτημα σημειώθηκε ως αποτυχημένο· επικοινωνήστε με τον διαχειριστή του ιστοτόπου."
+      ],
+      "Kennung des Löschnachweises: %s": [
+        "Αναγνωριστικό αποδεικτικού: %s"
+      ],
+      "Antrag nicht verarbeitet": [
+        "Το αίτημα δεν διεκπεραιώθηκε"
+      ],
+      "Der Antrag konnte nicht verarbeitet werden. Bitte stellen Sie ihn erneut.": [
+        "Δεν ήταν δυνατή η επεξεργασία του αιτήματος. Υποβάλετέ το ξανά."
+      ],
+      "Link nicht gültig": [
+        "Μη έγκυρος σύνδεσμος"
+      ],
+      "Der Bestätigungslink ist ungültig, abgelaufen oder wurde bereits verwendet.": [
+        "Ο σύνδεσμος επιβεβαίωσης είναι μη έγκυρος, έχει λήξει ή έχει ήδη χρησιμοποιηθεί."
+      ],
+      "Bitte geben Sie eine gültige E-Mail-Adresse ein.": [
+        "Παρακαλούμε εισαγάγετε έγκυρη διεύθυνση email."
+      ],
+      "Antrag wird übermittelt …": [
+        "Υποβολή αιτήματος …"
+      ],
+      "Bestätigung erforderlich": [
+        "Απαιτείται επιβεβαίωση"
+      ],
+      "Ist die Adresse gültig, geht an sie ein Bestätigungslink. Gelöscht wird erst, wenn die Löschung auf der verlinkten Seite bestätigt wird. Der Link ist %d Stunden gültig und nur einmal verwendbar.": [
+        "Εάν η διεύθυνση είναι έγκυρη, έχει σταλεί σύνδεσμος επιβεβαίωσης. Η διαγραφή γίνεται μόνο μετά την επιβεβαίωση στη συνδεδεμένη σελίδα. Ο σύνδεσμος ισχύει για %d ώρες και χρησιμοποιείται μία φορά."
+      ],
+      "Der Antrag konnte nicht übermittelt werden:": [
+        "Δεν ήταν δυνατή η υποβολή του αιτήματος:"
+      ],
+      "unbekannter Fehler": [
+        "άγνωστο σφάλμα"
+      ],
+      "Der Antrag konnte nicht übermittelt werden: Verbindungsfehler.": [
+        "Δεν ήταν δυνατή η υποβολή του αιτήματος: σφάλμα σύνδεσης."
+      ],
+      "Antrag auf Datenlöschung (Art. 17 DSGVO)": [
+        "Αίτημα διαγραφής δεδομένων (Άρθ. 17 ΓΚΠΔ)"
+      ],
+      "Gemäß Art. 17 DSGVO (\"Recht auf Vergessenwerden\") haben Sie das Recht auf unverzügliche Löschung Ihrer personenbezogenen Daten. Zur Bestätigung Ihrer Identität nach Art. 12 Abs. 6 DSGVO senden wir Ihnen zunächst einen einmaligen Bestätigungslink. Erst nach dessen Aufruf wird gelöscht und ein kryptografisches Löschzertifikat ausgestellt.": [
+        "Σύμφωνα με το άρθρο 17 ΓΚΠΔ («δικαίωμα στη λήθη»), μπορείτε να ζητήσετε τη διαγραφή των προσωπικών σας δεδομένων. Για την επιβεβαίωση ταυτότητας κατά το άρθρο 12 παρ. 6 ΓΚΠΔ, αποστέλλουμε πρώτα σύνδεσμο επιβεβαίωσης μίας χρήσης. Μόνο μετά την επιβεβαίωση διαγράφονται τα δεδομένα και εκδίδεται κρυπτογραφικό αποδεικτικό."
+      ],
+      "Ihre hinterlegte E-Mail-Adresse:": [
+        "Η καταχωρισμένη διεύθυνση email σας:"
+      ],
+      "ihre-email@example.com": [
+        "to-email-sas@example.com"
+      ],
+      "Löschantrag übermitteln": [
+        "Υποβολή αιτήματος διαγραφής"
+      ],
+      "[%s] Löschantrag bestätigen (Art. 17 DSGVO)": [
+        "[%s] Επιβεβαίωση αιτήματος διαγραφής (Άρθ. 17 ΓΚΠΔ)"
+      ],
+      "DSGVO Löschantrag (Art. 17)": [
+        "Αίτημα διαγραφής ΓΚΠΔ (Άρθ. 17)"
+      ],
+      "Öffentliches Formular für Löschanträge nach Art. 17 DSGVO mit Einmal-Bestätigungslink.": [
+        "Δημόσια φόρμα αιτημάτων διαγραφής κατά το άρθρο 17 ΓΚΠΔ με σύνδεσμο επιβεβαίωσης μίας χρήσης."
+      ],
+      "Formulareinstellungen": [
+        "Ρυθμίσεις φόρμας"
+      ],
+      "Hinweistext anzeigen": [
+        "Εμφάνιση επεξηγηματικού κειμένου"
+      ],
+      "Blendet den erläuternden Hinweis oberhalb des E-Mail-Feldes ein oder aus.": [
+        "Εμφανίζει ή αποκρύπτει την επεξηγηματική σημείωση πάνω από το πεδίο email."
+      ],
+      "block title\u0004DSGVO Löschantrag (Art. 17)": [
+        "Αίτημα διαγραφής ΓΚΠΔ (Άρθ. 17)"
+      ],
+      "block description\u0004Öffentliches Formular für Löschanträge nach Art. 17 DSGVO mit Einmal-Bestätigungslink.": [
+        "Δημόσια φόρμα αιτημάτων διαγραφής κατά το άρθρο 17 ΓΚΠΔ με σύνδεσμο επιβεβαίωσης μίας χρήσης."
+      ],
+      "block keyword\u0004dsgvo": [
+        "γκπδ"
+      ],
+      "block keyword\u0004gdpr": [
+        "προστασία-δεδομένων"
+      ],
+      "block keyword\u0004löschung": [
+        "διαγραφή"
+      ],
+      "block keyword\u0004erasure": [
+        "ανωνυμοποίηση"
+      ],
+      "block keyword\u0004datenschutz": [
+        "απόρρητο"
+      ],
+      "block keyword\u0004privacy": [
+        "ιδιωτικότητα"
+      ]
+    }
+  }
+}

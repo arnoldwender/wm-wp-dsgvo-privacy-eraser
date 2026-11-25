@@ -1,0 +1,357 @@
+{
+  "translation-revision-date": "2026-11-21T14:14:21+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-dsgvo-privacy-eraser",
+        "lang": "lt_LT",
+        "plural-forms": "nplurals=3; plural=(n%10==1 && (n%100<11 || n%100>19) ? 0 : n%10>=2 && n%10<=9 && (n%100<11 || n%100>19) ? 1 : 2);"
+      },
+      "WM DSGVO Art. 17 Cryptographic Privacy Eraser": [
+        "WM BDAR 17 str. Kriptografinis duomenų trynimo įrankis"
+      ],
+      "https://arnoldwender.com/wordpress-plugins/wm-dsgvo-privacy-eraser/": [
+        "https://arnoldwender.com/wordpress-plugins/wm-dsgvo-privacy-eraser/"
+      ],
+      "Löschanträge nach Art. 17 DSGVO mit Bestätigungslink an die Adresse; danach werden Kommentare anonymisiert, das Benutzerkonto (außer Administratoren) gelöscht und optional WooCommerce-Rechnungsfelder anonymisiert. Jede Löschung erhält einen HMAC-verketteten Nachweis. Keine rechtliche Prüfung des Antrags.": [
+        "Duomenų ištrynimo prašymai pagal BDAR 17 str. su vienkartine patvirtinimo nuoroda el. paštu; patvirtinus anonimizuojami komentarai, ištrinama naudotojo paskyra (išskyrus administratorius) ir pasirinktinai anonimizuojami WooCommerce atsiskaitymo laukai. Kiekvienam ištrynimui sukuriamas HMAC grandine susietas įrodymas. Be teisinio vertinimo."
+      ],
+      "Arnold Wender": [
+        "Arnold Wender"
+      ],
+      "https://arnoldwender.com": [
+        "https://arnoldwender.com"
+      ],
+      "Kette geprüft: %d versiegelte Nachweise stimmen": [
+        "Grandinė patikrinta: sutampa %d užantspauduotų įrodymų"
+      ],
+      "Noch keine Löschnachweise": [
+        "Ištrynimo įrodymų dar nėra"
+      ],
+      "Kette gebrochen": [
+        "Grandinė pažeista"
+      ],
+      "WM DSGVO Privacy Eraser": [
+        "WM BDAR Privacy Eraser"
+      ],
+      "Löschnachweise": [
+        "Ištrynimo įrodymai"
+      ],
+      "Offene Anträge": [
+        "Atviri prašymai"
+      ],
+      "Privacy Eraser öffnen": [
+        "Atidaryti Privacy Eraser"
+      ],
+      "WM Privacy Eraser": [
+        "WM Privacy Eraser"
+      ],
+      "Privacy Eraser": [
+        "Privacy Eraser"
+      ],
+      "Übersicht": [
+        "Apžvalga"
+      ],
+      "Antrag stellen": [
+        "Pateikti prašymą"
+      ],
+      "Was gelöscht wird": [
+        "Kas ištrinama"
+      ],
+      "Einstellungen": [
+        "Nuostatos"
+      ],
+      "Löschanträge mit Bestätigungslink, Löschung bzw. Anonymisierung der Daten, die WordPress selbst zu einer E-Mail-Adresse hält, und ein verketteter Nachweis je Löschung. Es ersetzt keine rechtliche Prüfung des Antrags.": [
+        "Ištrynimo prašymai su patvirtinimo nuoroda, WordPress saugomų su el. pašto adresu susietų duomenų ištrynimas ar anonimizavimas ir susietas įrodymas kiekvienam veiksmui. Nepakeičia teisinio įvertinimo."
+      ],
+      "Part of the WM Suite plugin family": [
+        "WM Suite įskiepių šeimos dalis"
+      ],
+      "WM Suite": [
+        "WM Suite"
+      ],
+      "Hub": [
+        "Centras"
+      ],
+      "Standalone": [
+        "Savarankiškas"
+      ],
+      "Bereiche": [
+        "Sritys"
+      ],
+      "Stand dieser Website": [
+        "Šios svetainės būsena"
+      ],
+      "Beim Aufruf dieser Seite aus der Datenbank gelesen.": [
+        "Nuskaityta iš duomenų bazės atidarius šį puslapį."
+      ],
+      "Gelöschte oder anonymisierte Einträge laut Nachweisen": [
+        "Ištrinti arba anonimizuoti įrašai pagal įrodymus"
+      ],
+      "Offene Anträge (Adresse noch gespeichert)": [
+        "Atviri prašymai (adresas dar saugomas)"
+      ],
+      "Nachweiskette": [
+        "Įrodymų grandinė"
+      ],
+      "%d ältere Nachweise ohne Siegel, nicht prüfbar.": [
+        "%d senesnių įrodymų be antspaudo, nepatikrinami."
+      ],
+      "Verschlüsselung offener Adressen (libsodium)": [
+        "Atvirų adresų šifravimas (libsodium)"
+      ],
+      "verfügbar": [
+        "prieinamas"
+      ],
+      "nicht verfügbar: Adressen werden im Klartext gespeichert": [
+        "neprieinamas: adresai saugomi atviru tekstu"
+      ],
+      "WooCommerce-Rechnungsfelder anonymisieren (wm_dsgvo_anonymize_wc_orders)": [
+        "Anonimizuoti WooCommerce atsiskaitymo laukus (wm_dsgvo_anonymize_wc_orders)"
+      ],
+      "an": [
+        "įjungta"
+      ],
+      "aus (Standard)": [
+        "išjungta (numatyta)"
+      ],
+      "Daten bei Deinstallation löschen (wm_dsgvo_eraser_delete_data_on_uninstall)": [
+        "Ištrinti duomenis pašalinant įskiepį (wm_dsgvo_eraser_delete_data_on_uninstall)"
+      ],
+      "aus (Standard: Nachweise bleiben erhalten)": [
+        "išjungta (numatyta: įrodymai išsaugomi)"
+      ],
+      "Löschantrag für eine Adresse stellen": [
+        "Pateikti ištrynimo prašymą adresui"
+      ],
+      "Legt denselben Antrag an wie das Formular auf der Website: An die Adresse geht ein Bestätigungslink, %d Stunden gültig. Gelöscht wird erst, wenn die Löschung auf der verlinkten Seite bestätigt wird. Eine sofortige Löschung ohne Bestätigung gibt es nur über WP-CLI (wp dsgvo erase), nachdem Sie die Identität selbst geprüft haben.": [
+        "Sukuria tokį patį prašymą kaip vieša forma: į adresą išsiunčiama %d val. galiojanti patvirtinimo nuoroda. Nieko neištrinama, kol nepatvirtinama susietame puslapyje. Skubus ištrynimas be patvirtinimo galimas tik per WP-CLI (wp dsgvo erase) patikrinus tapatybę."
+      ],
+      "E-Mail-Adresse der betroffenen Person": [
+        "Duomenų subjekto el. pašto adresas"
+      ],
+      "Bestätigungslink senden": [
+        "Siųsti patvirtinimo nuorodą"
+      ],
+      "Bitte eine E-Mail-Adresse eingeben.": [
+        "Įveskite el. pašto adresą."
+      ],
+      "Wird übermittelt …": [
+        "Siunčiama …"
+      ],
+      "Antrag übermittelt. Ein Bestätigungslink geht nur hinaus, wenn die Adresse gültig ist, keines der Limits greift (%1$d Anträge je Adresse in %2$d Stunden, %3$d je IP pro Stunde, Ihre eigene IP zählt mit) und der Mailversand gelingt; diese Seite erfährt das nicht. Noch ist nichts gelöscht.": [
+        "Prašymas pateiktas. Patvirtinimo nuoroda išsiunčiama tik jei adresas galiojantis, neviršytas nė vienas limitas (%1$d prašymai adresui per %2$d val., %3$d iš IP per valandą įskaitant jūsų IP) ir pavyksta išsiųsti laišką; šis puslapis to nerodo. Dar nieko neištrinta."
+      ],
+      "Der Antrag konnte nicht angelegt werden.": [
+        "Prašymo sukurti nepavyko."
+      ],
+      "Verbindungsfehler.": [
+        "Ryšio klaida."
+      ],
+      "Letzte zehn Löschnachweise": [
+        "Paskutiniai dešimt ištrynimo įrodymų"
+      ],
+      "Jeder Nachweis speichert statt der Adresse einen geschlüsselten Hash, die Anzahl der Einträge je Bereich und ein Siegel, das den vorherigen Nachweis einschließt. Bearbeitete, eingefügte, umsortierte oder gelöschte Nachweise fallen bei der Prüfung auf, solange die Option mit dem Kettenende unverändert ist; wer die Datenbank schreiben kann, kann auch diese Option ändern, und wer den Schlüssel aus wp-config.php hat, kann die Kette neu versiegeln.": [
+        "Kiekvienas įrodymas vietoj adreso saugo raktinę maišą, įrašų skaičių pagal sritis ir antspaudą, apimantį ankstesnį įrodymą. Pakeitimai, įterpimai, pergrupavimai ar pašalinimai aptinkami tikrinant, kol grandinės viršūnės parinktis nepakeista; turint rašymo prieigą prie duomenų bazės galima pakeisti šią parinktį, o turint wp-config.php – grandinę užantspauduoti iš naujo."
+      ],
+      "Nachweis": [
+        "Įrodymas"
+      ],
+      "Hash der Adresse": [
+        "Adreso maiša"
+      ],
+      "Einträge": [
+        "Įrašai"
+      ],
+      "Siegel": [
+        "Antspaudas"
+      ],
+      "Zeitpunkt": [
+        "Laikas"
+      ],
+      "Noch keine Löschnachweise.": [
+        "Ištrynimo įrodymų dar nėra."
+      ],
+      "ohne Siegelkette": [
+        "be antspaudų grandinės"
+      ],
+      "Beide Schalter sind standardmäßig ausgeschaltet, damit weder steuerrechtlich relevante Rechnungsdaten noch Löschnachweise unbeabsichtigt entfernt werden.": [
+        "Abu jungikliai pagal numatymą išjungti, kad netyčia nebūtų pašalinti mokesčiams svarbūs sąskaitų duomenys ar ištrynimo įrodymai."
+      ],
+      "WooCommerce-Rechnungsfelder anonymisieren": [
+        "Anonimizuoti WooCommerce atsiskaitymo laukus"
+      ],
+      "Überschreibt Vor- und Nachname, erste Adresszeile, Telefon und E-Mail in WooCommerce-Bestellungen der betroffenen Adresse. Erst nach Prüfung gesetzlicher Aufbewahrungsfristen (§ 147 AO, § 257 HGB) einschalten.": [
+        "Perrašo vardą, pavardę, pirmą adreso eilutę, telefoną ir el. paštą to adreso WooCommerce užsakymuose. Įjunkite tik patikrinę įstatyminius saugojimo terminus (§ 147 AO, § 257 HGB)."
+      ],
+      "Alle Plugin-Daten bei Deinstallation löschen": [
+        "Pašalinant įskiepį ištrinti visus jo duomenis"
+      ],
+      "Wenn aktiviert, entfernt die Deinstallation alle Plugin-Optionen sowie die Tabellen für Anträge und Löschnachweise unwiderruflich. Standardmäßig bleiben Nachweise und Optionen erhalten.": [
+        "Įjungus pašalinimas negrįžtamai ištrina visas įskiepio parinktis bei prašymų ir ištrynimo įrodymų lenteles. Pagal numatymą įrodymai ir parinktys išsaugomi."
+      ],
+      "Einstellungen speichern": [
+        "Išsaugoti nuostatas"
+      ],
+      "Was bei einer Löschung passiert": [
+        "Kas vyksta ištrynimo metu"
+      ],
+      "Kommentare mit dieser Adresse: Name, Adresse, URL, IP, Browserkennung und Benutzerzuordnung werden überschrieben, der Text durch „[Inhalt auf Antrag nach Art. 17 DSGVO gelöscht]“ ersetzt. Die Kommentare selbst bleiben stehen.": [
+        "Komentarai su šiuo adresu: vardas, el. paštas, URL, IP, naršyklės identifikatorius ir naudotojo sąsaja perrašomi, o tekstas pakeičiamas į „[Turinys ištrintas pagal prašymą vadovaujantis BDAR 17 str.]“. Patys komentarai lieka."
+      ],
+      "Benutzerkonto mit dieser Adresse: wird mit wp_delete_user() gelöscht, dabei auch die Beiträge, die dieses Konto verfasst hat. Konten mit der Rolle Administrator werden nicht gelöscht; der Nachweis vermerkt das. In einer Multisite entfernt wp_delete_user() das Konto nur aus dieser Website; der Nachweis vermerkt removed_from_this_site.": [
+        "Naudotojo paskyra su šiuo adresu: ištrinama per wp_delete_user() kartu su jos paskelbtais įrašais. Administratorių paskyros neištrinamos ir tai pažymima įrodyme. Multisite tinkle paskyra pašalinama tik iš šios svetainės (removed_from_this_site)."
+      ],
+      "WooCommerce-Bestellungen: nur wenn die Option wm_dsgvo_anonymize_wc_orders an ist, und nur Vor- und Nachname, erste Adresszeile, E-Mail und Telefon der Rechnungsadresse, über die Bestellobjekte von WooCommerce (HPOS und Beitragsspeicher). Standard ist aus, weil Rechnungsdaten Aufbewahrungsfristen unterliegen können (§ 147 AO, § 257 HGB); ob eine greift, entscheidet das Plugin nicht.": [
+        "WooCommerce užsakymai: tik įjungus wm_dsgvo_anonymize_wc_orders; per WooCommerce užsakymų objektus (HPOS ir įrašų saugyklą) perrašomi atsiskaitymo vardas, adresas, el. paštas ir telefonas. Pagal numatymą išjungta dėl apskaitos reikalavimų."
+      ],
+      "Nicht erfasst: Tabellen anderer Plugins (Formulare, Newsletter, Buchungen), Benutzer-Metadaten verbleibender Konten, Kommentar-Metadaten, Lieferadressen, Dateien, Logs, Caches und Backups. Die Datenschutz-Löschwerkzeuge von WordPress ruft das Plugin nicht auf.": [
+        "Neapima: kitų įskiepių lentelių (formų, naujienlaiškių, rezervacijų), paliktų paskyrų metaduomenų, pristatymo adresų, failų, žurnalų, podėlių ir atsarginių kopijų."
+      ],
+      "Ob ein Antrag berechtigt ist, ob Ausnahmen nach Art. 17 Abs. 3 DSGVO greifen und welche Frist gilt, entscheidet das Plugin nicht.": [
+        "Įskiepis nesprendžia, ar prašymas pagrįstas, ar taikomos BDAR 17 str. 3 d. išimtys ir koks saugojimo terminas galioja."
+      ],
+      "Zu viele Anfragen. Bitte versuchen Sie es in einer Minute erneut.": [
+        "Per daug užklausų. Bandykite dar kartą po minutės."
+      ],
+      "Bitte geben Sie eine gültige E-Mail-Adresse an.": [
+        "Nurodykite galiojantį el. pašto adresą."
+      ],
+      "Der Antrag wurde entgegengenommen. Ist die Adresse gültig, geht an sie ein Bestätigungslink; gelöscht wird erst nach dessen Aufruf.": [
+        "Prašymas gautas. Jei adresas galiojantis, į jį bus išsiųsta patvirtinimo nuoroda; duomenys ištrinami tik patvirtinus."
+      ],
+      "WM Privacy Eraser Status": [
+        "WM Privacy Eraser būsena"
+      ],
+      "Aktueller Status des Art.-17-DSGVO-Löschportals.": [
+        "Dabartinė BDAR 17 str. ištrynimo portalo būsena."
+      ],
+      "Art. 17 DSGVO Löschportal aktiv (%d versiegelte Nachweise)": [
+        "BDAR 17 str. ištrynimo portalas aktyvus (%d užantspauduotų įrodymų)"
+      ],
+      "Art. 17 DSGVO Löschportal aktiv": [
+        "BDAR 17 str. ištrynimo portalas aktyvus"
+      ],
+      "Art. 17 DSGVO Löschportal: Kette prüfen": [
+        "BDAR 17 str. ištrynimo portalas: patikrinkite grandinę"
+      ],
+      "Löschung bestätigen": [
+        "Patvirtinti ištrynimą"
+      ],
+      "Das Öffnen dieses Links hat noch nichts gelöscht. Mit der Schaltfläche unten werden zu der Adresse, für die der Antrag gestellt wurde, die Kommentare auf dieser Website anonymisiert und ein Benutzerkonto gelöscht (außer Administratorkonten); ist es eingeschaltet, werden auch Rechnungsfelder von WooCommerce-Bestellungen anonymisiert. Die Löschung ist unwiderruflich.": [
+        "Šios nuorodos atidarymas dar nieko neištrynė. Paspaudus žemiau esantį mygtuką šioje svetainėje bus anonimizuoti nurodyto adreso komentarai ir ištrinta naudotojo paskyra (išskyrus administratorius); jei įjungta, bus anonimizuoti ir WooCommerce atsiskaitymo laukai. Ištrynimas yra negrįžtamas."
+      ],
+      "Löschung jetzt ausführen": [
+        "Vykdyti ištrynimą dabar"
+      ],
+      "Löschung ausgeführt": [
+        "Ištrynimas įvykdytas"
+      ],
+      "%1$d Einträge wurden gelöscht oder anonymisiert. Kennung des Löschnachweises: %2$s": [
+        "Ištrinta arba anonimizuota įrašų: %1$d. Ištrynimo įrodymo ID: %2$s"
+      ],
+      "Löschung nicht vollständig": [
+        "Ištrynimas neužbaigtas"
+      ],
+      "Nicht alle Daten konnten geändert werden, oder der Löschnachweis wurde nicht gespeichert. Der Antrag ist als fehlgeschlagen vermerkt; bitte wenden Sie sich an den Betreiber dieser Website.": [
+        "Nepavyko pakeisti visų duomenų arba įrašyti ištrynimo įrodymo. Prašymas pažymėtas kaip nesėkmingas; kreipkitės į svetainės administratorių."
+      ],
+      "Kennung des Löschnachweises: %s": [
+        "Ištrynimo įrodymo ID: %s"
+      ],
+      "Antrag nicht verarbeitet": [
+        "Prašymas neapdorotas"
+      ],
+      "Der Antrag konnte nicht verarbeitet werden. Bitte stellen Sie ihn erneut.": [
+        "Prašymo apdoroti nepavyko. Pateikite jį iš naujo."
+      ],
+      "Link nicht gültig": [
+        "Negaliojanti nuoroda"
+      ],
+      "Der Bestätigungslink ist ungültig, abgelaufen oder wurde bereits verwendet.": [
+        "Patvirtinimo nuoroda negalioja, jos laikas baigėsi arba ji jau panaudota."
+      ],
+      "Bitte geben Sie eine gültige E-Mail-Adresse ein.": [
+        "Įveskite galiojantį el. pašto adresą."
+      ],
+      "Antrag wird übermittelt …": [
+        "Siunčiamas prašymas …"
+      ],
+      "Bestätigung erforderlich": [
+        "Reikalingas patvirtinimas"
+      ],
+      "Ist die Adresse gültig, geht an sie ein Bestätigungslink. Gelöscht wird erst, wenn die Löschung auf der verlinkten Seite bestätigt wird. Der Link ist %d Stunden gültig und nur einmal verwendbar.": [
+        "Jei adresas galiojantis, į jį išsiųsta patvirtinimo nuoroda. Duomenys bus ištrinti tik patvirtinus susietame puslapyje. Nuoroda galioja %d val. ir naudojama vieną kartą."
+      ],
+      "Der Antrag konnte nicht übermittelt werden:": [
+        "Prašymo išsiųsti nepavyko:"
+      ],
+      "unbekannter Fehler": [
+        "nežinoma klaida"
+      ],
+      "Der Antrag konnte nicht übermittelt werden: Verbindungsfehler.": [
+        "Prašymo išsiųsti nepavyko: ryšio klaida."
+      ],
+      "Antrag auf Datenlöschung (Art. 17 DSGVO)": [
+        "Duomenų ištrynimo prašymas (BDAR 17 str.)"
+      ],
+      "Gemäß Art. 17 DSGVO (\"Recht auf Vergessenwerden\") haben Sie das Recht auf unverzügliche Löschung Ihrer personenbezogenen Daten. Zur Bestätigung Ihrer Identität nach Art. 12 Abs. 6 DSGVO senden wir Ihnen zunächst einen einmaligen Bestätigungslink. Erst nach dessen Aufruf wird gelöscht und ein kryptografisches Löschzertifikat ausgestellt.": [
+        "Pagal BDAR 17 str. („teisė būti pamirštam“) galite prašyti ištrinti savo asmens duomenis. Tapatybei patvirtinti pagal BDAR 12 str. 6 d. pirmiausia išsiunčiame vienkartinę nuorodą. Tik patvirtinus duomenys ištrinami ir išduodamas kriptografinis įrodymas."
+      ],
+      "Ihre hinterlegte E-Mail-Adresse:": [
+        "Jūsų registruotas el. pašto adresas:"
+      ],
+      "ihre-email@example.com": [
+        "jusu-pastas@example.com"
+      ],
+      "Löschantrag übermitteln": [
+        "Pateikti ištrynimo prašymą"
+      ],
+      "[%s] Löschantrag bestätigen (Art. 17 DSGVO)": [
+        "[%s] Patvirtinkite ištrynimo prašymą (BDAR 17 str.)"
+      ],
+      "DSGVO Löschantrag (Art. 17)": [
+        "BDAR ištrynimo prašymas (17 str.)"
+      ],
+      "Öffentliches Formular für Löschanträge nach Art. 17 DSGVO mit Einmal-Bestätigungslink.": [
+        "Vieša forma BDAR 17 str. duomenų ištrynimo prašymams su vienkartine patvirtinimo nuoroda."
+      ],
+      "Formulareinstellungen": [
+        "Formos nuostatos"
+      ],
+      "Hinweistext anzeigen": [
+        "Rodyti paaiškinamąjį tekstą"
+      ],
+      "Blendet den erläuternden Hinweis oberhalb des E-Mail-Feldes ein oder aus.": [
+        "Rodo arba slepia paaiškinamąjį tekstą virš el. pašto lauko."
+      ],
+      "block title\u0004DSGVO Löschantrag (Art. 17)": [
+        "BDAR ištrynimo prašymas (17 str.)"
+      ],
+      "block description\u0004Öffentliches Formular für Löschanträge nach Art. 17 DSGVO mit Einmal-Bestätigungslink.": [
+        "Vieša forma BDAR 17 str. duomenų ištrynimo prašymams su vienkartine patvirtinimo nuoroda."
+      ],
+      "block keyword\u0004dsgvo": [
+        "bdar"
+      ],
+      "block keyword\u0004gdpr": [
+        "duomenu-apsauga"
+      ],
+      "block keyword\u0004löschung": [
+        "istrynimas"
+      ],
+      "block keyword\u0004erasure": [
+        "anonimizavimas"
+      ],
+      "block keyword\u0004datenschutz": [
+        "privatumas"
+      ],
+      "block keyword\u0004privacy": [
+        "asmens-duomenys"
+      ]
+    }
+  }
+}
